@@ -141,6 +141,7 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
+include: ["_pages"]
 
 # Reading Files
 include:
