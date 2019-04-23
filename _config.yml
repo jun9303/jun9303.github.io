@@ -108,18 +108,18 @@ analytics:
 author:
   name             : "Sangjoon Lee"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Student in MechE"
-  location         : "Seoul, South Korea"
-  email            :
+  bio              : "Student, MechE"
+  location         : # NA
+  email            : "sangjoonlee@berkeley.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: mailto:sangjoonlee@berkeley.edu
+      # url: 
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     - label: "LinkedIn"
-      icon: "fab fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/sangjoonlee93/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
