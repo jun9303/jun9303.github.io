@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Sangjoon Lee"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "https://media.licdn.com/dms/image/C5103AQFiKE1eh2QQdQ/profile-displayphoto-shrink_200_200/0?e=1561593600&v=beta&t=nnZ_T0LpSSd2gJykhLwlm00VwsFOaxqGy04ujbIJ_io" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Student, MechE"
   location         : # NA
   email            : "sangjoonlee@berkeley.edu"
