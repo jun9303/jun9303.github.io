@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Sangjoon Lee"
-  avatar           : "https://media.licdn.com/dms/image/C5103AQFiKE1eh2QQdQ/profile-displayphoto-shrink_200_200/0?e=1561593600&v=beta&t=nnZ_T0LpSSd2gJykhLwlm00VwsFOaxqGy04ujbIJ_io" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo-sjlee-200x200.jpg"
   bio              : "Student, MechE"
   location         : # NA
   email            : "sangjoonlee@berkeley.edu"
@@ -282,10 +282,3 @@ defaults:
       comments: # true
       share: true
       related: true
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
