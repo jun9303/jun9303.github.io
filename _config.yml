@@ -139,7 +139,7 @@ footer:
       url: "https://facebook.com/jun9303/"
      - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:jun9303@gmail.com"
+      url: "https://google.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
