@@ -140,12 +140,7 @@ footer:
      - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "https://google.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
-
-include: ["_pages"]
-
+      
 # Reading Files
 include:
   - .htaccess
