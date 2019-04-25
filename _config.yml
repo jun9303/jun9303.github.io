@@ -139,7 +139,7 @@ footer:
       url: "https://facebook.com/jun9303/"
     - label: "E-mail"
       icon: "fas fa-fw fa-envelope-square"
-      url: "https://facebook.com/jun9303/"
+      url: "mailto:jun9303@gmail.com"
 
 # Reading Files
 include:
