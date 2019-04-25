@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Welcome to Jekyll!"
+title: "Welcome!"
 date: 2017-10-20 08:26:28 +0900
 header:
   overlay_image: /assets/images/header.jpg
