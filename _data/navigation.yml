@@ -1,5 +1,7 @@
 main:
-  - title: "About Me"
+  - title: "About"
+    url: /#
+  - totle: "Publications"
     url: /#
   - title: "CV"
     url: /#
