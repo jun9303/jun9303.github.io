@@ -1,6 +1,6 @@
 ---
 layout: splash
-permaklink: "/about/"
+permalink: "/about/"
 title: "Welcome!"
 header:
   overlay_image: /assets/images/header.jpg
