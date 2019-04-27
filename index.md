@@ -15,7 +15,7 @@ intro:
 
 I graduated from [Seoul National University](http://useoul.edu/), South Korea with the highest distinction (*Summa Cum Laude*). I was conferred dual Bachelor's degrees in [Mechanical and Aerospace Engineering](http://me.snu.ac.kr/eng/default.asp) (B.Sc.) and [Business Administration](http://cba.snu.ac.kr/en) (B.B.A.). In the graduation ceremony, I received my degrees as a representative of the engineering undergraduates at SNU in the class of 2018.
 
-Currently, my research topic is mainly in the area of Fluid Dynamics. I have accumulated my own research experience in Experimental Flow Measurement (e.g. MRV) & Computational Fluid Dynamics, Conjugate Heat Transfer, and relevant engineering applications. Furthermore, I have a deep interest in utilization of Deep Learning techniques into CFD and analysis of multi-phase flow systems.
+Currently, my research topic is mainly in the area of Fluid Dynamics. I have accumulated my own research experience in Experimental Flow Measurement (e.g. Magnetic Resonance Velocimetry) & Computational Fluid Dynamics, Conjugate Heat Transfer, and relevant engineering applications. Furthermore, I have a deep interest in utilization of Deep Learning techniques into CFD and analysis of multi-phase flow systems.
 
 I was a Researcher in the [Energy and Environmental Flow Lab](http://eeflow.snu.ac.kr/) at Seoul National University, directed by [Dr. Wontae Hwang](http://me.snu.ac.kr/eng/01_intro/faculty_view.asp?pid=137)(Mechanical Engineering). I received my B.Sc. in Mechanical & Aerospace Engineering from SNU with the highest distinction (*Summa cum laude*), with a thesis under the guidance of [Dr. Heacheon Choi](http://me.snu.ac.kr/eng/01_intro/faculty_view.asp?pid=39).
 
