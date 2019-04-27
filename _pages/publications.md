@@ -5,7 +5,7 @@ title: "Publications"
 header:
   overlay_image: /assets/images/header_publications.jpg
   overlay_filter: 0.2
-  caption: "*The Rose of Sharon, Seoul (2012)* &nbsp; **[View Full-image](https://sangjoonlee.tk/assets/photographs/the_rose_of_sharon_seoul_2012.jpg)**"
+  caption: "*Hangang at Dongjak, Seoul (2012)* &nbsp; **[View Full-image](https://sangjoonlee.tk/assets/photographs/hangang_at_dongjak_seoul_2012.jpg)**"
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. `Proin a ultrices` magna. Phasellus a lorem mi. Donec ut tincidunt purus, sit amet consequat odio. Donec purus est, aliquam ut lobortis consequat, sagittis at odio. Curabitur elementum eleifend volutpat. Donec odio nisl, rutrum ultricies arcu sollicitudin, consequat dapibus diam. Aenean ultricies eget nulla eu ultrices. Aliquam erat volutpat. Pellentesque sed lacinia est. Nunc bibendum aliquam feugiat. Phasellus non `gravida` nulla. Nulla felis diam, dictum sed mauris non, molestie euismod est. Duis pretium justo mauris, at porttitor lorem dapibus nec. Ut pharetra, orci nec elementum auctor, felis urna efficitur mauris, sit amet convallis quam risus gravida nisi. Duis in eros eget elit porta luctus. Nam pulvinar sed leo in maximus.
 
