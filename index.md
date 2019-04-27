@@ -1,5 +1,6 @@
 ---
 layout: splash
+title: " "
 header:
   overlay_image: /assets/images/header.jpg
   overlay_filter: 0.5
