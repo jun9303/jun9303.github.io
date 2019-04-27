@@ -4,7 +4,7 @@ title: " "
 header:
   overlay_image: /assets/images/header.jpg
   overlay_filter: 0.5
-  caption: "「Hannam Bridge, Seoul」(2013) [View Full]("https://sangjoonlee.tk/assets/photographs/hannam_bridge_seoul_2013.jpg")
+  caption: "「Hannam Bridge, Seoul」(2013) [View Full("https://sangjoonlee.tk/assets/photographs/hannam_bridge_seoul_2013.jpg")
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. `Proin a ultrices` magna. Phasellus a lorem mi. Donec ut tincidunt purus, sit amet consequat odio. Donec purus est, aliquam ut lobortis consequat, sagittis at odio. Curabitur elementum eleifend volutpat. Donec odio nisl, rutrum ultricies arcu sollicitudin, consequat dapibus diam. Aenean ultricies eget nulla eu ultrices. Aliquam erat volutpat. Pellentesque sed lacinia est. Nunc bibendum aliquam feugiat. Phasellus non `gravida` nulla. Nulla felis diam, dictum sed mauris non, molestie euismod est. Duis pretium justo mauris, at porttitor lorem dapibus nec. Ut pharetra, orci nec elementum auctor, felis urna efficitur mauris, sit amet convallis quam risus gravida nisi. Duis in eros eget elit porta luctus. Nam pulvinar sed leo in maximus.
 
