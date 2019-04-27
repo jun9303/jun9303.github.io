@@ -22,14 +22,14 @@ name                     : "Sangjoon Lee"
 description              : # N/A
 url                      : "https://jun9303.github.io"
 baseurl                  : ""
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : jun9303/jun9303.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/masthead.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
