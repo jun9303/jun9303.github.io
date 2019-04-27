@@ -1,5 +1,5 @@
 ---
 layout: home
-permaklink: /blog/
+permalink: /blog/
 author_profile: true
 ---
