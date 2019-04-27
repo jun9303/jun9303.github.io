@@ -4,7 +4,7 @@ permalink: "/about/"
 title: "About"
 header:
   overlay_image: /assets/images/header_about.jpg
-  overlay_filter: 0.5
+  overlay_filter: 0.2
   caption: "*Ui-sang-dae, Yangyang (2014)* &nbsp; **[View Full-image](https://sangjoonlee.tk/assets/photographs/ui_sang_dae_yang_yang_2014.jpg)**"
 author_profile: true
 ---
