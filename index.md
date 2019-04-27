@@ -11,9 +11,11 @@ intro:
 
 {% include feature_row id="intro" type="center" %}
 
+## Sangjoon Lee
+
 I am a student in the [Department of Mechanical & Aerospace Engineering](http://me.snu.ac.kr/eng/default.asp) at [Seoul National University](http://useoul.edu/). I am also majoring in [Business Administration](http://cba.snu.ac.kr/en) as my dual major.
 
-Currently, my research topic is mainly in the area of Fluid Dynamics and Heat Transfer. I have accumulated my own research experience in Flow Measurement & Simulations (e.g. Magnetic Resonance Velocimetry & Large Eddy Simultaion), Conjugate Heat Transfer, and Turbomachinery. Also, I have a deep interest in utilization of Deep Learning techniques into CFD and analysis of multi-phase flow systems.
+Currently, my research topic is mainly in the area of Fluid Dynamics. I have accumulated my own research experience in Experimental Flow Measurement (e.g. MRV) & Computational Fluid Dynamics, Conjugate Heat Transfer, and relevant engineering applications. Also, I have a deep interest in utilization of Deep Learning techniques into CFD and analysis of multi-phase flow systems.
 
 I was a Researcher in the [Energy and Environmental Flow](http://eeflow.snu.ac.kr/) at Seoul National University, directed by [Dr. Wontae Hwang](http://me.snu.ac.kr/eng/01_intro/faculty_view.asp?pid=137)(Mechanical Engineering). I received my B.Sc. in Mechanical & Aerospace Engineering from SNU *Summa cum laude*, with a thesis writing under [Dr. Heacheon Choi](http://me.snu.ac.kr/eng/01_intro/faculty_view.asp?pid=39).
 
