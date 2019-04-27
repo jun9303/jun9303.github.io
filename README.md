@@ -1,3 +1,3 @@
-# sangjoonlee.github.io
+# SANGJOONLEE.TK
 
 Personal site.
