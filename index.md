@@ -11,12 +11,12 @@ intro:
 
 {% include feature_row id="intro" type="center" %}
 
-## Sangjoon Lee
+# Sangjoon Lee
 
-I am a student in the [Department of Mechanical & Aerospace Engineering](http://me.snu.ac.kr/eng/default.asp) at [Seoul National University](http://useoul.edu/). I am also majoring in [Business Administration](http://cba.snu.ac.kr/en) as my dual major.
+I graduated from [Seoul National University](http://useoul.edu/), South Korea with the highest distinction (*Summa Cum Laude*). I was conferred dual Bachelor's degrees in [Mechanical and Aerospace Engineering](http://me.snu.ac.kr/eng/default.asp) (B.Sc.) and [Business Administration](http://cba.snu.ac.kr/en) (B.B.A.). I received my degrees as a representative of the engineering graduates at SNU in the class of 2018.
 
-Currently, my research topic is mainly in the area of Fluid Dynamics. I have accumulated my own research experience in Experimental Flow Measurement (e.g. MRV) & Computational Fluid Dynamics, Conjugate Heat Transfer, and relevant engineering applications. Also, I have a deep interest in utilization of Deep Learning techniques into CFD and analysis of multi-phase flow systems.
+Currently, my research topic is mainly in the area of Fluid Dynamics. I have accumulated my own research experience in Experimental Flow Measurement (e.g. MRV) & Computational Fluid Dynamics, Conjugate Heat Transfer, and relevant engineering applications. Furthermore, I have a deep interest in utilization of Deep Learning techniques into CFD and analysis of multi-phase flow systems.
 
-I was a Researcher in the [Energy and Environmental Flow](http://eeflow.snu.ac.kr/) at Seoul National University, directed by [Dr. Wontae Hwang](http://me.snu.ac.kr/eng/01_intro/faculty_view.asp?pid=137)(Mechanical Engineering). I received my B.Sc. in Mechanical & Aerospace Engineering from SNU *Summa cum laude*, with a thesis writing under [Dr. Heacheon Choi](http://me.snu.ac.kr/eng/01_intro/faculty_view.asp?pid=39).
+I was a Researcher in the [Energy and Environmental Flow](http://eeflow.snu.ac.kr/) at Seoul National University, directed by [Dr. Wontae Hwang](http://me.snu.ac.kr/eng/01_intro/faculty_view.asp?pid=137)(Mechanical Engineering). I received my B.Sc. in Mechanical & Aerospace Engineering from SNU with the highest distinction (*Summa cum laude*), with a thesis under the guidance of [Dr. Heacheon Choi](http://me.snu.ac.kr/eng/01_intro/faculty_view.asp?pid=39).
 
 I am familiar with several programming languages, including Python, Fortran, and MATLAB. As a hobby, I have performed several web design projects with various frameworks (e.g. Python Flask, PHP, jQuery). Hiking, jogging and playing basketball are my favorite outdoor activities.
