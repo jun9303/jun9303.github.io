@@ -1,7 +1,6 @@
 ---
 layout: splash
-title: "Welcome!"
-date: 2017-10-20 08:26:28 +0900
+title: "About"
 header:
   overlay_image: /assets/images/header.jpg
   overlay_filter: 0.5
