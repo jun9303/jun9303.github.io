@@ -7,13 +7,11 @@ header:
   caption: "*Hannam bridge, Seoul (2013)* &nbsp; **[View Full-image](https://sangjoonlee.tk/assets/photographs/hannam_bridge_seoul_2013.jpg)**"
 intro: 
   - excerpt: "The truth may be puzzling. It may take some work to grapple with. It may be counterintuitive. It may contradict deeply held prejudices. It may not be consonant with what we desperately want to be true. **But our preferences do not determine what's true.** &nbsp; <small>- *Carl Sagan*</small>"
-row1_welcome:
-  - image_path: "assets/images/welcome_1.jpg"
 ---
 
 {% include feature_row id="intro" type="center" %}
 
-{% include figure id="row1_welcome" %}
+{% include figure id="row1_welcome" image_path="assets/images/welcome_1.jpg" %}
 
 I graduated from [Seoul National University](http://useoul.edu/), South Korea with the highest distinction (*Summa Cum Laude*). I was conferred dual Bachelor's degrees in [Mechanical and Aerospace Engineering](http://me.snu.ac.kr/eng/default.asp) (B.Sc.) and [Business Administration](http://cba.snu.ac.kr/en) (B.B.A.). In the graduation ceremony, I received my degrees as a representative of the engineering undergraduates at SNU in the class of 2018.
 
