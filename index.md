@@ -13,7 +13,7 @@ row1_welcome:
 
 {% include feature_row id="intro" type="center" %}
 
-{%  include figure id="row1_welcome" %}
+{% include figure id="row1_welcome" %}
 
 I graduated from [Seoul National University](http://useoul.edu/), South Korea with the highest distinction (*Summa Cum Laude*). I was conferred dual Bachelor's degrees in [Mechanical and Aerospace Engineering](http://me.snu.ac.kr/eng/default.asp) (B.Sc.) and [Business Administration](http://cba.snu.ac.kr/en) (B.B.A.). In the graduation ceremony, I received my degrees as a representative of the engineering undergraduates at SNU in the class of 2018.
 
