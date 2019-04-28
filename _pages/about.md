@@ -63,7 +63,6 @@ feature_row:
 ### OTHER
 
 - **Excellent Honorary Member** of *[SNU Tomorrow's Engineers Membership](https://honor.snu.ac.kr)*, Mar 2016 -
-
 - **Auxiliary Police Officer** at Jongno Police Station, Seoul Metropolitan Police Agency, Jun 2014 - Mar 2016
 
 # HONORS & SCHOLARSHIPS
