@@ -33,9 +33,9 @@ feature_row:
 
 # RESEARCH INTERESTS
 
-1. Fluid Dynamics: Computational Methodology and Experimental Measurement Techniques
-2. Heat Transfer: Concurrent Scalar Transport of Flow and Conjugate Heat Transfer
-3. Energy: Turbomachinery, Renewable Energy and Micro-Particle Propagation
+1. Fluid Dynamics: Computational Methodology with Experimental Measurement Techniques
+2. Heat Transfer: Analysis of Concurrent Scalar Transport of Flow
+3. Energy & Environment: Renewable Energy (Wind & Wave) and Micro-Particle Propagation
 
 <style type="text/css">
 .archive__item-teaser img {
