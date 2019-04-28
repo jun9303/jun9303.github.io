@@ -17,7 +17,7 @@ intro:
 
 Graduated from [Seoul National University](http://useoul.edu/) with the highest distinction (*Summa Cum Laude*), I was conferred dual Bachelor's degrees in [Mechanical and Aerospace Engineering](http://me.snu.ac.kr/eng/default.asp) (B.Sc.) and [Business Administration](http://cba.snu.ac.kr/en) (B.B.A.). In the graduation ceremony, I received my degrees as a representative of the engineering undergraduates at SNU in the class of 2018.
 
-Currently, my research topic is mainly in the area of Fluid Dynamics. I have accumulated my own research experience in Experimental Flow Measurement (e.g. Magnetic Resonance Velocimetry) & Computational Fluid Dynamics, Conjugate Heat Transfer, and relevant engineering applications. Furthermore, I am deeply interested in utilization of Deep Learning techniques into CFD and analysis of multi-phase flow systems.
+Currently, my research topic is mainly in the area of Fluid Dynamics. I have accumulated my own research experience in Computational Fluid Dynamics, Experimental Flow Measurement (e.g. Magnetic Resonance Velocimetry), Conjugate Heat Transfer, and relevant engineering applications. Furthermore, I am deeply interested in utilization of Deep Learning techniques into CFD and analysis of multi-phase flow systems.
 
 I was a researcher in the [Energy and Environmental Flow Lab](http://eeflow.snu.ac.kr/) at SNU, directed by [Dr. Wontae Hwang](http://me.snu.ac.kr/eng/01_intro/faculty_view.asp?pid=137). Under the guidance of [Dr. Haecheon Choi](http://me.snu.ac.kr/eng/01_intro/faculty_view.asp?pid=39), I wrote my B.Sc. thesis, "Large eddy simulation of flow around a rotating small vertical axis wind turbine using an immersed boundary method."
 
