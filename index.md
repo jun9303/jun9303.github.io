@@ -24,7 +24,7 @@ I was a researcher in the [Energy and Environmental Flow Lab](http://eeflow.snu.
 I am familiar with several programming languages, including Python, Fortran, and MATLAB. As a hobby, I have performed several web design projects with various frameworks (e.g. Python Flask, PHP, jQuery). Hiking, jogging and playing basketball are my favorite outdoor activities.
 
 <style>
-#row1_welcome figure{
+figure {
 	margin-bottom: 0px;
 }
 </style>
