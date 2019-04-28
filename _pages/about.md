@@ -6,7 +6,15 @@ header:
   overlay_image: /assets/images/header_about.jpg
   overlay_filter: 0.2
   caption: "*Ui-sang-dae, Yangyang (2014)* &nbsp; **[View Full-image](https://sangjoonlee.tk/assets/photographs/ui_sang_dae_yang_yang_2014.jpg)**"
+feature_row:
+  - image_path: assets/images/bio-photo-sjlee-200x200.jpg
+    alt: "profile image"
+    title: "Sangjoon Lee"
+    excerpt: "Student in MechE"
 ---
+
+{% include feature_row id="intro" type="center" %}
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. `Proin a ultrices` magna. Phasellus a lorem mi. Donec ut tincidunt purus, sit amet consequat odio. Donec purus est, aliquam ut lobortis consequat, sagittis at odio. Curabitur elementum eleifend volutpat. Donec odio nisl, rutrum ultricies arcu sollicitudin, consequat dapibus diam. Aenean ultricies eget nulla eu ultrices. Aliquam erat volutpat. Pellentesque sed lacinia est. Nunc bibendum aliquam feugiat. Phasellus non `gravida` nulla. Nulla felis diam, dictum sed mauris non, molestie euismod est. Duis pretium justo mauris, at porttitor lorem dapibus nec. Ut pharetra, orci nec elementum auctor, felis urna efficitur mauris, sit amet convallis quam risus gravida nisi. Duis in eros eget elit porta luctus. Nam pulvinar sed leo in maximus.
 
 ​```python
