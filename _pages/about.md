@@ -10,7 +10,7 @@ feature_row:
   - image_path: assets/images/bio-photo-sjlee-200x200.jpg
     alt: "profile image"
     title: "Sangjoon Lee"
-    excerpt: "Student in [MechE](http://me.snu.ac.kr/eng) / [E-mail](mailto:jun9303@gmail.com)"
+    excerpt: "Student in [MechE](http://me.snu.ac.kr/eng) / [[E-mail]](mailto:jun9303@gmail.com)"
 ---
 
 {% include feature_row type="center" %}
@@ -69,7 +69,7 @@ feature_row:
 - **Summa Cum Laude** of SNU Class of 2018
 - **[National Scholarship for Science and Engineering](http://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp?ttab1=0)** from *Korea Student Aid Foundation*
   
-  
+
 [LinkedIn](https://www.linkedin.com/in/sangjoonlee93)
 
 <style type="text/css">
