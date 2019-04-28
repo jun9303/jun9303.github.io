@@ -24,7 +24,6 @@ feature_row:
     Capital Markets and Accounting, Corporate Strategy, Fundamentals of Economics, Human Resource Management, International Business Management, Management Information System, Management Science, Managerial Accounting, Marketing Management, Mathematics for Economics, Operations Management, Principles of Accounting, Principles of Management
   </details>
 - Bachelor of Science in [Mechanical & Aerospace Engineering](http://me.snu.ac.kr/eng), *Seoul National University*, Mar 2012 - Aug 2018
-  + *Summa cum laude* 
   <details>
     <summary>Engineering courses taken</summary>
   
