@@ -29,7 +29,13 @@ feature_row:
   
     Applied Fluid Mechanics, Creative Engineering Design, Digital Computer Concept and Practice, Digital Fabrication and Manufacturing, Dynamics, Engineering Mathematics (1 & 2), Engineering Mathematics 2, Fluid Mechanics, Heat Transfer, Introduction to Electrical and Computer Engineering, Management in Mechanical Engineering (1 & 2), Manufacturing Processes, Mechanical Drawing, Mechanical Engineering Lab. (1 & 2), Mechanical System Design Project (1 & 2), Mechanics and Design, Solid Mechanics, Thermodynamics, Writing in Science & Technology
   </details>
-- High school diploma, *[Seoul Science High School](http://en.sshs.hs.kr)*, Mar 2009 - Feb 2012
+- High school diploma, *[Seoul Science High School for Gifted Students](http://en.sshs.hs.kr)*, Mar 2009 - Feb 2012
+
+# RESEARCH INTERESTS
+
+1. Fluid Dynamics: Computational Methodology and Experimental Measurement Techniques
+2. Heat Transfer: Concurrent Scalar Transport of Flow and Conjugate Heat Transfer
+3. Energy: Turbomachinery, Renewable Energy and Micro-Particle Propagation
 
 <style type="text/css">
 .archive__item-teaser img {
