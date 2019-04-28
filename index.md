@@ -15,7 +15,7 @@ intro:
 
 # I AM SANGJOON LEE.
 
-Graduated from [Seoul National University](http://useoul.edu/) with the highest distinction (*Summa Cum Laude*), I was conferred dual Bachelor's degrees in [Mechanical and Aerospace Engineering](http://me.snu.ac.kr/eng/default.asp) (B.Sc.) and [Business Administration](http://cba.snu.ac.kr/en) (B.B.A.). In the graduation ceremony, I received my degrees as a representative of the engineering undergraduates at SNU in the class of 2018.
+Graduating from [Seoul National University](http://useoul.edu/) with the highest distinction (*Summa Cum Laude*), I was conferred dual Bachelor's degrees in [Mechanical and Aerospace Engineering](http://me.snu.ac.kr/eng/default.asp) (B.Sc.) and [Business Administration](http://cba.snu.ac.kr/en) (B.B.A.). In the graduation ceremony, I received my degrees as a representative of the engineering undergraduates at SNU in the class of 2018.
 
 Currently, my research topic is mainly in the area of Fluid Dynamics. I have accumulated my own research experience in Computational Fluid Dynamics, Experimental Flow Measurement (e.g. Magnetic Resonance Velocimetry), Conjugate Heat Transfer, and relevant engineering applications. Furthermore, I am deeply interested in utilization of Deep Learning techniques into CFD and analysis of multi-phase flow systems.
 
