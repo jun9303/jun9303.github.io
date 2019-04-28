@@ -18,9 +18,18 @@ feature_row:
 # EDUCATION
 
 - Bachelor of [Business Administration](http://cba.snu.ac.kr/en), *Seoul National University*, Mar 2014 - Aug 2018
+<details>
+  <summary>Click to expand!</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
 - Bachelor of Science in [Mechanical & Aerospace Engineering](http://me.snu.ac.kr/eng), *Seoul National University*, Mar 2012 - Aug 2018
-- High school diploma, *[Seoul Science High School](http://en.sshs.hs.kr)*, Mar 2009 - Feb 2012
 
+- High school diploma, *[Seoul Science High School](http://en.sshs.hs.kr)*, Mar 2009 - Feb 2012
 
 <style type="text/css">
 .archive__item-teaser img {
