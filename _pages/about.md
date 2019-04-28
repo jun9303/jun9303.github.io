@@ -18,17 +18,17 @@ feature_row:
 # EDUCATION
 
 - B.B.A., [Business Administration](http://cba.snu.ac.kr/en), *Seoul National University*, Mar 2014 - Aug 2018
-    <small><details>
+    <details>
       <summary>Business courses taken</summary>
     
-      Capital Markets and Accounting, Corporate Strategy, Fundamentals of Economics, Human Resource Management, International Business Management, Management Information System, Management Science, Managerial Accounting, Marketing Management, Mathematics for Economics, Operations Management, Principles of Accounting, Principles of Management
-    </details></small>
+      <small>Capital Markets and Accounting, Corporate Strategy, Fundamentals of Economics, Human Resource Management, International Business Management, Management Information System, Management Science, Managerial Accounting, Marketing Management, Mathematics for Economics, Operations Management, Principles of Accounting, Principles of Management</small>
+    </details>
 - B.Sc., [Mechanical & Aerospace Engineering](http://me.snu.ac.kr/eng), *Seoul National University*, Mar 2012 - Aug 2018
-    <small><details>
+    <details>
       <summary>Engineering courses taken</summary>
     
-      Applied Fluid Mechanics, Creative Engineering Design, Digital Computer Concept and Practice, Digital Fabrication and Manufacturing, Dynamics, Engineering Mathematics (1 & 2), Fluid Mechanics, Heat Transfer, Introduction to Electrical and Computer Engineering, Management in Mechanical Engineering (1 & 2), Manufacturing Processes, Mechanical Drawing, Mechanical Engineering Lab. (1 & 2), Mechanical System Design Project (1 & 2), Mechanics and Design, Solid Mechanics, Thermodynamics, Writing in Science & Technology
-    </details></small>
+      <small>Applied Fluid Mechanics, Creative Engineering Design, Digital Computer Concept and Practice, Digital Fabrication and Manufacturing, Dynamics, Engineering Mathematics (1 & 2), Fluid Mechanics, Heat Transfer, Introduction to Electrical and Computer Engineering, Management in Mechanical Engineering (1 & 2), Manufacturing Processes, Mechanical Drawing, Mechanical Engineering Lab. (1 & 2), Mechanical System Design Project (1 & 2), Mechanics and Design, Solid Mechanics, Thermodynamics, Writing in Science & Technology</small>
+    </details>
 - High School Diploma, *[Seoul Science High School for Gifted Students](http://en.sshs.hs.kr)*, Mar 2009 - Feb 2012
 
 # RESEARCH INTERESTS
