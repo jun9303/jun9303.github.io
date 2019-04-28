@@ -39,17 +39,28 @@ feature_row:
 
 # EXPERIENCE
 
-## RESEARCH
+### RESEARCH
 
 - **Researcher** in *[Energy & Environmental Flow Lab](http://eeflow.snu.ac.kr)* at SNU (supervisor: [Dr. Wontae Hwang](http://me.snu.ac.kr/eng/01_intro/faculty_view.asp?pid=137)), Jul 2017 - Aug 2018
+  + Development and validation on a conjugate heat transfer code combining heat conduction and heat convection
+  + Flow visualization using Magnetic Resonance Velocimetry (MRV) and Large Eddy Simulation (LES)
 
 - **Research Intern for Thesis** in *[Turbulence, Flow Control & CFD Lab](http://tfc.snu.ac.kr)* at SNU (supervisor: [Dr. Haecheon Choi](http://me.snu.ac.kr/eng/01_intro/faculty_view.asp?pid=39)), Sep 2016 - Dec 2017
+  + Simulation of flow around a rotating small Vertical Axis Wind Turbine (VAWT)
+  + Numerical study for Computational Fluid Dynamics (CFD) based on an Immersed Boundary (IB) method
 
-## TEACHING
+### TEACHING
 
+- **Teaching Assistant** of *Basic Calculus 2 (SNU 007.102)* in Fall 2013
+  + Taught multivariate function, multiple integral, divergence and Stokes' theorem
 
+- **Teaching Assistant** of *Basic Calculus 1 (SNU 007.098A)* in Spring 2013
+  + Taught infinite series, Taylor expansion, vector, matrix and curve parametrization
 
-## OTHER
+- **Teaching Assistant** of *Basic Physics 1 (SNU 007.099A)* in Spring 2013
+  + Taught introductory topics of Classical Physics (Force, motion, wave, fluid, energy, heat and entropy)
+
+### OTHER
 
 
 
