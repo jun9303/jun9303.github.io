@@ -10,7 +10,7 @@ feature_row:
   - image_path: assets/images/bio-photo-sjlee-200x200.jpg
     alt: "profile image"
     title: "Sangjoon Lee"
-    excerpt: "Student in [MechE]("http://me.snu.ac.kr/eng"), [SNU](http://useoul.edu/)"
+    excerpt: "Student in [MechE](http://me.snu.ac.kr/eng), [SNU](http://useoul.edu/)"
 ---
 
 {% include feature_row type="center" %}
