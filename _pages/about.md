@@ -67,5 +67,11 @@ feature_row:
 <style type="text/css">
 .archive__item-teaser img {
 	max-width:200px;
-}	
+}
+h1 {
+	margin-top:2em;
+}
+h3 {
+	margin-top:0.5em;
+}
 </style>
