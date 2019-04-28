@@ -62,6 +62,7 @@ feature_row:
 
 ### OTHER
 
+- **Excellent Honorary Member** of *[SNU Tomorrow's Engineers Membership](https://honor.snu.ac.kr)*, Mar 2016 -
 
 
 <style type="text/css">
