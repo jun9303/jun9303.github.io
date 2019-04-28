@@ -11,7 +11,7 @@ row1_welcome:
   - image_path: assets/images/welcome_1.jpg
 ---
 
-{%  include row1_welcome id="row1" type="center" %}
+{%  include feature_row1 id="row1_welcome" type="center" %}
 
 {% include feature_row id="intro" type="center" %}
 
