@@ -28,3 +28,9 @@ In dignissim aliquet scelerisque. Sed venenatis massa arcu, a sollicitudin diam 
 Vestibulum rutrum pharetra dui vitae sagittis. Vivamus blandit nisi in mi dapibus, sed sollicitudin ipsum imperdiet. In pulvinar tristique interdum. Quisque accumsan turpis dui, ut vehicula dolor iaculis a. Phasellus volutpat dolor arcu, a mollis orci sagittis ac. Curabitur id risus id orci vehicula tincidunt. Integer lobortis eget diam nec sodales. Fusce pellentesque varius ex vel vestibulum. Morbi malesuada lacus in sem interdum, ac rhoncus quam ultricies. Duis malesuada metus mauris, et vehicula tortor finibus sit amet. In fringilla, tortor eget tempus sodales, odio ipsum interdum lorem, et aliquet nulla turpis id ligula. Curabitur maximus nisl vel tristique pellentesque. In accumsan tellus ac ultrices interdum. Donec non massa odio.
 
 [homepage]: https://sangjoonlee.tk/
+
+<style type="text/css">
+.archive__item-teaser img {
+	max-width:200px;
+}	
+</style>
