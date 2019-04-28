@@ -67,7 +67,7 @@ feature_row:
 
 # HONORS & SCHOLARSHIPS
 
-- **Summa Cum Laude** of SNU Class of 2018, Aug 2018
+- **Summa Cum Laude** of the SNU Class of 2018, Aug 2018
 - **[National Scholarship for Science and Engineering](http://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp?ttab1=0)** from *Korea Student Aid Foundation*, Mar 2012 - Dec 2017
   
 <br>
