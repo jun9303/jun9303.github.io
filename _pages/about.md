@@ -5,7 +5,7 @@ title: "About"
 header:
   overlay_image: /assets/images/header_about.jpg
   overlay_filter: 0.2
-  caption: "*Ui-sang-dae, Yangyang (2014)* &nbsp; **[View Full-image](https://sangjoonlee.tk/assets/photographs/ui_sang_dae_yang_yang_2014.jpg)**"
+  caption: "*Ui-sang-dae, Yangyang (2014)* &nbsp; **[View Full-image](/assets/photographs/ui_sang_dae_yang_yang_2014.jpg)**"
 feature_row:
   - image_path: assets/images/bio-photo-sjlee-200x200.jpg
     alt: "profile image"
@@ -23,12 +23,14 @@ feature_row:
     
       <small>Capital Markets and Accounting, Corporate Strategy, Fundamentals of Economics, Human Resource Management, International Business Management, Management Information System, Management Science, Managerial Accounting, Marketing Management, Mathematics for Economics, Operations Management, Principles of Accounting, Principles of Management</small>
     </details>
+  + Thesis: "Capital and Operational Cost Efficiency Evaluation of Offshore Wind Farm in South Korea: An DEA Approach" 
 - B.Sc., [Mechanical & Aerospace Engineering](http://me.snu.ac.kr/eng), *Seoul National University*, Mar 2012 - Aug 2018
     <details>
       <summary>Engineering courses taken</summary>
     
-      <small>Applied Fluid Mechanics, Creative Engineering Design, Digital Computer Concept and Practice, Digital Fabrication and Manufacturing, Dynamics, Engineering Mathematics (1 & 2), Fluid Mechanics, Heat Transfer, Introduction to Electrical and Computer Engineering, Management in Mechanical Engineering (1 & 2), Manufacturing Processes, Mechanical Drawing, Mechanical Engineering Lab. (1 & 2), Mechanical System Design Project (1 & 2), Mechanics and Design, Solid Mechanics, Thermodynamics, Writing in Science & Technology</small>
+      <small>Applied Fluid Mechanics, Creative Engineering Design, Digital Computer Concept and Practice, Digital Fabrication and Manufacturing, Dynamics, Engineering Mathematics (1 & 2), Fluid Mechanics, Heat Transfer, Introduction to Electrical and Computer Engineering, Management in Mechanical Engineering (1 & 2), Manufacturing Processes, Mechanical Drawing, Mechanical Engineering Lab. (1 & 2), Mechanical System Design Project (1 & 2), Mechanics and Design, Solid Mechanics, Thermodynamics, Writing in Science & Technology (Major )</small>
     </details>
+  + Thesis: "Large Eddy Simulation of Flow Around a Rotating Small Vertical Axis Wind Turbine Using an Immersed Boundary Method"
   + *Summa cum laude*
 - High School Diploma, *[Seoul Science High School for Gifted Students](http://en.sshs.hs.kr)*, Mar 2009 - Feb 2012
 
