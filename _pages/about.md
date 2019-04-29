@@ -29,6 +29,7 @@ feature_row:
     
       <small>Applied Fluid Mechanics, Creative Engineering Design, Digital Computer Concept and Practice, Digital Fabrication and Manufacturing, Dynamics, Engineering Mathematics (1 & 2), Fluid Mechanics, Heat Transfer, Introduction to Electrical and Computer Engineering, Management in Mechanical Engineering (1 & 2), Manufacturing Processes, Mechanical Drawing, Mechanical Engineering Lab. (1 & 2), Mechanical System Design Project (1 & 2), Mechanics and Design, Solid Mechanics, Thermodynamics, Writing in Science & Technology</small>
     </details>
+  + *Summa cum laude*
 - High School Diploma, *[Seoul Science High School for Gifted Students](http://en.sshs.hs.kr)*, Mar 2009 - Feb 2012
 
 # RESEARCH INTERESTS
@@ -67,7 +68,7 @@ feature_row:
 
 # HONORS & SCHOLARSHIPS
 
-- **Summa Cum Laude** of the SNU Class of 2018, Aug 2018
+- **Representative of the Engineering Class of 2018** in the 72th SNU Summer Graduation Ceremony, Aug 2018
 - **[National Scholarship for Science and Engineering](http://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp?ttab1=0)** from *Korea Student Aid Foundation*, Mar 2012 - Dec 2017
   
 <br>
