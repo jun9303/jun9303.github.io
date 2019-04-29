@@ -19,14 +19,14 @@ feature_row:
 
 - B.B.A., [Business Administration](http://cba.snu.ac.kr/en), *Seoul National University*, Mar 2014 - Aug 2018
     <details>
-      <summary>Business courses taken</summary>
+      <summary>[Business courses taken]</summary>
     
       <small>Capital Markets and Accounting, Corporate Strategy, Fundamentals of Economics, Human Resource Management, International Business Management, Management Information System, Management Science, Managerial Accounting, Marketing Management, Mathematics for Economics, Operations Management, Principles of Accounting, Principles of Management</small>
     </details>
-  + Thesis: "Capital and Operational Cost Efficiency Evaluation of Offshore Wind Farm in South Korea: An DEA Approach" 
+  + Thesis: "Capital and Operating Cost Efficiency Evaluation of Onshore Wind Farms in South Korea: A DEA Approach" 
 - B.Sc., [Mechanical & Aerospace Engineering](http://me.snu.ac.kr/eng), *Seoul National University*, Mar 2012 - Aug 2018
     <details>
-      <summary>Engineering courses taken</summary>
+      <summary>[Engineering courses taken]</summary>
     
       <small>Applied Fluid Mechanics, Creative Engineering Design, Digital Computer Concept and Practice, Digital Fabrication and Manufacturing, Dynamics, Engineering Mathematics (1 & 2), Fluid Mechanics, Heat Transfer, Introduction to Electrical and Computer Engineering, Management in Mechanical Engineering (1 & 2), Manufacturing Processes, Mechanical Drawing, Mechanical Engineering Lab. (1 & 2), Mechanical System Design Project (1 & 2), Mechanics and Design, Solid Mechanics, Thermodynamics, Writing in Science & Technology (Major )</small>
     </details>
