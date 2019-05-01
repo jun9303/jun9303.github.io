@@ -70,7 +70,7 @@ feature_row:
 
 # HONORS & SCHOLARSHIPS
 
-- **Representative of the Engineering Class of 2018** in the 72th SNU Summer Graduation Ceremony, Aug 2018
+- **Representative of the Engineering Class of 2018** in the 72nd SNU Summer Graduation Ceremony, Aug 2018
 - **[National Scholarship for Science and Engineering](http://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp?ttab1=0)** from *Korea Student Aid Foundation*, Mar 2012 - Dec 2017
   
 <br>
