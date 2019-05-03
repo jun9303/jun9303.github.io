@@ -1,7 +1,7 @@
 ---
 layout: posts
 permalink: /blog/
-title: "Blog (No Posts Yet!)"
+title: "Blog"
 author_profile: true
 entries_layout: grid
 ---
