@@ -36,19 +36,19 @@ feature_row:
 
 # RESEARCH INTERESTS
 
-1. Fluid Dynamics: Computational Methodology with Experimental Measurement Techniques
-2. Heat Transfer: Analysis of Concurrent Scalar Transport of Flow
-3. Energy & Environment: Renewable Energy (Wind & Wave) and Micro-Particle Propagation
+1. **Fluid Dynamics**: Computational Methodology with Experimental Measurement Techniques
+2. **Heat Transfer**: Analysis of Concurrent Scalar Transport of Flow
+3. **Energy & Environment**: Renewable Energy (Wind & Wave) and Micro-Particle Propagation
 
 # EXPERIENCE
 
 ### RESEARCH
 
-- **Researcher** in *[Energy & Environmental Flow Lab](http://eeflow.snu.ac.kr)* at SNU (supervisor: [Dr. Wontae Hwang](http://me.snu.ac.kr/eng/01_intro/faculty_view.asp?pid=137)), Jul 2017 - Aug 2018
+- **Researcher** in *[Energy & Environmental Flow Lab](http://eeflow.snu.ac.kr)* at *SNU* (supervisor: [Dr. Wontae Hwang](http://me.snu.ac.kr/eng/01_intro/faculty_view.asp?pid=137)), Jul 2017 - Aug 2018
   + Development and validation on a conjugate heat transfer code combining heat conduction and heat convection
   + Flow visualization using Magnetic Resonance Velocimetry (MRV) and Large Eddy Simulation (LES)
 
-- **Research Intern for Thesis** in *[Turbulence, Flow Control & CFD Lab](http://tfc.snu.ac.kr)* at SNU (supervisor: [Dr. Haecheon Choi](http://me.snu.ac.kr/eng/01_intro/faculty_view.asp?pid=39)), Sep 2016 - Dec 2017
+- **Research Intern for Thesis** in *[Turbulence, Flow Control & CFD Lab](http://tfc.snu.ac.kr)* at *SNU* (supervisor: [Dr. Haecheon Choi](http://me.snu.ac.kr/eng/01_intro/faculty_view.asp?pid=39)), Sep 2016 - Dec 2017
   + Simulation of flow around a rotating small Vertical Axis Wind Turbine (VAWT)
   + Numerical study for Computational Fluid Dynamics (CFD) based on an Immersed Boundary (IB) method
 
@@ -66,16 +66,16 @@ feature_row:
 ### OTHER
 
 - **Excellent Honorary Member** of *[SNU Tomorrow's Engineers Membership](https://honor.snu.ac.kr)*, Mar 2016 -
-- **Auxiliary Police Officer** at Jongno Police Station, Seoul Metropolitan Police Agency, Jun 2014 - Mar 2016
+- **Auxiliary Police Officer** at *Jongno Police Station, [Seoul Metropolitan Police Agency](https://www.smpa.go.kr/home/homeIndexEng.do?menuCode=eng)*, Jun 2014 - Mar 2016
 
 # HONORS & SCHOLARSHIPS
 
-- **Representative of the Engineering Class of 2018** in the 72nd SNU Summer Graduation Ceremony, Aug 2018
-- **Commendation for Devotion to Auxiliary Police service** from the chief of Jongno Police Station, Jul 2015
+- **Representative of the Engineering Class of 2018** in the 72nd *SNU* Summer Graduation Ceremony, Aug 2018
+- **Commendation for Devotion to Auxiliary Police service** from the chief of *Jongno Police Station*, Jul 2015
 - **[National Scholarship for Science and Engineering](http://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp?ttab1=0)** from *Korea Student Aid Foundation*, Mar 2012 - Dec 2017
   
 <br>
-[LinkedIn](https://www.linkedin.com/in/sangjoonlee93)
+[LinkedIn](https://www.linkedin.com/in/sangjoonlee93) / [Facebook](https://www.facebook.com/jun9303)
 
 <style type="text/css">
 .archive__item-teaser img {
