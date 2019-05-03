@@ -79,6 +79,8 @@ feature_row:
 <style type="text/css">
 .archive__item-teaser img {
 	max-width:200px;
+    border-radius: 50%;
+    border: 3px solid rgba(0,0,0,0.2);
 }
 h1 {
 	margin-top:2em;
