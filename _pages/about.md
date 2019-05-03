@@ -31,7 +31,7 @@ feature_row:
       <small>Applied Fluid Mechanics, Creative Engineering Design, Digital Computer Concept and Practice, Digital Fabrication and Manufacturing, Dynamics, Engineering Mathematics (1 & 2), Fluid Mechanics, Heat Transfer, Introduction to Electrical and Computer Engineering, Management in Mechanical Engineering (1 & 2), Manufacturing Processes, Mechanical Drawing, Mechanical Engineering Lab. (1 & 2), Mechanical System Design Project (1 & 2), Mechanics and Design, Solid Mechanics, Thermodynamics, Writing in Science & Technology (GPA of 4.22/4.3)</small>
     </details>
   + Thesis: "Large Eddy Simulation of Flow Around a Rotating Small Vertical Axis Wind Turbine Using an Immersed Boundary Method"
-  + *Summa cum laude*
+  + *Summa Cum Laude*
 - High School Diploma, *[Seoul Science High School for Gifted Students](http://en.sshs.hs.kr)*, 2012
 
 # RESEARCH INTERESTS
