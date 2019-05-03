@@ -17,7 +17,7 @@ feature_row:
 
 # EDUCATION
 
-- B.Sc., [Mechanical & Aerospace Engineering](http://me.snu.ac.kr/eng), *Seoul National University*, 2018
+- **B.Sc.**, [Mechanical & Aerospace Engineering](http://me.snu.ac.kr/eng), *Seoul National University*, 2018
     <details>
       <summary>[Engineering courses taken]</summary>
     
@@ -25,14 +25,14 @@ feature_row:
     </details>
   + Thesis: "Large Eddy Simulation of Flow Around a Rotating Small Vertical Axis Wind Turbine Using an Immersed Boundary Method"
   + *Summa Cum Laude*
-- B.B.A., [Business Administration](http://cba.snu.ac.kr/en), *Seoul National University*, 2018
+- **B.B.A.**, [Business Administration](http://cba.snu.ac.kr/en), *Seoul National University*, 2018
     <details>
       <summary>[Business courses taken]</summary>
     
       <small>Capital Markets and Accounting, Corporate Strategy, Fundamentals of Economics, Human Resource Management, International Business Management, Management Information System, Management Science, Managerial Accounting, Marketing Management, Mathematics for Economics, Operations Management, Principles of Accounting, Principles of Management (GPA of 4.18/4.3)</small>
     </details>
   + Thesis: "Capital and Operating Cost Efficiency Evaluation of Onshore Wind Farms in South Korea: A DEA Approach" 
-- High School Diploma, *[Seoul Science High School for Gifted Students](http://en.sshs.hs.kr)*, 2012
+- **High School Diploma**, *[Seoul Science High School for Gifted Students](http://en.sshs.hs.kr)*, 2012
 
 # RESEARCH INTERESTS
 
