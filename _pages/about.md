@@ -68,7 +68,7 @@ feature_row:
 - **Excellent Honorary Member** of *[SNU Tomorrow's Engineers Membership](https://honor.snu.ac.kr)*, Mar 2016 -
 - **Auxiliary Police Officer** at *Jongno Police Station, [Seoul Metropolitan Police Agency](https://www.smpa.go.kr/home/homeIndexEng.do?menuCode=eng)*, Jun 2014 - Mar 2016
 
-# HONORS & SCHOLARSHIPS
+# HONORS & AWARDS
 
 - **Representative of the Engineering Class of 2018** in the 72nd *SNU* Summer Graduation Ceremony, Aug 2018
 - **Commendation for Devotion to Auxiliary Police service** from the chief of *Jongno Police Station*, Jul 2015
