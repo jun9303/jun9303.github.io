@@ -17,14 +17,14 @@ feature_row:
 
 # EDUCATION
 
-- B.B.A., [Business Administration](http://cba.snu.ac.kr/en), *Seoul National University*, Mar 2014 - Aug 2018
+- B.B.A., [Business Administration](http://cba.snu.ac.kr/en), *Seoul National University*, Mar 2018
     <details>
       <summary>[Business courses taken]</summary>
     
       <small>Capital Markets and Accounting, Corporate Strategy, Fundamentals of Economics, Human Resource Management, International Business Management, Management Information System, Management Science, Managerial Accounting, Marketing Management, Mathematics for Economics, Operations Management, Principles of Accounting, Principles of Management (GPA of 4.18/4.3)</small>
     </details>
   + Thesis: "Capital and Operating Cost Efficiency Evaluation of Onshore Wind Farms in South Korea: A DEA Approach" 
-- B.Sc., [Mechanical & Aerospace Engineering](http://me.snu.ac.kr/eng), *Seoul National University*, Mar 2012 - Aug 2018
+- B.Sc., [Mechanical & Aerospace Engineering](http://me.snu.ac.kr/eng), *Seoul National University*,2018
     <details>
       <summary>[Engineering courses taken]</summary>
     
@@ -32,7 +32,7 @@ feature_row:
     </details>
   + Thesis: "Large Eddy Simulation of Flow Around a Rotating Small Vertical Axis Wind Turbine Using an Immersed Boundary Method"
   + *Summa cum laude*
-- High School Diploma, *[Seoul Science High School for Gifted Students](http://en.sshs.hs.kr)*, Mar 2009 - Feb 2012
+- High School Diploma, *[Seoul Science High School for Gifted Students](http://en.sshs.hs.kr)*, 2012
 
 # RESEARCH INTERESTS
 
@@ -71,6 +71,7 @@ feature_row:
 # HONORS & SCHOLARSHIPS
 
 - **Representative of the Engineering Class of 2018** in the 72nd SNU Summer Graduation Ceremony, Aug 2018
+- **Commendation for Devotion to Auxiliary Police service** from the chief of Jongno Police Station, Jul 2015
 - **[National Scholarship for Science and Engineering](http://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp?ttab1=0)** from *Korea Student Aid Foundation*, Mar 2012 - Dec 2017
   
 <br>
