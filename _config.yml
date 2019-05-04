@@ -281,5 +281,3 @@ defaults:
       comments: true
       share: true
       related: false
-
-include: ["_pages"]
