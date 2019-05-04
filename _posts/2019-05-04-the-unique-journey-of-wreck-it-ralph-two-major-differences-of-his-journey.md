@@ -2,7 +2,7 @@
 title: "The Unique Journey of Wreck-It Ralph - Two Major Differences of His Journey"
 date: 2019-05-04 09:00:00 +0900
 published: true
-category: essay
+category: Essay
 ---
 
 *[Wreck-It Ralph][ref-0]* is a 3D computer-animated movie produced by Walt Disney Studios. Rich Moore directed the film in 2012, who has also directed episodes of *The Simpsons*. The film tells the story of the retro video game villain, Ralph, who defies his role as a ‘bad guy’, and dreams of becoming a beloved hero. He travels between several games with several genres, such as a first-person shooting game, or a casual racing game, in order to fulfill his dream. During his adventuresome journey, he encounters tests and trials that almost bring havoc to the world he lives. However, he finally resolves the difficulties and the story results in a happy ending. The essential concept of the film that non-living things are granted self-consciousness and lead the storyline seems somewhat worn-out, because there have been movies with similar stories like *Toy Story*. *Wreck-It Ralph*, nevertheless, is still entertaining. This is because of the power of imagination that incarnates retro game characters into the 3D screen, and the protagonists with attractive features, such as Vanellope Von Schweetz. The film was nominated for ‘Best Animated Movie’ in the 2013 Academy Awards.
