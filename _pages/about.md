@@ -78,8 +78,14 @@ feature_row:
 [LinkedIn](https://www.linkedin.com/in/sangjoonlee93) / [Facebook](https://www.facebook.com/jun9303)
 
 <style type="text/css">
+.archive__item {
+	text-align:center !important;
+}
+.archive__item {
+	margin-bottom: 0px;
+}
 .archive__item-teaser img {
-	max-width:200px;
+	max-width:150px;
     border-radius: 50%;
     border: 3px solid rgba(0,0,0,0.2);
 }
