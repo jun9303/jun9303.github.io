@@ -89,6 +89,7 @@ feature_row:
     border-radius: 50%;
     padding: 5px;
     border: 1px solid #bfbfbf;
+}
 h1 {
 	margin-top:2em;
 }
