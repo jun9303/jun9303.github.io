@@ -5,7 +5,7 @@ title: "Publications"
 header:
   overlay_image: /assets/images/header_publications.jpg
   overlay_filter: 0.2
-  caption: "*Hangang at Dongjak, Seoul (2012)* &nbsp; **[View Full-image](/assets/photographs/hangang_at_dongjak_seoul_2012.jpg)**"
+  caption: "*Hangang view at Dongjak-gu, Seoul (2012)* &nbsp; **[View Full-image](/assets/photographs/hangang_at_dongjak_seoul_2012.jpg)**"
 ---
 
 # INTERNATIONAL

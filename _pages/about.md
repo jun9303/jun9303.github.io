@@ -5,7 +5,7 @@ title: "About"
 header:
   overlay_image: /assets/images/header_about.jpg
   overlay_filter: 0.2
-  caption: "*Ui-sang-dae, Yangyang (2014)* &nbsp; **[View Full-image](/assets/photographs/ui_sang_dae_yang_yang_2014.jpg)**"
+  caption: "*Ui-sang-dae in Naksansa Temple, Yangyang (2014)* &nbsp; **[View Full-image](/assets/photographs/ui_sang_dae_yang_yang_2014.jpg)**"
 feature_row:
   - image_path: assets/images/bio-photo-sjlee-200x200.jpg
     alt: "profile image"
