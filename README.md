@@ -1,3 +1,3 @@
-# SANGJOONLEE.TK
+# ABOUT THIS REPO
 
-Personal site.
+This is for my personal site.
