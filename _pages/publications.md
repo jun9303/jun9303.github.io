@@ -17,7 +17,7 @@ header:
 # DOMESTIC (KOREAN)
 
 1. LEE, S., & HWANG, W. (Jul. 6, 2018). Validation of a Conjugate Heat Transfer Code with Subgrid-scale Models for Turbulent Flow. In *Proc. KSFM 2018 Summer Conference* (pp. 197-198). Korean Society for Fluid Machinery. [:link:](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07536688&language=ko_KR)
-2. LEE, S. (Nov. 3, 2017). 2D Simulation of an Unsteady Flow around a Small Vertical Axis Wind Turbine Using an Immersed Boundary Method. In *Proc. KSME 2017 Annual Conference* (pp. 741-745). Korean Society of Mechanical Engineers. *Student Paper Award: Bronze*. [:link:](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07287580&language=ko_KR#)
+2. LEE, S. (Nov. 3, 2017). 2D Simulation of an Unsteady Flow around a Small Vertical Axis Wind Turbine Using an Immersed Boundary Method. In *Proc. KSME 2017 Annual Conference* (pp. 741-745). Korean Society of Mechanical Engineers. *Student Paper Award: Bronze Prize*. [:link:](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07287580&language=ko_KR#)
 3. BAEK, S., LEE, S., & HWANG, W. (Nov. 3, 2017). Investigation of Fully Developed Turbulent Pipe Flow Using Magnetic Resonance Velocimetry (MRV) and Large Eddy Simulation (LES). In *Proc. KSME 2017 Annual Conference* (pp.581-583). Korean Society of Mechanical Engineers. [:link:](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07287540&language=ko_KR#)
 
 <style type="text/css">
