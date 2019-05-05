@@ -70,8 +70,9 @@ feature_row:
 
 # HONORS & AWARDS
 
-- **Representative of the Engineering Class of 2018** at *SNU* in the 72nd Summer Graduation Ceremony, Aug. 2018
-- **Commendation for Devotion to the Auxiliary Police service** from the chief of *Jongno Police Station*, Jul. 2015
+- **Representative of the Engineering Class of 2018** in the 72nd Summer Commencement at *SNU*, Aug. 2018
+- **[Student Paper Award: Bronze](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07287580&language=ko_KR#)** in National Fluid Engineering Contest for Undergraduates from *the Korean Society of Mechanical Engineers*, Nov. 2017
+- **Commendation for Devotion to the Auxiliary Police Service** from the chief of *Jongno Police Station*, Jul. 2015
 - **[National Scholarship for Science and Engineering](http://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp?ttab1=0)** from *Korea Student Aid Foundation*, Mar. 2012 - Dec. 2017
   
 <br>
