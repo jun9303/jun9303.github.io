@@ -87,8 +87,8 @@ feature_row:
 .archive__item-teaser img {
 	max-width:150px;
     border-radius: 50%;
-    border: 3px solid rgba(0,0,0,0.2);
-}
+    padding: 5px;
+    border: 1px solid #bfbfbf;
 h1 {
 	margin-top:2em;
 }
