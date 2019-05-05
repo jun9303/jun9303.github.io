@@ -32,7 +32,7 @@ feature_row:
       <small>Capital Markets and Accounting, Corporate Strategy, Fundamentals of Economics, Human Resource Management, International Business Management, Management Information System, Management Science, Managerial Accounting, Marketing Management, Mathematics for Economics, Operations Management, Principles of Accounting, Principles of Management (GPA of 4.18/4.3)</small>
     </details>
   + Thesis: "Capital and Operating Cost Efficiency Evaluation of Onshore Wind Farms in South Korea: A DEA Approach" 
-- **High School Diploma**, *[Seoul Science High School for Gifted Students](http://en.sshs.hs.kr)*, 2012
+- **High School Diploma for Gifted Students**, *[Seoul Science High School](http://en.sshs.hs.kr)*, 2012
 
 # RESEARCH INTERESTS
 
