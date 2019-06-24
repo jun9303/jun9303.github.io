@@ -65,7 +65,7 @@ feature_row:
 
 ### OTHER
 
-- **Law Student** at *[SNU School of Law](https://law.snu.ac.kr)*, Mar. 2019 - Jul. 2019
+- **Law Student** in the J.D. program at *[SNU School of Law](http://law.snu.ac.kr/index_en.php)*, Mar. 2019 - Jul. 2019
 - **Excellent Honorary Member** of *[SNU Tomorrow's Engineers Membership](https://honor.snu.ac.kr)*, Mar. 2016 -
 - **Auxiliary Police Officer** at *Jongno Police Station, [Seoul Metropolitan Police Agency](https://www.smpa.go.kr/home/homeIndexEng.do?menuCode=eng)*, Jun. 2014 - Mar. 2016
 
