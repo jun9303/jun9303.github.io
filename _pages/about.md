@@ -17,6 +17,7 @@ feature_row:
 
 # EDUCATION
 
+- **Ph.D. Student**, [Mechanical Engineering](http://me.berkeley.edu/), *University of California, Berkeley*, Aug. 2019 -
 - **B.Sc.**, [Mechanical & Aerospace Engineering](http://me.snu.ac.kr/eng), *Seoul National University*, Aug. 2018
     <details>
       <summary>[Engineering courses taken]</summary>
@@ -65,7 +66,7 @@ feature_row:
 
 ### OTHER
 
-- **Law Student** in the J.D. program at *[SNU School of Law](http://law.snu.ac.kr/index_en.php)*, Mar. 2019 - Jul. 2019
+<!-- - **Law Student** in the J.D. program at *[SNU School of Law](http://law.snu.ac.kr/index_en.php)*, Mar. 2019 - Jul. 2019 -->
 - **Excellent Honorary Member** of *[SNU Tomorrow's Engineers Membership](https://honor.snu.ac.kr)*, Mar. 2016 -
 - **Auxiliary Police Officer** at *Jongno Police Station, [Seoul Metropolitan Police Agency](https://www.smpa.go.kr/home/homeIndexEng.do?menuCode=eng)*, Jun. 2014 - Mar. 2016
 
