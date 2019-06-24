@@ -70,6 +70,7 @@ feature_row:
 
 # HONORS & AWARDS
 
+- **[Overseas Ph.D. Scholarship](http://www.taekwanggroup.co.kr/homepage/eng/iljuFoundationIntro.do)** from Ilju Academy and Culture Foundation, Aug. 2019 - May 2023
 - **Representative of the Engineering Class of 2018** in SNU's 72nd Summer Commencement, Aug. 2018
 - **[Student Paper Award: Bronze Prize](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07287580&language=ko_KR#)** in National Fluid Engineering Contest for Undergraduates, Nov. 2017
 - **Commendation for Devotion to the Auxiliary Police Service** from the chief of Jongno Police Station, Jul. 2015
