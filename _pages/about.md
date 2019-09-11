@@ -78,7 +78,7 @@ feature_row:
 - **[Overseas Ph.D. Scholarship](http://www.taekwanggroup.co.kr/homepage/eng/iljuFoundationIntro.do)** from Ilju Academy and Culture Foundation, Aug. 2019 - Jul. 2023
 - **Representative of the Engineering Class of 2018** in SNU's 72nd Summer Commencement, Aug. 2018
 - **[Student Paper Award: Bronze Prize](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07287580&language=ko_KR#)** in National Fluid Engineering Contest for Undergraduates, Nov. 2017
-- **Grand Prize** in the Idea Contest on Automobile Industry held by Hyundai Motor, Jun. 2017
+- **Grand Prize** in the Idea Contest on Automobile Industry held by Hyundai Motors, Jun. 2017
 - **[Bronze Prize](http://www.iotchallenge.kr/prize-list.php?boardid=prize&mode=view&idx=21&sk=&sw=&offset=&category=2016)** in the 1st IoT Innovation Challenge held by Samsung Electronics, Oct. 2016
 - **Second Place** in the Idea Contest on Home Applicances held by Samsung Electonics, Aug. 2016
 - **Commendation for Devotion to the Auxiliary Police Service** from the chief of Jongno Police Station, Jul. 2015
