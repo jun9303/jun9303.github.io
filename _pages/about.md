@@ -48,14 +48,11 @@ feature_row:
 - **Researcher** in *[Energy & Environmental Flow Lab](http://eeflow.snu.ac.kr)* at *SNU* (Supervisor: [Dr. Wontae Hwang](http://me.snu.ac.kr/eng/01_intro/faculty_view.asp?pid=137)), Jul. 2017 - Aug. 2018
   + Development and validation on a conjugate heat transfer code combining heat conduction and heat convection
   + Flow visualization using Magnetic Resonance Velocimetry (MRV) and Large Eddy Simulation (LES)
-  <details>
-    <summary>- 111</summary>
-    <div markdown="1">
+
 - **Research Intern for Thesis** in *[Turbulence, Flow Control & CFD Lab](http://tfc.snu.ac.kr)* at *SNU* (Supervisor: [Dr. Haecheon Choi](http://me.snu.ac.kr/eng/01_intro/faculty_view.asp?pid=39)), Sep. 2016 - Dec. 2017
-+ Simulation of flow around a rotating small Vertical Axis Wind Turbine (VAWT)
-+ Numerical study for Computational Fluid Dynamics (CFD) based on an Immersed Boundary (IB) method
-    </div>
-    </details>
+  + Simulation of flow around a rotating small Vertical Axis Wind Turbine (VAWT)
+  + Numerical study for Computational Fluid Dynamics (CFD) based on an Immersed Boundary (IB) method
+
 ### TEACHING
 
 - **Graduate Student Instructor** of *Experimentation & Measurements (Cal ME103)*, Aug. 2019 - Dec. 2019
@@ -81,6 +78,9 @@ feature_row:
 - **[Overseas Ph.D. Scholarship](http://www.taekwanggroup.co.kr/homepage/eng/iljuFoundationIntro.do)** from Ilju Academy and Culture Foundation, Aug. 2019 - Jul. 2023
 - **Representative of the Engineering Class of 2018** in SNU's 72nd Summer Commencement, Aug. 2018
 - **[Student Paper Award: Bronze Prize](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07287580&language=ko_KR#)** in National Fluid Engineering Contest for Undergraduates, Nov. 2017
+- **Grand Prize** in the Idea Contest on Automobile Industry held by Hyundai Motor, Jun. 2017
+- **[Bronze Prize](http://www.iotchallenge.kr/prize-list.php?boardid=prize&mode=view&idx=21&sk=&sw=&offset=&category=2016)** in the 1st IoT Innovation Challenge held by Samsung Electronics, Oct. 2016
+- **Second Place** in the Idea Contest on Home Applicances held by Samsung Electonics, Aug. 2016
 - **Commendation for Devotion to the Auxiliary Police Service** from the chief of Jongno Police Station, Jul. 2015
 - **[National Scholarship for Science and Engineering](http://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp?ttab1=0)** from Korea Student Aid Foundation, Mar. 2012 - Dec. 2017
   
