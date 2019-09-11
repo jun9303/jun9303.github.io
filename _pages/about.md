@@ -51,9 +51,9 @@ feature_row:
   <details>
     <summary>- 111</summary>
     <div markdown="1">
-    - **Research Intern for Thesis** in *[Turbulence, Flow Control & CFD Lab](http://tfc.snu.ac.kr)* at *SNU* (Supervisor: [Dr. Haecheon Choi](http://me.snu.ac.kr/eng/01_intro/faculty_view.asp?pid=39)), Sep. 2016 - Dec. 2017
-    + Simulation of flow around a rotating small Vertical Axis Wind Turbine (VAWT)
-    + Numerical study for Computational Fluid Dynamics (CFD) based on an Immersed Boundary (IB) method
+- **Research Intern for Thesis** in *[Turbulence, Flow Control & CFD Lab](http://tfc.snu.ac.kr)* at *SNU* (Supervisor: [Dr. Haecheon Choi](http://me.snu.ac.kr/eng/01_intro/faculty_view.asp?pid=39)), Sep. 2016 - Dec. 2017
++ Simulation of flow around a rotating small Vertical Axis Wind Turbine (VAWT)
++ Numerical study for Computational Fluid Dynamics (CFD) based on an Immersed Boundary (IB) method
     </div>
     </details>
 ### TEACHING
