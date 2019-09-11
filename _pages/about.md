@@ -10,7 +10,7 @@ feature_row:
   - image_path: assets/images/bio-photo-sjlee-200x200.jpg
     alt: "profile image"
     title: "Sangjoon Lee"
-    excerpt: "Student in MechE / [[E-mail]](mailto:jun9303@gmail.com)"
+    excerpt: "Ph.D. Student in MechE / [[E-mail]](mailto:jun9303@gmail.com)"
 ---
 
 {% include feature_row type="center" %}
@@ -39,7 +39,7 @@ feature_row:
 
 1. **Fluid Mechanics**: Computational Methodology with Experimental Measurement Techniques
 2. **Heat Transfer**: Analysis of Concurrent Scalar Transport of Flow
-3. **Energy & Environment**: Renewable Energy (Wind & Wave) and Micro-Particle Propagation
+3. **Energy & Environment**: Renewable Energy (Wind, Gas, etc.) and Micro-Particle Propagation
 
 # EXPERIENCE
 
@@ -54,6 +54,9 @@ feature_row:
   + Numerical study for Computational Fluid Dynamics (CFD) based on an Immersed Boundary (IB) method
 
 ### TEACHING
+
+- **Graduate Student Instructor** of *Experimentation & Measurements (Cal ME103)*, Aug. 2019 - Dec. 2019
+  + Taught experimentation skills and supervised laboratory sessions
 
 - **Teaching Assistant** of *Basic Calculus 2 (SNU 007.102)*, Sep. 2013 - Dec. 2013
   + Taught multivariate function, multiple integral, divergence and Stokes' theorem
