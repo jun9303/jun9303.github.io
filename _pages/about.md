@@ -48,12 +48,12 @@ feature_row:
 - **Researcher** in *[Energy & Environmental Flow Lab](http://eeflow.snu.ac.kr)* at *SNU* (Supervisor: [Dr. Wontae Hwang](http://me.snu.ac.kr/eng/01_intro/faculty_view.asp?pid=137)), Jul. 2017 - Aug. 2018
   + Development and validation on a conjugate heat transfer code combining heat conduction and heat convection
   + Flow visualization using Magnetic Resonance Velocimetry (MRV) and Large Eddy Simulation (LES)
-<details markdown="1">
-<summary>- 111</summary>
+  <details markdown="1">
+    <summary>- 111</summary>
 - **Research Intern for Thesis** in *[Turbulence, Flow Control & CFD Lab](http://tfc.snu.ac.kr)* at *SNU* (Supervisor: [Dr. Haecheon Choi](http://me.snu.ac.kr/eng/01_intro/faculty_view.asp?pid=39)), Sep. 2016 - Dec. 2017
   + Simulation of flow around a rotating small Vertical Axis Wind Turbine (VAWT)
   + Numerical study for Computational Fluid Dynamics (CFD) based on an Immersed Boundary (IB) method
-</details>
+  </details>
 ### TEACHING
 
 - **Graduate Student Instructor** of *Experimentation & Measurements (Cal ME103)*, Aug. 2019 - Dec. 2019
