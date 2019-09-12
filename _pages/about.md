@@ -60,7 +60,7 @@ feature_row:
   + Worked for *Experimentation & Measurements (ME103)* in Fall 2019
   + Taught experimental techniques for mechanical engineering and run laboratory sessions
 
-- **Teaching Assistant** at *Seoul National University*, Sep. 2013 - Dec. 2013
+- **Teaching Assistant** at *Seoul National University*, Mar. 2013 - Dec. 2013
   + Worked for *Basic Calculus 2 (007.102)* in Fall 2013
   + Worked for *Basic Calculus 1 (007.098A)* and *Basic Physics 1 (009.099A)* in Spring 2013
   + Instructed freshmen who have difficulty in keeping up with university-level calculus and physics
