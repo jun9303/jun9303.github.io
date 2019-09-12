@@ -39,7 +39,7 @@ feature_row:
 # RESEARCH INTERESTS
 
 1. **Fluid Mechanics**: Computational Methodology with Experimental Measurement Techniques
-2. **Heat Transfer**: Analysis of Concurrent Scalar Transport of Flow
+2. **Heat Transfer**: Analysis of Concurrent Scalar Transports of Flow
 3. **Energy & Environment**: Renewable Energy (Wind, Gas, etc.) and Micro-Particle Propagation
 
 # EXPERIENCE
