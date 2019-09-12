@@ -19,7 +19,7 @@ feature_row:
 
 - **Ph.D. Student**, [Mechanical Engineering](http://me.berkeley.edu/), *University of California, Berkeley*, Aug. 2019 -
 - **B.Sc.**, [Mechanical & Aerospace Engineering](http://me.snu.ac.kr/eng), *Seoul National University*, Aug. 2018
-    <details markdown="1">
+    <details>
       <summary>[Engineering courses taken]</summary>
     
       <small>Applied Fluid Mechanics, Creative Engineering Design, Digital Computer Concept and Practice, Digital Fabrication and Manufacturing, Dynamics, Engineering Mathematics (1 & 2), Fluid Mechanics, Heat Transfer, Introduction to Electrical and Computer Engineering, Management in Mechanical Engineering (1 & 2), Manufacturing Processes, Mechanical Drawing, Mechanical Engineering Lab. (1 & 2), Mechanical System Design Project (1 & 2), Mechanics and Design, Solid Mechanics, Thermodynamics, Writing in Science & Technology</small>
@@ -28,7 +28,7 @@ feature_row:
   + *Summa Cum Laude*
 
 - **B.B.A.**, [Business Administration](http://cba.snu.ac.kr/en), *Seoul National University*, Aug. 2018
-    <details markdown="1">
+    <details>
       <summary>[Business courses taken]</summary>
     
       <small>Capital Markets and Accounting, Corporate Strategy, Fundamentals of Economics, Human Resource Management, International Business Management, Management Information System, Management Science, Managerial Accounting, Marketing Management, Mathematics for Economics, Operations Management, Principles of Accounting, Principles of Management</small>
