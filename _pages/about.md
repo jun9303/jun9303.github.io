@@ -90,8 +90,8 @@ feature_row:
 - **[Bronze Prize](http://www.iotchallenge.kr/prize-list.php?boardid=prize&mode=view&idx=21&sk=&sw=&offset=&category=2016)** in the 1st IoT Innovation Challenge held by KEA & Samsung Electronics, Oct. 2016
 - **Second Place** in the Idea Contest on Home Applicances held by Samsung Electonics, Aug. 2016
   
-<br>
-[LinkedIn](https://www.linkedin.com/in/sangjoonlee93) / [Facebook](https://www.facebook.com/jun9303)
+<!-- <br>
+[LinkedIn](https://www.linkedin.com/in/sangjoonlee93) / [Facebook](https://www.facebook.com/jun9303) -->
 
 <style type="text/css">
 .archive__item {
