@@ -110,7 +110,7 @@ author:
   avatar           : "/assets/images/bio-photo-sjlee-200x200.jpg"
   bio              : "Student, MechE"
   location         : # NA
-  email            : "jun9303@gmail.com"
+  email            : "sangjoonlee@berkeley.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
@@ -142,7 +142,7 @@ footer:
       url: "https://github.com/jun9303"
     - label: "E-mail"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:jun9303@gmail.com"
+      url: "mailto:sangjoonlee@berkeley.edu"
 
 # Reading Files
 include:
