@@ -18,7 +18,7 @@ feature_row:
 # EDUCATION
 
 - **Ph.D. Student**, [Mechanical Engineering](http://me.berkeley.edu/), *University of California, Berkeley*, Aug. 2019 -
-- **B.Sc.**, [Mechanical & Aerospace Engineering](http://me.snu.ac.kr/eng), *Seoul National University*, Aug. 2018
+- **B.Sc.**, [Mechanical & Aerospace Engineering](http://me.snu.ac.kr/eng/default.html), *Seoul National University*, Aug. 2018
     <details>
       <summary>[Engineering courses taken]</summary>
     
@@ -46,11 +46,11 @@ feature_row:
 
 ### RESEARCH
 
-- **Researcher** in *[Energy & Environmental Flow Lab](http://eeflow.snu.ac.kr)* at *Seoul National University* (Supervisor: [Dr. Wontae Hwang](http://me.snu.ac.kr/eng/01_intro/faculty_view.asp?pid=137)), Jul. 2017 - Aug. 2018
+- **Researcher** in *[Energy & Environmental Flow Lab](http://eeflow.snu.ac.kr)* at *Seoul National University* (Supervisor: [Dr. Wontae Hwang](http://me.snu.ac.kr/eng/01_intro/faculty/137.html)), Jul. 2017 - Aug. 2018
   + Development and validation on a conjugate heat transfer code combining heat conduction and heat convection
   + Flow visualization using Magnetic Resonance Velocimetry (MRV) and Large Eddy Simulation (LES)
 
-- **Research Intern for Thesis** in *[Turbulence, Flow Control & CFD Lab](http://tfc.snu.ac.kr)* at *Seoul National University* (Supervisor: [Dr. Haecheon Choi](http://me.snu.ac.kr/eng/01_intro/faculty_view.asp?pid=39)), Sep. 2016 - Dec. 2017
+- **Research Intern for Thesis** in *[Turbulence, Flow Control & CFD Lab](http://tfc.snu.ac.kr)* at *Seoul National University* (Supervisor: [Dr. Haecheon Choi](http://me.snu.ac.kr/eng/01_intro/faculty/39.html)), Sep. 2016 - Dec. 2017
   + Simulation of flow around a rotating small Vertical Axis Wind Turbine (VAWT)
   + Numerical study for Computational Fluid Dynamics (CFD) based on an Immersed Boundary (IB) method
 
