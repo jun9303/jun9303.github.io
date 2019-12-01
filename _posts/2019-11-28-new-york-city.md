@@ -21,20 +21,20 @@ gallery:
     image_path: /assets/photographs/112919_nyc/20191127_113308.jpg
     alt: "placeholder image 4"
     title: "Image 4 title caption"
-  - url: /assets/photographs/112919_nyc/20191127_113308.jpg
-    image_path: /assets/photographs/112919_nyc/20191127_113308.jpg
+  - url: /assets/photographs/112919_nyc/20191127_134001.jpg
+    image_path: /assets/photographs/112919_nyc/20191127_134001.jpg
     alt: "placeholder image 5"
     title: "Image 5 title caption"
-  - url: /assets/photographs/112919_nyc/20191127_113308.jpg
-    image_path: /assets/photographs/112919_nyc/20191127_113308.jpg
+  - url: /assets/photographs/112919_nyc/20191128_120621.jpg
+    image_path: /assets/photographs/112919_nyc/20191128_120621.jpg
     alt: "placeholder image 6"
     title: "Image 6 title caption"
-  - url: /assets/photographs/112919_nyc/20191127_113308.jpg
-    image_path: /assets/photographs/112919_nyc/20191127_113308.jpg
+  - url: /assets/photographs/112919_nyc/20191128_151401.jpg
+    image_path: /assets/photographs/112919_nyc/20191128_151401.jpg
     alt: "placeholder image 7"
     title: "Image 7 title caption"
-  - url: /assets/photographs/112919_nyc/20191127_113308.jpg
-    image_path: /assets/photographs/112919_nyc/20191127_113308.jpg
+  - url: /assets/photographs/112919_nyc/20191128_163321.jpg
+    image_path: /assets/photographs/112919_nyc/20191128_163321.jpg
     alt: "placeholder image 8"
     title: "Image 8 title caption"
 ---
