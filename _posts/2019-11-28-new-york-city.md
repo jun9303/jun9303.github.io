@@ -39,8 +39,8 @@ gallery:
     title: "The Big Apple"
 ---
 
-{% include gallery layout="half" %}
-
 Trip to the "Big Apple" from 11/26/19 to 11/28/19.
 
 The walk-thorugh travel in the biggest and busiest city throughout the world gave me unforgettable experience and joy.
+
+{% include gallery layout="half" %}
