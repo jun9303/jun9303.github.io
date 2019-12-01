@@ -1,7 +1,7 @@
 ---
 title: "The Unique Journey of Wreck-It Ralph - Two Major Differences of His Journey"
 date: 2019-05-04 09:00:00 +0900
-published: false
+published: true
 category: Essay
 ---
 
