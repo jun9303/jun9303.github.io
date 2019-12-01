@@ -1,6 +1,6 @@
 ---
-title: "New York City, NY (112619 - 112819)"
-date: 2019-11-28 09:00:00 +0900
+title: "New York City, 11/26/19 - 11/28/19"
+date: 2019-11-28 23:00:00 -0800
 published: true
 category: Trip
 
