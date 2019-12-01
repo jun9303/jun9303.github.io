@@ -3,9 +3,29 @@ title: "New York City, NY (112619 - 112819)"
 date: 2019-11-28 09:00:00 +0900
 published: true
 category: Trip
+
+gallery:
+  - url: /assets/photographs/112919_nyc/20191126_163825.jpg
+    image_path: /assets/photographs/112919_nyc/20191126_163825.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: /assets/photographs/112919_nyc/20191126_163825.jpg
+    image_path: /assets/photographs/112919_nyc/20191126_163825.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: /assets/photographs/112919_nyc/20191126_163825.jpg
+    image_path: /assets/photographs/112919_nyc/20191126_163825.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: /assets/photographs/112919_nyc/20191126_163825.jpg
+    image_path: /assets/photographs/112919_nyc/20191126_163825.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
 ---
 
-*[Wreck-It Ralph][ref-0]* is a 3D computer-animated movie produced by Walt Disney Studios. Rich Moore directed the film in 2012, who has also directed episodes of *The Simpsons*. The film tells the story of the retro video game villain, Ralph, who defies his role as a ‘bad guy’, and dreams of becoming a beloved hero. He travels between several games with several genres, such as a first-person shooting game, or a casual racing game, in order to fulfill his dream. During his adventuresome journey, he encounters tests and trials that almost bring havoc to the world he lives. However, he finally resolves the difficulties and the story results in a happy ending. The essential concept of the film that non-living things are granted self-consciousness and lead the storyline seems somewhat worn-out, because there have been movies with similar stories like *Toy Story*. *Wreck-It Ralph*, nevertheless, is still entertaining. This is because of the power of imagination that incarnates retro game characters into the 3D screen, and the protagonists with attractive features, such as Vanellope Von Schweetz. The film was nominated for ‘Best Animated Movie’ in the 2013 Academy Awards.
+Trip to New York City (NYC) from 11/26/19 to 11/28/19
+
+{% include gallery %}
 
 ### **SPOILERS ARE INCLUDED HEREINAFTER**
 <br/>
@@ -18,6 +38,3 @@ The second major difference of this journey is that Ralph’s superficial goal i
 In conclusion, the story of *Wreck-It Ralph* has some differences from the classical Hero’s Journey theory. For example, Ralph starts as a villain character at the very beginning, and he does not really meet a mentor during the journey. On top of these, two major differences make the film unique. Firstly, Ralph hands over the main position of the protagonist to Vanellope at the time when King Candy helps him recover the medal. Secondly, the superficial goal by which he seeks a medal is actually misguided and yields him nothing. Since these two differences are important but hidden, we need to see the whole story profoundly in order to comprehend the essence of the film.
 
 ```This essay was originally for the assignment of the class of Advanced English: Exploring Film in Summer 2016 at SNU.​```
-
-[ref-0]: https://www.imdb.com/title/tt1772341/
-[ref-1]: http://cdavidmilles.blogspot.kr/2012/11/the-heros-journey-wreck-it-ralph.html
