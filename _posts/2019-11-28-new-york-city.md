@@ -7,36 +7,36 @@ category: Trip
 gallery:
   - url: /assets/photographs/112919_nyc/20191126_101657.jpg
     image_path: /assets/photographs/112919_nyc/20191126_101657.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
+    alt: "times square"
+    title: "Times Sqaure"
   - url: /assets/photographs/112919_nyc/20191126_103152.jpg
     image_path: /assets/photographs/112919_nyc/20191126_103152.jpg
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "rockefeller center"
+    title: "Rockerfeller Center"
   - url: /assets/photographs/112919_nyc/20191126_163825.jpg
     image_path: /assets/photographs/112919_nyc/20191126_163825.jpg
-    alt: "placeholder image 3"
-    title: "Image 3 title caption"
+    alt: "broadway"
+    title: "1540 Broadway"
   - url: /assets/photographs/112919_nyc/20191127_113308.jpg
     image_path: /assets/photographs/112919_nyc/20191127_113308.jpg
-    alt: "placeholder image 4"
-    title: "Image 4 title caption"
+    alt: "east coast memorial at battery park"
+    title: "East Coast Memorial at Battery Park"
   - url: /assets/photographs/112919_nyc/20191127_134001.jpg
     image_path: /assets/photographs/112919_nyc/20191127_134001.jpg
-    alt: "placeholder image 5"
-    title: "Image 5 title caption"
+    alt: "brooklyn bridge"
+    title: "Brooklyn Bridge Viewed at Manhattan Bridge"
   - url: /assets/photographs/112919_nyc/20191128_120621.jpg
     image_path: /assets/photographs/112919_nyc/20191128_120621.jpg
-    alt: "placeholder image 6"
-    title: "Image 6 title caption"
+    alt: "vessel and equinox hotels hudson yards"
+    title: "Vessel and Equinox Hotels Hudson Yards"
   - url: /assets/photographs/112919_nyc/20191128_151401.jpg
     image_path: /assets/photographs/112919_nyc/20191128_151401.jpg
-    alt: "placeholder image 7"
-    title: "Image 7 title caption"
+    alt: "skyscrapers of nyc viewed at pulaski bridge"
+    title: "Skyscrapers of NYC viewed at Pulaski Bridge"
   - url: /assets/photographs/112919_nyc/20191128_163321.jpg
     image_path: /assets/photographs/112919_nyc/20191128_163321.jpg
-    alt: "placeholder image 8"
-    title: "Image 8 title caption"
+    alt: "the big apple"
+    title: "The Big Apple"
 ---
 
 {% include gallery layout="half" %}
