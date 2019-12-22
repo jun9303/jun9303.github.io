@@ -18,6 +18,7 @@ feature_row:
 # EDUCATION
 
 - **Ph.D. Student**, [Mechanical Engineering](http://me.berkeley.edu/), *University of California, Berkeley*, Aug. 2019 -
+  + Advisor: Dr. Philip S. Marcus
 - **B.Sc.**, [Mechanical & Aerospace Engineering](http://me.snu.ac.kr/eng/default.html), *Seoul National University*, Aug. 2018
     <details>
       <summary>[Engineering courses taken]</summary>
