@@ -18,6 +18,11 @@ feature_row:
 # EDUCATION
 
 - **Ph.D. Student**, [Mechanical Engineering](http://me.berkeley.edu/), *University of California, Berkeley*, Aug. 2019 -
+    <details>
+      <summary>[Courses taken]</summary>
+    
+      <small>Advanced Fluid Mechanics 1, Engineering Aerodynamics</small>
+    </details>
   + Advisor: [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/)
 - **B.Sc.**, [Mechanical & Aerospace Engineering](http://me.snu.ac.kr/eng/default.html), *Seoul National University*, Aug. 2018
     <details>
@@ -57,14 +62,14 @@ feature_row:
 
 ### TEACHING
 
-- **Graduate Student Instructor** at *University of California, Berkeley*, Aug. 2019 - Dec. 2019
+- **Graduate Student Instructor** at *University of California, Berkeley*, Aug. 2019 - May 2020
   + *Experimentation and Measurements (ME 103)* in Spring 2020 and Fall 2019
   + Taught experimental techniques for mechanical engineering, run lab sessions, graded assignments and reports, had office hours and answered questions in person and online
 
 - **Teaching Assistant** at *Seoul National University*, Mar. 2013 - Dec. 2013
   + *Basic Calculus 2 (007.102)* in Fall 2013
-  + *Basic Calculus 1 (007.098A)* and *Basic Physics 1 (009.099A)* in Spring 2013
-  + Instructed freshmen who have difficulty in keeping up with university-level calculus and physics
+  + *Basic Calculus 1 (007.098A)* and *Basic Physics 1 (007.099A)* in Spring 2013
+  + Tutored freshmen who have difficulty in studying university-level calculus and physics
 
 ### OTHER
 
