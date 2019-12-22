@@ -19,7 +19,7 @@ feature_row:
 
 - **Ph.D. Student**, [Mechanical Engineering](http://me.berkeley.edu/), *University of California, Berkeley*, Aug. 2019 -
     <details>
-      <summary>[Courses taken]</summary>
+      <summary>[Graduate courses taken]</summary>
     
       <small>Advanced Fluid Mechanics 1, Engineering Aerodynamics</small>
     </details>
