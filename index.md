@@ -15,7 +15,7 @@ intro:
 
 # I AM SANGJOON LEE.
 
-Graduating from [Seoul National University](https://useoul.edu/) with the highest distinction (*Summa Cum Laude*), I was conferred dual Bachelor's degrees in [Mechanical and Aerospace Engineering](http://me.snu.ac.kr/eng/default.html) (B.Sc.) and [Business Administration](http://cba.snu.ac.kr/en) (B.B.A.). In the graduation ceremony, I received my degrees as a representative of the engineering undergraduates at SNU in the class of 2018. Currently I am a Ph.D. student in [Mechanical Engineering](https://me.berkeley.edu/) at [University of California, Berkeley](https://www.berkeley.edu/).
+Graduating from [Seoul National University](https://useoul.edu/) with the highest distinction (*Summa Cum Laude*), I was conferred dual Bachelor's degrees in [Mechanical and Aerospace Engineering](http://me.snu.ac.kr/eng/default.html) (B.Sc.) and [Business Administration](http://cba.snu.ac.kr/en) (B.B.A.). In the graduation ceremony, I received my degrees as a representative of the engineering undergraduates at SNU in the class of 2018. Currently I am a Ph.D. student in [Mechanical Engineering](https://me.berkeley.edu/) at [University of California, Berkeley](https://www.berkeley.edu/) advised by [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/).
 
 My research topic is mainly in the area of Fluid Dynamics. I have accumulated my own research experience in Computational Fluid Dynamics, Experimental Flow Measurement (e.g. Magnetic Resonance Velocimetry), Conjugate Heat Transfer, and relevant engineering applications. Furthermore, I am deeply interested in utilization of Deep Learning techniques for CFD and analysis of multi-phase flow systems.
 
