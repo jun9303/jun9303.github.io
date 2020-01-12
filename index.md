@@ -27,8 +27,4 @@ I am familiar with several programming languages, including Python, Fortran and 
 figure {
 	margin-bottom: 0px;
 }
-.page__lead {
-  font-family: $global-font-family;
-  font-size: $type-size-5;
-}
 </style>
