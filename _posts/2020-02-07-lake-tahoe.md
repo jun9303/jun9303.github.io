@@ -31,7 +31,7 @@ gallery:
     title: "Lake Tahoe Viewed at Diamond Peak 2"
 ---
 
-Lab ski trip to Lake Tahoe from 11/26/19 to 11/28/19.
+Lab ski trip to Lake Tahoe from 02/07/20 to 02/09/20.
 
 Lake Tahoe in early February was still cold and the mountain covered with snow around the lake were crowded with skiers and snowboarders. It was amazing that I could enjoy skiing with breathtaking, spectacular panoramic views of the lake and sky.
 
