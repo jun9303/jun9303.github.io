@@ -31,7 +31,8 @@ feature_row:
       <small>Applied Fluid Mechanics, Creative Engineering Design, Digital Computer Concept and Practice, Digital Fabrication and Manufacturing, Dynamics, Engineering Mathematics (1 & 2), Fluid Mechanics, Heat Transfer, Introduction to Electrical and Computer Engineering, Management in Mechanical Engineering (1 & 2), Manufacturing Processes, Mechanical Drawing, Mechanical Engineering Lab. (1 & 2), Mechanical System Design Project (1 & 2), Mechanics and Design, Solid Mechanics, Thermodynamics, Writing in Science & Technology</small>
     </details>
   + Thesis: "Large Eddy Simulation of Flow Around a Rotating Small Vertical Axis Wind Turbine Using an Immersed Boundary Method"
-  + Representative of Engineering Class of 2018
+  + *Summa Cum Laude*
+
 - **B.B.A.**, [Business Administration](http://cba.snu.ac.kr/en), *Seoul National University*, Aug. 2018
     <details>
       <summary>[Business courses taken]</summary>
@@ -39,7 +40,6 @@ feature_row:
       <small>Capital Markets and Accounting, Corporate Strategy, Fundamentals of Economics, Human Resource Management, International Business Management, Management Information System, Management Science, Managerial Accounting, Marketing Management, Mathematics for Economics, Operations Management, Principles of Accounting, Principles of Management</small>
     </details>
   + Thesis: "Capital and Operating Cost Efficiency Evaluation of Onshore Wind Farms in South Korea: A DEA Approach" 
-  + *Summa Cum Laude*
 - **High School Diploma for Gifted Students**, *[Seoul Science High School](http://en.sshs.hs.kr)*, Feb. 2012
 
 # RESEARCH INTERESTS
