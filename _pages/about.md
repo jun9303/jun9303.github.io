@@ -24,7 +24,7 @@ feature_row:
       <small>Advanced Fluid Mechanics 1, Engineering Aerodynamics, Spectral Methods for Fluid Dynamics, Vortex Dynamics</small>
     </details>
   + Advisor: [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/)
-- **B.Sc.**, [Mechanical & Aerospace Engineering](http://me.snu.ac.kr/en) / **B.B.A.**, [Business Administration](http://cba.snu.ac.kr/en), *Seoul National University*, Aug. 2018
+- **B.Sc./B.B.A.**, [Mechanical and Aerospace Engineering](http://me.snu.ac.kr/en) & [Business Administration](http://cba.snu.ac.kr/en), *Seoul National University*, Aug. 2018
     <details>
       <summary>[Engineering courses taken]</summary>
     
