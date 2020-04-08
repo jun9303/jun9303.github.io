@@ -21,7 +21,7 @@ feature_row:
     <details>
       <summary>[Graduate courses taken]</summary>
     
-      <small>Advanced Fluid Mechanics 1, Engineering Aerodynamics</small>
+      <small>Advanced Fluid Mechanics 1, Engineering Aerodynamics, Spectral Methods for Fluid Dynamics, Vortex Dynamics</small>
     </details>
   + Advisor: [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/)
 - **B.Sc.**, [Mechanical & Aerospace Engineering](http://me.snu.ac.kr/en), *Seoul National University*, Aug. 2018
@@ -46,7 +46,7 @@ feature_row:
 
 1. **Fluid Mechanics**: Numerical Approach to Analyzing Turbulent Flows with Concurrent Scalar Transports
 2. **Computational Analysis**: Development of Time-Efficient Computing Scheme for Physics-Based Complex System
-3. **Energy & Environment**: Renewable Energy (Wind, Gas, etc.) and Micro-Particle Dissemination
+3. **Energy & Environment**: Problems Involving Renewable Energy (Wind, Gas, etc.) and Micro-Particle Dissemination
 
 # EXPERIENCE
 
@@ -56,14 +56,14 @@ feature_row:
   + Development and validation on a conjugate heat transfer code combining heat conduction and heat convection
   + Flow visualization using Magnetic Resonance Velocimetry (MRV) and Large Eddy Simulation (LES)
 
-- **Research Intern for Thesis** in *[Turbulence, Flow Control & CFD Lab](http://tfc.snu.ac.kr)* at *Seoul National University* (Supervisor: [Dr. Haecheon Choi](http://me.snu.ac.kr/node/116)), Sep. 2016 - Dec. 2017
+- **Research Intern** in *[Turbulence, Flow Control & CFD Lab](http://tfc.snu.ac.kr)* at *Seoul National University* (Supervisor: [Dr. Haecheon Choi](http://me.snu.ac.kr/node/116)), Sep. 2016 - Dec. 2017
   + Simulation of flow around a rotating small Vertical Axis Wind Turbine (VAWT)
-  + Numerical study for Computational Fluid Dynamics (CFD) based on an Immersed Boundary (IB) method
+  + Numerical study for Computational Fluid Dynamics (CFD) based on an Immersed Boundary (IB) method as a part of the undergraduate thesis program
 
 ### TEACHING
 
 - **Graduate Student Instructor** at *University of California, Berkeley*, Aug. 2019 - May 2020
-  + *Experimentation and Measurements (ME 103)* in Spring 2020 and Fall 2019
+  + *Experimentation and Measurements (MEC ENG 103)* in Spring 2020 and Fall 2019
   + Taught experimental techniques for mechanical engineering, run lab sessions, graded assignments and reports, had office hours and answered questions in person and online
 
 - **Teaching Assistant** at *Seoul National University*, Mar. 2013 - Dec. 2013
@@ -82,7 +82,10 @@ feature_row:
 ### FELLOWSHIPS
 
 - **[Overseas Ph.D. Scholarship](http://www.taekwanggroup.co.kr/homepage/eng/iljuFoundationIntro.do)** from Ilju Academy and Culture Foundation, Aug. 2019 - Jul. 2023
+  + Merid-based financial aids of $120,000 for promising Ph.D. students studying out of Korea
+  + One of six recipients of the foundation's Study Abroad Doctorl Program in 2019
 - **[National Scholarship for Science and Engineering](http://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp?ttab1=0)** from Korea Student Aid Foundation, Mar. 2012 - Dec. 2017
+  + Full-tuition scholarship for undergraduates with strong academic performance
 
 ### HONORS
 
