@@ -83,7 +83,7 @@ feature_row:
 
 - **[Overseas Ph.D. Scholarship](http://www.taekwanggroup.co.kr/homepage/eng/iljuFoundationIntro.do)** from Ilju Academy and Culture Foundation, Aug. 2019 - Jul. 2023
   + One of 6 recipients of the foundation's [Study Abroad Doctorl Program](https://educationusa.state.gov/scholarships/study-abroad-doctoral-programilju-academy-and-culture-foundation) in 2019
-  + Merid-based financial aids of $120,000 for promising Ph.D. students studying out of Korea
+  + Merit-based financial aids of $120,000 for promising Ph.D. students studying out of Korea
 - **[National Scholarship for Science and Engineering](http://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp?ttab1=0)** from Korea Student Aid Foundation, Mar. 2012 - Dec. 2017
   + Full-tuition scholarship for undergraduates with strong academic performance
 
