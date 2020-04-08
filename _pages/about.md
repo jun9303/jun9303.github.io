@@ -35,16 +35,16 @@ feature_row:
     
       <small>Capital Markets and Accounting, Corporate Strategy, Fundamentals of Economics, Human Resource Management, International Business Management, Management Information System, Management Science, Managerial Accounting, Marketing Management, Mathematics for Economics, Operations Management, Principles of Accounting, Principles of Management</small>
     </details>
-  + Thesis: "Large Eddy Simulation of Flow Around a Rotating Small Vertical Axis Wind Turbine Using an Immersed Boundary Method"
+  + Thesis: "(B.Sc.) Large Eddy Simulation of Flow Around a Rotating Small Vertical Axis Wind Turbine Using an Immersed Boundary Method" & "(B.B.A.) Capital and Operating Cost Efficiency Evaluation of Onshore Wind Farms in South Korea: A DEA Approach"
   + *Summa Cum Laude*
 
-- **B.B.A.**, [Business Administration](http://cba.snu.ac.kr/en), *Seoul National University*, Aug. 2018
+<!-- - **B.B.A.**, [Business Administration](http://cba.snu.ac.kr/en), *Seoul National University*, Aug. 2018
     <details>
       <summary>[Business courses taken]</summary>
     
       <small>Capital Markets and Accounting, Corporate Strategy, Fundamentals of Economics, Human Resource Management, International Business Management, Management Information System, Management Science, Managerial Accounting, Marketing Management, Mathematics for Economics, Operations Management, Principles of Accounting, Principles of Management</small>
     </details>
-  + Thesis: "Capital and Operating Cost Efficiency Evaluation of Onshore Wind Farms in South Korea: A DEA Approach" 
+  + Thesis: "Capital and Operating Cost Efficiency Evaluation of Onshore Wind Farms in South Korea: A DEA Approach"  -->
 - **High School Diploma for Gifted Students**, *[Seoul Science High School](http://en.sshs.hs.kr)*, Feb. 2012
 
 # RESEARCH INTERESTS
