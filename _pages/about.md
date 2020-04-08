@@ -57,11 +57,11 @@ feature_row:
 
 ### RESEARCH
 
-- **Researcher** in *[Energy & Environmental Flow Lab](http://eeflow.snu.ac.kr)* at *Seoul National University* (Supervisor: [Dr. Wontae Hwang](http://me.snu.ac.kr/node/141)), Jul. 2017 - Aug. 2018
+- **Researcher** at *[Energy & Environmental Flow Lab](http://eeflow.snu.ac.kr)* in *Seoul National University* (Supervisor: [Dr. Wontae Hwang](http://me.snu.ac.kr/node/141)), Jul. 2017 - Aug. 2018
   + Development and validation on conjugate heat transfer (CHT) codes with an efficient interpolation scheme for thermal properties at interfaces
   + Flow visualization using Magnetic Resonance Velocimetry (MRV) and Large Eddy Simulation (LES)
 
-- **Research Intern** in *[Turbulence, Flow Control & CFD Lab](http://tfc.snu.ac.kr)* at *Seoul National University* (Supervisor: [Dr. Haecheon Choi](http://me.snu.ac.kr/node/116)), Sep. 2016 - Dec. 2017
+- **Research Intern** at *[Turbulence, Flow Control & CFD Lab](http://tfc.snu.ac.kr)* in *Seoul National University* (Supervisor: [Dr. Haecheon Choi](http://me.snu.ac.kr/node/116)), Sep. 2016 - Dec. 2017
   + Simulation of flow around a rotating small Vertical Axis Wind Turbine (VAWT)
   + Numerical study for Computational Fluid Dynamics (CFD) based on an Immersed Boundary (IB) method as a part of the undergraduate thesis program
 
@@ -87,7 +87,7 @@ feature_row:
 ### FELLOWSHIPS
 
 - **[Overseas Ph.D. Scholarship](http://www.taekwanggroup.co.kr/homepage/eng/iljuFoundationIntro.do)** from Ilju Academy and Culture Foundation, Aug. 2019 - Jul. 2023
-  + One of 6 recipients of the foundation's [Study Abroad Doctorl Program](https://educationusa.state.gov/scholarships/study-abroad-doctoral-programilju-academy-and-culture-foundation) in 2019
+  + One of 6 recipients of the foundation's [Study Abroad Doctoral Program](https://educationusa.state.gov/scholarships/study-abroad-doctoral-programilju-academy-and-culture-foundation) in 2019
   + Merit-based financial aids of $120,000 for promising Ph.D. students studying out of Korea
 - **[National Scholarship for Science and Engineering](http://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp?ttab1=0)** from Korea Student Aid Foundation, Mar. 2012 - Dec. 2017
   + Full-tuition scholarship for undergraduates with strong academic performance
