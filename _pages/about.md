@@ -51,7 +51,7 @@ feature_row:
 # RESEARCH INTERESTS
 
 1. **Fluid Mechanics**: Numerical Approach to Analyze Turbulent Flows with Concurrent Scalar Transports
-2. **Computational Analysis**: Development of Time-Efficient Computing Scheme for Physics-Based Complex System
+2. **Computational Science**: Development of Time-Efficient Computing Scheme for Physics-Based Complex System
 3. **Energy & Environment**: Applications to Energy (i.e. Turbomachinery) and Environment (i.e. Micro-Particle Dissemination)
 
 # EXPERIENCE
