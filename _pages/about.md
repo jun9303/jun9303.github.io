@@ -46,7 +46,7 @@ feature_row:
 
 1. **Fluid Mechanics**: Numerical Approach to Analyzing Turbulent Flows with Concurrent Scalar Transports
 2. **Computational Analysis**: Development of Time-Efficient Computing Scheme for Physics-Based Complex System
-3. **Energy & Environment**: Problems Involving Renewable Energy (Wind, Gas, etc.) and Micro-Particle Dissemination
+3. **Energy & Environment**: Problems Involving Energy (i.e. Wind Turbine) and Public Health (i.e. Micro-Particle Dissemination) Applications
 
 # EXPERIENCE
 
