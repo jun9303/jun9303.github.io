@@ -53,7 +53,7 @@ feature_row:
 ### RESEARCH
 
 - **Researcher** in *[Energy & Environmental Flow Lab](http://eeflow.snu.ac.kr)* at *Seoul National University* (Supervisor: [Dr. Wontae Hwang](http://me.snu.ac.kr/node/141)), Jul. 2017 - Aug. 2018
-  + Development and validation on conjugate heat transfer (CHT) codes with an efficient interpolation scheme for thermal properties
+  + Development and validation on conjugate heat transfer (CHT) codes with an efficient interpolation scheme for thermal properties at interfaces
   + Flow visualization using Magnetic Resonance Velocimetry (MRV) and Large Eddy Simulation (LES)
 
 - **Research Intern** in *[Turbulence, Flow Control & CFD Lab](http://tfc.snu.ac.kr)* at *Seoul National University* (Supervisor: [Dr. Haecheon Choi](http://me.snu.ac.kr/node/116)), Sep. 2016 - Dec. 2017
