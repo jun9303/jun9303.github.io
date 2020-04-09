@@ -63,8 +63,8 @@ feature_row:
   + Flow visualization using Magnetic Resonance Velocimetry (MRV) and Large Eddy Simulation (LES)
 
 - **Research Intern** at *[Turbulence, Flow Control & CFD Lab](http://tfc.snu.ac.kr)* in *Seoul National University* (Supervisor: [Dr. Haecheon Choi](http://me.snu.ac.kr/node/116)), Sep. 2016 - Dec. 2017
-  + Simulation of flow around a rotating small Vertical Axis Wind Turbine (VAWT)
-  + Numerical study for Computational Fluid Dynamics (CFD) based on an Immersed Boundary (IB) method as a part of the undergraduate thesis program
+  + Simulation of flow around a rotating small Vertical Axis Wind Turbine (VAWT) as a part of the undergraduate thesis program
+  + Numerical study for Computational Fluid Dynamics (CFD) based on an Immersed Boundary (IB) method
 
 ### TEACHING
 
