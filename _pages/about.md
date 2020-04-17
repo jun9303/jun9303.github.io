@@ -34,6 +34,7 @@ feature_row:
 
   + Thesis: "(B.Sc.) Large Eddy Simulation of Flow Around a Rotating Small Vertical Axis Wind Turbine Using an Immersed Boundary Method" & "(B.B.A.) Capital and Operating Cost Efficiency Evaluation of Onshore Wind Farms in South Korea: A DEA Approach"
   + *Summa Cum Laude*
+  
 <!-- - **B.B.A.**, [Business Administration](http://cba.snu.ac.kr/en), *Seoul National University*, Aug. 2018
     <details>
       <summary>[Business courses taken]</summary>
