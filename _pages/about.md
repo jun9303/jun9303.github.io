@@ -64,8 +64,8 @@ feature_row:
 
 ### TEACHING
 
-- **Graduate Student Instructor** at *University of California, Berkeley*, Aug. 2019 - May 2020
-  + *Experimentation and Measurements (MEC ENG 103)* in Spring 2020 and Fall 2019
+- **Graduate Student Instructor** at *University of California, Berkeley*, Aug. 2019 - Dec 2020
+  + *Experimentation and Measurements (MEC ENG 103)* in Fall, Spring 2020 and Fall 2019
   + Taught experimental techniques for mechanical engineering, run lab sessions, graded assignments and reports, had office hours and answered questions in person and online
 
 - **Teaching Assistant** at *Seoul National University*, Mar. 2013 - Dec. 2013
