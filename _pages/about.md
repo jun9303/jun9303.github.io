@@ -54,6 +54,9 @@ feature_row:
 
 ### RESEARCH
 
+- **Graduate Student Researcher** at *[Computational Fluid Dynamics Lab](https://cfd.me.berkeley.edu/)* in *University of California, Berkeley* (Advisor:  [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/), Jan. 2020 - Current
+  + Computational examination of wake vortex instabilities using degenerate perturbation theory with pseudo-spectral methods
+
 - **Researcher** at *[Energy & Environmental Flow Lab](http://eeflow.snu.ac.kr)* in *Seoul National University* (Supervisor: [Dr. Wontae Hwang](http://me.snu.ac.kr/node/141)), Jul. 2017 - Aug. 2018
   + Development and validation on conjugate heat transfer (CHT) codes with an efficient interpolation scheme for thermal properties at interfaces
   + Flow visualization using Magnetic Resonance Velocimetry (MRV) and Large Eddy Simulation (LES)
@@ -64,8 +67,8 @@ feature_row:
 
 ### TEACHING
 
-- **Graduate Student Instructor** at *University of California, Berkeley*, Aug. 2019 - Dec 2020
-  + *Experimentation and Measurements (MEC ENG 103)* in Fall, Spring 2020 and Fall 2019
+- **Graduate Student Instructor** at *University of California, Berkeley*, Aug. 2019 - Current
+  + *Experimentation and Measurements (MEC ENG 103)* since Fall 2019
   + Taught experimental techniques for mechanical engineering, run lab sessions, graded assignments and reports, had office hours and answered questions in person and online
 
 - **Teaching Assistant** at *Seoul National University*, Mar. 2013 - Dec. 2013
