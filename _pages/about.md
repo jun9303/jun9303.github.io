@@ -21,7 +21,7 @@ feature_row:
     <details>
       <summary>[Graduate courses taken]</summary>
     
-      <small>Advanced Fluid Mechanics 1, Engineering Aerodynamics, Numerical Solution of Differential Equations, Spectral Methods for Fluid Dynamics, Vortex Dynamics, Theoretical Statistics</small>
+      <small>Advanced Fluid Mechanics 1, Engineering Aerodynamics, Numerical Solution of Differential Equations (A & B), Oceanic and Atmospheric Waves, Optimization Models in Engineering, Spectral Methods for Fluid Dynamics, Vortex Dynamics, Theoretical Statistics</small>
     </details>
   + Advisor: [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/)
 - **B.Sc./B.B.A.**, [Mechanical and Aerospace Engineering](http://me.snu.ac.kr/en) & [Business Administration](http://cba.snu.ac.kr/en), *Seoul National University*, Aug. 2018
@@ -99,6 +99,7 @@ feature_row:
 
 ### AWARDS
 
+- **[Outstanding Graduate Student Instructor Award](https://gsi.berkeley.edu/programs-services/award-programs/ogsi/)** sponsored by UC Berkeley GSI Teaching & Resource Center, Mar. 2021
 - **[Student Paper Award: Bronze Prize](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07287580&language=ko_KR#)** in the 9th National Fluid Engineering Contest for Undergraduates, Nov. 2017
 - **Grand Prize** in the Idea Contest on Automobile Industry held by SNU & Hyundai Motors, Jun. 2017
 - **[Bronze Prize](http://www.iotchallenge.kr/prize-list.php?boardid=prize&mode=view&idx=21&sk=&sw=&offset=&category=2016)** in the 1st IoT Innovation Challenge held by KEA & Samsung Electronics, Oct. 2016
