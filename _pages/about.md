@@ -23,6 +23,7 @@ feature_row:
     
       <small>Advanced Fluid Mechanics 1, Engineering Aerodynamics, Numerical Solution of Differential Equations (A & B), Oceanic and Atmospheric Waves, Optimization Models in Engineering, Spectral Methods for Fluid Dynamics, Vortex Dynamics, Theoretical Statistics</small>
     </details>
+  + Emphasis in [Computational and Data Science and Engineering](https://data.berkeley.edu/decdse)
   + Advisor: [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/)
 - **B.Sc./B.B.A.**, [Mechanical and Aerospace Engineering](http://me.snu.ac.kr/en) & [Business Administration](http://cba.snu.ac.kr/en), *Seoul National University*, Aug. 2018
     <details>
