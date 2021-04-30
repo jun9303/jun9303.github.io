@@ -100,7 +100,7 @@ feature_row:
 
 ### AWARDS
 
-- **[Outstanding Graduate Student Instructor Award](https://gsi.berkeley.edu/programs-services/award-programs/ogsi/)** sponsored by UC Berkeley GSI Teaching & Resource Center, Mar. 2021
+- **[Outstanding Graduate Student Instructor Award](https://gsi.berkeley.edu/programs-services/award-programs/ogsi/ogsi-2021/)** sponsored by UC Berkeley GSI Teaching & Resource Center, Mar. 2021
 - **[Student Paper Award: Bronze Prize](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07287580&language=ko_KR#)** in the 9th National Fluid Engineering Contest for Undergraduates, Nov. 2017
 - **Grand Prize** in the Idea Contest on Automobile Industry held by SNU & Hyundai Motors, Jun. 2017
 - **[Bronze Prize](http://www.iotchallenge.kr/prize-list.php?boardid=prize&mode=view&idx=21&sk=&sw=&offset=&category=2016)** in the 1st IoT Innovation Challenge held by KEA & Samsung Electronics, Oct. 2016
