@@ -9,7 +9,7 @@ header:
 feature_row:
   - image_path: assets/images/bio-photo-sjlee-200x200.jpg
     alt: "profile image"
-    title: "Sangjoon Lee"
+    title: "Sangjoon (Joon) Lee"
     excerpt: "Ph.D. Student in MechE / [[E-mail]](mailto:sangjoonlee@berkeley.edu)"
 ---
 
