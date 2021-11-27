@@ -25,8 +25,7 @@ header:
 
 # SEMINARS & TALKS
 
-1. **LEE, S.** (Aug 8, 2018). An Introduction to In-House LES - Applications to Turbine Internal Cooling and Recent Improvements for Conjugate Heat Transfer Anal-
-ysis. In *KARI Computational Fluid Dynamics Seminar* (Daejeon, South Korea). Korea Aerospace Research Institute.
+1. **LEE, S.** (Aug 8, 2018). An Introduction to In-House LES - Applications to Turbine Internal Cooling and Recent Improvements for Conjugate Heat Transfer Analysis. In *KARI Computational Fluid Dynamics Seminar* (Daejeon, South Korea). Korea Aerospace Research Institute.
 
 <style type="text/css">
 h1 {
