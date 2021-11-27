@@ -9,7 +9,7 @@ header:
 feature_row:
   - image_path: assets/images/bio-photo-sjlee-200x200.jpg
     alt: "profile image"
-    title: "Sangjoon Lee"
+    title: "Sangjoon (Joon) Lee"
     excerpt: "Ph.D. Student in MechE / [[E-mail]](mailto:sangjoonlee@berkeley.edu)"
 ---
 
@@ -21,8 +21,9 @@ feature_row:
     <details>
       <summary>[Graduate courses taken]</summary>
     
-      <small>Advanced Fluid Mechanics 1, Engineering Aerodynamics, Spectral Methods for Fluid Dynamics, Vortex Dynamics</small>
+      <small>Advanced Fluid Mechanics 1, Engineering Aerodynamics, Numerical Solution of Differential Equations (A & B), Oceanic and Atmospheric Waves, Optimization Models in Engineering, Spectral Methods for Fluid Dynamics, Vortex Dynamics, Theoretical Statistics</small>
     </details>
+  + Designated Emphasis in [Computational and Data Science and Engineering](https://data.berkeley.edu/decdse/)
   + Advisor: [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/)
 - **B.Sc./B.B.A.**, [Mechanical and Aerospace Engineering](http://me.snu.ac.kr/en) & [Business Administration](http://cba.snu.ac.kr/en), *Seoul National University*, Aug. 2018
     <details>
@@ -54,6 +55,9 @@ feature_row:
 
 ### RESEARCH
 
+- **Graduate Student Researcher** at *[Computational Fluid Dynamics Lab](https://cfd.me.berkeley.edu/)* in *University of California, Berkeley* (Advisor:  [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/), Jan. 2020 -
+  + Computational examination of wake vortex instabilities using degenerate perturbation theory with pseudo-spectral methods
+
 - **Researcher** at *[Energy & Environmental Flow Lab](http://eeflow.snu.ac.kr)* in *Seoul National University* (Supervisor: [Dr. Wontae Hwang](http://me.snu.ac.kr/node/141)), Jul. 2017 - Aug. 2018
   + Development and validation on conjugate heat transfer (CHT) codes with an efficient interpolation scheme for thermal properties at interfaces
   + Flow visualization using Magnetic Resonance Velocimetry (MRV) and Large Eddy Simulation (LES)
@@ -64,8 +68,8 @@ feature_row:
 
 ### TEACHING
 
-- **Graduate Student Instructor** at *University of California, Berkeley*, Aug. 2019 - Dec 2020
-  + *Experimentation and Measurements (MEC ENG 103)* in Fall, Spring 2020 and Fall 2019
+- **Graduate Student Instructor** at *University of California, Berkeley*, Aug. 2019 -
+  + *Experimentation and Measurements (MEC ENG 103)* since Fall 2019
   + Taught experimental techniques for mechanical engineering, run lab sessions, graded assignments and reports, had office hours and answered questions in person and online
 
 - **Teaching Assistant** at *Seoul National University*, Mar. 2013 - Dec. 2013
@@ -96,6 +100,7 @@ feature_row:
 
 ### AWARDS
 
+- **[Outstanding Graduate Student Instructor Award](https://gsi.berkeley.edu/programs-services/award-programs/ogsi/ogsi-2021/)** sponsored by UC Berkeley GSI Teaching & Resource Center, Mar. 2021
 - **[Student Paper Award: Bronze Prize](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07287580&language=ko_KR#)** in the 9th National Fluid Engineering Contest for Undergraduates, Nov. 2017
 - **Grand Prize** in the Idea Contest on Automobile Industry held by SNU & Hyundai Motors, Jun. 2017
 - **[Bronze Prize](http://www.iotchallenge.kr/prize-list.php?boardid=prize&mode=view&idx=21&sk=&sw=&offset=&category=2016)** in the 1st IoT Innovation Challenge held by KEA & Samsung Electronics, Oct. 2016
