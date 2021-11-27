@@ -87,12 +87,12 @@ feature_row:
 
 ### FELLOWSHIPS
 
-- **Departmental Block Grant Fellowship** from Department of Mechanical Engineering at University of California, Berkeley, Aug. 2019 -
+- **Departmental Block Grant Fellowship** from *Department of Mechanical Engineering at University of California, Berkeley*, Aug. 2019 -
   + Departmental grants offering tuition and fee waivers 
-- **[Overseas Ph.D. Scholarship](http://www.taekwanggroup.co.kr/homepage/eng/iljuFoundationIntro.do)** from Ilju Academy and Culture Foundation, Aug. 2019 - Jul. 2023
+- **[Overseas Ph.D. Scholarship](http://www.taekwanggroup.co.kr/homepage/eng/iljuFoundationIntro.do)** from *Ilju Academy and Culture Foundation*, Aug. 2019 - Jul. 2023
   + One of 6 recipients of the foundation's [Study Abroad Doctoral Program](https://educationusa.state.gov/scholarships/study-abroad-doctoral-programilju-academy-and-culture-foundation) in 2019
   + Merit-based financial aids of $120,000 for promising Ph.D. students studying out of Korea
-- **[National Scholarship for Science and Engineering](http://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp?ttab1=0)** from Korea Student Aid Foundation, Mar. 2012 - Dec. 2017
+- **[National Scholarship for Science and Engineering](http://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp?ttab1=0)** from *Korea Student Aid Foundation*, Mar. 2012 - Dec. 2017
   + Full-tuition scholarship for undergraduates with strong academic performance
 
 ### HONORS
