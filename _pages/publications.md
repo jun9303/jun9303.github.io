@@ -10,8 +10,8 @@ header:
 
 # PEER-REVIEWED JOURNALS
 
-1. LEE, S., & HWANG, W. (2019). Development of an Efficient Immersed-Boundary Method with Subgrid-Scale Models for Conjugate Heat Transfer Analysis using Large Eddy Simulation. *International Journal of Heat and Mass Transfer*, 134, 198-208. [:link:](https://doi.org/10.1016/j.ijheatmasstransfer.2019.01.019)
-2. BAEK, S., LEE, S., HWANG, W., & PARK, J. S. (2018). Experimental and Numerical Investigation of the Flow in a Trailing Edge Ribbed Internal Cooling Passage. *Journal of Turbomachinery*, 141 (1), 011012. [:link:](https://doi.org/10.1115/1.4041868)
+1. LEE, S., & HWANG, W. (2019). Development of an Efficient Immersed-Boundary Method with Subgrid-Scale Models for Conjugate Heat Transfer Analysis using Large Eddy Simulation. *International Journal of Heat and Mass Transfer*, 134, 198-208. [doi:10.1016/j.ijheatmasstransfer.2019.01.019](https://doi.org/10.1016/j.ijheatmasstransfer.2019.01.019)
+2. BAEK, S., LEE, S., HWANG, W., & PARK, J. S. (2018). Experimental and Numerical Investigation of the Flow in a Trailing Edge Ribbed Internal Cooling Passage. *Journal of Turbomachinery*, 141 (1), 011012. [doi:10.1115/1.4041868](https://doi.org/10.1115/1.4041868)
 
 
 # CONFERENCES
