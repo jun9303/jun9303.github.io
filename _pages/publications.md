@@ -23,7 +23,7 @@ header:
 5. **LEE, S.** (Nov 3, 2017). 2D Simulation of an Unsteady Flow around a Small Vertical Axis Wind Turbine Using an Immersed Boundary Method. In *KSME 2017 Annual Conference* (Jeju, South Korea). Korean Society of Mechanical Engineers. *Student Paper Award: Bronze Prize in the 9th National Fluid Engineering Contest for Undergraduates*. [:link:](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07287580&language=ko_KR#)
 6. BAEK, S., **LEE, S.**, & HWANG, W. (Nov 3, 2017). Investigation of Fully Developed Turbulent Pipe Flow Using Magnetic Resonance Velocimetry (MRV) and Large Eddy Simulation (LES). In *KSME 2017 Annual Conference*, Jeju, South Korea. Korean Society of Mechanical Engineers. [:link:](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07287540&language=ko_KR#)
 
-# SEMINARS
+# SEMINARS & TALKS
 
 1. **LEE, S.** (Aug 8, 2018). An Introduction to In-House LES - Applications to Turbine Internal Cooling and Recent Improvements for Conjugate Heat Transfer Anal-
 ysis. In *KARI Computational Fluid Dynamics Seminar* (Daejeon, South Korea). Korea Aerospace Research Institute.
