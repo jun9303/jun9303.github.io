@@ -21,7 +21,7 @@ feature_row:
     <details>
       <summary>[Graduate courses taken]</summary>
     
-      <small>Advanced Fluid Mechanics 1, Engineering Aerodynamics, Numerical Solution of Differential Equations (A & B), Oceanic and Atmospheric Waves, Optimization Models in Engineering, Spectral Methods for Fluid Dynamics, Vortex Dynamics, Theoretical Statistics</small>
+      <small>Advanced Fluid Mechanics 1, Engineering Aerodynamics, Experimental Methods in Single-and Multiphase Flows, Graduate Ocean Engineering Seminar, Hydrodynamic Stability and Instability, Numerical Solution of Differential Equations (A & B), Oceanic and Atmospheric Waves, Optimization Models in Engineering, Spectral Methods for Fluid Dynamics, Vortex Dynamics, Theoretical Statistics</small>
     </details>
   + Designated Emphasis in [Computational and Data Science and Engineering](https://data.berkeley.edu/decdse/)
   + Advisor: [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/)
@@ -47,7 +47,7 @@ feature_row:
 
 # RESEARCH INTERESTS
 
-1. **Fluid Mechanics**: Numerical Approaches to Analyze Turbulent Flows with Concurrent Scalar Transports
+1. **Fluid Mechanics**: Numerical Analysis of Flow Motion and Instability with Concurrent Mass and Heat Transfers 
 2. **Computational Science**: Development of Time-Efficient Computing Schemes for Physics-Based Complex Systems
 3. **Energy & Environment**: Application to Energy (i.e. Turbomachinery) and Environment (i.e. Micro-Particle Dissemination)
 
@@ -87,6 +87,9 @@ feature_row:
 
 ### FELLOWSHIPS
 
+- **Departmental Block Grant Fellowship** from Department of Mechanical Engineering at University of California, Berkeley, Aug. 2019 -
+  + Departmental grants offering tuition and fee waivers 
+
 - **[Overseas Ph.D. Scholarship](http://www.taekwanggroup.co.kr/homepage/eng/iljuFoundationIntro.do)** from Ilju Academy and Culture Foundation, Aug. 2019 - Jul. 2023
   + One of 6 recipients of the foundation's [Study Abroad Doctoral Program](https://educationusa.state.gov/scholarships/study-abroad-doctoral-programilju-academy-and-culture-foundation) in 2019
   + Merit-based financial aids of $120,000 for promising Ph.D. students studying out of Korea
@@ -100,7 +103,7 @@ feature_row:
 
 ### AWARDS
 
-- **[Outstanding Graduate Student Instructor Award](https://gsi.berkeley.edu/programs-services/award-programs/ogsi/ogsi-2021/)** sponsored by UC Berkeley GSI Teaching & Resource Center, Mar. 2021
+- **[Outstanding Graduate Student Instructor Award](https://gsi.berkeley.edu/programs-services/award-programs/ogsi/ogsi-2021/)** sponsored by UC Berkeley GSI Teaching & Resource Center, Apr. 2021
 - **[Student Paper Award: Bronze Prize](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07287580&language=ko_KR#)** in the 9th National Fluid Engineering Contest for Undergraduates, Nov. 2017
 - **Grand Prize** in the Idea Contest on Automobile Industry held by SNU & Hyundai Motors, Jun. 2017
 - **[Bronze Prize](http://www.iotchallenge.kr/prize-list.php?boardid=prize&mode=view&idx=21&sk=&sw=&offset=&category=2016)** in the 1st IoT Innovation Challenge held by KEA & Samsung Electronics, Oct. 2016
