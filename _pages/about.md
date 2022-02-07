@@ -10,18 +10,18 @@ feature_row:
   - image_path: assets/images/bio-photo-sjlee-200x200.jpg
     alt: "profile image"
     title: "Sangjoon (Joon) Lee"
-    excerpt: "Ph.D. Student in MechE / [[E-mail]](mailto:sangjoonlee@berkeley.edu)"
+    excerpt: "Ph.D. Candidate in MechE / [[E-mail]](mailto:sangjoonlee@berkeley.edu)"
 ---
 
 {% include feature_row type="center" %}
 
 # EDUCATION
 
-- **Ph.D. Student**, [Mechanical Engineering](http://me.berkeley.edu/), *University of California, Berkeley*, Aug. 2019 -
+- **Ph.D. Candidate**, [Mechanical Engineering](http://me.berkeley.edu/), *University of California, Berkeley*, Aug. 2019 -
     <details>
       <summary>[Graduate courses taken]</summary>
     
-      <small>Advanced Fluid Mechanics 1, Engineering Aerodynamics, Experimental Methods in Single-and Multiphase Flows, Graduate Ocean Engineering Seminar, Hydrodynamic Stability and Instability, Numerical Solution of Differential Equations (A & B), Oceanic and Atmospheric Waves, Optimization Models in Engineering, Spectral Methods for Fluid Dynamics, Vortex Dynamics, Theoretical Statistics</small>
+      <small>Advanced Fluid Mechanics (1 & 2), Applications of Parallel Computers, Engineering Aerodynamics, Experimental Methods in Single-and Multiphase Flows, Graduate Ocean Engineering Seminar, Hydrodynamic Stability and Instability, Numerical Solution of Differential Equations (A & B), Oceanic and Atmospheric Waves, Optimization Models in Engineering, Spectral Methods for Fluid Dynamics, Vortex Dynamics, Theoretical Statistics</small>
     </details>
   + Designated Emphasis in [Computational and Data Science and Engineering](https://data.berkeley.edu/decdse/)
   + Advisor: [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/)
@@ -87,7 +87,7 @@ feature_row:
 
 ### FELLOWSHIPS
 
-- **Departmental Block Grant Fellowship** from *Department of Mechanical Engineering at University of California, Berkeley*, Aug. 2019 -
+- **Block Grant Fellowship** from *Department of Mechanical Engineering* at *University of California, Berkeley*, Aug. 2019 -
   + Departmental grants offering tuition and fee waivers 
 - **[Overseas Ph.D. Scholarship](http://www.taekwanggroup.co.kr/homepage/eng/iljuFoundationIntro.do)** from *Ilju Academy and Culture Foundation*, Aug. 2019 - Jul. 2023
   + One of 6 recipients of the foundation's [Study Abroad Doctoral Program](https://educationusa.state.gov/scholarships/study-abroad-doctoral-programilju-academy-and-culture-foundation) in 2019
@@ -97,7 +97,7 @@ feature_row:
 
 ### HONORS
 
-- **Representative of the Engineering Class of 2018** in SNU's 72nd Summer Commencement, Aug. 2018
+- **Graduation representative of the Engineering Class of 2018** in SNU's 72nd Summer Commencement, Aug. 2018
 - **Commendation for Devotion to the Auxiliary Police Service** from the chief of Jongno Police Station, Jul. 2015
 
 ### AWARDS
