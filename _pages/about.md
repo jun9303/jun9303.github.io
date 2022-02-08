@@ -20,7 +20,7 @@ feature_row:
 - **Ph.D. Candidate**, [Mechanical Engineering](http://me.berkeley.edu/) & [Computational and Data Science and Engineering](https://data.berkeley.edu/decdse/) (DE), *University of California, Berkeley*, Aug. 2019 -
     <details>
       <summary>[Graduate courses taken]</summary>
-      <small><b>Fluids</b>: Advanced Fluid Mechanics (1 & 2), Engineering Aerodynamics, Experimental Methods in Single-and Multiphase Flows, Graduate Ocean Engineering Seminar, Hydrodynamic Stability and Instability, Oceanic and Atmospheric Waves, Vortex Dynamics
+      <small><b>Fluid Mechanics</b>: Advanced Fluid Mechanics (1 & 2), Engineering Aerodynamics, Experimental Methods in Single-and Multiphase Flows, Graduate Ocean Engineering Seminar, Hydrodynamic Stability and Instability, Oceanic and Atmospheric Waves, Vortex Dynamics
       </small><br>
 
       <small><b>Computational Science</b>: Applications of Parallel Computers, Numerical Solution of Differential Equations (A & B), Optimization Models in Engineering, Spectral Methods for Fluid Dynamics, Theoretical Statistics
