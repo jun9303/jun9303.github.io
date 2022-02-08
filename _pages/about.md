@@ -23,7 +23,7 @@ feature_row:
       <small><b>Fluid Mechanics</b>: Advanced Fluid Mechanics (1 & 2), Engineering Aerodynamics, Experimental Methods in Single-and Multiphase Flows, Graduate Ocean Engineering Seminar, Hydrodynamic Stability and Instability, Oceanic and Atmospheric Waves, Vortex Dynamics
       </small><br>
 
-      <small><b>Computational Science</b>: Applications of Parallel Computers, Numerical Solution of Differential Equations (A & B), Optimization Models in Engineering, Spectral Methods for Fluid Dynamics, Theoretical Statistics
+      <small><b>Computational Science</b>: Applications of Parallel Computers, Numerical Solution of Differential Equations (1 & 2), Optimization Models in Engineering, Spectral Methods for Fluid Dynamics, Theoretical Statistics
       </small><br>
     </details>
 
