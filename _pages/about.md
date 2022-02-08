@@ -10,7 +10,7 @@ feature_row:
   - image_path: assets/images/bio-photo-sjlee-200x200.jpg
     alt: "profile image"
     title: "Sangjoon (Joon) Lee"
-    excerpt: "PhD Candidate at UC Berkeley / [[E-mail]](mailto:sangjoonlee@berkeley.edu)"
+    excerpt: "Ph.D. Candidate at UC Berkeley / [[E-mail]](mailto:sangjoonlee@berkeley.edu)"
 ---
 
 {% include feature_row type="center" %}
