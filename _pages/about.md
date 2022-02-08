@@ -10,7 +10,7 @@ feature_row:
   - image_path: assets/images/bio-photo-sjlee-200x200.jpg
     alt: "profile image"
     title: "Sangjoon (Joon) Lee"
-    excerpt: "Ph.D. Candidate in MechE / [[E-mail]](mailto:sangjoonlee@berkeley.edu)"
+    excerpt: "PhD Candidate at UC Berkeley / [[E-mail]](mailto:sangjoonlee@berkeley.edu)"
 ---
 
 {% include feature_row type="center" %}
@@ -20,8 +20,11 @@ feature_row:
 - **Ph.D. Candidate**, [Mechanical Engineering](http://me.berkeley.edu/), *University of California, Berkeley*, Aug. 2019 -
     <details>
       <summary>[Graduate courses taken]</summary>
-    
-      <small>Advanced Fluid Mechanics (1 & 2), Applications of Parallel Computers, Engineering Aerodynamics, Experimental Methods in Single-and Multiphase Flows, Graduate Ocean Engineering Seminar, Hydrodynamic Stability and Instability, Numerical Solution of Differential Equations (A & B), Oceanic and Atmospheric Waves, Optimization Models in Engineering, Spectral Methods for Fluid Dynamics, Vortex Dynamics, Theoretical Statistics</small>
+      <small><b>Fluid Dynamics</b>: Advanced Fluid Mechanics (1 & 2), Engineering Aerodynamics, Experimental Methods in Single-and Multiphase Flows, Graduate Ocean Engineering Seminar, Hydrodynamic Stability and Instability, Oceanic and Atmospheric Waves, Vortex Dynamics
+      </small><br>
+
+      <small><b>Computational Science</b>: Applications of Parallel Computers, Numerical Solution of Differential Equations (A & B), Optimization Models in Engineering, Spectral Methods for Fluid Dynamics, Theoretical Statistics
+      </small><br>
     </details>
   + Designated Emphasis in [Computational and Data Science and Engineering](https://data.berkeley.edu/decdse/)
   + Advisor: [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/)
