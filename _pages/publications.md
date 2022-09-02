@@ -10,7 +10,7 @@ header:
 
 # PEER-REVIEWED JOURNALS
 
-1. **LEE, S.**, & MARCUS, P. S. (2022, in preparation). Linear Stability Analysis of Wake Vortices by a Spectral Method using Mapped Legendre Functions.
+1. **LEE, S.**, & MARCUS, P. S. (2022). Linear Stability Analysis of Wake Vortices by a Spectral Method using Mapped Legendre Functions. *arXiv e-prints*. [doi:10.48550/arXiv.2209.00295](https://doi.org/10.48550/arXiv.2209.00295)
 2. SHEIKH, H. M., **LEE, S.**, WANG, J. & MARCUS, P. S. (2022). Airfoil Optimization using Design-by-Morphing. *arXiv e-prints*. [doi:10.48550/arXiv.2207.11448](
 https://doi.org/10.48550/arXiv.2207.11448) 
 3. **LEE, S.**, & HWANG, W. (2019). Development of an Efficient Immersed-Boundary Method with Subgrid-Scale Models for Conjugate Heat Transfer Analysis using Large Eddy Simulation. *International Journal of Heat and Mass Transfer*, 134, 198-208. [doi:10.1016/j.ijheatmasstransfer.2019.01.019](https://doi.org/10.1016/j.ijheatmasstransfer.2019.01.019)
