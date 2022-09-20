@@ -5,7 +5,7 @@ title: "Publications"
 header:
   overlay_image: /assets/images/header_publications.jpg
   overlay_filter: 0.2
-  caption: "*Han River, Seoul (2012)* &nbsp; **[View Full-image](/assets/photographs/hangang_at_dongjak_seoul_2012.jpg)**"
+  caption: "*Reef Point at Crystal Cove State Park, California (2022)* &nbsp; **[View Full-image](/assets/photographs/reef_point_crystal_cove_2022.jpg)**"
 ---
 
 # PEER-REVIEWED JOURNALS
