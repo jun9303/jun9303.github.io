@@ -4,7 +4,7 @@ title: "Welcome!"
 header:
   overlay_image: /assets/images/header.jpg
   overlay_filter: 0.2
-  caption: "*Hannam Bridge, Seoul (2013)* &nbsp; **[View Full-image](https://sangjoonlee.tk/assets/photographs/hannam_bridge_seoul_2013.jpg)**"
+  caption: "*Hannam Bridge, Seoul, KR (2013)* &nbsp; **[View Full-image](https://sangjoonlee.tk/assets/photographs/hannam_bridge_seoul_2013.jpg)**"
 intro: 
   - excerpt: "The truth may be puzzling. It may take some work to grapple with. It may be counterintuitive. It may contradict deeply held prejudices. It may not be consonant with what we desperately want to be true. **But our preferences do not determine what's true.** &nbsp; <small>- *Carl Sagan*</small>"
 ---
