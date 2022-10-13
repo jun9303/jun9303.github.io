@@ -35,6 +35,6 @@ Visiting Southern California for the first time in 5 years!
 
 The pandemic has devastated many of my travel plans in the States since its outbreak, and SoCal finally became my first out-of-the-Bay-Area trip in 2 years just for fun. Feeling a bit of familiarity (favorably!) to NorCal, I was replenished with good cozy mindsets and relaxing vibes in these places.
 
-Special thanks to SC, providing my stays and sharing a ride during the trip :)
+Special thanks to [SC](https://www.linkedin.com/in/seokchanahn/), providing my stays and sharing a ride during the trip :)
 
 {% include gallery layout="half" %}
