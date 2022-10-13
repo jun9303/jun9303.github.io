@@ -1,6 +1,6 @@
 ---
 title: "Irvine and Los Angeles, 08/20/22 - 08/22/22"
-date: 2020-02-08 23:00:00 -0800
+date: 2022-08-20 23:00:00 -0800
 published: true
 category: Trip
 
