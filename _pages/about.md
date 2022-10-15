@@ -7,7 +7,7 @@ header:
   overlay_filter: 0.2
   caption: "*Uisangdae Pavilion, Yangyang, KR (2014)* &nbsp; **[View Full-image](/assets/photographs/ui_sang_dae_yang_yang_2014.jpg)**"
 feature_row:
-  - image_path: assets/images/bio-photo-sjlee-200x200.jpg
+  - image_path: assets/images/bio-photo-sjlee-200x200.png
     alt: "profile image"
     title: "Sangjoon (Joon) Lee"
     excerpt: "Ph.D. Candidate at UC Berkeley / [[E-mail]](mailto:sangjoonlee@berkeley.edu)"
