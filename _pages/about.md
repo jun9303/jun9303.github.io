@@ -71,8 +71,12 @@ feature_row:
 
 ### TEACHING
 
-- **Graduate Student Instructor** at *University of California, Berkeley*, Aug. 2019 -
-  + *Experimentation and Measurements (MEC ENG 103)* since Fall 2019
+- **Course Designer** at *University of California, Berkeley*, Aug. 2022 - 
+  + Prepared for launching a new course, *Introduction to Aerospace Engineering Design (AERO ENG 10)*
+  + Composed teaching outlines and instruction materials, especially for an airfoil design lab module 
+
+- **Graduate Student Instructor** at *University of California, Berkeley*, Aug. 2019 - May 2022
+  + *Experimentation and Measurements (MEC ENG 103)* from Fall 2019 to Spring 2022
   + Taught experimental techniques for mechanical engineering, run lab sessions, graded assignments and reports, had office hours and answered questions in person and online
 
 - **Teaching Assistant** at *Seoul National University*, Mar. 2013 - Dec. 2013
