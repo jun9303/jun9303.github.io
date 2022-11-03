@@ -8,7 +8,7 @@ header:
   caption: "*Crystal Cove Beach, Irvine, CA (2022)* &nbsp; **[View Full-image](/assets/photographs/reef_point_crystal_cove_2022.jpg)**"
 ---
 
-# PEER-REVIEWED JOURNALS
+# JOURNAL PUBLICATIONS
 
 1. **LEE, S.**, SHEIKH, H. M., LIM, D. D. & MARCUS, P. S. (2023). Bayesian-Optimal Design of Riblet Surfaces for Turbulent Drag Reduction via Design-by-Morphing with Large Eddy Simulation. *Manuscript in prepration*.
 2. **LEE, S.**, & MARCUS, P. S. (2022). Linear Stability Analysis of Wake Vortices by a Spectral Method using Mapped Legendre Functions. *arXiv e-prints*. [doi:10.48550/arXiv.2209.00295](https://doi.org/10.48550/arXiv.2209.00295) ```(Preprint)```
@@ -18,7 +18,7 @@ https://doi.org/10.48550/arXiv.2207.11448) ```(Preprint)```
 5. BAEK, S., **LEE, S.**, HWANG, W., & PARK, J. S. (2018). Experimental and Numerical Investigation of the Flow in a Trailing Edge Ribbed Internal Cooling Passage. *Journal of Turbomachinery*, 141 (1), 011012. [doi:10.1115/1.4041868](https://doi.org/10.1115/1.4041868)
 
 
-# CONFERENCES
+# CONFERENCE PRESENTATIONS
 
 1. **LEE, S.**, & MARCUS, P. S. (Nov 21, 2022). Viscous Perturbation to Inviscid Wake Vortices - Perturbation Theory in Vortex Stability. In *the 75th Annual Meeting of the APS Division of Fluid Dynamics* (Indianapolis, IN, USA). American Physical Society.
 2. **LEE, S.**, & MARCUS, P. S. (Nov 21, 2021). Linear Instability Analysis of Wake Vortices by a Spectral Method using Mapped Legendre Functions. In *the 74th Annual Meeting of the APS Division of Fluid Dynamics* (Pheonix, AZ, USA). American Physical Society. [:link:](https://meetings.aps.org/Meeting/DFD21/Session/E24.1)
