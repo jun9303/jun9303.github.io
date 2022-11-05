@@ -42,7 +42,7 @@ let sheet = (function() {
 
 
   /* Hiding elements */
-  // removeElement('secondaryToolbarToggle')
+  removeElement('secondaryToolbarToggle')
   // removeElement('scaleSelectContainer')
   removeElement('presentationMode')
   removeElement('openFile')
