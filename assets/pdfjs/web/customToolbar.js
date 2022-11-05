@@ -1,6 +1,6 @@
 let sheet = (function() {
-  let style = document.createElement(&quot;style&quot;);
-  style.appendChild(document.createTextNode(&quot;&quot;));
+  let style = document.createElement("style");
+  style.appendChild(document.createTextNode(""));
   document.head.appendChild(style);
   return style.sheet;
  })();
@@ -10,59 +10,60 @@ let sheet = (function() {
   removeGrowRules();
 
   /* Reorganizing the UI 
-   the &#39;addElemFromSecondaryToPrimary&#39; function moves items from the secondary nav into the primary nav
+   the 'addElemFromSecondaryToPrimary' function moves items from the secondary nav into the primary nav
    there are 3 primary nav regions (toolbarViewerLeft, toolbarViewerMiddle, toolbarViewerRight) 
   */
 
   //adding elements to left part of toolbar
-  addElemFromSecondaryToPrimary(&#39;pageRotateCcw&#39;, &#39;toolbarViewerLeft&#39;)
-  addElemFromSecondaryToPrimary(&#39;pageRotateCw&#39;, &#39;toolbarViewerLeft&#39;)
-  addElemFromSecondaryToPrimary(&#39;zoomIn&#39;, &#39;toolbarViewerLeft&#39;)
-  addElemFromSecondaryToPrimary(&#39;zoomOut&#39;, &#39;toolbarViewerLeft&#39;)
+  // addElemFromSecondaryToPrimary('pageRotateCcw', 'toolbarViewerLeft')
+  // addElemFromSecondaryToPrimary('pageRotateCw', 'toolbarViewerLeft')
+  // addElemFromSecondaryToPrimary('zoomIn', 'toolbarViewerLeft')
+  // addElemFromSecondaryToPrimary('zoomOut', 'toolbarViewerLeft')
   
   //adding elements to middle part of toolbar
-  addElemFromSecondaryToPrimary(&#39;previous&#39;, &#39;toolbarViewerMiddle&#39;)
-  addElemFromSecondaryToPrimary(&#39;pageNumber&#39;, &#39;toolbarViewerMiddle&#39;)
-  addElemFromSecondaryToPrimary(&#39;numPages&#39;, &#39;toolbarViewerMiddle&#39;)
-  addElemFromSecondaryToPrimary(&#39;next&#39;, &#39;toolbarViewerMiddle&#39;)
+  // addElemFromSecondaryToPrimary('previous', 'toolbarViewerMiddle')
+  // addElemFromSecondaryToPrimary('pageNumber', 'toolbarViewerMiddle')
+  // addElemFromSecondaryToPrimary('numPages', 'toolbarViewerMiddle')
+  // addElemFromSecondaryToPrimary('next', 'toolbarViewerMiddle')
   
   //adding elements to right part of toolbar
-  addElemFromSecondaryToPrimary(&#39;secondaryOpenFile&#39;, &#39;toolbarViewerRight&#39;)
+  // addElemFromSecondaryToPrimary('secondaryOpenFile', 'toolbarViewerRight')
   
   /* Changing icons */
-  changeIcon(&#39;previous&#39;, &#39;icons/baseline-navigate_before-24px.svg&#39;)
-  changeIcon(&#39;next&#39;, &#39;icons/baseline-navigate_next-24px.svg&#39;)
-  changeIcon(&#39;pageRotateCcw&#39;, &#39;icons/baseline-rotate_left-24px.svg&#39;)
-  changeIcon(&#39;pageRotateCw&#39;, &#39;icons/baseline-rotate_right-24px.svg&#39;)
-  changeIcon(&#39;viewFind&#39;, &#39;icons/baseline-search-24px.svg&#39;);
-  changeIcon(&#39;zoomOut&#39;, &#39;icons/baseline-zoom_out-24px.svg&#39;)
-  changeIcon(&#39;zoomIn&#39;, &#39;icons/baseline-zoom_in-24px.svg&#39;)
-  changeIcon(&#39;sidebarToggle&#39;, &#39;icons/baseline-toc-24px.svg&#39;)
-  changeIcon(&#39;secondaryOpenFile&#39;, &#39;./icons/baseline-open_in_browser-24px.svg&#39;)
+  // changeIcon('previous', 'icons/baseline-navigate_before-24px.svg')
+  // changeIcon('next', 'icons/baseline-navigate_next-24px.svg')
+  // changeIcon('pageRotateCcw', 'icons/baseline-rotate_left-24px.svg')
+  // changeIcon('pageRotateCw', 'icons/baseline-rotate_right-24px.svg')
+  // changeIcon('viewFind', 'icons/baseline-search-24px.svg');
+  // changeIcon('zoomOut', 'icons/baseline-zoom_out-24px.svg')
+  // changeIcon('zoomIn', 'icons/baseline-zoom_in-24px.svg')
+  // changeIcon('sidebarToggle', 'icons/baseline-toc-24px.svg')
+  // changeIcon('secondaryOpenFile', './icons/baseline-open_in_browser-24px.svg')
+
 
   /* Hiding elements */
-  removeElement(&#39;secondaryToolbarToggle&#39;)
-  removeElement(&#39;scaleSelectContainer&#39;)
-  removeElement(&#39;presentationMode&#39;)
-  removeElement(&#39;openFile&#39;)
-  removeElement(&#39;print&#39;)
-  removeElement(&#39;download&#39;)
-  removeElement(&#39;viewBookmark&#39;)
+  // removeElement('secondaryToolbarToggle')
+  // removeElement('scaleSelectContainer')
+  removeElement('presentationMode')
+  removeElement('openFile')
+  // removeElement('print')
+  // removeElement('download')
+  // removeElement('viewBookmark')
  }
  function changeIcon(elemID, iconUrl){
   let element = document.getElementById(elemID);
   let classNames = element.className;
-  classNames = elemID.includes(&#39;Toggle&#39;)? &#39;toolbarButton#&#39;+elemID :
- classNames.split(&#39; &#39;).join(&#39;.&#39;);
-  classNames = elemID.includes(&#39;view&#39;)? &#39;#&#39;+elemID+&#39;.toolbarButton&#39; : &#39;.&#39;+classNames
-  classNames+= &quot;::before&quot;;
+  classNames = elemID.includes('Toggle')? 'toolbarButton#'+elemID :
+ classNames.split(' ').join('.');
+  classNames = elemID.includes('view')? '#'+elemID+'.toolbarButton' : '.'+classNames
+  classNames+= "::before";
   addCSSRule(sheet, classNames, `content: url(${iconUrl}) !important`, 0)
  }
  function addElemFromSecondaryToPrimary(elemID, parentID){
   let element = document.getElementById(elemID);
   let parent = document.getElementById(parentID);
-  element.style.minWidth = &quot;0px&quot;;
-  element.innerHTML =&#39;&#39;
+  element.style.minWidth = "0px";
+  element.innerHTML =''
   parent.append(element);
  }
  function removeElement(elemID){
@@ -70,18 +71,18 @@ let sheet = (function() {
   element.parentNode.removeChild(element);
  }
  function removeGrowRules(){
-  addCSSRule(sheet, &#39;.hiddenSmallView *&#39;, &#39;display:block !important&#39;);
-  addCSSRule(sheet, &#39;.hiddenMediumView&#39;, &#39;display:block !important&#39;);
-  addCSSRule(sheet, &#39;.hiddenLargeView&#39;, &#39;display:block !important&#39;);
-  addCSSRule(sheet, &#39;.visibleSmallView&#39;, &#39;display:block !important&#39;);
-  addCSSRule(sheet, &#39;.visibleMediumView&#39;, &#39;display:block !important&#39;);
-  addCSSRule(sheet, &#39;.visibleLargeView&#39;, &#39;display:block !important&#39;);
+  addCSSRule(sheet, '.hiddenSmallView *', 'display:block !important');
+  addCSSRule(sheet, '.hiddenMediumView', 'display:block !important');
+  addCSSRule(sheet, '.hiddenLargeView', 'display:block !important');
+  addCSSRule(sheet, '.visibleSmallView', 'display:block !important');
+  addCSSRule(sheet, '.visibleMediumView', 'display:block !important');
+  addCSSRule(sheet, '.visibleLargeView', 'display:block !important');
  }
  function addCSSRule(sheet, selector, rules, index) {
-  if(&quot;insertRule&quot; in sheet) {
-  sheet.insertRule(selector + &quot;{&quot; + rules + &quot;}&quot;, index);
+  if("insertRule" in sheet) {
+  sheet.insertRule(selector + "{" + rules + "}", index);
   }
-  else if(&quot;addRule&quot; in sheet) {
+  else if("addRule" in sheet) {
   sheet.addRule(selector, rules, index);
   }
  }
