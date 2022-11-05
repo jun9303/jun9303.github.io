@@ -4,6 +4,6 @@ main:
   - title: "Publications"
     url: /publications/
   - title: "CV"
-    url: "https://sangjoonlee.info/ViewerJS/#../assets/pdf/cv_sangjoonlee.pdf"
+    url: "https://sangjoonlee.info/assets/pdfjs/viewer.html?file=%2Fassets%2Fpdf%2Fcv_sangjoonlee.pdf"
   - title: "Blog"
     url: /blog/
