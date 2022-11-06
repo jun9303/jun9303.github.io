@@ -88,8 +88,8 @@ feature_row:
 
 ### OTHER
 
-- **Law Student (J.D.)** at *[Seoul National University School of Law](http://law.snu.ac.kr/index_en.php)*, Mar. 2019 - Jul. 2019 <sub>(Discontinued)</sub>
-- **Membership** in *[Gongwoo - SNU Honor Society for Engineering Students](https://gongwoo.snu.ac.kr)*, Mar. 2016 -
+- **Law Student (J.D.)** at *[SNU School of Law](http://law.snu.ac.kr/index_en.php)*, Mar. 2019 - Jul. 2019 <sub>(Discontinued)</sub>
+- **Membership** in *[SNU Honor Society for Engineering Students (Gongwoo)](https://gongwoo.snu.ac.kr)*, Mar. 2016 -
   + Served as the *7th Vice President* from Aug. 2016 to Jul. 2017
 - **Auxiliary Police Officer** at *Jongno Police Station, [Seoul Metropolitan Police Agency](https://www.smpa.go.kr/home/homeIndexEng.do?menuCode=eng)*, Jun. 2014 - Mar. 2016
 
