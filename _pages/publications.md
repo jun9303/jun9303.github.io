@@ -11,8 +11,8 @@ header:
 # JOURNAL PUBLICATIONS
 
 1. **LEE, S.**, SHEIKH, H. M., LIM, D. D. GU, G. X. & MARCUS, P. S. (2023). Bayesian-Optimal Design of Riblet Surfaces for Turbulent Drag Reduction via Design-by-Morphing with Large Eddy Simulation. [Manuscript Under Review].
-2. **LEE, S.**, & MARCUS, P. S. (2023). Linear Stability Analysis of Wake Vortices by a Spectral Method using Mapped Legendre Functions. [Manuscript Accepted]. *Journal of Fluid Mechanics*. [doi:10.1017/jfm.2023.455](https://doi.org/10.1017/jfm.2023.455)
-3. SHEIKH, H. M., **LEE, S. (co-first)**, WANG, J. & MARCUS, P. S. (2023). Airfoil Optimization using Design-by-Morphing. [Manuscript Accepted]. *Journal of Computational Design and Engineering*. [doi:10.1093/jcde/qwad059](
+2. **LEE, S.**, & MARCUS, P. S. (2023). Linear Stability Analysis of Wake Vortices by a Spectral Method using Mapped Legendre Functions. *Journal of Fluid Mechanics* [Manuscript Accepted]. [doi:10.1017/jfm.2023.455](https://doi.org/10.1017/jfm.2023.455)
+3. SHEIKH, H. M., **LEE, S. (co-first)**, WANG, J. & MARCUS, P. S. (2023). Airfoil Optimization using Design-by-Morphing. *Journal of Computational Design and Engineering* [Manuscript Accepted]. [doi:10.1093/jcde/qwad059](
 https://doi.org/10.1093/jcde/qwad059)
 4. **LEE, S.**, & HWANG, W. (2019). Development of an Efficient Immersed-Boundary Method with Subgrid-Scale Models for Conjugate Heat Transfer Analysis using Large Eddy Simulation. *International Journal of Heat and Mass Transfer*, 134, 198-208. [doi:10.1016/j.ijheatmasstransfer.2019.01.019](https://doi.org/10.1016/j.ijheatmasstransfer.2019.01.019)
 5. BAEK, S., **LEE, S.**, HWANG, W., & PARK, J. S. (2018). Experimental and Numerical Investigation of the Flow in a Trailing Edge Ribbed Internal Cooling Passage. *Journal of Turbomachinery*, 141 (1), 011012. [doi:10.1115/1.4041868](https://doi.org/10.1115/1.4041868)
