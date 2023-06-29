@@ -73,7 +73,7 @@ feature_row:
 
 ### TEACHING
 
-- **Course Designer** at *University of California, Berkeley*, Aug. 2022 - Dec. 2022
+- **Course Designer / Graduate Student Instructor** at *University of California, Berkeley*, Aug. 2022 - Dec. 2023
   + *Introduction to Aerospace Engineering Design (AERO ENG 10)*
   + Composed teaching outlines and prepared instruction materials especially for an airfoil design and analysis lab module 
 
