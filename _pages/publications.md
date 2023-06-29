@@ -10,7 +10,7 @@ header:
 
 # JOURNAL PUBLICATIONS
 
-1. **LEE, S.**, SHEIKH, H. M., LIM, D. D. GU, G. X. & MARCUS, P. S. (2023). Bayesian-Optimal Design of Riblet Surfaces for Turbulent Drag Reduction via Design-by-Morphing with Large Eddy Simulation. *Manuscript in prepration*.
+1. **LEE, S.**, SHEIKH, H. M., LIM, D. D. GU, G. X. & MARCUS, P. S. (2023). Bayesian-Optimal Design of Riblet Surfaces for Turbulent Drag Reduction via Design-by-Morphing with Large Eddy Simulation. [Manuscript Under Review].
 2. **LEE, S.**, & MARCUS, P. S. (2023). Linear Stability Analysis of Wake Vortices by a Spectral Method using Mapped Legendre Functions. [Manuscript Accepted]. *Journal of Fluid Mechanics*. [doi:10.1017/jfm.2023.455](https://doi.org/10.1017/jfm.2023.455)
 3. SHEIKH, H. M., **LEE, S. (co-first)**, WANG, J. & MARCUS, P. S. (2023). Airfoil Optimization using Design-by-Morphing. [Manuscript Accepted]. *Journal of Computational Design and Engineering*. [doi:10.1093/jcde/qwad059](
 https://doi.org/10.1093/jcde/qwad059)
