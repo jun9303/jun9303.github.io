@@ -10,7 +10,7 @@ header:
 
 # JOURNAL PUBLICATIONS
 
-1. **LEE, S.**, SHEIKH, H. M., LIM, D. D. GU, G. X. & MARCUS, P. S. (2023). Bayesian-Optimal Design of Riblet Surfaces for Turbulent Drag Reduction via Design-by-Morphing with Large Eddy Simulation. [Manuscript Under Review].
+1. **LEE, S.**, SHEIKH, H. M., LIM, D. D. GU, G. X. & MARCUS, P. S. (2023). Bayesian-Optimized Riblet Surface Design for Turbulent Drag Reduction via Design-by-Morphing with Large Eddy Simulation. [Manuscript Under Review].
 2. **LEE, S.**, & MARCUS, P. S. (2023). Linear Stability Analysis of Wake Vortices by a Spectral Method using Mapped Legendre Functions. *Journal of Fluid Mechanics*, 967, A2. [doi:10.1017/jfm.2023.455](https://doi.org/10.1017/jfm.2023.455)
 3. SHEIKH, H. M., **LEE, S. (co-first)**, WANG, J. & MARCUS, P. S. (2023). Airfoil Optimization using Design-by-Morphing. *Journal of Computational Design and Engineering*, 10 (4), 1443-1459. [doi:10.1093/jcde/qwad059](
 https://doi.org/10.1093/jcde/qwad059)
@@ -31,8 +31,9 @@ https://doi.org/10.1093/jcde/qwad059)
 
 # SEMINARS & INVITED TALKS
 
-1. **LEE, S.** (Nov 16, 2022). Modern Applications of Computational Fluid Dynamics (CFD). In *2022 Online Special Lecture Series: Research Reinforcement for Sustainable Buildings and Urban Systems in Future* (Online). Department of Architectural and Urban Systems Engineering, Ewha Womans University.
-2. **LEE, S.** (Aug 8, 2018). An Introduction to In-House LES - Applications to Turbine Internal Cooling and Recent Improvements for Conjugate Heat Transfer Analysis. In *KARI Computational Fluid Dynamics Seminar* (Daejeon, South Korea). Korea Aerospace Research Institute.
+1. **LEE, S.** (Aug 8, 2023). Design-by-Morphing (DbM): A Novel Design Methodology for Aerodynamic Optimization. In *Hyundai Vision Conference 2023* (Seoul, South Korea). Hyundai Motors.
+2. **LEE, S.** (Nov 16, 2022). Modern Applications of Computational Fluid Dynamics (CFD). In *2022 Online Special Lecture Series: Research Reinforcement for Sustainable Buildings and Urban Systems in Future* (Online). Department of Architectural and Urban Systems Engineering, Ewha Womans University.
+3. **LEE, S.** (Aug 8, 2018). An Introduction to In-House LES - Applications to Turbine Internal Cooling and Recent Improvements for Conjugate Heat Transfer Analysis. In *KARI Computational Fluid Dynamics Seminar* (Daejeon, South Korea). Korea Aerospace Research Institute.
 
 <style type="text/css">
 h1 {
