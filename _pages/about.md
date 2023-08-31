@@ -54,7 +54,11 @@ feature_row:
 
 1. **Fluid Mechanics**: Numerical Analysis of Flow Motion and Instability with Concurrent Heat Transfers 
 2. **Computational Science**: Development of Time-Efficient Computing Schemes for Physics-Based Complex Systems
+<<<<<<< HEAD
 3. **Energy & Environment**: Applications to Sustainable Energy (e.g., Wind Turbine), Clean Ocean/Atmosphere (e.g., Micro-Particles/Sediments in Flow), etc.
+=======
+3. **Energy & Environment**: Sustainable Energy (e.g., Wind Turbine), Clean Ocean/Atmosphere (e.g., Micro-Particles/Sediments in Flow), etc.
+>>>>>>> origin/master
 
 # EXPERIENCE
 
@@ -100,7 +104,7 @@ feature_row:
 ### FELLOWSHIPS
 
 - **Departmental Graduate Fellowship** from *College of Engineering* at *University of California, Berkeley*, Aug. 2023 - Dec. 2023
-  + Selective departmental grants offering stipends with full tuition and fee waivers 
+  + Selective departmental award offering stipends with full tuition and fee waivers 
 - **[Overseas Ph.D. Scholarship](http://www.taekwanggroup.co.kr/homepage/eng/iljuFoundationIntro.do)** from *Ilju Academy and Culture Foundation*, Aug. 2019 - Jul. 2023
   + One of 6 recipients of the foundation's [Study Abroad Doctoral Program](https://educationusa.state.gov/scholarships/study-abroad-doctoral-program-ilju-academy-and-culture-foundation) in 2019
   + Merit-based financial aids of $120,000 for promising Ph.D. students studying out of Korea
