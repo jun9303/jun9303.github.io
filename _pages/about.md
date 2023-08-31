@@ -17,7 +17,7 @@ feature_row:
 
 # EDUCATION
 
-- **Ph.D. Candidate**, [Mechanical Engineering](http://me.berkeley.edu/), *University of California, Berkeley*, Aug. 2019 -
+- **M.Sc./Ph.D.**, [Mechanical Engineering](http://me.berkeley.edu/), *University of California, Berkeley*, May 2024 (Expected)
     <details>
       <summary>[Graduate courses taken]</summary>
       <small><b>Fluid Mechanics</b>: Advanced Fluid Mechanics (1 & 2), Engineering Aerodynamics, Experimental Methods in Single-and Multiphase Flows, Graduate Ocean Engineering Seminar, Hydrodynamic Stability and Instability, Oceanic and Atmospheric Waves, Teaching of Mechanical Engineering at the University Level, Topics in Fluid Mechanics - Vortex Dynamics
@@ -54,14 +54,15 @@ feature_row:
 
 1. **Fluid Mechanics**: Numerical Analysis of Flow Motion and Instability with Concurrent Heat Transfers 
 2. **Computational Science**: Development of Time-Efficient Computing Schemes for Physics-Based Complex Systems
-3. **Energy & Environment**: Application to Energy (e.g., Wind Turbines), Pollution (e.g., Micro-Particle Dissemination), etc.
+3. **Energy & Environment**: Sustainable Energy (e.g., Wind Turbine), Clean Ocean/Atmosphere (e.g., Micro-Particles/Sediments in Flow), etc.
 
 # EXPERIENCE
 
 ### RESEARCH
 
 - **Graduate Student Researcher** at *[Computational Fluid Dynamics Lab](https://cfd.me.berkeley.edu/)* in *University of California, Berkeley* (Director:  [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/), Jan. 2020 -
-  + Computational examination of wake vortex instabilities using degenerate perturbation theory with a spectral collocation method
+  + Numerical examination of destabilizing aircraft wake vortices using a global eigenvalue and eigenmode analysis in association with a spectral collocation method
+  + Optimization of hydro-/aerodynamic designs with a Bayesian inference or a genetic algorithm using the Design-by-Morphing (DbM) technique
 
 - **Researcher** at *[Energy & Environmental Flow Lab](http://eeflow.snu.ac.kr)* in *Seoul National University* (Director: [Dr. Wontae Hwang](http://me.snu.ac.kr/node/141)), Jul. 2017 - Aug. 2018
   + Development and validation on conjugate heat transfer (CHT) codes with an efficient interpolation scheme for thermal properties at interfaces
@@ -73,13 +74,14 @@ feature_row:
 
 ### TEACHING
 
-- **Course Designer / Graduate Student Instructor** at *University of California, Berkeley*, Aug. 2022 - Dec. 2023
+- **Course Designer / Graduate Student Instructor** at *University of California, Berkeley*, Aug. 2022 - May 2023
   + *Introduction to Aerospace Engineering Design (AERO ENG 10)*
   + Composed teaching outlines and prepared instruction materials especially for an airfoil design and analysis lab module 
 
 - **Graduate Student Instructor** at *University of California, Berkeley*, Aug. 2019 - May 2022
   + *Experimentation and Measurements (MEC ENG 103)* from Fall 2019 to Spring 2022
   + Taught experimental techniques for mechanical engineering, run lab sessions, graded assignments and reports, had office hours and answered questions in person and online
+  + Received the Outstanding Graduate Student Instructor (OGSI) award in Apr. 2021
 
 - **Teaching Assistant** at *Seoul National University*, Mar. 2013 - Dec. 2013
   + *Basic Calculus 2 (007.102)* in Fall 2013
@@ -89,16 +91,16 @@ feature_row:
 ### OTHER
 
 - **Law Student (J.D.)** at *[SNU School of Law](http://law.snu.ac.kr/index_en.php)*, Mar. 2019 - Jul. 2019 <sub>(Discontinued)</sub>
-- **Membership** in *[SNU Honor Society for Engineering Students (STEM)](https://gongwoo.snu.ac.kr)*, Mar. 2016 -
-  + Served as the *7th Vice President* from Aug. 2016 to Jul. 2017
+- **Membership** in *[SNU Honor Society for Engineering Students (STEM)](https://gongwoo.snu.ac.kr)*, Mar. 2016 - Aug. 2018
+  + Served as the *7th Vice President & Head Manager* from Aug. 2016 to Jul. 2017
 - **Auxiliary Police Officer** at *Jongno Police Station, [Seoul Metropolitan Police Agency](https://www.smpa.go.kr/home/homeIndexEng.do?menuCode=eng)*, Jun. 2014 - Mar. 2016
 
 # HONORS & AWARDS
 
 ### FELLOWSHIPS
 
-- **Block Grant Fellowship** from *Department of Mechanical Engineering* at *University of California, Berkeley*, Aug. 2019 -
-  + Departmental grants offering tuition and fee waivers 
+- **Departmental Graduate Fellowship** from *College of Engineering* at *University of California, Berkeley*, Aug. 2019 -
+  + Selective departmental grants offering stipends with full tuition and fee waivers 
 - **[Overseas Ph.D. Scholarship](http://www.taekwanggroup.co.kr/homepage/eng/iljuFoundationIntro.do)** from *Ilju Academy and Culture Foundation*, Aug. 2019 - Jul. 2023
   + One of 6 recipients of the foundation's [Study Abroad Doctoral Program](https://educationusa.state.gov/scholarships/study-abroad-doctoral-program-ilju-academy-and-culture-foundation) in 2019
   + Merit-based financial aids of $120,000 for promising Ph.D. students studying out of Korea
