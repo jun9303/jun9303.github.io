@@ -54,11 +54,7 @@ feature_row:
 
 1. **Fluid Mechanics**: Numerical Analysis of Flow Motion and Instability with Concurrent Heat Transfers 
 2. **Computational Science**: Development of Time-Efficient Computing Schemes for Physics-Based Complex Systems
-<<<<<<< HEAD
 3. **Energy & Environment**: Applications to Sustainable Energy (e.g., Wind Turbine), Clean Ocean/Atmosphere (e.g., Micro-Particles/Sediments in Flow), etc.
-=======
-3. **Energy & Environment**: Sustainable Energy (e.g., Wind Turbine), Clean Ocean/Atmosphere (e.g., Micro-Particles/Sediments in Flow), etc.
->>>>>>> origin/master
 
 # EXPERIENCE
 
