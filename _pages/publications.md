@@ -17,7 +17,7 @@ header:
 5. SHEIKH, H. M., **LEE, S. (co-first)**, WANG, J. & MARCUS, P. S. (2023). Airfoil Optimization using Design-by-Morphing. *Journal of Computational Design and Engineering*, 10 (4), 1443-1459. [doi:10.1093/jcde/qwad059](
 https://doi.org/10.1093/jcde/qwad059)
 6. **LEE, S.**, & HWANG, W. (2019). Development of an Efficient Immersed-Boundary Method with Subgrid-Scale Models for Conjugate Heat Transfer Analysis using Large Eddy Simulation. *International Journal of Heat and Mass Transfer*, 134, 198-208. [doi:10.1016/j.ijheatmasstransfer.2019.01.019](https://doi.org/10.1016/j.ijheatmasstransfer.2019.01.019)
-7. BAEK, S., **LEE, S.**, HWANG, W., & PARK, J. S. (2018). Experimental and Numerical Investigation of the Flow in a Trailing Edge Ribbed Internal Cooling Passage. *Journal of Turbomachinery*, 141 (1), 011012. [doi:10.1115/1.4041868](https://doi.org/10.1115/1.4041868)
+7. BAEK, S., **LEE, S.**, HWANG, W., & PARK, J. S. (2019). Experimental and Numerical Investigation of the Flow in a Trailing Edge Ribbed Internal Cooling Passage. *Journal of Turbomachinery*, 141 (1), 011012. [doi:10.1115/1.4041868](https://doi.org/10.1115/1.4041868)
 
 
 # CONFERENCE PRESENTATIONS
