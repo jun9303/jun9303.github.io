@@ -17,7 +17,7 @@ feature_row:
 
 # EDUCATION
 
-- **M.Sc./Ph.D.**, [Mechanical Engineering](http://me.berkeley.edu/), *University of California, Berkeley*, Jul. 2024 (Expected)
+- **Ph.D./M.Sc.**, [Mechanical Engineering](http://me.berkeley.edu/), *University of California, Berkeley*, Jul. 2024 (Expected)
     <details>
       <summary>[Graduate courses taken]</summary>
       <small><b>Fluid Mechanics</b>: Advanced Fluid Mechanics (1 & 2), Engineering Aerodynamics, Experimental Methods in Single-and Multiphase Flows, Graduate Ocean Engineering Seminar, Hydrodynamic Stability and Instability, Oceanic and Atmospheric Waves, Teaching of Mechanical Engineering at the University Level, Topics in Fluid Mechanics - Vortex Dynamics
