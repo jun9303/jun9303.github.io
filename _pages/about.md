@@ -75,6 +75,7 @@ feature_row:
 ### TEACHING
 
 - **Teaching Assistant** at *University of California, Berkeley*, Jan. 2024 - May 2024
+  + *Introduction to Computer Programming for Scientists and Engineers (ENGIN 7)*
   + Taught basic programming strategies and numerical methods for scietific computing
 
 - **Course Designer / Graduate Student Instructor** at *University of California, Berkeley*, Aug. 2022 - May 2023
