@@ -86,7 +86,7 @@ feature_row:
   + Taught experimental techniques for mechanical engineering, run lab sessions, graded assignments and reports, had office hours and answered questions in person and online
   + Received the Outstanding Graduate Student Instructor (OGSI) award in Apr. 2021
 
-- **Undergraduate tutor** at *Seoul National University*, Mar. 2013 - Dec. 2013
+- **Undergraduate Tutor** at *Seoul National University*, Mar. 2013 - Dec. 2013
   + *Basic Calculus 2 (007.102)* in Fall 2013
   + *Basic Calculus 1 (007.098A)* and *Basic Physics 1 (007.099A)* in Spring 2013
   + Tutored freshmen who have difficulty in studying university-level calculus and physics
