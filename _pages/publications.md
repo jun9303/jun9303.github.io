@@ -11,16 +11,17 @@ header:
 # JOURNAL PUBLICATIONS
 
 1. **LEE, S.**, & MARCUS, P. S. (2024). Transient Growth of Wake Vortices in Association with Viscous Critical Layers and its Excitation. [Manuscript Under Preperation].
-2. SOLMAZ, A. S., RAFTERY, P., **LEE, S.** & DUARTE, C. (2024). Effect of Elevated Air Movement on Radiant Cooling Systems. [Manuscript Under Preperation].
-3. **LEE, S.**, SHEIKH, H. M., LIM, D. D., GU, G. X. & MARCUS, P. S. (2024). Bayesian-Optimized Riblet Surface Design for Turbulent Drag Reduction via Design-by-Morphing with Large Eddy Simulation. *Journal of Mechaincal Design*. [doi:10.1115/1.4064413](https://doi.org/10.1115/1.4064413)
-4. **LEE, S.**, & MARCUS, P. S. (2023). Linear Stability Analysis of Wake Vortices by a Spectral Method using Mapped Legendre Functions. *Journal of Fluid Mechanics*, 967, A2. [doi:10.1017/jfm.2023.455](https://doi.org/10.1017/jfm.2023.455)
-5. SHEIKH, H. M., **LEE, S. (co-first)**, WANG, J. & MARCUS, P. S. (2023). Airfoil Optimization using Design-by-Morphing. *Journal of Computational Design and Engineering*, 10 (4), 1443-1459. [doi:10.1093/jcde/qwad059](
+2. WANG, J., **LEE, S.**, & MARCUS, P. S. (2024). Perturbation Theory for the Resonant Triad Instability in Columnar Vortices with Axial Flow. [Manuscript Under Preperation].
+3. SOLMAZ, A. S., RAFTERY, P., **LEE, S.** & DUARTE, C. (2024). Effect of Elevated Air Movement on Radiant Cooling Systems. [Manuscript Under Preperation].
+4. **LEE, S.**, SHEIKH, H. M., LIM, D. D., GU, G. X. & MARCUS, P. S. (2024). Bayesian-Optimized Riblet Surface Design for Turbulent Drag Reduction via Design-by-Morphing with Large Eddy Simulation. *Journal of Mechaincal Design*. [doi:10.1115/1.4064413](https://doi.org/10.1115/1.4064413)
+5. **LEE, S.**, & MARCUS, P. S. (2023). Linear Stability Analysis of Wake Vortices by a Spectral Method using Mapped Legendre Functions. *Journal of Fluid Mechanics*, 967, A2. [doi:10.1017/jfm.2023.455](https://doi.org/10.1017/jfm.2023.455)
+6. SHEIKH, H. M., **LEE, S. (co-first)**, WANG, J. & MARCUS, P. S. (2023). Airfoil Optimization using Design-by-Morphing. *Journal of Computational Design and Engineering*, 10 (4), 1443-1459. [doi:10.1093/jcde/qwad059](
 https://doi.org/10.1093/jcde/qwad059)
-6. **LEE, S.**, & HWANG, W. (2019). Development of an Efficient Immersed-Boundary Method with Subgrid-Scale Models for Conjugate Heat Transfer Analysis using Large Eddy Simulation. *International Journal of Heat and Mass Transfer*, 134, 198-208. [doi:10.1016/j.ijheatmasstransfer.2019.01.019](https://doi.org/10.1016/j.ijheatmasstransfer.2019.01.019)
-7. BAEK, S., **LEE, S.**, HWANG, W., & PARK, J. S. (2019). Experimental and Numerical Investigation of the Flow in a Trailing Edge Ribbed Internal Cooling Passage. *Journal of Turbomachinery*, 141 (1), 011012. [doi:10.1115/1.4041868](https://doi.org/10.1115/1.4041868)
+7. **LEE, S.**, & HWANG, W. (2019). Development of an Efficient Immersed-Boundary Method with Subgrid-Scale Models for Conjugate Heat Transfer Analysis using Large Eddy Simulation. *International Journal of Heat and Mass Transfer*, 134, 198-208. [doi:10.1016/j.ijheatmasstransfer.2019.01.019](https://doi.org/10.1016/j.ijheatmasstransfer.2019.01.019)
+8. BAEK, S., **LEE, S.**, HWANG, W., & PARK, J. S. (2019). Experimental and Numerical Investigation of the Flow in a Trailing Edge Ribbed Internal Cooling Passage. *Journal of Turbomachinery*, 141 (1), 011012. [doi:10.1115/1.4041868](https://doi.org/10.1115/1.4041868)
 
 
-# CONFERENCE PRESENTATIONS
+# CONFERENCE PROCEEDINGS
 
 1. **LEE, S.**, & MARCUS, P. S. (Nov 21, 2023). Investigation of Triggering Vortex Instabilities with Inertial Particles. In *the 76th Annual Meeting of the APS Division of Fluid Dynamics* (Washington, DC, USA). American Physical Society. [:link:](https://meetings.aps.org/Meeting/DFD23/Session/ZC38.5)
 2. WANG, J., **LEE, S.** & MARCUS, P. S. (Nov 21, 2023). Three-Wave Resonance in Neutrally Stable Wake Vortices. In *the 76th Annual Meeting of the APS Division of Fluid Dynamics* (Washington, DC, USA). American Physical Society. [:link:](https://meetings.aps.org/Meeting/DFD23/Session/ZC38.2)
@@ -33,7 +34,7 @@ https://doi.org/10.1093/jcde/qwad059)
 9. **LEE, S.** (Nov 3, 2017). 2D Simulation of an Unsteady Flow around a Small Vertical Axis Wind Turbine Using an Immersed Boundary Method. In *KSME 2017 Annual Conference* (Jeju, South Korea). Korean Society of Mechanical Engineers. *Student Paper Award: Bronze Prize in the 9th National Fluid Engineering Contest for Undergraduates*. [:link:](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07287580&language=ko_KR#)
 10. BAEK, S., **LEE, S.**, & HWANG, W. (Nov 3, 2017). Investigation of Fully Developed Turbulent Pipe Flow Using Magnetic Resonance Velocimetry (MRV) and Large Eddy Simulation (LES). In *KSME 2017 Annual Conference* (Jeju, South Korea). Korean Society of Mechanical Engineers. [:link:](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07287540&language=ko_KR#)
 
-# SEMINARS & INVITED TALKS
+# INVITED TALKS
 
 1. **LEE, S.** (Aug 8, 2023). Design-by-Morphing (DbM): A Novel Design Methodology for Aerodynamic Optimization. In *Hyundai Vision Conference 2023* (Seoul, South Korea). Hyundai Motors.
 2. **LEE, S.** (Nov 16, 2022). Modern Applications of Computational Fluid Dynamics (CFD). In *2022 Online Special Lecture Series: Research Reinforcement for Sustainable Buildings and Urban Systems in Future* (Online). Department of Architectural and Urban Systems Engineering, Ewha Womans University.
