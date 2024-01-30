@@ -17,7 +17,7 @@ feature_row:
 
 # EDUCATION
 
-- **Ph.D./M.Sc.**, [Mechanical Engineering](http://me.berkeley.edu/), *University of California, Berkeley*, Jul. 2024 (Expected)
+- **M.Sc./Ph.D.**, [Mechanical Engineering](http://me.berkeley.edu/), *University of California, Berkeley*, May 2024 (Expected)
     <details>
       <summary>[Graduate courses taken]</summary>
       <small><b>Fluid Mechanics</b>: Advanced Fluid Mechanics (1 & 2), Engineering Aerodynamics, Experimental Methods in Single-and Multiphase Flows, Graduate Ocean Engineering Seminar, Hydrodynamic Stability and Instability, Oceanic and Atmospheric Waves, Teaching of Mechanical Engineering at the University Level, Topics in Fluid Mechanics - Vortex Dynamics
@@ -52,7 +52,7 @@ feature_row:
 
 # RESEARCH INTERESTS
 
-1. **Fluid Mechanics**: Analysis of Turbulent Motions and Instabilities with Concurrent Heat and Momentum Transfers 
+1. **Fluid Mechanics**: Numerical Analysis of Turbulent Motions and Instabilities with Concurrent Heat and Momentum Transfers 
 2. **Computational Science**: Development of Time-Efficient Computing Schemes for Physics-Based Complex Systems
 3. **Energy & Environment**: Applications to Sustainable Energy (e.g., Wind Turbine), Clean Ocean/Atmosphere (e.g., Micro-Particles/Sediments in Flow), etc.
 
@@ -60,7 +60,7 @@ feature_row:
 
 ### RESEARCH
 
-- **Graduate Student Researcher** at *[Computational Fluid Dynamics Lab](https://cfd.me.berkeley.edu/)* in *University of California, Berkeley* (Director:  [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/), Jan. 2020 - Jul. 2024 (Expected)
+- **Graduate Student Researcher** at *[Computational Fluid Dynamics Lab](https://cfd.me.berkeley.edu/)* in *University of California, Berkeley* (Director:  [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/), Jan. 2020 -
   + Numerical examination of destabilizing aircraft wake vortices using a global eigenvalue and eigenmode analysis in association with a spectral collocation method
   + Optimization of hydro-/aerodynamic designs with a Bayesian inference or a genetic algorithm using the Design-by-Morphing (DbM) technique
 
@@ -74,20 +74,16 @@ feature_row:
 
 ### TEACHING
 
-- **Teaching Assistant** at *University of California, Berkeley*, Jan. 2024 - May 2024
-  + *Introduction to Computer Programming for Scientists and Engineers (ENGIN 7)*
-  + Taught basic programming strategies and numerical methods for scientific computing
-
 - **Course Designer / Graduate Student Instructor** at *University of California, Berkeley*, Aug. 2022 - May 2023
   + *Introduction to Aerospace Engineering Design (AERO ENG 10)*
-  + Composed teaching outlines and prepared instruction materials especially for an airfoil design and analysis lab module with wind tunnel practices
+  + Composed teaching outlines and prepared instruction materials especially for an airfoil design and analysis lab module 
 
 - **Graduate Student Instructor** at *University of California, Berkeley*, Aug. 2019 - May 2022
   + *Experimentation and Measurements (MEC ENG 103)* from Fall 2019 to Spring 2022
   + Taught experimental techniques for mechanical engineering, run lab sessions, graded assignments and reports, had office hours and answered questions in person and online
   + Received the Outstanding Graduate Student Instructor (OGSI) award in Apr. 2021
 
-- **Undergraduate Tutor** at *Seoul National University*, Mar. 2013 - Dec. 2013
+- **Teaching Assistant** at *Seoul National University*, Mar. 2013 - Dec. 2013
   + *Basic Calculus 2 (007.102)* in Fall 2013
   + *Basic Calculus 1 (007.098A)* and *Basic Physics 1 (007.099A)* in Spring 2013
   + Tutored freshmen who have difficulty in studying university-level calculus and physics
@@ -121,7 +117,7 @@ feature_row:
 - **[Outstanding Graduate Student Instructor Award](https://gsi.berkeley.edu/programs-services/award-programs/ogsi/ogsi-2021/)** sponsored by UC Berkeley GSI Teaching & Resource Center, Apr. 2021
 - **[Student Paper Award: Bronze Prize](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07287580&language=ko_KR#)** in the 9th National Fluid Engineering Contest for Undergraduates, Nov. 2017
 - **Grand Prize** in the Idea Contest on Automobile Industry held by SNU & Hyundai Motors, Jun. 2017
-- **Bronze Prize** in the 1st IoT Innovation Challenge held by KEA & Samsung Electronics, Oct. 2016
+- **[Bronze Prize](http://www.iotchallenge.kr/prize-list.php?boardid=prize&mode=view&idx=21&sk=&sw=&offset=&category=2016)** in the 1st IoT Innovation Challenge held by KEA & Samsung Electronics, Oct. 2016
 - **Second Place** in the Idea Contest on Home Applicances held by Samsung Electonics, Aug. 2016
   
 <!-- <br>
