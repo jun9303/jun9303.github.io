@@ -29,6 +29,7 @@ feature_row:
 
   <!-- + Advisor: [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/) -->
   + Designated Emphasis in [Computational and Data Science and Engineering](https://data.berkeley.edu/decdse/)
+  + Dissertation: "Linear Stability of a Wake Vortex and its Transient Growth in Association with Critical-Layer Eigenmodes and Spectra: Computational Approaches and Analyses"
 
 - **B.Sc./B.B.A.**, [Mechanical and Aerospace Engineering](http://me.snu.ac.kr/en) & [Business Administration](http://cba.snu.ac.kr/en), *Seoul National University*, Aug. 2018
     <details>
@@ -39,7 +40,7 @@ feature_row:
     </details>
 
   + Thesis: "(B.Sc.) Large Eddy Simulation of Flow Around a Rotating Small Vertical Axis Wind Turbine Using an Immersed Boundary Method" & "(B.B.A.) Capital and Operating Cost Efficiency Evaluation of Onshore Wind Farms in South Korea: A DEA Approach"
-  + *Summa Cum Laude*
+  + Honors: *Summa Cum Laude*
   
 <!-- - **B.B.A.**, [Business Administration](http://cba.snu.ac.kr/en), *Seoul National University*, Aug. 2018
     <details>
@@ -83,13 +84,12 @@ feature_row:
   + Composed teaching outlines and prepared instruction materials especially for an airfoil design and analysis lab module with wind tunnel practices
 
 - **Graduate Student Instructor** at *University of California, Berkeley*, Aug. 2019 - May 2022
-  + *Experimentation and Measurements (MEC ENG 103)* from Fall 2019 to Spring 2022
+  + *Experimentation and Measurements (MEC ENG 103)*
   + Taught experimental techniques for mechanical engineering, run lab sessions, graded assignments and reports, had office hours and answered questions in person and online
   + Received the Outstanding Graduate Student Instructor (OGSI) award in Apr. 2021
 
 - **Undergraduate Tutor** at *Seoul National University*, Mar. 2013 - Dec. 2013
-  + *Basic Calculus 2 (007.102)* in Fall 2013
-  + *Basic Calculus 1 (007.098A)* and *Basic Physics 1 (007.099A)* in Spring 2013
+  + *Basic Calculus 2 (007.102)* and *Basic Calculus 1/2 (007.098A/099A)*
   + Tutored freshmen who have difficulty in studying university-level calculus and physics
 
 ### OTHER
