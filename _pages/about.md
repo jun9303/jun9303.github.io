@@ -17,7 +17,7 @@ feature_row:
 
 # EDUCATION
 
-- **Ph.D./M.Sc.**, [Mechanical Engineering](http://me.berkeley.edu/), *University of California, Berkeley*, Jul. 2024 (Expected)
+- **Ph.D./M.Sc.**, [Mechanical Engineering](http://me.berkeley.edu/), *University of California, Berkeley*, Aug. 2024 (Expected)
     <details>
       <summary>[Graduate courses taken]</summary>
       <small><b>Fluid Mechanics</b>: Advanced Fluid Mechanics (1 & 2), Engineering Aerodynamics, Experimental Methods in Single-and Multiphase Flows, Graduate Ocean Engineering Seminar, Hydrodynamic Stability and Instability, Oceanic and Atmospheric Waves, Teaching of Mechanical Engineering at the University Level, Topics in Fluid Mechanics - Vortex Dynamics
@@ -27,7 +27,7 @@ feature_row:
       </small><br>
     </details>
 
-  + Advisor: [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/)
+  <!-- + Advisor: [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/) -->
   + Designated Emphasis in [Computational and Data Science and Engineering](https://data.berkeley.edu/decdse/)
 
 - **B.Sc./B.B.A.**, [Mechanical and Aerospace Engineering](http://me.snu.ac.kr/en) & [Business Administration](http://cba.snu.ac.kr/en), *Seoul National University*, Aug. 2018
@@ -54,13 +54,13 @@ feature_row:
 
 1. **Fluid Mechanics**: Analysis of Turbulent Motions and Instabilities with Concurrent Heat and Momentum Transfers 
 2. **Computational Science**: Development of Time-Efficient Computing Schemes for Physics-Based Complex Systems
-3. **Energy & Environment**: Applications to Sustainable Energy (e.g., Wind Turbine), Clean Ocean/Atmosphere (e.g., Micro-Particles/Sediments in Flow), etc.
+3. **Energy & Environment**: Flow Applications to Sustainable Energy, Clean Atmosphere, etc.
 
 # EXPERIENCE
 
 ### RESEARCH
 
-- **Graduate Student Researcher** at *[Computational Fluid Dynamics Lab](https://cfd.me.berkeley.edu/)* in *University of California, Berkeley* (Director:  [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/), Jan. 2020 - Jul. 2024 (Expected)
+- **Graduate Student Researcher** at *[Computational Fluid Dynamics Lab](https://cfd.me.berkeley.edu/)* in *University of California, Berkeley* (Director:  [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/), Jan. 2020 - Aug. 2024 (Expected)
   + Numerical examination of destabilizing aircraft wake vortices using a global eigenvalue and eigenmode analysis in association with a spectral collocation method
   + Optimization of hydro-/aerodynamic designs with a Bayesian inference or a genetic algorithm using the Design-by-Morphing (DbM) technique
 
@@ -95,7 +95,7 @@ feature_row:
 ### OTHER
 
 - **Law Student (J.D.)** at *[SNU School of Law](http://law.snu.ac.kr/index_en.php)*, Mar. 2019 - Jul. 2019 <sub>(Discontinued)</sub>
-- **Membership** in *[SNU Honor Society for Engineering Students (STEM)](https://gongwoo.snu.ac.kr)*, Mar. 2016 - Aug. 2018
+- **Member** of *[SNU Honor Society for Engineering Students (STEM)](https://gongwoo.snu.ac.kr)*, Mar. 2016 - Aug. 2018
   + Served as the *7th Vice President & Head Manager* from Aug. 2016 to Jul. 2017
 - **Auxiliary Police Officer** at *Jongno Police Station, [Seoul Metropolitan Police Agency](https://www.smpa.go.kr/home/homeIndexEng.do?menuCode=eng)*, Jun. 2014 - Mar. 2016
 
