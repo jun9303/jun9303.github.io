@@ -1,9 +1,9 @@
 main:
+  - title: "CV"
+    url: "/assets/pdfjs/web/viewer.html?file=%2Fassets%2Fpdf%2Fcv_sangjoonlee.pdf#page=1&pagemode=none"
   - title: "About Me"
     url: /about_me/
   - title: "Publications"
     url: /publications/
-  - title: "CV"
-    url: "/assets/pdfjs/web/viewer.html?file=%2Fassets%2Fpdf%2Fcv_sangjoonlee.pdf#page=1&pagemode=none"
   - title: "Blog"
     url: /blog/
