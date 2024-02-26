@@ -7,8 +7,8 @@ category: Trip
 gallery:
   - url: /assets/photographs/070823_fukuoka/20230709_124843.jpg
     image_path: /assets/photographs/070823_fukuoka/20230709_124843.jpg
-    alt: "in the bus from fukuoka city to yufuin"
-    title: "In the Bus Running from Fukuoka City to Yufuin"
+    alt: "in a bus from fukuoka city to yufuin"
+    title: "In a Bus Running from Fukuoka City to Yufuin"
   - url: /assets/photographs/070823_fukuoka/1688905981842.jpg
     image_path: /assets/photographs/070823_fukuoka/1688905981842.jpg
     alt: "kaiseki seiko-en"
