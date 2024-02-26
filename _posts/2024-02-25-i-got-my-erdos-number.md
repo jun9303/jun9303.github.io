@@ -19,9 +19,9 @@ My [recent paper](https://doi.org/10.1017/jfm.2023.455) published in the Journal
   - Marcus, P. S., Press, W. H., & Teukolsky, S. A. (1977). Stablest shapes for an axisymmetric body of gravitating, incompressible fluid. The Astrophysical Journal, 214, 584-597. [https://doi.org/10.1086/155284](https://doi.org/10.1086/155284)
 3. **Press, W. H. &rarr; Freedman, M. H.**
   - Freedman, M. H., & Press, W. H. (1996). Truncation of wavelet matrices: Edge effects and the reduction of topological control. Linear Algebra and Its Applications, 234, 1–19. [https://doi.org/10.1016/0024-3795(94)00039-5](https://doi.org/10.1016/0024-3795(94)00039-5)
-4. **Freedman, M. H. &raar; Lovász, L.**
+4. **Freedman, M. H. &rarr; Lovász, L.**
   - Freedman, M., Lovász, L., & Schrijver, A. (2006). Reflection positivity, rank connectivity, and homomorphism of graphs. Journal of the American Mathematical Society, 20(1), 37–51. [https://doi.org/10.1090/S0894-0347-06-00529-7](https://doi.org/10.1090/S0894-0347-06-00529-7)
-5. **Lovász, L. &raar; Erdös, P.**
+5. **Lovász, L. &rarr; Erdös, P.**
   - Erdös, P., Lovász, L., Simmons, A., & Straus, E. G. (1973). Dissection graphs of planar point sets. In J. N. Srivastava (Ed.), *A Survey of Combinatorial Theory* (pp. 139–149). Elsevier. [https://doi.org/10.1016/B978-0-7204-2262-7.50018-1](https://doi.org/10.1016/B978-0-7204-2262-7.50018-1)
 
 Hooray :)
