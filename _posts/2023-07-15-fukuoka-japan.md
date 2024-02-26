@@ -9,12 +9,12 @@ gallery:
     image_path: /assets/photographs/070823_fukuoka/20230709_124843.jpg
     alt: "in a bus from fukuoka city to yufuin"
     title: "In a Bus Running from Fukuoka City to Yufuin"
-  - url: /assets/photographs/070823_fukuoka/1688905981842.jpg
-    image_path: /assets/photographs/070823_fukuoka/1688905981842.jpg
-    alt: "kaiseki seiko-en"
-    title: "Kaiseki (Dinner) at Seiko-En, Yufuin"
   - url: /assets/photographs/070823_fukuoka/1688905982192.jpg
     image_path: /assets/photographs/070823_fukuoka/1688905982192.jpg
+    alt: "kaiseki seiko-en"
+    title: "Kaiseki (Dinner) at Seiko-En, Yufuin"
+  - url: /assets/photographs/070823_fukuoka/1688905981842.jpg
+    image_path: /assets/photographs/070823_fukuoka/1688905981842.jpg
     alt: "private ryokan onsen"
     title: "Private Ryokan Onsen (Hot Springs) at Seiko-En, Yufuin"
   - url: /assets/photographs/070823_fukuoka/20230710_120323.jpg
