@@ -1,5 +1,5 @@
 ---
-title: "I got my Erdős Number!"
+title: "I Got My Erdős Number!"
 date: 2024-02-25 18:05:00 -0800
 published: true
 category: Study
