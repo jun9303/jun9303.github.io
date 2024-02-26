@@ -31,7 +31,7 @@ gallery:
     title: "Fukuoka Tower Seen at Momochihama Beach"
 ---
 
-Rainy Twists amongst City Delights and Onsen Relaxes
+Rainy twists amongst city delights and onsen relaxes
 
 Beginning in the tranquil resort place of Yufuin, my stay at Seiko-en Ryokan offered a serene retreat amidst nature's embrace. The private onsen and delectable kaiseki dinner set the stage for relaxation, providing a refreshing start to my Fukuoka trip.
 
