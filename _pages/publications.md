@@ -23,7 +23,7 @@ https://doi.org/10.1093/jcde/qwad059)
 
 # CONFERENCE PAPERS/PRESENTATIONS
 
-1. **LEE, S.**, & MARCUS, P. S. (2024, Aug 26-30). Particle-Initiated Transient Growth of a Wake Vortex in Consideration of Condensation Trails. In *26th International Congress of Theoretical and Applied Mechanics (ICTAM)–Book of Abstracts, Daegu, South Korea* (no. AO-FM16-0219). International Union of Theoretical and Applied Mechanics.
+1. **LEE, S.**, & MARCUS, P. S. (2024, Aug 26-30). Particle-Initiated Transient Growth of a Wake Vortex in Consideration of Condensation Trails. In *Abstr. 26th International Congress of Theoretical and Applied Mechanics (ICTAM), Daegu, South Korea* (no. AO-FM16-0219). International Union of Theoretical and Applied Mechanics.
 1. **LEE, S.**, & MARCUS, P. S. (2023, Nov 19-21). Investigation of Triggering Vortex Instabilities with Inertial Particles. In *Abstr. 76th Annual Meeting of the APS Division of Fluid Dynamics, Washington, DC, USA* (no. ZC38.5). American Physical Society. [:link:](https://meetings.aps.org/Meeting/DFD23/Session/ZC38.5)
 1. WANG, J., **LEE, S.** & MARCUS, P. S. (2023, Nov 19-21). Three-Wave Resonance in Neutrally Stable Wake Vortices. In *Abstr. 76th Annual Meeting of the APS Division of Fluid Dynamics, Washington, DC, USA* (no. ZC38.2). American Physical Society. [:link:](https://meetings.aps.org/Meeting/DFD23/Session/ZC38.2)
 1. **LEE, S.**, & MARCUS, P. S. (2022, Nov 20-22). Viscous Perturbation to Inviscid Wake Vortices - Perturbation Theory in Vortex Stability. In *Abstr. 75th Annual Meeting of the APS Division of Fluid Dynamics, Indianapolis, IN, USA* (no. Q11.7). American Physical Society. [:link:](https://meetings.aps.org/Meeting/DFD22/Session/Q11.7)
