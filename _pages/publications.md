@@ -10,6 +10,7 @@ header:
 
 # JOURNAL ARTICLES
 
+1. **LEE, S.**, BAEK, S. & HWANG, W. (2024). Impact of Additively Manufactured Surface Roughness on Flow Motion in Internal Cooling Passages without or with Ribs. [Manuscript Under Preparation].
 1. SOLMAZ, A. S., RAFTERY, P., **LEE, S.** & DUARTE, C. (2024). Effect of Elevated Air Movement on Radiant Cooling Systems. [Manuscript Under Preperation].
 1. **LEE, S.**, & MARCUS, P. S. (2024). Transient Growth of a Wake Vortex and its Initiation via Inertial Particles. *arXiv Preprint*, [arXiv:2402.07469](https://arxiv.org/abs/2402.07469).
 1. WANG, J., **LEE, S.**, & MARCUS, P. S. (2024). Triadic Resonance in Columnar Vortices. *arXiv Preprint*, [arXiv:2402.05287](https://arxiv.org/abs/2402.05287).
