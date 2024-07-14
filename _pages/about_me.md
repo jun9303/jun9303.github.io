@@ -9,8 +9,8 @@ header:
 feature_row:
   - image_path: assets/images/bio-photo-sjlee-200x200.png
     alt: "profile image"
-    title: 'Sangjoon "Joon" Lee'
-    excerpt: "Ph.D. Candidate at UC Berkeley / [[E-mail]](mailto:sangjoonlee@berkeley.edu)"
+    title: 'Sangjoon "Joon" Lee, Ph.D.'
+    excerpt: "Fluid Physics, CFD, Optimization / [[E-mail]](mailto:sangjoonlee@berkeley.edu)"
 ---
 
 {% include feature_row type="center" %}
