@@ -19,7 +19,7 @@ In 2024, I received a doctorate (Ph.D.) and a master's degree (M.S.) in [Mechani
 
 My research topics mainly revolve around the areas of Fluid Mechanics and Computational Science. I have accumulated my own research experiences in Computational Fluid Dynamics (CFD), experimental flow measurements (e.g., magnetic resonance velocimetry), conjugate heat transfer analyses, vortex instabilities, aero-/hydrodynamic optimizations, and relevant engineering problems. Furthermore, I am deeply interested in the incorporation of machine learning (ML)-based optimization techniques in CFD and the analysis of particle-laden flow systems.
 
-I was a researcher in the [Energy and Environmental Flow Lab](http://eeflow.snu.ac.kr/) at SNU, directed by [Dr. Wontae Hwang](http://me.snu.ac.kr/node/141). Under the guidance of [Dr. Haecheon Choi](http://me.snu.ac.kr/node/116), I wrote my B.S. thesis, "Large eddy simulation of flow around a rotating small vertical axis wind turbine using an immersed boundary method."
+<!-- I was a researcher in the [Energy and Environmental Flow Lab](http://eeflow.snu.ac.kr/) at SNU, directed by [Dr. Wontae Hwang](http://me.snu.ac.kr/node/141). Under the guidance of [Dr. Haecheon Choi](http://me.snu.ac.kr/node/116), I wrote my B.S. thesis, "Large eddy simulation of flow around a rotating small vertical axis wind turbine using an immersed boundary method." -->
 
 I am familiar with several programming languages, including Python, Fortran, and MATLAB, and often utilize them for research projects. As a small form of entertainment, I have undertaken several web design projects with various frameworks (e.g., Python Flask, PHP, jQuery). Hiking, jogging, and playing basketball are my favorite outdoor activities.
 <style>
