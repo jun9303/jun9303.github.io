@@ -23,7 +23,7 @@ In August 2024, I completed the Doctorate (Ph.D.) and Master's degree (M.S.) pro
 
 <!-- I was a researcher in the [Energy and Environmental Flow Lab](http://eeflow.snu.ac.kr/) at SNU, directed by [Dr. Wontae Hwang](http://me.snu.ac.kr/node/141). Under the guidance of [Dr. Haecheon Choi](http://me.snu.ac.kr/node/116), I wrote my B.S. thesis, "Large eddy simulation of flow around a rotating small vertical axis wind turbine using an immersed boundary method." -->
 
-I am familiar with several programming languages, including Python, Fortran, and MATLAB, and often utilize them for research projects. As a small form of entertainment, I have undertaken several web design projects with various frameworks (e.g., Python Flask, PHP, jQuery). Hiking, jogging, and playing basketball are my favorite outdoor activities.
+I am familiar with several programming languages, including Python, Fortran, C, and MATLAB, and often utilize them for research projects. As a small form of entertainment, I have undertaken several web design projects with various frameworks (e.g., Python Flask, PHP, jQuery). Hiking, jogging, and playing basketball are my favorite outdoor activities.
 <style>
 figure {
 	margin-bottom: 0px;
