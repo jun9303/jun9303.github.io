@@ -15,7 +15,7 @@ intro:
 
 # I AM SANGJOON LEE.
 
-I will be joining Stanford University as a postdoctral fellow at the Center for Turbulence Research (CTR) starting in October 2024.
+I will be joining [Stanford University](https://www.stanford.edu/) as a postdoctral fellow at the [Center for Turbulence Research (CTR)](https://ctr.stanford.edu/) starting in October 2024.
 
 My research topics mainly revolve around the fields of Fluid Mechanics and Computational Science. I have accumulated my own research experience in Computational Fluid Dynamics (CFD) techniques, experimental flow measurements (e.g., magnetic resonance velocimetry, particle image velocimetry), conjugate heat transfer analyses, vortex instabilities, aero-/hydrodynamic optimizations, and relevant engineering problems. Furthermore, I am deeply interested in the incorporation of Machine Learning (ML)-based optimization schemes to CFD, and the numerical analysis of particle-laden flow systems.
 
