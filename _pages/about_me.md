@@ -17,7 +17,7 @@ feature_row:
 
 # EDUCATION
 
-- **Ph.D./M.Sc.**, [Mechanical Engineering](http://me.berkeley.edu/), *University of California, Berkeley*, Aug. 2024 (Expected)
+- **Ph.D./M.Sc.**, [Mechanical Engineering](http://me.berkeley.edu/), *University of California, Berkeley*, Aug. 2024
     <details>
       <summary>[Graduate courses taken]</summary>
       <small><b>Fluid Mechanics</b>: Advanced Fluid Mechanics (1 & 2), Engineering Aerodynamics, Experimental Methods in Single-and Multiphase Flows, Graduate Ocean Engineering Seminar, Hydrodynamic Stability and Instability, Oceanic and Atmospheric Waves, Teaching of Mechanical Engineering at the University Level, Topics in Fluid Mechanics - Vortex Dynamics
@@ -61,7 +61,7 @@ feature_row:
 
 ### RESEARCH
 
-- **Graduate Student Researcher** at *[Computational Fluid Dynamics Lab](https://cfd.me.berkeley.edu/)* in *University of California, Berkeley* (Director:  [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/), Jan. 2020 - Aug. 2024 (Expected)
+- **Graduate Student Researcher** at *[Computational Fluid Dynamics Lab](https://cfd.me.berkeley.edu/)* in *University of California, Berkeley* (Director:  [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/), Jan. 2020 - Aug. 2024
   + Numerical examination of destabilizing aircraft wake vortices using a global eigenvalue and eigenmode analysis in association with a spectral collocation method
   + Optimization of hydro-/aerodynamic designs with a Bayesian inference or a genetic algorithm using the Design-by-Morphing (DbM) technique
 
