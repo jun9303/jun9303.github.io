@@ -61,6 +61,9 @@ feature_row:
 
 ### RESEARCH
 
+- **Postdoctral Fellow** at *[Center for Turbulence Research](https://ctr.stanford.edu/)* in *Stanford University*, Oct. 2024 -
+  + Physical understanding of turbulence and related non-linear multi-scale phenomena
+
 - **Graduate Student Researcher** at *[Computational Fluid Dynamics Lab](https://cfd.me.berkeley.edu/)* in *University of California, Berkeley* (Director:  [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/), Jan. 2020 - Aug. 2024
   + Numerical examination of destabilizing aircraft wake vortices using a global eigenvalue and eigenmode analysis in association with a spectral collocation method
   + Optimization of hydro-/aerodynamic designs with a Bayesian inference or a genetic algorithm using the Design-by-Morphing (DbM) technique
@@ -103,6 +106,8 @@ feature_row:
 
 ### FELLOWSHIPS
 
+- **Postdoctral Fellowship** from *Center for Turbulence Research* at *Stanford University*, Oct. 2024 - Sep. 2025
+  + Academic and financial supports for research on turbulence
 - **Departmental Graduate Fellowship** from *College of Engineering* at *University of California, Berkeley*, Aug. 2023 - Dec. 2023
   + Selective departmental award offering stipends with full tuition and fee waivers 
 - **[Overseas Ph.D. Scholarship](http://www.taekwanggroup.co.kr/homepage/eng/iljuFoundationIntro.do)** from *Ilju Academy and Culture Foundation*, Aug. 2019 - Jul. 2023
