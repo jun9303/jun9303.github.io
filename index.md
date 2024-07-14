@@ -13,7 +13,7 @@ intro:
 
 {% include figure id="row1_welcome" image_path="assets/images/welcome_1.jpg" %}
 
-# I AM SANGJOON LEE. YOU CAN CALL ME JOON.
+# I AM SANGJOON LEE.
 
 I will be joining [Stanford University](https://www.stanford.edu/) as a postdoctral fellow at the [Center for Turbulence Research (CTR)](https://ctr.stanford.edu/) starting in October 2024.
 
