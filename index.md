@@ -15,9 +15,11 @@ intro:
 
 # I AM SANGJOON LEE.
 
-In 2024, I received a doctorate (Ph.D.) and a master's degree (M.S.) in [Mechanical Engineering](https://me.berkeley.edu/) with a designated emphasis in [Computational and Data Science and Engineering](https://data.berkeley.edu/decdse/) at [University of California, Berkeley](https://www.berkeley.edu/) under the advice of [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/). In 2018, graduating from [Seoul National University](https://useoul.edu/) (SNU), I was conferred dual bachelor's degrees with highest honors (*summa cum laude*) in [Mechanical and Aerospace Engineering](http://me.snu.ac.kr/en) (B.S.) and [Business Administration](http://cba.snu.ac.kr/en) (B.B.A.).
+I will be joining Stanford University as a postdoctral fellow at the Center for Turbulence Research (CTR) starting in October 2024.
 
 My research topics mainly revolve around the areas of Fluid Mechanics and Computational Science. I have accumulated my own research experiences in Computational Fluid Dynamics (CFD), experimental flow measurements (e.g., magnetic resonance velocimetry), conjugate heat transfer analyses, vortex instabilities, aero-/hydrodynamic optimizations, and relevant engineering problems. Furthermore, I am deeply interested in the incorporation of machine learning (ML)-based optimization techniques in CFD and the analysis of particle-laden flow systems.
+
+In August 2024, I completed the Doctorate (Ph.D.) and Master's degree (M.S.) program in [Mechanical Engineering](https://me.berkeley.edu/) with a designated emphasis in [Computational and Data Science and Engineering](https://data.berkeley.edu/decdse/) at [University of California, Berkeley](https://www.berkeley.edu/), under the advice of [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/). In August 2018, I graduated from [Seoul National University](https://useoul.edu/) (SNU), receiving dual Bachelor's degrees with highest honors (*summa cum laude*) in [Mechanical and Aerospace Engineering](http://me.snu.ac.kr/en) (B.S.) and [Business Administration](http://cba.snu.ac.kr/en) (B.B.A.).
 
 <!-- I was a researcher in the [Energy and Environmental Flow Lab](http://eeflow.snu.ac.kr/) at SNU, directed by [Dr. Wontae Hwang](http://me.snu.ac.kr/node/141). Under the guidance of [Dr. Haecheon Choi](http://me.snu.ac.kr/node/116), I wrote my B.S. thesis, "Large eddy simulation of flow around a rotating small vertical axis wind turbine using an immersed boundary method." -->
 
