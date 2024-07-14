@@ -61,7 +61,7 @@ feature_row:
 
 ### RESEARCH
 
-- **Postdoctral Fellow** at *[Center for Turbulence Research](https://ctr.stanford.edu/)* in *Stanford University*, Oct. 2024 -
+- **Postdoctoral Fellow** at *[Center for Turbulence Research](https://ctr.stanford.edu/)* in *Stanford University*, Oct. 2024 -
   + Physical understanding of turbulence and related non-linear multi-scale phenomena
 
 - **Graduate Student Researcher** at *[Computational Fluid Dynamics Lab](https://cfd.me.berkeley.edu/)* in *University of California, Berkeley* (Director:  [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/), Jan. 2020 - Aug. 2024
