@@ -108,7 +108,7 @@ feature_row:
 
 ### FELLOWSHIPS
 
-- **Postdoctral Fellowship** from *Center for Turbulence Research, Stanford University*, Oct. 2024 - Sep. 2025
+- **Postdoctoral Fellowship** from *Center for Turbulence Research, Stanford University*, Oct. 2024 - Sep. 2025
   + Academic and financial supports for research on turbulence
 - **Departmental Graduate Fellowship** from *College of Engineering, University of California, Berkeley*, Aug. 2023 - Dec. 2023
   + Selective departmental award offering stipends with full tuition and fee waivers 
