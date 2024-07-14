@@ -55,7 +55,7 @@ feature_row:
 
 1. **Fluid Mechanics**: Analysis of Turbulent Motions and Instabilities with Concurrent Heat and Momentum Transfers 
 2. **Computational Science**: Development of Time-Efficient Computing Schemes for Physics-Based Complex Systems
-3. **Energy & Environment**: Flow Applications to Sustainable Energy, Clean Ocean and Atmosphere, etc.
+3. **Flows in Human Environment**: Application to Sustainable Energy or Clean Environment on Various Scales
 
 # EXPERIENCE
 
