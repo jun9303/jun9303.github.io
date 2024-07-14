@@ -17,7 +17,7 @@ feature_row:
 
 # EDUCATION
 
-- **Ph.D./M.Sc.**, [Mechanical Engineering](http://me.berkeley.edu/), *University of California, Berkeley*, Aug. 2024
+- **Ph.D./M.S.**, [Mechanical Engineering](http://me.berkeley.edu/), *University of California, Berkeley*, Aug. 2024
     <details>
       <summary>[Graduate courses taken]</summary>
       <small><b>Fluid Mechanics</b>: Advanced Fluid Mechanics (1 & 2), Engineering Aerodynamics, Experimental Methods in Single-and Multiphase Flows, Graduate Ocean Engineering Seminar, Hydrodynamic Stability and Instability, Oceanic and Atmospheric Waves, Teaching of Mechanical Engineering at the University Level, Topics in Fluid Mechanics - Vortex Dynamics
@@ -31,7 +31,7 @@ feature_row:
   + Dissertation: "Linear Stability of a Wake Vortex and its Transient Growth: Computational Analyses in Light of Critical-Layer Eigenmodes and Spectra"
   + Designated Emphasis in [Computational and Data Science and Engineering](https://data.berkeley.edu/decdse/)
 
-- **B.Sc./B.B.A.**, [Mechanical and Aerospace Engineering](http://me.snu.ac.kr/en) & [Business Administration](http://cba.snu.ac.kr/en), *Seoul National University*, Aug. 2018
+- **B.S./B.B.A.**, [Mechanical and Aerospace Engineering](http://me.snu.ac.kr/en) & [Business Administration](http://cba.snu.ac.kr/en), *Seoul National University*, Aug. 2018
     <details>
       <summary>[Undergraduate courses taken]</summary>
       <small><b>Engineering</b>: Applied Fluid Mechanics, Creative Engineering Design, Digital Computer Concept and Practice, Digital Fabrication and Manufacturing, Dynamics, Engineering Mathematics (1 & 2), Fluid Mechanics, Heat Transfer, Introduction to Electrical and Computer Engineering, Management in Mechanical Engineering (1 & 2), Manufacturing Processes, Mechanical Drawing, Mechanical Engineering Lab. (1 & 2), Mechanical System Design Project (1 & 2), Mechanics and Design, Solid Mechanics, Thermodynamics, Writing in Science & Technology</small><br>
