@@ -106,9 +106,9 @@ feature_row:
 
 ### FELLOWSHIPS
 
-- **Postdoctral Fellowship** from *Center for Turbulence Research* at *Stanford University*, Oct. 2024 - Sep. 2025
+- **Postdoctral Fellowship** from *Center for Turbulence Research, Stanford University*, Oct. 2024 - Sep. 2025
   + Academic and financial supports for research on turbulence
-- **Departmental Graduate Fellowship** from *College of Engineering* at *University of California, Berkeley*, Aug. 2023 - Dec. 2023
+- **Departmental Graduate Fellowship** from *College of Engineering, University of California, Berkeley*, Aug. 2023 - Dec. 2023
   + Selective departmental award offering stipends with full tuition and fee waivers 
 - **[Overseas Ph.D. Scholarship](http://www.taekwanggroup.co.kr/homepage/eng/iljuFoundationIntro.do)** from *Ilju Academy and Culture Foundation*, Aug. 2019 - Jul. 2023
   + One of 6 recipients of the foundation's [Study Abroad Doctoral Program](https://educationusa.state.gov/scholarships/study-abroad-doctoral-program-ilju-academy-and-culture-foundation) in 2019
