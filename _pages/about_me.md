@@ -53,7 +53,7 @@ feature_row:
 
 # RESEARCH INTERESTS
 
-1. **Fluid Mechanics**: Analysis of Turbulent Motions and Instabilities with Concurrent Heat and Momentum Transfers 
+1. **Fluid Mechanics**: Analysis of Turbulent Motions and Instabilities with Concurrent Scalar Transfers 
 2. **Computational Science**: Development of Time-Efficient Computing Schemes for Physics-Based Complex Systems
 3. **Flows in Human Environment**: Application to Sustainable Energy or Clean Environment on Various Scales
 
