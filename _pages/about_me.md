@@ -28,7 +28,7 @@ feature_row:
     </details>
 
   <!-- + Advisor: [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/) -->
-  + Dissertation: "Linear Stability of a Wake Vortex and its Transient Growth: Computational Analyses in Light of Critical-Layer Eigenmodes and Spectra"
+  + Dissertation: "Linear Stability of a Wake Vortex and its Transient Growth: Numerical Analysis in Light of Critical-Layer Eigenmodes and Spectra"
   + Designated Emphasis in [Computational and Data Science and Engineering](https://data.berkeley.edu/decdse/)
 
 - **B.S./B.B.A.**, [Mechanical and Aerospace Engineering](http://me.snu.ac.kr/en) & [Business Administration](http://cba.snu.ac.kr/en), *Seoul National University*, Aug. 2018
