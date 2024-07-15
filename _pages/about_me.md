@@ -61,18 +61,18 @@ feature_row:
 
 ### RESEARCH
 
-- **Postdoctoral Fellow** at *[Center for Turbulence Research](https://ctr.stanford.edu/)* in *Stanford University*, Oct. 2024 -
+- **Postdoctoral Fellow** at *[Center for Turbulence Research](https://ctr.stanford.edu/), Stanford University*, Oct. 2024 -
   + Physical understanding of turbulence and related non-linear multi-scale phenomena
 
-- **Graduate Student Researcher** at *[Computational Fluid Dynamics Lab](https://cfd.me.berkeley.edu/)* in *University of California, Berkeley*, Jan. 2020 - Aug. 2024
+- **Graduate Student Researcher** at *[Computational Fluid Dynamics Lab](https://cfd.me.berkeley.edu/), University of California, Berkeley*, Jan. 2020 - Aug. 2024
   + Numerical examination of destabilizing aircraft wake vortices using a global eigenvalue and eigenmode analysis in association with a spectral collocation method
   + Optimization of hydro-/aerodynamic designs with a Bayesian inference or a genetic algorithm using the Design-by-Morphing (DbM) technique
 
-- **Researcher** at *[Energy & Environmental Flow Lab](http://eeflow.snu.ac.kr)* in *Seoul National University*, Jul. 2017 - Aug. 2018
+- **Researcher** at *[Energy & Environmental Flow Lab](http://eeflow.snu.ac.kr), Seoul National University*, Jul. 2017 - Aug. 2018
   + Development and validation on conjugate heat transfer (CHT) codes with an efficient interpolation scheme for thermal properties at interfaces
   + Flow visualization using Magnetic Resonance Velocimetry (MRV) and Large Eddy Simulation (LES)
 
-- **Research Intern** at *[Turbulence, Flow Control & CFD Lab](http://tfc.snu.ac.kr)* in *Seoul National University*, Sep. 2016 - Dec. 2017
+- **Research Intern** at *[Turbulence, Flow Control & CFD Lab](http://tfc.snu.ac.kr), Seoul National University*, Sep. 2016 - Dec. 2017
   + Simulation of flow around a rotating small Vertical Axis Wind Turbine (VAWT) as a part of the undergraduate thesis program
   + Numerical study for Computational Fluid Dynamics (CFD) based on an Immersed Boundary (IB) method
 
