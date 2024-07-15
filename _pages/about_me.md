@@ -98,7 +98,7 @@ feature_row:
 ### OTHER
 
 - **Peer Reviewer**
-  + *Physics of Fluids*, AIP Publishing (reviewed 1 article since 2024)
+  + *Physics of Fluids*, AIP Publishing (invited 1 time(s) since 2024)
 - **Law Student (J.D.)** at *[SNU School of Law](http://law.snu.ac.kr/index_en.php)*, Mar. 2019 - Jul. 2019 <sub>(Discontinued)</sub>
 - **Member** of *[SNU Honor Society for Engineering Students (STEM)](https://gongwoo.snu.ac.kr)*, Mar. 2016 - Aug. 2018
   + Served as the *7th Vice President & Head Manager* from Aug. 2016 to Jul. 2017
