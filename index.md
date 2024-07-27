@@ -13,7 +13,7 @@ intro:
 
 {% include figure id="row1_welcome" image_path="assets/images/welcome_1.jpg" %}
 
-# I AM SANGJOON LEE.
+# I AM SANGJOON "JOON" LEE.
 
 I will be joining [Stanford University](https://www.stanford.edu/) as a postdoctoral fellow at the [Center for Turbulence Research (CTR)](https://ctr.stanford.edu/) starting in October 2024.
 
