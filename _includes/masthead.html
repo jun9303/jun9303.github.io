@@ -24,7 +24,7 @@
               <a href="{{ url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
             {%- else -%}
-            <li class="masthead__menu-item" dummy="{{site.pages}} {{link.url}}">
+            <li class="masthead__menu-item" dummy="{{page.url}} {{link.url}}">
               <a href="{{ url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
             {%- endif -%}
