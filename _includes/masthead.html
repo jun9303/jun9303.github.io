@@ -19,15 +19,15 @@
             {%- else -%}
               {%- assign url = link.url | relative_url -%}
             {%- endif -%}
-            {% if page.url == link.url %}
+            {%- if page.url == link.url -%}
             <li class="masthead__menu-item active">
               <a href="{{ url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
-            {% else %}
+            {%- else -%}
             <li class="masthead__menu-item">
               <a href="{{ url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
-            {% endif %}
+            {%- endif -%}
           {%- endfor -%}
         </ul>
         {% if site.search == true %}
