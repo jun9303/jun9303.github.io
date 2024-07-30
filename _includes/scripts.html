@@ -15,11 +15,10 @@
     function setCvFrameHeight() {
       var windowHeight = window.innerHeight;
       var mastheadHeight = document.querySelector(".masthead").offsetHeight;
-      var footerHeight = document.querySelector(".page__footer").offsetHeight;
-      document.getElementById("cvframe").style.height = (windowHeight - mastheadHeight - footerHeight) + "px";
+      document.getElementById("cvframe").style.height = (windowHeight - mastheadHeight) + "px";
     }
-    // Set the margin-top of the footer to 0
-    document.querySelector(".page__footer").style.marginTop = "0px";
+    // Hide the footer
+    document.querySelector(".page__footer").style.display = "none";
     // Set initial height on load
     setCvFrameHeight();
     // Update the height on window resize
