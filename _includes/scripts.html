@@ -23,6 +23,10 @@
     setCvFrameHeight();
     // Update the height on window resize
     window.addEventListener("resize", setCvFrameHeight);
+    // Hide the scrollbar of the body
+    document.querySelector("body").style.overflow = "hidden";
+    // Make the main div have no padding
+    document.querySelector("#main").style.padding = "0";
   </script>
 {% endif %}
   <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
