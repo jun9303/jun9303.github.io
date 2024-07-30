@@ -8,15 +8,8 @@ title: "CV"
     Your browser doesn't support iframes
 </iframe>
 
-<style type="text/css">
-html, body {
-  height: 100%;
-  margin: 0;
-  display: flex; /* Enable flexbox on body */
-  flex-direction: column; /* Align items vertically */
-}
-
-#cvframe {
-  flex-grow: 1; /* Allow div to expand to fill remaining space */
-}
-</style>
+<script type="text/javascript">
+$( window ).on( "resize", function() {
+  $("#cvframe").css('height', $(window).height()-$(".masthead")[0].clientHeight-$(".page__footer")[0].clientHeight);
+} );
+</script>
