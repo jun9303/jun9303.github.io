@@ -10,9 +10,6 @@
 {% else %}
   <script src="{{ '/assets/js/main.min.js' | relative_url }}">
     {% if page.url == "/cv/" %}
-    // Set the margin-top of the footer to 0
-    document.querySelector(".page__footer").style.marginTop = "0px";
-
     // Set the height of the cvframe based on the window height and other elements
     function setCvFrameHeight() {
       var windowHeight = window.innerHeight;
@@ -21,11 +18,14 @@
       document.getElementById("cvframe").style.height = (windowHeight - mastheadHeight - footerHeight) + "px";
     }
 
-    // Set initial height on load
-    setCvFrameHeight();
-
-    // Update the height on window resize
-    window.addEventListener("resize", setCvFrameHeight);
+    window.onload = function() {
+      // Set the margin-top of the footer to 0
+      document.querySelector(".page__footer").style.marginTop = "0px";
+      // Set initial height on load
+      setCvFrameHeight();
+      // Update the height on window resize
+      window.addEventListener("resize", setCvFrameHeight);
+    };
     {% endif %}
   </script>
   <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
