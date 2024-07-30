@@ -39,7 +39,7 @@
 {% endif %}
 
 {% if page.url == "/cv/" %}
-<script defer src="{{ '/assets/js/vendor/jquery/jquery-3.4.0.min.js' | relative_url }}">
+<script src="{{ '/assets/js/vendor/jquery/jquery-3.4.0.min.js' | relative_url }}">
   $(".page__footer").css('margin-top', 0);
   $("#cvframe").css('height', $(window).height()-$(".masthead").outerHeight(true)-$(".page__footer").outerHeight(true));
   $( window ).on( "resize", function() {
