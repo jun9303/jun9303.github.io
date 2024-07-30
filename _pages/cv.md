@@ -8,9 +8,17 @@ title: "CV"
     Your browser doesn't support iframes
 </iframe>
 
-<script src="/assets/js/vendor/jquery/jquery-3.4.0.min.js" defer>
-$("#cvframe").css('height', $(window).height()-$(".masthead")[0].clientHeight-$(".page__footer")[0].clientHeight);
-$( window ).on( "resize", function() {
-  $("#cvframe").css('height', $(window).height()-$(".masthead")[0].clientHeight-$(".page__footer")[0].clientHeight);
+<script src="/assets/js/vendor/jquery/jquery-3.4.0.min.js">
+$( window ).load(function () {
+  $("#cvframe").css('height', $(window).height()-$(".masthead").outerHeight(true)-$(".page__footer").outerHeight(true));
+  $( window ).on( "resize", function() {
+    $("#cvframe").css('height', $(window).height()-$(".masthead").outerHeight(true)-$(".page__footer").outerHeight(true));
+  } );
 } );
 </script>
+
+<style>
+  .page_footer{
+    margin-top: 0;
+  }
+</style>
