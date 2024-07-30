@@ -14,7 +14,7 @@ feature_row:
 ---
 
 {% include feature_row type="center" %}
-
+{{ page.url }}
 # EDUCATION
 
 - **Ph.D./M.S.**, [Mechanical Engineering](http://me.berkeley.edu/), *University of California, Berkeley*, Aug. 2024
