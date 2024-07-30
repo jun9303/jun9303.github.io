@@ -8,7 +8,8 @@ title: "CV"
     Your browser doesn't support iframes
 </iframe>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer>
+<script src="/assets/js/vendor/jquery/jquery-3.4.0.min.js" defer>
+$("#cvframe").css('height', $(window).height()-$(".masthead")[0].clientHeight-$(".page__footer")[0].clientHeight);
 $( window ).on( "resize", function() {
   $("#cvframe").css('height', $(window).height()-$(".masthead")[0].clientHeight-$(".page__footer")[0].clientHeight);
 } );
