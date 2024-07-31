@@ -14,8 +14,8 @@
     // Set the height of the cvframe based on the window height and other elements
     function setCvFrameHeight() {
       var windowHeight = window.innerHeight;
-      var mastheadHeight = document.querySelector(".masthead").offsetHeight;
-      document.getElementById("cvframe").style.height = (windowHeight - mastheadHeight) + "px";
+      // var mastheadHeight = document.querySelector(".masthead").offsetHeight;
+      document.getElementById("cvframe").style.height = (windowHeight) + "px";
     }
     // Hide the footer
     document.querySelector(".page__footer").remove();
@@ -28,9 +28,11 @@
     setCvFrameHeight();
     // Update the height on window resize
     window.addEventListener("resize", setCvFrameHeight);
-    // Force the window to be scrolled to the top after refresh
+    // set initial scroll on load
+    window.scrollTo(0, document.body.scrollHeight);
+    // Force the window to be scrolled to the bottom after refresh
     window.onbeforeunload = function () {
-      window.scrollTo(0, 0);
+      window.scrollTo(0, document.body.scrollHeight);
     }
   </script>
 {% endif %}

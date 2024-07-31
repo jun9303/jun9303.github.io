@@ -25,6 +25,7 @@ let sheet = (function() {
   // addElemFromSecondaryToPrimary('pageNumber', 'toolbarViewerMiddle')
   // addElemFromSecondaryToPrimary('numPages', 'toolbarViewerMiddle')
   // addElemFromSecondaryToPrimary('next', 'toolbarViewerMiddle')
+  addElemFromSecondaryToPrimary('presentationMode', 'toolbarViewerMiddle')
   
   //adding elements to right part of toolbar
   // addElemFromSecondaryToPrimary('secondaryOpenFile', 'toolbarViewerRight')
@@ -44,9 +45,9 @@ let sheet = (function() {
   /* Hiding elements */
   removeElement('secondaryToolbarToggle')
   // removeElement('scaleSelectContainer')
-  removeElement('presentationMode')
+  // removeElement('presentationMode')
   removeElement('openFile')
-  // removeElement('print')
+  removeElement('print')
   // removeElement('download')
   // removeElement('viewBookmark')
  }
@@ -62,6 +63,8 @@ let sheet = (function() {
  function addElemFromSecondaryToPrimary(elemID, parentID){
   let element = document.getElementById(elemID);
   let parent = document.getElementById(parentID);
+  element.classList.remove('secondaryToolbarButton')
+  element.classList.add('toolbarButton')
   element.style.minWidth = "0px";
   element.innerHTML =''
   parent.append(element);
