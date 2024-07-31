@@ -11,12 +11,9 @@
   <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
 {% if page.url == "/cv/" %}
   <script>
-    // Hide the scrollbar of the body
-    document.querySelector("body").style.height = "100%";
-    document.querySelector("body").style.setProperty("max-height", "100%", "important");
     // Set the height of the cvframe based on the window height and other elements
     function setCvFrameHeight() {
-      var windowHeight = document.querySelector("body").offsetHeight;
+      var windowHeight = window.innerHeight;
       var mastheadHeight = document.querySelector(".masthead").offsetHeight;
       document.getElementById("cvframe").style.height = (windowHeight - mastheadHeight) + "px";
     }
