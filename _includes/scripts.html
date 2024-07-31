@@ -21,10 +21,10 @@
     document.querySelector(".page__footer").style.display = "none";
     // Hide the scrollbar of the body
     document.querySelector("body").style.overflow = "hidden";
-    // Make the main div have no padding
+    // Make the main div have no padding and full width
     document.querySelector("#main").style.padding = "0";
     document.querySelector("#main").style.margin = "0";
-    document.querySelector("#main").style.maxWidth = "100vw!important";
+    document.querySelector("#main").style.setProperty("maxWidth", "100vw", "important");
     // Set initial height on load
     setCvFrameHeight();
     // Update the height on window resize
