@@ -1,3 +1,3 @@
-# ABOUT THIS REPO
+# About this repository
 
-This is for my personal site.
+This repository stores all source code files and data for [my personal site](https://sangjoonlee.info).

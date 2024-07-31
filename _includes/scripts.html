@@ -10,6 +10,7 @@
 {% else %}
   <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
 {% if page.url == "/cv/" %}
+  <script src="{{ '/assets/js/plugins/scroll-to-y.js' | relative_url }}"></script>
   <script>
     // Set the height of the cvframe based on the window height and other elements
     function setCvFrameHeight() {
@@ -29,11 +30,10 @@
     // Update the height on window resize
     window.addEventListener("resize", setCvFrameHeight);
     // set initial scroll on load
-    window.scrollTo(0, document.body.scrollHeight);
-    // Force the window to be scrolled to the bottom after refresh
-    window.onbeforeunload = function () {
-      window.scrollTo(0, document.body.scrollHeight);
-    }
+    window.scrollTo(0, 0);
+    window.addEventListener('load', function() {
+      scrollToY(document.querySelector('.masthead').offsetHeight+5, 10, 'easeInOutQuint');
+    }, false);
   </script>
 {% endif %}
   <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
