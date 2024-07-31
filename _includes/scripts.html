@@ -12,6 +12,7 @@
 {% if page.url == "/cv/" %}
   <script>
     // Hide the scrollbar of the body
+    document.querySelector("body").style.height = "100vh";
     document.querySelector("body").style.setProperty("max-height", "100vh", "important");
     // Set the height of the cvframe based on the window height and other elements
     function setCvFrameHeight() {
