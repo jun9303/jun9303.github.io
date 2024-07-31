@@ -13,14 +13,14 @@
   <script>
     // Set the height of the cvframe based on the window height and other elements
     function setCvFrameHeight() {
-      var windowHeight = window.innerHeight;
+      var windowHeight = window.outerHeight;
       var mastheadHeight = document.querySelector(".masthead").offsetHeight;
       document.getElementById("cvframe").style.height = (windowHeight - mastheadHeight) + "px";
     }
     // Hide the footer
     document.querySelector(".page__footer").remove();
     // Hide the scrollbar of the body
-    // document.querySelector("body").style.overflow = "hidden";
+    document.querySelector("body").style.setProperty("max-height", "100vh", "important");
     // Make the main div have no padding and full width
     document.querySelector("#main").style.padding = "0";
     document.querySelector("#main").style.margin = "0";
