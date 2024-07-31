@@ -18,9 +18,9 @@
       document.getElementById("cvframe").style.height = (windowHeight - mastheadHeight) + "px";
     }
     // Hide the footer
-    document.querySelector(".page__footer").style.display = "none";
+    document.querySelector(".page__footer").remove();
     // Hide the scrollbar of the body
-    document.querySelector("body").remove();
+    // document.querySelector("body").style.overflow = "hidden";
     // Make the main div have no padding and full width
     document.querySelector("#main").style.padding = "0";
     document.querySelector("#main").style.margin = "0";
