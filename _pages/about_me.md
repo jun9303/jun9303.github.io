@@ -10,7 +10,7 @@ feature_row:
   - image_path: assets/images/bio-photo-sjlee-200x200.png
     alt: "profile image"
     title: 'Sangjoon "Joon" Lee, Ph.D.'
-    excerpt: "[[ORCID]](https://orcid.org/0000-0002-2063-6298) / [[Google Scholar]](https://scholar.google.com/citations?user=AnnGLWwAAAAJ) / [[E-mail]](mailto:sangjoonlee@berkeley.edu)"
+    excerpt: "Postdoctoral Fellow at Stanford University<br/>[[ORCID]](https://orcid.org/0000-0002-2063-6298) / [[Google Scholar]](https://scholar.google.com/citations?user=AnnGLWwAAAAJ) / [[E-mail]](mailto:sjoonl@stanford.edu)"
 ---
 
 {% include feature_row type="center" %}
