@@ -38,9 +38,10 @@ https://doi.org/10.1093/jcde/qwad059)
 
 # INVITED TALKS/SEMINARS
 
+1. **LEE. S.** (2024, Sep 10). Physics-Based Computation in the Modern Era of Data-Driven Fluid Mechanics. *SNU Mechanical Engineering Seminar, Seoul, South Korea*. Department of Mechanical Engineering, Seoul National University.
 1. **LEE, S.** (2023, Aug 8). Design-by-Morphing (DbM): A Novel Design Methodology for Aerodynamic Optimization. *Hyundai Vision Conference 2023, Seoul, South Korea*. Hyundai Motors.
-2. **LEE, S.** (2022, Nov 16). Modern Applications of Computational Fluid Dynamics (CFD). *2022 Online Special Lecture Series: Research Reinforcement for Sustainable Buildings and Urban Systems in Future, Online*. Department of Architectural and Urban Systems Engineering, Ewha Womans University.
-3. **LEE, S.** (2018, Aug 8). An Introduction to In-House LES - Applications to Turbine Internal Cooling and Recent Improvements for Conjugate Heat Transfer Analysis. *KARI Computational Fluid Dynamics Seminar, Daejeon, South Korea*. Korea Aerospace Research Institute.
+1. **LEE, S.** (2022, Nov 16). Modern Applications of Computational Fluid Dynamics (CFD). *2022 Online Special Lecture Series: Research Reinforcement for Sustainable Buildings and Urban Systems in Future, Online*. Department of Architectural and Urban Systems Engineering, Ewha Womans University.
+1. **LEE, S.** (2018, Aug 8). An Introduction to In-House LES - Applications to Turbine Internal Cooling and Recent Improvements for Conjugate Heat Transfer Analysis. *KARI Computational Fluid Dynamics Seminar, Daejeon, South Korea*. Korea Aerospace Research Institute.
 
 <style type="text/css">
 h1 {

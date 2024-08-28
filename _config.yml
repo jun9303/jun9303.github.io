@@ -108,9 +108,9 @@ analytics:
 author:
   name             : 'Sangjoon "Joon" Lee'
   avatar           : "/assets/images/bio-photo-sjlee-200x200.png"
-  bio              : "Computational Engineer, PhD"
+  bio              : "Researcher, Engineer"
   location         : # NA
-  email            : "sangjoonlee@berkeley.edu"
+  email            : "sjoonl@stanford.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
@@ -142,7 +142,7 @@ footer:
       url: "https://github.com/jun9303"
     - label: "E-mail"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:sangjoonlee@berkeley.edu"
+      url: "mailto:sjoonl@stanford.edu"
 
 # Reading Files
 include:
