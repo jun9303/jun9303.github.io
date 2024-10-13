@@ -10,7 +10,7 @@ feature_row:
   - image_path: assets/images/bio-photo-sjlee-200x200.png
     alt: "profile image"
     title: 'Sangjoon "Joon" Lee, Ph.D.'
-    excerpt: "Postdoctoral Fellow at Stanford University<br/>[[ORCID]](https://orcid.org/0000-0002-2063-6298) / [[Google Scholar]](https://scholar.google.com/citations?user=AnnGLWwAAAAJ) / [[E-mail]](mailto:sjoonl@stanford.edu)"
+    excerpt: "CTR Postdoctoral Fellow at Stanford University<br/>[[ORCID]](https://orcid.org/0000-0002-2063-6298) / [[Google Scholar]](https://scholar.google.com/citations?user=AnnGLWwAAAAJ) / [[E-mail]](mailto:sjoonl@stanford.edu)"
 ---
 
 {% include feature_row type="center" %}
@@ -108,7 +108,7 @@ feature_row:
 
 ### FELLOWSHIPS
 
-- **Postdoctoral Fellowship** from *Center for Turbulence Research, Stanford University*, Oct. 2024 - Sep. 2025
+- **CTR Postdoctoral Fellowship** from *Center for Turbulence Research, Stanford University*, Oct. 2024 - Sep. 2025
   + Academic and financial supports for research on turbulence
 - **Departmental Graduate Fellowship** from *College of Engineering, University of California, Berkeley*, Aug. 2023 - Dec. 2023
   + Selective departmental award offering stipends with full tuition and fee waivers 
