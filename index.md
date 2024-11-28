@@ -15,7 +15,7 @@ intro:
 
 # I am Sangjoon "Joon" Lee.
 
-I will be joining [Stanford University](https://www.stanford.edu/) as a postdoctoral fellow at the [Center for Turbulence Research (CTR)](https://ctr.stanford.edu/) starting in October 2024.
+I am currently affiliated with [Stanford University](https://www.stanford.edu/) as a postdoctoral fellow at the [Center for Turbulence Research (CTR)](https://ctr.stanford.edu/), starting in October 2024.
 
 My research focuses primarily on Fluid Mechanics and Computational Science. I have developed expertise in Computational Fluid Dynamics (CFD) techniques, experimental flow measurements (e.g., magnetic resonance velocimetry), conjugate heat transfer analyses, vortex instabilities, and aero-/hydrodynamic flow optimizations, as well as related engineering problems. Additionally, I am deeply interested in integrating Machine Learning (ML)-based optimization schemes into CFD and analyzing particle-laden flow systems numerically.
 
@@ -23,7 +23,7 @@ In August 2024, I completed my Doctorate (Ph.D.) and Master's (M.S.) degrees in 
 
 <!-- I was a researcher in the [Energy and Environmental Flow Lab](http://eeflow.snu.ac.kr/) at SNU, directed by [Dr. Wontae Hwang](http://me.snu.ac.kr/node/141). Under the guidance of [Dr. Haecheon Choi](http://me.snu.ac.kr/node/116), I wrote my B.S. thesis, "Large eddy simulation of flow around a rotating small vertical axis wind turbine using an immersed boundary method." -->
 
-I am familiar with several programming languages, including Python, Fortran, C++, and MATLAB, which I frequently use for research or software development projects. As a form of light entertainment, I have undertaken small web development projects using various frameworks (e.g., Python Flask, PHP, jQuery). In my free time, I enjoy running and hiking.
+I am familiar with several programming languages, including Python, Fortran, C++, and MATLAB, which I frequently use for research or software development projects. As a form of light entertainment, I have undertaken small web development projects using various frameworks (e.g., Python Flask, PHP, jQuery). In my free time, I enjoy running and playing tennis.
 <style>
 figure {
 	margin-bottom: 0px;
