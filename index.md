@@ -15,7 +15,7 @@ intro:
 
 # I am Sangjoon "Joon" Lee.
 
-I am currently affiliated with [Stanford University](https://www.stanford.edu/) as a postdoctoral fellow at the [Center for Turbulence Research (CTR)](https://ctr.stanford.edu/), starting in October 2024.
+I am currently affiliated with [Stanford University](https://www.stanford.edu/) as a postdoctoral fellow at the [Center for Turbulence Research (CTR)](https://ctr.stanford.edu/) from October 2024.
 
 My research focuses primarily on Fluid Mechanics and Computational Science. I have developed expertise in Computational Fluid Dynamics (CFD) techniques, experimental flow measurements (e.g., magnetic resonance velocimetry), conjugate heat transfer analyses, vortex instabilities, and aero-/hydrodynamic flow optimizations, as well as related engineering problems. Additionally, I am deeply interested in integrating Machine Learning (ML)-based optimization schemes into CFD and analyzing particle-laden flow systems numerically.
 
