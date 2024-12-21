@@ -54,15 +54,15 @@ feature_row:
 # RESEARCH INTERESTS
 
 1. **Fluid Mechanics**: Analysis of Turbulent Motions and Instabilities with Concurrent Scalar Transfers 
-2. **Computational Science**: Development of Time-Efficient Computing Schemes for Physics-Based Complex Systems
+2. **Computational Science**: Development of High-Performance Computing Schemes for Physics-Based Complex Systems
 3. **Flows in Human Environment**: Application to Sustainable Energy or Clean Environment on Various Scales
 
 # EXPERIENCE
 
 ### RESEARCH
 
-- **Postdoctoral Fellow** at *[Center for Turbulence Research](https://ctr.stanford.edu/), Stanford University*, Oct. 2024 -
-  + Physical understanding of turbulence and related non-linear multi-scale phenomena
+- **Postdoctoral Fellow** at the *[Center for Turbulence Research](https://ctr.stanford.edu/), Stanford University*, Oct. 2024 -
+  + Advanced analysis for physical insights into turbulence and related phenomena
 
 - **Graduate Student Researcher** at *[Computational Fluid Dynamics Lab](https://cfd.me.berkeley.edu/), University of California, Berkeley*, Jan. 2020 - Aug. 2024
   + Numerical examination of destabilizing aircraft wake vortices using a global eigenvalue and eigenmode analysis in association with a spectral collocation method
@@ -78,15 +78,15 @@ feature_row:
 
 ### TEACHING
 
-- **Teaching Assistant** at *University of California, Berkeley*, Jan. 2024 - May 2024
+- **Teaching Assistant** at the *University of California, Berkeley*, Jan. 2024 - May 2024
   + *Introduction to Computer Programming for Scientists and Engineers (ENGIN 7)*
   + Taught basic programming strategies and numerical methods for scientific computing
 
-- **Course Designer / Graduate Student Instructor** at *University of California, Berkeley*, Aug. 2022 - May 2023
+- **Course Designer / Graduate Student Instructor** at the *University of California, Berkeley*, Aug. 2022 - May 2023
   + *Introduction to Aerospace Engineering Design (AERO ENG 10)*
   + Composed teaching outlines and prepared instruction materials especially for an airfoil design and analysis lab module with wind tunnel practices
 
-- **Graduate Student Instructor** at *University of California, Berkeley*, Aug. 2019 - May 2022
+- **Graduate Student Instructor** at the *University of California, Berkeley*, Aug. 2019 - May 2022
   + *Experimentation and Measurements (MEC ENG 103)*
   + Taught experimental techniques for mechanical engineering, run lab sessions, graded assignments and reports, had office hours and answered questions in person and online
   + Received the Outstanding Graduate Student Instructor (OGSI) award in Apr. 2021
@@ -108,13 +108,13 @@ feature_row:
 
 ### FELLOWSHIPS
 
-- **CTR Postdoctoral Fellowship** from *Center for Turbulence Research, Stanford University*, Oct. 2024 - Sep. 2025
-  + Academic and financial supports for research on turbulence
-- **Departmental Graduate Fellowship** from *College of Engineering, University of California, Berkeley*, Aug. 2023 - Dec. 2023
+- **CTR Postdoctoral Fellowship** from the *Center for Turbulence Research, Stanford University*, Oct. 2024 - Sep. 2025
+  + Funding granted by the United States Office of Naval Research (ONR)
+- **Departmental Graduate Fellowship** from the *College of Engineering, University of California, Berkeley*, Aug. 2023 - Dec. 2023
   + Selective departmental award offering stipends with full tuition and fee waivers 
 - **[Overseas Ph.D. Scholarship](http://www.taekwanggroup.co.kr/homepage/eng/iljuFoundationIntro.do)** from *Ilju Academy and Culture Foundation*, Aug. 2019 - Jul. 2023
   + One of 6 recipients of the foundation's [Study Abroad Doctoral Program](https://educationusa.state.gov/scholarships/study-abroad-doctoral-program-ilju-academy-and-culture-foundation) in 2019
-  + Merit-based financial aids of $120,000 for promising Ph.D. students studying out of Korea
+  + Merit-based financial aids for promising Ph.D. students studying out of Korea
 - **[National Scholarship for Science and Engineering](http://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp?ttab1=0)** from *Korea Student Aid Foundation*, Mar. 2012 - Dec. 2017
   + Full-tuition scholarship for undergraduates with strong academic performance
 
