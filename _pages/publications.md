@@ -10,8 +10,8 @@ header:
 
 # JOURNAL PUBLICATIONS
 
-1. **LEE, S.**, BAEK, S. & HWANG, W. (2025). Impact of Additively Manufactured Surface Roughness on Flow Motion in Internal Cooling Passages without or with Ribs. [Manuscript Under Preparation].
-1. SOLMAZ, A. S., RAFTERY, P., **LEE, S.** & DUARTE, C. (2025). Effect of Elevated Air Movement on Radiant Cooling Systems. [Manuscript Under Preperation].
+1. **LEE, S.**, BAEK, S., RYU, J., SONG, M. & HWANG, W. (2025). Impact of Additively Manufactured Surface Roughness on Flow within Ribbed Channels [Manuscript in Preparation].
+1. SOLMAZ, A. S., RAFTERY, P., **LEE, S.** & DUARTE, C. (2025). Effect of Elevated Air Movement on Radiant Cooling Systems [Manuscript in Preperation].
 1. **LEE, S.**, & MARCUS, P. S. (2024). Transient Growth of a Wake Vortex and its Initiation via Inertial Particles. *arXiv Preprint*, [arXiv:2402.07469](https://arxiv.org/abs/2402.07469).
 1. WANG, J., **LEE, S.**, & MARCUS, P. S. (2024). Triadic Resonance in Columnar Vortices. *arXiv Preprint*, [arXiv:2402.05287](https://arxiv.org/abs/2402.05287).
 1. **LEE, S.**, SHEIKH, H. M., LIM, D. D., GU, G. X. & MARCUS, P. S. (2024). Bayesian-Optimized Riblet Surface Design for Turbulent Drag Reduction via Design-by-Morphing with Large Eddy Simulation. *Journal of Mechaincal Design*, 146(8), 081071. [doi:10.1115/1.4064413](https://doi.org/10.1115/1.4064413)
@@ -45,6 +45,9 @@ https://doi.org/10.1093/jcde/qwad059)
 1. **LEE, S.** (2023, Aug 8). Design-by-Morphing (DbM): A Novel Design Methodology for Aerodynamic Optimization. *Hyundai Vision Conference 2023, Seoul, South Korea*. Hyundai Motors.
 1. **LEE, S.** (2022, Nov 16). Modern Applications of Computational Fluid Dynamics (CFD). *2022 Online Special Lecture Series: Research Reinforcement for Sustainable Buildings and Urban Systems in Future, Online*. Department of Architectural and Urban Systems Engineering, Ewha Womans University.
 1. **LEE, S.** (2018, Aug 8). An Introduction to In-House LES - Applications to Turbine Internal Cooling and Recent Improvements for Conjugate Heat Transfer Analysis. *KARI Computational Fluid Dynamics Seminar, Daejeon, South Korea*. Korea Aerospace Research Institute.
+
+# SOFTWARE/CODES
+1. **LEE. S.**, WANG, J. (2024). MLegS: Modernized and Parallelized Mapped Legendre Spectral Method Code (Version 1.0) [Source Code]. [https://github.com/ucbCFD/mlegs](https://github.com/ucbCFD/mlegs). 
 
 <style type="text/css">
 h1 {
