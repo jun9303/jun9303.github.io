@@ -10,9 +10,10 @@ header:
 
 # JOURNAL PUBLICATIONS
 
-1. **LEE, S.**, BAEK, S., RYU, J., SONG, M. & HWANG, W. (2025). Impact of Additively Manufactured Surface Roughness on Flow within Ribbed Channels [Manuscript in Preparation].
-1. SOLMAZ, A. S., RAFTERY, P., **LEE, S.** & DUARTE, C. (2025). Effect of Elevated Air Movement on Radiant Cooling Systems [Manuscript in Preperation].
-1. **LEE, S.**, & MARCUS, P. S. (2024). Transient Growth of a Wake Vortex and its Initiation via Inertial Particles. *arXiv Preprint*, [arXiv:2402.07469](https://arxiv.org/abs/2402.07469).
+1. **LEE, S.**, SHEIKH, H. M. (2025). Reduced Design-Space Dimensionality of Design-by-Morphing for Airfoil Optimization. In Preparation.
+1. **LEE, S.**, BAEK, S., RYU, J., SONG, M. & HWANG, W. (2025). Impact of Additively Manufactured Surface Roughness on Flow within Ribbed Channels. In Preparation.
+1. DUARTE, C., RAFTERY, P., **LEE, S.** & SOLMAZ, A. S. (2025). Effect of Elevated Air Movement on Radiant Cooling Systems. In Preperation.
+1. **LEE, S.**, & MARCUS, P. S. (2025). Transient Growth of a Wake Vortex and its Initiation via Inertial Particles. *Journal of Fluid Mechanics*, In Press. [arXiv:2402.07469](https://arxiv.org/abs/2402.07469).
 1. WANG, J., **LEE, S.**, & MARCUS, P. S. (2024). Triadic Resonance in Columnar Vortices. *arXiv Preprint*, [arXiv:2402.05287](https://arxiv.org/abs/2402.05287).
 1. **LEE, S.**, SHEIKH, H. M., LIM, D. D., GU, G. X. & MARCUS, P. S. (2024). Bayesian-Optimized Riblet Surface Design for Turbulent Drag Reduction via Design-by-Morphing with Large Eddy Simulation. *Journal of Mechaincal Design*, 146(8), 081071. [doi:10.1115/1.4064413](https://doi.org/10.1115/1.4064413)
 1. **LEE, S.**, & MARCUS, P. S. (2023). Linear Stability Analysis of Wake Vortices by a Spectral Method using Mapped Legendre Functions. *Journal of Fluid Mechanics*, 967, A2. [doi:10.1017/jfm.2023.455](https://doi.org/10.1017/jfm.2023.455)
@@ -47,7 +48,8 @@ https://doi.org/10.1093/jcde/qwad059)
 1. **LEE, S.** (2018, Aug 8). An Introduction to In-House LES - Applications to Turbine Internal Cooling and Recent Improvements for Conjugate Heat Transfer Analysis. *KARI Computational Fluid Dynamics Seminar, Daejeon, South Korea*. Korea Aerospace Research Institute.
 
 # SOFTWARE/CODES
-1. **LEE. S.**, WANG, J. (2024). MLegS: Modernized and Parallelized Mapped Legendre Spectral Method Code (Version 1.0) [Source Code]. [https://github.com/ucbCFD/mlegs](https://github.com/ucbCFD/mlegs). 
+1. **LEE. S.** (2025). roughSurfaceGen: Artificial Rough Surface Generator that Fits Prescribed Surface Roughness Parameters (Version 1.0.1). [https://github.com/jun9303/roughSurfaceGen](https://github.com/jun9303/roughSurfaceGen). 
+1. **LEE. S.**, WANG, J. (2024). MLegS: Modernized and Parallelized Mapped Legendre Spectral Method Code (Version 1.0). [https://github.com/ucbCFD/MLegS](https://github.com/ucbCFD/MLegS). 
 
 <style type="text/css">
 h1 {
