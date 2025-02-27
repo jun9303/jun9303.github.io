@@ -1,5 +1,6 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
+search: false
 ---
 
 @charset "utf-8";
@@ -9,8 +10,4 @@
 
 #site-nav{
     font-family: 'Roboto Condensed', sans-serif;
-}
-
-li.masthead__menu-item.active{
-    text-decoration: underline;
 }

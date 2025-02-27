@@ -1,41 +1,36 @@
 {% if site.footer_scripts %}
   {% for script in site.footer_scripts %}
-    {% if script contains "://" %}
-      {% capture script_path %}{{ script }}{% endcapture %}
-    {% else %}
-      {% capture script_path %}{{ script | relative_url }}{% endcapture %}
-    {% endif %}
-    <script src="{{ script_path }}"></script>
+    <script src="{{ script | relative_url }}"></script>
   {% endfor %}
-{% else %}
+{% else %}  
   <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
-{% if page.url == "/cv/" %}
-  <script src="{{ '/assets/js/plugins/scroll-to-y.js' | relative_url }}"></script>
-  <script>
-    // Set the height of the cvframe based on the window height and other elements
-    function setCvFrameHeight() {
-      var windowHeight = window.innerHeight;
-      // var mastheadHeight = document.querySelector(".masthead").offsetHeight;
-      document.getElementById("cvframe").style.height = (windowHeight) + "px";
-    }
-    // Hide the footer
-    document.querySelector(".page__footer").remove();
-    // Make the main div have no padding and full width
-    document.querySelector("#main").style.padding = "0";
-    document.querySelector("#main").style.margin = "0";
-    document.querySelector("#main").style.setProperty("max-width", "100vw", "important");
-    document.querySelector("#main").style.setProperty("max-height", "100vw", "important");
-    // Set initial height on load
-    setCvFrameHeight();
-    // Update the height on window resize
-    window.addEventListener("resize", setCvFrameHeight);
-    // set initial scroll on load
-    window.scrollTo(0, 0);
-    window.addEventListener('load', function() {
-      scrollToY(document.querySelector('.masthead').offsetHeight+5, 10, 'easeInOutQuint');
-    }, false);
-  </script>
-{% endif %}
+  {% if page.url == "/cv/" %}
+    <script src="{{ '/assets/js/plugins/scroll-to-y.js' | relative_url }}"></script>
+    <script>
+      // Set the height of the cvframe based on the window height and other elements
+      function setCvFrameHeight() {
+        var windowHeight = window.innerHeight;
+        // var mastheadHeight = document.querySelector(".masthead").offsetHeight;
+        document.getElementById("cvframe").style.height = (windowHeight) + "px";
+      }
+      // Hide the footer
+      document.querySelector(".page__footer").remove();
+      // Make the main div have no padding and full width
+      document.querySelector("#main").style.padding = "0";
+      document.querySelector("#main").style.margin = "0";
+      document.querySelector("#main").style.setProperty("max-width", "100vw", "important");
+      document.querySelector("#main").style.setProperty("max-height", "100vw", "important");
+      // Set initial height on load
+      setCvFrameHeight();
+      // Update the height on window resize
+      window.addEventListener("resize", setCvFrameHeight);
+      // set initial scroll on load
+      window.scrollTo(0, 0);
+      window.addEventListener('load', function() {
+        scrollToY(document.querySelector('.masthead').offsetHeight+5, 10, 'easeInOutQuint');
+      }, false);
+    </script>
+  {% endif %}
   <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
 {% endif %}
 
@@ -56,12 +51,6 @@
 
 {% if site.after_footer_scripts %}
   {% for script in site.after_footer_scripts %}
-    {% if script contains "://" %}
-      {% capture script_path %}{{ script }}{% endcapture %}
-    {% else %}
-      {% capture script_path %}{{ script | relative_url }}{% endcapture %}
-    {% endif %}
-    <script src="{{ script_path }}"></script>
+    <script src="{{ script | relative_url }}"></script>
   {% endfor %}
 {% endif %}
-
