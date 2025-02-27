@@ -105,7 +105,7 @@ feature_row:
 
 ### FELLOWSHIPS
 
-- **CTR Postdoctoral Fellowship** from the *Center for Turbulence Research, Stanford University*, Oct. 2024 - Sep. 2025
+- **[CTR Postdoctoral Fellowship](https://ctr.stanford.edu/postdoctoral-fellowships-and-visiting-researcher-programs)** from the *Center for Turbulence Research, Stanford University*, Oct. 2024 - Sep. 2025
   + Funding granted by the United States Office of Naval Research (ONR)
 - **Departmental Graduate Fellowship** from the *College of Engineering, University of California, Berkeley*, Aug. 2023 - Dec. 2023
   + Selective departmental award offering stipends with full tuition and fee waivers 
