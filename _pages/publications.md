@@ -49,7 +49,7 @@ https://doi.org/10.1093/jcde/qwad059).
 
 # SOFTWARE/CODES
 1. <ins>**Lee, S.**</ins> (2025). roughSurfaceGen: Artificial Rough Surface Generator that Fits Prescribed Surface Roughness Parameters (Version 1.0.1). [https://github.com/jun9303/roughSurfaceGen](https://github.com/jun9303/roughSurfaceGen). 
-1. <ins>**Lee, S.**</ins>, Wang, J. (2024). MLegS: Modernized and Parallelized Mapped Legendre Spectral Method Code (Version 1.0). [https://github.com/ucbCFD/MLegS](https://github.com/ucbCFD/MLegS). 
+1. <ins>**Lee, S.**</ins>, Wang, J. (2024). MLegS: Modernized and Parallelized Mapped Legendre Spectral Method Code (Version 1.0). [https://github.com/ucbCFD/MLegS](https://github.com/ucbCFD/MLegS). [doi:10.5281/zenodo.14976470](https://doi.org/10.5281/zenodo.14976470).
 
 <style type="text/css">
 h1 {
