@@ -10,7 +10,7 @@ header:
 
 # JOURNAL PUBLICATIONS
 \* Corresponding / † Co-first
-1. <ins>**Lee, S.**</ins>, Sheikh, H. M. (2025). Reduced Design-Space Dimensionality of Design-by-Morphing for Airfoil Optimization. In Preparation.
+1. <ins>**Lee, S.**</ins>\*, Sheikh, H. M. (2025). Reduced Design-Space Dimensionality of Design-by-Morphing for Airfoil Optimization. In Preparation.
 1. Duarte, C., Raftery, P., <ins>**Lee, S.**</ins> & Solmaz, A. S. (2025). Effect of Elevated Air Movement on Radiant Cooling Systems. In Preperation.
 1. <ins>**Lee, S.**</ins>, & Marcus, P. S. (2025). Transient Growth of a Wake Vortex and its Initiation via Inertial Particles. *Journal of Fluid Mechanics*, In Press.
 1. <ins>**Lee, S.**</ins>, Baek, S., Ryu, J., Song, M. & Hwang, W. (2025). Flow in Ribbed Cooling Channels with Additive Manufacturing-Induced Surface Roughness. *Physics of Fluids*, 37(6), 065118. [doi:10.1063/5.0268180](https://doi.org/10.1063/5.0268180).
