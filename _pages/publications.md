@@ -11,20 +11,20 @@ header:
 # JOURNAL PUBLICATIONS
 \* Corresponding / † Co-first
 1. <ins>**Lee, S.**</ins>, Sheikh, H. M. (2025). Reduced Design-Space Dimensionality of Design-by-Morphing for Airfoil Optimization. In Preparation.
-1. <ins>**Lee, S.**</ins>, Baek, S., Ryu, J., Song, M. & Hwang, W. (2025). Impact of Additively Manufactured Surface Roughness on Flow within Ribbed Channels. In Preparation.
 1. Duarte, C., Raftery, P., <ins>**Lee, S.**</ins> & Solmaz, A. S. (2025). Effect of Elevated Air Movement on Radiant Cooling Systems. In Preperation.
-1. <ins>**Lee, S.**</ins>, & Marcus, P. S. (2025). Transient Growth of a Wake Vortex and its Initiation via Inertial Particles. *Journal of Fluid Mechanics*, In Press. [doi:10.48550/arXiv.2402.07469](https://doi.org/10.48550/arXiv.2402.07469).
+1. <ins>**Lee, S.**</ins>, & Marcus, P. S. (2025). Transient Growth of a Wake Vortex and its Initiation via Inertial Particles. *Journal of Fluid Mechanics*, In Press.
+1. <ins>**Lee, S.**</ins>, Baek, S., Ryu, J., Song, M. & Hwang, W. (2025). Flow in Ribbed Cooling Channels with Additive Manufacturing-Induced Surface Roughness. *Physics of Fluids*, 37(6), 065118. [doi:10.1063/5.0268180](https://doi.org/10.1063/5.0268180).
 1. Wang, J., <ins>**Lee, S.**</ins>, & Marcus, P. S. (2024). Triadic Resonance in Columnar Vortices. *arXiv Preprint*. [doi:10.48550/arXiv.2402.05287](https://doi.org/10.48550/arXiv.2402.05287).
 1. <ins>**Lee, S.**</ins>\*, Sheikh, H. M., Lim, D. D., Gu, G. X. & Marcus, P. S. (2024). Bayesian-Optimized Riblet Surface Design for Turbulent Drag Reduction via Design-by-Morphing with Large Eddy Simulation. *Journal of Mechaincal Design*, 146(8), 081071. [doi:10.1115/1.4064413](https://doi.org/10.1115/1.4064413).
 1. <ins>**Lee, S.**</ins>, & Marcus, P. S. (2023). Linear Stability Analysis of Wake Vortices by a Spectral Method using Mapped Legendre Functions. *Journal of Fluid Mechanics*, 967, A2. [doi:10.1017/jfm.2023.455](https://doi.org/10.1017/jfm.2023.455).
-1. Sheikh, H. M., <ins>**Lee, S.**</ins>†, Wang, J. & Marcus, P. S. (2023). Airfoil Optimization using Design-by-Morphing. *Journal of Computational Design and Engineering*, 10 (4), 1443-1459. [doi:10.1093/jcde/qwad059](
-https://doi.org/10.1093/jcde/qwad059).
+1. Sheikh, H. M., <ins>**Lee, S.**</ins>†, Wang, J. & Marcus, P. S. (2023). Airfoil Optimization using Design-by-Morphing. *Journal of Computational Design and Engineering*, 10 (4), 1443-1459. [doi:10.1093/jcde/qwad059](https://doi.org/10.1093/jcde/qwad059).
 1. <ins>**Lee, S.**</ins>, & Hwang, W. (2019). Development of an Efficient Immersed-Boundary Method with Subgrid-Scale Models for Conjugate Heat Transfer Analysis using Large Eddy Simulation. *International Journal of Heat and Mass Transfer*, 134, 198-208. [doi:10.1016/j.ijheatmasstransfer.2019.01.019](https://doi.org/10.1016/j.ijheatmasstransfer.2019.01.019).
 1. Baek, S., <ins>**Lee, S.**</ins>, Hwang, W., & Park, J. S. (2019). Experimental and Numerical Investigation of the Flow in a Trailing Edge Ribbed Internal Cooling Passage. *Journal of Turbomachinery*, 141 (1), 011012. [doi:10.1115/1.4041868](https://doi.org/10.1115/1.4041868).
 
 
 # CONFERENCE PAPERS/PRESENTATIONS
 
+1. Hong, J., <ins>**Lee, S.**</ins>, Lee, D., Bae, J., & Hwang, W. (2025, Set 15-19). *Experimental and Numerical Investigation of 3D Flow Structures in a Turbulent Channel Flow with Riblets*. 16th International Symposium on Experimental and Computational Aerothermodynamics of Internal Flows (ISAIF), Prague, Czech Republic. Institute of Thermomechanics, Czech Academy of Sciences.
 1. <ins>**Lee, S.**</ins>, Wang, J., & Marcus, P. S. (2024, Nov 24-26). *Modernized and Parallelized Mapped Legendre Spectral Method Code for Unbounded Vortical Flow Simulations*. 77th Annual Meeting of the APS Division of Fluid Dynamics, Salt Lake City, UT, United States (no. L16.7). American Physical Society. [:link:](https://meetings.aps.org/Meeting/DFD24/Session/L16.7)
 1. Wang, J., <ins>**Lee, S.**</ins> & Marcus, P. S. (2024, Nov 24-26). *Stability Analysis of the Q-Vortex: Critical Swirling Parameter Determination via Perturbation Theories and Resonant Triadic Perturbations in the Sub-Critical Region*. 77th Annual Meeting of the APS Division of Fluid Dynamics, Salt Lake City, UT, United States (no. J38.5). American Physical Society. [:link:](https://meetings.aps.org/Meeting/DFD24/Session/J38.5)
 1. <ins>**Lee, S.**</ins>, & Marcus, P. S. (2024, Aug 25-30). *Particle-Initiated Transient Growth of a Wake Vortex in Consideration of Condensation Trails*. 26th International Congress of Theoretical and Applied Mechanics, Daegu, South Korea (pp. 2009-2010). International Union of Theoretical and Applied Mechanics. [:link:](https://nl.go.kr/seoji/contents/S80100000000.do?schM=intgr_detail_view_isbn&isbn=9791198476098)
