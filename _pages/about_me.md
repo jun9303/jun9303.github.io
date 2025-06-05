@@ -90,6 +90,7 @@ feature_row:
 ### OTHER
 
 - **Peer Reviewer**
+  + *Journal of Fluid Mechanics*, Cambridge University Press (invited since 2025)
   + *Physics of Fluids*, AIP Publishing (invited since 2024)
 - **Law Student (J.D.)** at *[SNU School of Law](http://law.snu.ac.kr/index_en.php)*, Mar. 2019 - Jul. 2019 <sub>(Discontinued)</sub>
 - **Member** of *[SNU Honor Society for Engineering Students (STEM)](https://gongwoo.snu.ac.kr)*, Mar. 2016 - Aug. 2018
