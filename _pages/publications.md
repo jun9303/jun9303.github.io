@@ -12,7 +12,7 @@ header:
 \* Corresponding / † Co-first
 1. <ins>**Lee, S.**</ins>\*, Sheikh, H. M. (2025). Airfoil Optimization using Design-by-Morphing with Minimized Design-Space Dimensionality. In Preparation.
 1. Duarte, C., Raftery, P., <ins>**Lee, S.**</ins> & Solmaz, A. S. (2025). Effect of Elevated Air Movement on Radiant Cooling Systems. In Preperation.
-1. <ins>**Lee, S.**</ins>, & Marcus, P. S. (2025). Transient Growth of a Wake Vortex and its Initiation via Inertial Particles. *Journal of Fluid Mechanics*, In Press.
+1. <ins>**Lee, S.**</ins>, & Marcus, P. S. (2025). Transient Growth of a Wake Vortex and its Initiation via Inertial Particles. *Journal of Fluid Mechanics*, 1014, A16. [doi:10.1017/jfm.2025.253](https://doi.org/10.1017/jfm.2025.253).
 1. <ins>**Lee, S.**</ins>, Baek, S., Ryu, J., Song, M. & Hwang, W. (2025). Flow in Ribbed Cooling Channels with Additive Manufacturing-Induced Surface Roughness. *Physics of Fluids*, 37(6), 065118. [doi:10.1063/5.0268180](https://doi.org/10.1063/5.0268180).
 1. Wang, J., <ins>**Lee, S.**</ins>, & Marcus, P. S. (2024). Triadic Resonance in Columnar Vortices. *arXiv Preprint*. [doi:10.48550/arXiv.2402.05287](https://doi.org/10.48550/arXiv.2402.05287).
 1. <ins>**Lee, S.**</ins>\*, Sheikh, H. M., Lim, D. D., Gu, G. X. & Marcus, P. S. (2024). Bayesian-Optimized Riblet Surface Design for Turbulent Drag Reduction via Design-by-Morphing with Large Eddy Simulation. *Journal of Mechaincal Design*, 146(8), 081071. [doi:10.1115/1.4064413](https://doi.org/10.1115/1.4064413).
