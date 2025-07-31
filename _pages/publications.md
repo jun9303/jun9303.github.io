@@ -16,7 +16,7 @@ header:
 1. <ins>**Lee, S.**</ins>, Vijay, S. (2025). *Structured Porous Media Design and its Application to Passive Wall-Bounded Turbulence Control*. In Preparation.
 1. Jung, J., <ins>**Lee, S.**</ins>, Gu, G. X. (2025). *Data-Driven Optimization of Novel Morphing Airfoil Designs for Enhanced Flutter Control*. In Preparation.
 1. Duarte, C., Raftery, P., <ins>**Lee, S.**</ins> & Solmaz, A. S. (2025). Effect of Elevated Air Movement on Radiant Cooling Systems. *Journal of Building Performance Simulation*, In Preparation.
-1. <ins>**Lee, S.**</ins>\*, Sheikh, H. M. (2025). Airfoil Optimization using Design-by-Morphing with Minimized Design-Space Dimensionality. *Journal of Computational Design and Engineering*, Submitted.
+1. <ins>**Lee, S.**</ins>, Sheikh, H. M. (2025). Airfoil Optimization using Design-by-Morphing with Minimized Design-Space Dimensionality. *Journal of Computational Design and Engineering*, Submitted.
 1. <ins>**Lee, S.**</ins>, & Marcus, P. S. (2025). Transient Growth of a Wake Vortex and its Initiation via Inertial Particles. *Journal of Fluid Mechanics*, 1014, A16. [doi:10.1017/jfm.2025.253](https://doi.org/10.1017/jfm.2025.253).
 1. <ins>**Lee, S.**</ins>, Baek, S., Ryu, J., Song, M. & Hwang, W. (2025). Flow in Ribbed Cooling Channels with Additive Manufacturing-Induced Surface Roughness. *Physics of Fluids*, 37(6), 065118. [doi:10.1063/5.0268180](https://doi.org/10.1063/5.0268180).
 1. Wang, J., <ins>**Lee, S.**</ins>, & Marcus, P. S. (2024). Triadic Resonance in Columnar Vortices. *arXiv Preprint*. [doi:10.48550/arXiv.2402.05287](https://doi.org/10.48550/arXiv.2402.05287).
