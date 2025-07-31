@@ -9,9 +9,14 @@ header:
 ---
 
 # JOURNAL PUBLICATIONS
+
 \* Corresponding / † Co-first
-1. <ins>**Lee, S.**</ins>\*, Sheikh, H. M. (2025). Airfoil Optimization using Design-by-Morphing with Minimized Design-Space Dimensionality. In Preparation.
-1. Duarte, C., Raftery, P., <ins>**Lee, S.**</ins> & Solmaz, A. S. (2025). Effect of Elevated Air Movement on Radiant Cooling Systems. In Preperation.
+
+1. Hong, J., <ins>**Lee, S.**</ins>†, Lee, D., Bae, J., & Hwang, W. (2025). *Experimental and Numerical Investigation of 3D Flow Structures in a Turbulent Channel Flow with Riblets*. In Preparation.
+1. <ins>**Lee, S.**</ins>, Vijay, S. (2025). *Structured Porous Media Design and its Application to Passive Wall-Bounded Turbulence Control*. In Preparation.
+1. Jung, J., <ins>**Lee, S.**</ins>, Gu, G. X. (2025). *Data-Driven Optimization of Novel Morphing Airfoil Designs for Enhanced Flutter Control*. In Preparation.
+1. Duarte, C., Raftery, P., <ins>**Lee, S.**</ins> & Solmaz, A. S. (2025). Effect of Elevated Air Movement on Radiant Cooling Systems. *Journal of Building Performance Simulation*, In Preparation.
+1. <ins>**Lee, S.**</ins>\*, Sheikh, H. M. (2025). Airfoil Optimization using Design-by-Morphing with Minimized Design-Space Dimensionality. *Journal of Computational Design and Engineering*, Submitted.
 1. <ins>**Lee, S.**</ins>, & Marcus, P. S. (2025). Transient Growth of a Wake Vortex and its Initiation via Inertial Particles. *Journal of Fluid Mechanics*, 1014, A16. [doi:10.1017/jfm.2025.253](https://doi.org/10.1017/jfm.2025.253).
 1. <ins>**Lee, S.**</ins>, Baek, S., Ryu, J., Song, M. & Hwang, W. (2025). Flow in Ribbed Cooling Channels with Additive Manufacturing-Induced Surface Roughness. *Physics of Fluids*, 37(6), 065118. [doi:10.1063/5.0268180](https://doi.org/10.1063/5.0268180).
 1. Wang, J., <ins>**Lee, S.**</ins>, & Marcus, P. S. (2024). Triadic Resonance in Columnar Vortices. *arXiv Preprint*. [doi:10.48550/arXiv.2402.05287](https://doi.org/10.48550/arXiv.2402.05287).
@@ -24,6 +29,7 @@ header:
 
 # CONFERENCE PAPERS/PRESENTATIONS
 
+1. <ins>**Lee, S.**</ins>, Vijay, S. (2025, Nov 23-25). *Topological Design of Porous Structures for Flow Control: A Design-by-Morphing Approach*. 78th Annual Meeting of the APS Division of Fluid Dynamics, Houston, TX, United States. American Physical Society.
 1. Hong, J., <ins>**Lee, S.**</ins>, Lee, D., Bae, J., & Hwang, W. (2025, Set 15-19). *Experimental and Numerical Investigation of 3D Flow Structures in a Turbulent Channel Flow with Riblets*. 16th International Symposium on Experimental and Computational Aerothermodynamics of Internal Flows (ISAIF), Prague, Czech Republic. Institute of Thermomechanics, Czech Academy of Sciences.
 1. <ins>**Lee, S.**</ins>, Wang, J., & Marcus, P. S. (2024, Nov 24-26). *Modernized and Parallelized Mapped Legendre Spectral Method Code for Unbounded Vortical Flow Simulations*. 77th Annual Meeting of the APS Division of Fluid Dynamics, Salt Lake City, UT, United States (no. L16.7). American Physical Society. [:link:](https://meetings.aps.org/Meeting/DFD24/Session/L16.7)
 1. Wang, J., <ins>**Lee, S.**</ins> & Marcus, P. S. (2024, Nov 24-26). *Stability Analysis of the Q-Vortex: Critical Swirling Parameter Determination via Perturbation Theories and Resonant Triadic Perturbations in the Sub-Critical Region*. 77th Annual Meeting of the APS Division of Fluid Dynamics, Salt Lake City, UT, United States (no. J38.5). American Physical Society. [:link:](https://meetings.aps.org/Meeting/DFD24/Session/J38.5)
@@ -41,6 +47,7 @@ header:
 
 # INVITED TALKS/SEMINARS
 
+1. <ins>**Lee, S.**</ins> (2025, Aug 19). *Topology Optimization of Complex Nonlinear Systems Using High-Performance Simulations and Data-Driven Approaches*. GTR Research Association Seminar, Suwon, South Korea. Global Technology Research, Samsung Electronics.
 1. <ins>**Lee, S.**</ins> (2025, Jan 10). *Unmasking Hidden Physics and Bridging Data Sparsity: Two Paths to Tackling Fluid Problems*. CTR Tea Seminar, Stanford, CA, United States. Center for Turbulence Research, Stanford University.
 1. <ins>**Lee, S.**</ins> (2024, Sep 10). *Physics-Based Computation in the Modern Era of Data-Driven Fluid Mechanics*. SNU Mechanical Engineering Seminar, Seoul, South Korea. Department of Mechanical Engineering, Seoul National University.
 1. <ins>**Lee, S.**</ins> (2023, Aug 8). *Design-by-Morphing (DbM): A Novel Design Methodology for Aerodynamic Optimization*. Hyundai Vision Conference 2023, Seoul, South Korea. Hyundai Motor Company.
