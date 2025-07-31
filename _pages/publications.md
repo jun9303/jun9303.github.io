@@ -47,7 +47,7 @@ header:
 
 # INVITED TALKS/SEMINARS
 
-1. <ins>**Lee, S.**</ins> (2025, Aug 19). *Topology Optimization of Complex Nonlinear Systems Using High-Performance Simulations and Data-Driven Approaches*. GTR Research Association Seminar, Suwon, South Korea. Global Technology Research, Samsung Electronics.
+1. <ins>**Lee, S.**</ins> (2025, Aug 19). *Topology Optimization of Complex Nonlinear Systems Using High-Performance Simulations and Data-Driven Approaches*. GTR Technical Research Society Seminar, Suwon, South Korea. Global Technology Research, Samsung Electronics.
 1. <ins>**Lee, S.**</ins> (2025, Jan 10). *Unmasking Hidden Physics and Bridging Data Sparsity: Two Paths to Tackling Fluid Problems*. CTR Tea Seminar, Stanford, CA, United States. Center for Turbulence Research, Stanford University.
 1. <ins>**Lee, S.**</ins> (2024, Sep 10). *Physics-Based Computation in the Modern Era of Data-Driven Fluid Mechanics*. SNU Mechanical Engineering Seminar, Seoul, South Korea. Department of Mechanical Engineering, Seoul National University.
 1. <ins>**Lee, S.**</ins> (2023, Aug 8). *Design-by-Morphing (DbM): A Novel Design Methodology for Aerodynamic Optimization*. Hyundai Vision Conference 2023, Seoul, South Korea. Hyundai Motor Company.
