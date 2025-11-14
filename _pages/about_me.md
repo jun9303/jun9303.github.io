@@ -105,7 +105,6 @@ feature_row:
   + Surface topology optimization for thermally-efficient dropwise condensation
 
 ### FELLOWSHIPS
-
 - **[CTR Postdoctoral Fellowship](https://ctr.stanford.edu/postdoctoral-fellowships-and-visiting-researcher-programs)** from the *Center for Turbulence Research, Stanford University*, Oct. 2024 - Sep. 2025
   + Funding granted by the United States Office of Naval Research (ONR)
 - **Departmental Graduate Fellowship** from the *College of Engineering, University of California, Berkeley*, Aug. 2023 - Dec. 2023
@@ -117,7 +116,6 @@ feature_row:
   + Full-tuition scholarship for undergraduates with strong academic performance
 
 ### HONORS
-
 - **[Outstanding Graduate Student Instructor Award](https://gsi.berkeley.edu/programs-services/award-programs/ogsi/ogsi-2021/)** sponsored by UC Berkeley GSI Teaching & Resource Center, Apr. 2021
 - **Graduation Representative of the Engineering Class of 2018** in SNU's 72nd Summer Commencement, Aug. 2018
 - **[Student Paper Award: Bronze Prize](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07287580&language=ko_KR#)** in the 9th National Fluid Engineering Contest for Undergraduates, Nov. 2017

@@ -8,24 +8,27 @@ header:
   caption: "*Crystal Cove Beach, Irvine, CA (2022)* &nbsp; **[View Full-image](/assets/photographs/reef_point_crystal_cove_2022.jpg)**"
 ---
 
-# JOURNAL PUBLICATIONS
+# REFEREED PUBLICATIONS
 
 \* Corresponding / † Co-first
 
-1. Hong, J., <ins>**Lee, S.**</ins>†, Lee, D., Bae, J., & Hwang, W. (2025). *Experimental and Numerical Investigation of 3D Flow Structures in a Turbulent Channel Flow with Riblets*. In Preparation.
-1. <ins>**Lee, S.**</ins>, Vijay, S. (2025). *Structured Porous Media Design and its Application to Passive Wall-Bounded Turbulence Control*. In Preparation.
-1. Jung, J., <ins>**Lee, S.**</ins>, Gu, G. X. (2025). *Data-Driven Optimization of Novel Morphing Airfoil Designs for Enhanced Flutter Control*. In Preparation.
-1. Duarte, C., Raftery, P., <ins>**Lee, S.**</ins> & Solmaz, A. S. (2025). Effect of Elevated Air Movement on Radiant Cooling Systems. *Journal of Building Performance Simulation*, In Preparation.
-1. <ins>**Lee, S.**</ins>, Sheikh, H. M. (2025). Airfoil Optimization using Design-by-Morphing with Minimized Design-Space Dimensionality. *Journal of Computational Design and Engineering*, Submitted.
-1. <ins>**Lee, S.**</ins>, & Marcus, P. S. (2025). Transient Growth of a Wake Vortex and its Initiation via Inertial Particles. *Journal of Fluid Mechanics*, 1014, A16. [doi:10.1017/jfm.2025.253](https://doi.org/10.1017/jfm.2025.253).
-1. <ins>**Lee, S.**</ins>, Baek, S., Ryu, J., Song, M. & Hwang, W. (2025). Flow in Ribbed Cooling Channels with Additive Manufacturing-Induced Surface Roughness. *Physics of Fluids*, 37(6), 065118. [doi:10.1063/5.0268180](https://doi.org/10.1063/5.0268180).
-1. Wang, J., <ins>**Lee, S.**</ins>, & Marcus, P. S. (2024). Triadic Resonance in Columnar Vortices. *arXiv Preprint*. [doi:10.48550/arXiv.2402.05287](https://doi.org/10.48550/arXiv.2402.05287).
-1. <ins>**Lee, S.**</ins>\*, Sheikh, H. M., Lim, D. D., Gu, G. X. & Marcus, P. S. (2024). Bayesian-Optimized Riblet Surface Design for Turbulent Drag Reduction via Design-by-Morphing with Large Eddy Simulation. *Journal of Mechaincal Design*, 146(8), 081071. [doi:10.1115/1.4064413](https://doi.org/10.1115/1.4064413).
-1. <ins>**Lee, S.**</ins>, & Marcus, P. S. (2023). Linear Stability Analysis of Wake Vortices by a Spectral Method using Mapped Legendre Functions. *Journal of Fluid Mechanics*, 967, A2. [doi:10.1017/jfm.2023.455](https://doi.org/10.1017/jfm.2023.455).
-1. Sheikh, H. M., <ins>**Lee, S.**</ins>†, Wang, J. & Marcus, P. S. (2023). Airfoil Optimization using Design-by-Morphing. *Journal of Computational Design and Engineering*, 10 (4), 1443-1459. [doi:10.1093/jcde/qwad059](https://doi.org/10.1093/jcde/qwad059).
-1. <ins>**Lee, S.**</ins>, & Hwang, W. (2019). Development of an Efficient Immersed-Boundary Method with Subgrid-Scale Models for Conjugate Heat Transfer Analysis using Large Eddy Simulation. *International Journal of Heat and Mass Transfer*, 134, 198-208. [doi:10.1016/j.ijheatmasstransfer.2019.01.019](https://doi.org/10.1016/j.ijheatmasstransfer.2019.01.019).
-1. Baek, S., <ins>**Lee, S.**</ins>, Hwang, W., & Park, J. S. (2019). Experimental and Numerical Investigation of the Flow in a Trailing Edge Ribbed Internal Cooling Passage. *Journal of Turbomachinery*, 141 (1), 011012. [doi:10.1115/1.4041868](https://doi.org/10.1115/1.4041868).
+1. Hong, J., <ins>**Lee, S.**</ins>†, Lee, D., Bae, J., & Hwang, W. (2026). Experimental and Numerical Investigation of 3D Flow Structures in a Turbulent Channel Flow with Riblets. In Preparation.
+1. <ins>**Lee, S.**</ins>, Nasr, A., Yildizdağ, M. E. & Sheikh, H. M. (2026). Topology Optimization of Dimpled Surfaces. In Preparation.
+1. Jung, J., <ins>**Lee, S.**</ins>, Gu, G. X. (2026). Data-Driven Optimization of Novel Morphing Airfoil Designs for Enhanced Flutter Control. In Preparation.
+1. Duarte, C., Raftery, P., <ins>**Lee, S.**</ins> & Solmaz, A. S. (2026). Effect of Elevated Air Movement on Radiant Cooling Systems. *Journal of Building Performance Simulation*, Under Review.
+1. <ins>**Lee, S.**</ins>, Sheikh, H. M. (2026). Airfoil Optimization using Design-by-Morphing with Minimized Design-Space Dimensionality. *Journal of Computational Design and Engineering*, [https://doi.org/10.1093/jcde/qwaf124](https://doi.org/10.1093/jcde/qwaf124).
+1. <ins>**Lee, S.**</ins>, Song, H., & Lele, S. K. (2025). Global Stability Analysis for Multidimensional Flow using an Augmented State Vector Formulation. *CTR Annual Research Briefs 2025*. Center for Turbulence Research, Stanford University.
+1. <ins>**Lee, S.**</ins>, Vijay, S. (2025). Topology-Aware Permeability Modeling in Structured Porous Media for Passive Flow Control. *CTR Annual Research Briefs 2025*. Center for Turbulence Research, Stanford University.
+1. <ins>**Lee, S.**</ins>, & Marcus, P. S. (2025). Transient Growth of a Wake Vortex and its Initiation via Inertial Particles. *Journal of Fluid Mechanics*, 1014, A16. [https://doi.org/10.1017/jfm.2025.253](https://doi.org/10.1017/jfm.2025.253).
+1. <ins>**Lee, S.**</ins>, Baek, S., Ryu, J., Song, M. & Hwang, W. (2025). Flow in Ribbed Cooling Channels with Additive Manufacturing-Induced Surface Roughness. *Physics of Fluids*, 37(6), 065118. [https://doi.org/10.1063/5.0268180](https://doi.org/10.1063/5.0268180).
+1. <ins>**Lee, S.**</ins>\*, Sheikh, H. M., Lim, D. D., Gu, G. X. & Marcus, P. S. (2024). Bayesian-Optimized Riblet Surface Design for Turbulent Drag Reduction via Design-by-Morphing with Large Eddy Simulation. *Journal of Mechaincal Design*, 146(8), 081071. [https://doi.org/10.1115/1.4064413](https://doi.org/10.1115/1.4064413).
+1. <ins>**Lee, S.**</ins>, & Marcus, P. S. (2023). Linear Stability Analysis of Wake Vortices by a Spectral Method using Mapped Legendre Functions. *Journal of Fluid Mechanics*, 967, A2. [https://doi.org/10.1017/jfm.2023.455](https://doi.org/10.1017/jfm.2023.455).
+1. Sheikh, H. M., <ins>**Lee, S.**</ins>†, Wang, J. & Marcus, P. S. (2023). Airfoil Optimization using Design-by-Morphing. *Journal of Computational Design and Engineering*, 10 (4), 1443-1459. [https://doi.org/10.1093/jcde/qwad059](https://doi.org/10.1093/jcde/qwad059).
+1. <ins>**Lee, S.**</ins>, & Hwang, W. (2019). Development of an Efficient Immersed-Boundary Method with Subgrid-Scale Models for Conjugate Heat Transfer Analysis using Large Eddy Simulation. *International Journal of Heat and Mass Transfer*, 134, 198-208. [https://doi.org/10.1016/j.ijheatmasstransfer.2019.01.019](https://doi.org/10.1016/j.ijheatmasstransfer.2019.01.019).
+1. Baek, S., <ins>**Lee, S.**</ins>, Hwang, W., & Park, J. S. (2019). Experimental and Numerical Investigation of the Flow in a Trailing Edge Ribbed Internal Cooling Passage. *Journal of Turbomachinery*, 141 (1), 011012. [https://doi.org/10.1115/1.4041868](https://doi.org/10.1115/1.4041868).
 
+# PREPRINTS
+1. Wang, J., <ins>**Lee, S.**</ins>, & Marcus, P. S. (2024). Triadic Resonance in Columnar Vortices. *arXiv Preprint*. [https://doi.org/10.48550/arXiv.2402.05287](https://doi.org/10.48550/arXiv.2402.05287).
 
 # CONFERENCE PAPERS/PRESENTATIONS
 
@@ -41,7 +44,7 @@ header:
 1. <ins>**Lee, S.**</ins>, & Marcus, P. S. (2021, Nov 21-23). *Linear Instability Analysis of Wake Vortices by a Spectral Method using Mapped Legendre Functions*. 74th Annual Meeting of the APS Division of Fluid Dynamics, Phoenix, AZ, United States (no. E24.1). American Physical Society. [:link:](https://meetings.aps.org/Meeting/DFD21/Session/E24.1)
 1. Wang, J., <ins>**Lee, S.**</ins>, & Marcus, P. S. (2021, Nov 21-23). *Destabilizing Neutrally Stable Wake Vortices Using Degenerate Eigenmodes*. 74th Annual Meeting of the APS Division of Fluid Dynamics, Phoenix, AZ, United States (no. E24.3). American Physical Society. [:link:](https://meetings.aps.org/Meeting/DFD21/Session/E24.3)
 1. <ins>**Lee, S.**</ins>, & Hwang, W. (2018, Jul 4-6). *Validation of a Conjugate Heat Transfer Code with Subgrid-scale Models for Turbulent Flow*. KSFM 2018 Summer Conference, Jeju, South Korea (pp. 197-198). Korean Society for Fluid Machinery. [:link:](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07536688&language=ko_KR)
-1. Baek, S., <ins>**Lee, S.**</ins>, Hwang, W., & PARK, J. S. (2018, Jun 11-15). *Experimental and Numerical Investigation of the Flow in a Trailing Edge Ribbed Internal Cooling Passage*. ASME 2018 Turbo Expo: Turbomachinery Technical Conference and Exposition, Lillestrøm, Norway (no. GT2018-76741). American Society of Mechanical Engineers. [doi:10.1115/GT2018-76741](https://doi.org/10.1115/GT2018-76741). *Journal-Quality Appraisal and Transferred to J. Turbomach.*
+1. Baek, S., <ins>**Lee, S.**</ins>, Hwang, W., & PARK, J. S. (2018, Jun 11-15). *Experimental and Numerical Investigation of the Flow in a Trailing Edge Ribbed Internal Cooling Passage*. ASME 2018 Turbo Expo: Turbomachinery Technical Conference and Exposition, Lillestrøm, Norway (no. GT2018-76741). American Society of Mechanical Engineers. [https://doi.org/10.1115/GT2018-76741](https://doi.org/10.1115/GT2018-76741). *Journal-Quality Appraisal and Transferred to J. Turbomach.*
 1. <ins>**Lee, S.**</ins> (2017, Nov 1-3). *2D Simulation of an Unsteady Flow around a Small Vertical Axis Wind Turbine Using an Immersed Boundary Method*. KSME 2017 Annual Conference, Jeju, South Korea (pp. 741-745). Korean Society of Mechanical Engineers. *Student Paper Award: Bronze Prize in the 9th National Fluid Engineering Contest for Undergraduates*. [:link:](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07287580&language=ko_KR#)
 1. Baek, S., <ins>**Lee, S.**</ins>, & Hwang, W. (2017, Nov 1-3). *Investigation of Fully Developed Turbulent Pipe Flow Using Magnetic Resonance Velocimetry (MRV) and Large Eddy Simulation (LES)*. KSME 2017 Annual Conference, Jeju, South Korea (pp. 581-583). Korean Society of Mechanical Engineers. [:link:](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07287540&language=ko_KR#)
 
@@ -56,7 +59,7 @@ header:
 
 # SOFTWARE/CODES
 1. <ins>**Lee, S.**</ins> (2025). roughSurfaceGen: Artificial Rough Surface Generator that Fits Prescribed Surface Roughness Parameters (Version 1.0.1). [https://github.com/jun9303/roughSurfaceGen](https://github.com/jun9303/roughSurfaceGen). 
-1. <ins>**Lee, S.**</ins>, Wang, J. (2024). MLegS: Modernized and Parallelized Mapped Legendre Spectral Method Code (Version 1.0.1). [https://github.com/ucbCFD/MLegS](https://github.com/ucbCFD/MLegS). [doi:10.5281/zenodo.14976470](https://doi.org/10.5281/zenodo.14976470).
+1. <ins>**Lee, S.**</ins>, Wang, J. (2024). MLegS: Modernized and Parallelized Mapped Legendre Spectral Method Code (Version 1.0.1). [https://github.com/ucbCFD/MLegS](https://github.com/ucbCFD/MLegS). [https://doi.org/10.5281/zenodo.14976470](https://doi.org/10.5281/zenodo.14976470).
 
 <style type="text/css">
 h1 {
