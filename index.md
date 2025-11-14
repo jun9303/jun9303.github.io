@@ -15,9 +15,9 @@ intro:
 
 # I am Sangjoon "Joon" Lee.
 
-I am currently affiliated with [Stanford University](https://www.stanford.edu/) as a postdoctoral fellow at the [Center for Turbulence Research (CTR)](https://ctr.stanford.edu/), beginning in October 2024.
+I am a postdoctoral fellow at the [Center for Turbulence Research (CTR)](https://ctr.stanford.edu/) at [Stanford University](https://www.stanford.edu/), having joined in October 2024. My research integrates Fluid Mechanics and Computational Science, with a strong focus on Computational Fluid Dynamics (CFD).
 
-My research focuses on Fluid Mechanics and Computational Science. I have developed expertise in Computational Fluid Dynamics (CFD), vortex/turbulence physics and instabilities, aero-/hydrodynamic design optimizations, conjugate heat transfer analyses, and experimental flow measurements (e.g., magnetic resonance velocimetry), along with their related engineering applications. Additionally, I am deeply interested in integrating data-driven optimization schemes into CFD and numerically analyzing particle-laden flow systems.
+My research focuses on Fluid Mechanics and Computational Science, where I have developed expertise in Computational Fluid Dynamics (CFD), vortex/turbulence physics and instabilities, aero-/hydrodynamic design optimizations, conjugate heat transfer analyses, and experimental flow measurements (e.g., magnetic resonance velocimetry), along with their related engineering applications. Additionally, I am deeply interested in integrating data-driven optimization schemes into CFD and numerically analyzing particle-laden flow systems.
 
 In August 2024, I received my doctorate (Ph.D.) and master's (M.S.) degrees in [Mechanical Engineering](https://me.berkeley.edu/) with a designated emphasis in [Computational and Data Science and Engineering](https://data.berkeley.edu/decdse/) from the [University of California, Berkeley](https://www.berkeley.edu/), under the direction of [Dr. Philip S. Marcus](https://me.berkeley.edu/people/philip-s-marcus/). Prior to that, in August 2018, I graduated *summa cum laude* from [Seoul National University](https://useoul.edu/) (SNU) with dual Bachelor's degrees in [Mechanical and Aerospace Engineering](http://me.snu.ac.kr/en) (B.S.) and [Business Administration](http://cba.snu.ac.kr/en) (B.B.A.).
 
