@@ -58,8 +58,8 @@ header:
 1. <ins>**Lee, S.**</ins> (2018, Aug 8). *An Introduction to In-House LES - Applications to Turbine Internal Cooling and Recent Improvements for Conjugate Heat Transfer Analysis*. KARI Computational Fluid Dynamics Seminar, Daejeon, South Korea. Korea Aerospace Research Institute.
 
 # SOFTWARE/CODES
+1. <ins>**Lee, S.**</ins>, Wang, J. (2025). MLegS: Modernized and Parallelized Mapped Legendre Spectral Method Code (Version 1.0.2). [https://github.com/ucbCFD/MLegS](https://github.com/ucbCFD/MLegS). [https://doi.org/10.5281/zenodo.14976470](https://doi.org/10.5281/zenodo.14976470).
 1. <ins>**Lee, S.**</ins> (2025). roughSurfaceGen: Artificial Rough Surface Generator that Fits Prescribed Surface Roughness Parameters (Version 1.0.1). [https://github.com/jun9303/roughSurfaceGen](https://github.com/jun9303/roughSurfaceGen). 
-1. <ins>**Lee, S.**</ins>, Wang, J. (2024). MLegS: Modernized and Parallelized Mapped Legendre Spectral Method Code (Version 1.0.1). [https://github.com/ucbCFD/MLegS](https://github.com/ucbCFD/MLegS). [https://doi.org/10.5281/zenodo.14976470](https://doi.org/10.5281/zenodo.14976470).
 
 <style type="text/css">
 h1 {
