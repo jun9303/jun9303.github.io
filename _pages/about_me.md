@@ -53,7 +53,7 @@ feature_row:
 
 ### RESEARCH
 
-- **Postdoctoral Fellow** at the *[Center for Turbulence Research](https://ctr.stanford.edu/), Stanford University*, Sep. 2024 - Dec. 2025
+- **Postdoctoral Fellow** at the *[Center for Turbulence Research](https://ctr.stanford.edu/), Stanford University*, Oct. 2024 - Dec. 2025
   + Advanced analysis for physical insights into turbulence and related phenomena
 
 - **Graduate Student Researcher** at *[Computational Fluid Dynamics Lab](https://cfd.me.berkeley.edu/), University of California, Berkeley*, Jan. 2020 - Aug. 2024
