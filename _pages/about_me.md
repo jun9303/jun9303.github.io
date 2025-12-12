@@ -51,7 +51,7 @@ feature_row:
 
 # EXPERIENCE
 
-### RESEARCH
+### RESEARCH \& DEVELOPMENT
 
 - **Postdoctoral Fellow** at the *[Center for Turbulence Research](https://ctr.stanford.edu/), Stanford University*, Oct. 2024 - Dec. 2025
   + Advanced analysis for physical insights into turbulence and related phenomena
