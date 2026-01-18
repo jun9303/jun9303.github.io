@@ -45,16 +45,19 @@ feature_row:
 
 # RESEARCH INTERESTS
 
-1. **Fluid Mechanics**: Analysis of Turbulent Motions and Instabilities with Concurrent Scalar Transfers 
+1. **Fluid Mechanics**: Analysis of Turbulent Motions and Instabilities with Concurrent Heat/Mass Transfers 
 2. **Computational Science**: Development of High-Performance Computing Schemes for Physics-Based Complex Systems
-3. **Flows in Human Environment**: Application to Sustainable Energy or Clean Environment on Various Scales
+3. **Flows in Human Environment**: Flow Applications to Sustainability Across Scales
 
 # EXPERIENCE
 
-### RESEARCH \& DEVELOPMENT
+### RESEARCH & DEVELOPMENT
+
+- **Postdoctoral Scholar** at the *[Aerospace Design Lab](https://adl.stanford.edu/), Stanford University*, Jan. 2026 -
+  + Investigation of highly efficient thermal management for hydrogen fuel cell powered aviation
 
 - **Postdoctoral Fellow** at the *[Center for Turbulence Research](https://ctr.stanford.edu/), Stanford University*, Oct. 2024 - Dec. 2025
-  + Advanced analysis for physical insights into turbulence and related phenomena
+  + Advanced analysis for physical insights into turbulence, heat transfer and related phenomena
 
 - **Graduate Student Researcher** at *[Computational Fluid Dynamics Lab](https://cfd.me.berkeley.edu/), University of California, Berkeley*, Jan. 2020 - Aug. 2024
   + Numerical examination of destabilizing aircraft wake vortices using a global eigenvalue and eigenmode analysis in association with a spectral collocation method
@@ -90,6 +93,7 @@ feature_row:
 ### OTHER
 
 - **Peer Reviewer**
+  + *Journal of Computatinoal Physics*, Elsevier (invited since 2026)
   + *Journal of Fluid Mechanics*, Cambridge University Press (invited since 2025)
   + *Physics of Fluids*, AIP Publishing (invited since 2024)
 - **Law Student (J.D.)** at *[SNU School of Law](http://law.snu.ac.kr/index_en.php)*, Mar. 2019 - Jul. 2019 <sub>(Discontinued)</sub>
@@ -100,8 +104,12 @@ feature_row:
 # AWARDS & HONORS
 
 ### GRANTS
-- **NSF ACCESS Allocation: PHY250071** from *ACCESS by the U.S. National Science Foundation (NSF)*, Mar. 2025 - Feb. 2026
-  + Principal Investigator · 1,500,000 HPC core-hours
+- **Precourt Institute for Energy Seed Grant** from *Stanford Precourt Institute for Energy*, Feb. 2026 - Jan. 2027
+  + Co-PI · $100,000
+  + Highly efficient thermal management in hydrogen-powered aviation
+
+- **NSF ACCESS Allocation: PHY250071** from *ACCESS by the U.S. National Science Foundation (NSF)*, Mar. 2025 - Feb. 2027
+  + PI · 1,500,000 HPC core-hours
   + Surface topology optimization for thermally-efficient dropwise condensation
 
 ### FELLOWSHIPS
