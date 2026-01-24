@@ -15,7 +15,7 @@ header:
 1. Hong, J., <ins>**Lee, S.**</ins>†, Lee, D., Bae, J., & Hwang, W. (2026). Experimental and Numerical Investigation of 3D Flow Structures in a Turbulent Channel Flow with Riblets. In Preparation.
 1. <ins>**Lee, S.**</ins>, Nasr, A., Yildizdağ, M. E. & Sheikh, H. M. (2026). Topology Optimization of Dimpled Surfaces. In Preparation.
 1. Jung, J., <ins>**Lee, S.**</ins>, Gu, G. X. (2026). Data-Driven Optimization of Novel Morphing Airfoil Designs for Enhanced Flutter Control. In Preparation.
-1. Wang, J., <ins>**Lee, S.**</ins>, & Marcus, P. S. (2026). Perturbation Analysis of Triadic Resonance in Columnar Vortices. *Journal of Fluid Mechanics*, Submitted.
+1. Wang, J., <ins>**Lee, S.**</ins>, & Marcus, P. S. (2026). Perturbation Analysis of Triadic Resonance in Columnar Vortices. In Preparation. [https://arxiv.org/abs/2402.05287](https://arxiv.org/abs/2402.05287).
 1. Duarte, C., Raftery, P., <ins>**Lee, S.**</ins> & Solmaz, A. S. (2026). Effect of Elevated Air Movement on Radiant Cooling Systems. *Journal of Building Performance Simulation*, Under Review.
 1. <ins>**Lee, S.**</ins>, Sheikh, H. M. (2026). Airfoil Optimization using Design-by-Morphing with Minimized Design-Space Dimensionality. *Journal of Computational Design and Engineering*, [https://doi.org/10.1093/jcde/qwaf124](https://doi.org/10.1093/jcde/qwaf124).
 1. <ins>**Lee, S.**</ins>, Song, H., & Lele, S. K. (2025). Global Stability Analysis for Multidimensional Flow using an Augmented State Vector Formulation. In *Annual Research Briefs 2025* (pp. 313-323). Center for Turbulence Research, Stanford University. [https://web.stanford.edu/group/ctr/ResBriefs/2025/28_Lee](https://web.stanford.edu/group/ctr/ResBriefs/2025/28_Lee).
@@ -49,6 +49,7 @@ header:
 
 # INVITED TALKS/SEMINARS
 
+1. <ins>**Lee, S.**</ins> (2026, Feb 5). *Training-Free Design Generation Through Morphing and Its Applications in Fluid Dynamics*. MAE 297 Seminar Series, Davis, CA, United States. Department of Mechanical and Aerospace Engineering, University of California, Davis.
 1. <ins>**Lee, S.**</ins> (2025, Aug 19). *Topology Optimization of Complex Nonlinear Systems Using High-Performance Simulations and Data-Driven Approaches*. GTR Technical Research Society Seminar, Suwon, South Korea. Global Technology Research, Samsung Electronics.
 1. <ins>**Lee, S.**</ins> (2025, Jan 10). *Unmasking Hidden Physics and Bridging Data Sparsity: Two Paths to Tackling Fluid Problems*. CTR Tea Seminar, Stanford, CA, United States. Center for Turbulence Research, Stanford University.
 1. <ins>**Lee, S.**</ins> (2024, Sep 10). *Physics-Based Computation in the Modern Era of Data-Driven Fluid Mechanics*. SNU Mechanical Engineering Seminar, Seoul, South Korea. Department of Mechanical Engineering, Seoul National University.
