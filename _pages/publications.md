@@ -13,7 +13,7 @@ header:
 \* Corresponding / † Co-first
 
 1. Hong, J., <ins>**Lee, S.**</ins>†, Lee, D., Bae, J., & Hwang, W. (2026). Experimental and Numerical Investigation of 3D Flow Structures in a Turbulent Channel Flow with Riblets. In Preparation.
-1. <ins>**Lee, S.**</ins>, Nasr, A., Yildizdağ, M. E. & Sheikh, H. M. (2026). Topology Optimization of Dimpled Surfaces. In Preparation.
+1. <ins>**Lee, S.**</ins>, Yildizdag, M. E. & Sheikh, H. M. (2026). Topology Optimization of Dimpled Surfaces. In Preparation.
 1. Jung, J., <ins>**Lee, S.**</ins>, Gu, G. X. (2026). Data-Driven Optimization of Novel Morphing Airfoil Designs for Enhanced Flutter Control. In Preparation.
 1. Wang, J., <ins>**Lee, S.**</ins>, & Marcus, P. S. (2026). Perturbation Analysis of Triadic Resonance in Columnar Vortices. In Preparation. [https://arxiv.org/abs/2402.05287](https://arxiv.org/abs/2402.05287).
 1. Duarte, C., Raftery, P., <ins>**Lee, S.**</ins> & Solmaz, A. S. (2026). Effect of Elevated Air Movement on Radiant Cooling Systems. *Journal of Building Performance Simulation*, Under Review.
