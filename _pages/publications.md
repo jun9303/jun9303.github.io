@@ -12,10 +12,10 @@ header:
 
 \* Corresponding / † Co-first
 
-1. Hong, J., <ins>**Lee, S.**</ins>†, Lee, D., Bae, J., & Hwang, W. (2026). Experimental and Numerical Investigation of 3D Flow Structures in a Turbulent Channel Flow with Riblets. In Preparation.
-1. <ins>**Lee, S.**</ins>, Yildizdag, M. E. & Sheikh, H. M. (2026). Topology Optimization of Dimpled Surfaces. In Preparation.
-1. Jung, J., <ins>**Lee, S.**</ins>, Gu, G. X. (2026). Data-Driven Optimization of Novel Morphing Airfoil Designs for Enhanced Flutter Control. In Preparation.
-1. Wang, J., <ins>**Lee, S.**</ins>, & Marcus, P. S. (2026). Perturbation Analysis of Triadic Resonance in Columnar Vortices. In Preparation. [https://arxiv.org/abs/2402.05287](https://arxiv.org/abs/2402.05287).
+1. <ins>**Lee, S.**</ins>, Yildizdag, M. E. & Sheikh, H. M. (2026). Topology Optimization of Dimpled Surfaces, In Preparation.
+1. Jung, J., <ins>**Lee, S.**</ins>, Gu, G. X. (2026). Data-Driven Optimization of Novel Morphing Airfoil Designs for Enhanced Flutter Control, In Preparation.
+1. Hong, J., <ins>**Lee, S.**</ins>†, Lee, D., Bae, J., & Hwang, W. (2026). Experimental and Numerical Investigation of 3D Flow Structures in a Turbulent Channel Flow with Riblets, In Preparation.
+1. Wang, J., <ins>**Lee, S.**</ins>, & Marcus, P. S. (2026). Perturbation Analysis of Triadic Resonance in Columnar Vortices: Selection Rules and the Roles of External Forcing and Critical Layers. *Journal of Fluid Mechanics*, Under Review.
 1. Duarte, C., Raftery, P., <ins>**Lee, S.**</ins> & Solmaz, A. S. (2026). Effect of Elevated Air Movement on Radiant Cooling Systems. *Journal of Building Performance Simulation*, Under Review.
 1. <ins>**Lee, S.**</ins>, Sheikh, H. M. (2026). Airfoil Optimization using Design-by-Morphing with Minimized Design-Space Dimensionality. *Journal of Computational Design and Engineering*, 13(1), 108–124. [https://doi.org/10.1093/jcde/qwaf124](https://doi.org/10.1093/jcde/qwaf124).
 1. <ins>**Lee, S.**</ins>, Song, H., & Lele, S. K. (2025). Global Stability Analysis for Multidimensional Flow using an Augmented State Vector Formulation. In *Annual Research Briefs 2025* (pp. 313-323). Center for Turbulence Research, Stanford University. [https://web.stanford.edu/group/ctr/ResBriefs/2025/28_Lee](https://web.stanford.edu/group/ctr/ResBriefs/2025/28_Lee).
