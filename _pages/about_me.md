@@ -10,7 +10,7 @@ feature_row:
   - image_path: assets/images/bio-photo-sjlee-200x200.png
     alt: "profile image"
     title: 'Sangjoon "Joon" Lee, Ph.D.'
-    excerpt: "Postdoctoral Scholar at Stanford University<br/> / [[LinkedIn]](https://www.linkedin.com/in/sangjoonlee93/) / [[ORCID]](https://orcid.org/0000-0002-2063-6298) / [[E-mail]](mailto:sjoonl@stanford.edu)"
+    excerpt: "Postdoctoral Scholar at Stanford University<br/>[[LinkedIn]](https://www.linkedin.com/in/sangjoonlee93/) / [[ORCID]](https://orcid.org/0000-0002-2063-6298) / [[E-mail]](mailto:sjoonl@stanford.edu)"
 ---
 
 {% include feature_row type="center" %}
@@ -51,19 +51,19 @@ feature_row:
 
 # WORK EXPERIENCE
 
-### STANFORD UNIVERSITY (Stanford, California, US)
+### Stanford University (Stanford, California, US)
 - **Postdoctoral Scholar** at *[Aerospace Design Lab](https://adl.stanford.edu/)*, Jan. 2026 -
   + Investigation of highly efficient thermal management for hydrogen fuel cell powered aviation
 
 - **Postdoctoral Fellow** at the *[Center for Turbulence Research](https://ctr.stanford.edu/)*, Oct. 2024 - Dec. 2025
   + Advanced analysis for physical insights into turbulence, heat transfer and related phenomena
 
-### UNIVERSITY OF CALIFORNIA, BERKELEY (Berkeley, California, US)
+### University of California, Berkeley (Berkeley, California, US)
 - **Graduate Student Researcher** at *[Computational Fluid Dynamics Lab](https://cfd.me.berkeley.edu/)*, Jan. 2020 - Aug. 2024
   + Numerical examination of destabilizing aircraft wake vortices using a global eigenvalue and eigenmode analysis in association with a spectral collocation method
   + Optimization of hydro-/aerodynamic designs with a Bayesian inference or a genetic algorithm using the Design-by-Morphing (DbM) technique
 
-### SEOUL NATIONAL UNIVERSITY (Seoul, South Korea)
+### Seoul National University (Seoul, South Korea)
 - **Researcher** at *[Energy & Environmental Flow Lab](http://eeflow.snu.ac.kr), Seoul National University*, Jul. 2017 - Aug. 2018
   + Development and validation on conjugate heat transfer (CHT) codes with an efficient interpolation scheme for thermal properties at interfaces
   + Flow visualization using Magnetic Resonance Velocimetry (MRV) and Large Eddy Simulation (LES)
@@ -74,7 +74,7 @@ feature_row:
 
 # TEACHING EXPERIENCE
 
-### UNIVERSITY OF CALIFORNIA, BERKELEY (Berkeley, California, US)
+### University of California, Berkeley (Berkeley, California, US)
 - **Teaching Assistant**, Jan. 2024 - May 2024
   + *Introduction to Computer Programming for Scientists and Engineers (ENGIN 7)*
   <!-- + Taught basic programming strategies and numerical methods for scientific computing -->
@@ -88,7 +88,7 @@ feature_row:
   <!-- + Taught experimental techniques for mechanical engineering, run lab sessions, graded assignments and reports, had office hours and answered questions in person and online -->
   <!-- + Received the Outstanding Graduate Student Instructor (OGSI) award in Apr. 2021 -->
 
-### SEOUL NATIONAL UNIVERSITY (Seoul, South Korea)
+### Seoul National University (Seoul, South Korea)
 - **Undergraduate Tutor**, Mar. 2013 - Dec. 2013
   + *Basic Calculus 2 (007.102)* and *Basic Calculus 1/2 (007.098A/099A)*
   <!-- + Tutored freshmen who have difficulty in studying university-level calculus and physics -->

@@ -1,0 +1,12 @@
+/* Custom overrides loaded after theme CSS to hide visible "Permalink" text */
+.header-link > .sr-only,
+.header-link .sr-only {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+/* If you prefer to remove the permalink anchor completely, uncomment below */
+/* .header-link { display: none !important; } */
