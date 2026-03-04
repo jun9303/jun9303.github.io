@@ -49,26 +49,21 @@ feature_row:
 2. **Scientific Computing**: Efficient Computing and Optimization Schemes for Physics-Based Complex Systems
 3. **Flows in Human Environment**: Engineering Flow Applications Across Scales for Sustainability
 
-# EXPERIENCE
+# WORK EXPERIENCE
 
-### RESEARCH
-
-#### STANFORD UNIVERSITY (Stanford, California, US)
-
+### STANFORD UNIVERSITY (Stanford, California, US)
 - **Postdoctoral Scholar** at *[Aerospace Design Lab](https://adl.stanford.edu/)*, Jan. 2026 -
   + Investigation of highly efficient thermal management for hydrogen fuel cell powered aviation
 
 - **Postdoctoral Fellow** at the *[Center for Turbulence Research](https://ctr.stanford.edu/)*, Oct. 2024 - Dec. 2025
   + Advanced analysis for physical insights into turbulence, heat transfer and related phenomena
 
-#### UNIVERSITY OF CALIFORNIA, BERKELEY (Berkeley, California, US)
-
+### UNIVERSITY OF CALIFORNIA, BERKELEY (Berkeley, California, US)
 - **Graduate Student Researcher** at *[Computational Fluid Dynamics Lab](https://cfd.me.berkeley.edu/)*, Jan. 2020 - Aug. 2024
   + Numerical examination of destabilizing aircraft wake vortices using a global eigenvalue and eigenmode analysis in association with a spectral collocation method
   + Optimization of hydro-/aerodynamic designs with a Bayesian inference or a genetic algorithm using the Design-by-Morphing (DbM) technique
 
-#### SEOUL NATIONAL UNIVERSITY (Seoul, South Korea)
-
+### SEOUL NATIONAL UNIVERSITY (Seoul, South Korea)
 - **Researcher** at *[Energy & Environmental Flow Lab](http://eeflow.snu.ac.kr), Seoul National University*, Jul. 2017 - Aug. 2018
   + Development and validation on conjugate heat transfer (CHT) codes with an efficient interpolation scheme for thermal properties at interfaces
   + Flow visualization using Magnetic Resonance Velocimetry (MRV) and Large Eddy Simulation (LES)
@@ -77,7 +72,7 @@ feature_row:
   + Simulation of flow around a rotating small Vertical Axis Wind Turbine (VAWT) as a part of the undergraduate thesis program
   + Numerical study for Computational Fluid Dynamics (CFD) based on an Immersed Boundary (IB) method
 
-### TEACHING
+# TEACHING EXPERIENCE
 
 #### UNIVERSITY OF CALIFORNIA, BERKELEY (Berkeley, California, US)
 - **Teaching Assistant**, Jan. 2024 - May 2024
@@ -98,7 +93,7 @@ feature_row:
   + *Basic Calculus 2 (007.102)* and *Basic Calculus 1/2 (007.098A/099A)*
   <!-- + Tutored freshmen who have difficulty in studying university-level calculus and physics -->
 
-### OTHER
+# OTHER EXPERIENCE
 
 - **Peer Reviewer**
   + *Journal of Computatinoal Physics*, Elsevier (invited since 2026)
@@ -106,8 +101,10 @@ feature_row:
   + *Physics of Fluids*, AIP Publishing (invited since 2024) 
 
 - **Law Student (J.D.)** at *[SNU School of Law](http://law.snu.ac.kr/index_en.php)*, Mar. 2019 - Jul. 2019 <sub>(Discontinued)</sub>
+
 - **Member** of *[SNU Honor Society for Engineering Students (STEM)](https://gongwoo.snu.ac.kr)*, Mar. 2016 - Aug. 2018
   + Served as the *7th Vice President & Head Manager* from Aug. 2016 to Jul. 2017
+  
 - **Auxiliary Police Officer** at *Jongno Police Station, [Seoul Metropolitan Police Agency](https://www.smpa.go.kr/home/homeIndexEng.do?menuCode=eng)*, Jun. 2014 - Mar. 2016
 
 # AWARDS & HONORS
