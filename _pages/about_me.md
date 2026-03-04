@@ -10,10 +10,16 @@ feature_row:
   - image_path: assets/images/bio-photo-sjlee-200x200.png
     alt: "profile image"
     title: 'Sangjoon "Joon" Lee, Ph.D.'
-    excerpt: "Postdoctoral Scholar at Stanford University<br/>[[ORCID]](https://orcid.org/0000-0002-2063-6298) / [[Google Scholar]](https://scholar.google.com/citations?user=AnnGLWwAAAAJ) / [[E-mail]](mailto:sjoonl@stanford.edu)"
+    excerpt: "Postdoctoral Scholar at Stanford University<br/> / [[LinkedIn]](https://www.linkedin.com/in/sangjoonlee93/) / [[ORCID]](https://orcid.org/0000-0002-2063-6298) / [[E-mail]](mailto:sjoonl@stanford.edu)"
 ---
 
 {% include feature_row type="center" %}
+
+# RESEARCH INTERESTS
+
+1. **Aerosciences**: Aerodynamic Motions and Instabilities past Complex Topologies with Concurrent Heat or Mass Transfers 
+2. **Scientific Computing**: Efficient Computing and Optimization Schemes for Physics-Based Complex Systems
+3. **Flows in Human Environment**: Engineering Flow Applications Across Scales for Sustainability
 
 # EDUCATION
 
@@ -43,12 +49,6 @@ feature_row:
   
 - **High School Diploma for Gifted Students**, *[Seoul Science High School](http://en.sshs.hs.kr)*, Feb. 2012
 
-# RESEARCH INTERESTS
-
-1. **Aerosciences**: Aerodynamic Motions and Instabilities past Complex Topologies with Concurrent Heat or Mass Transfers 
-2. **Scientific Computing**: Efficient Computing and Optimization Schemes for Physics-Based Complex Systems
-3. **Flows in Human Environment**: Engineering Flow Applications Across Scales for Sustainability
-
 # WORK EXPERIENCE
 
 ### STANFORD UNIVERSITY (Stanford, California, US)
@@ -74,7 +74,7 @@ feature_row:
 
 # TEACHING EXPERIENCE
 
-#### UNIVERSITY OF CALIFORNIA, BERKELEY (Berkeley, California, US)
+### UNIVERSITY OF CALIFORNIA, BERKELEY (Berkeley, California, US)
 - **Teaching Assistant**, Jan. 2024 - May 2024
   + *Introduction to Computer Programming for Scientists and Engineers (ENGIN 7)*
   <!-- + Taught basic programming strategies and numerical methods for scientific computing -->
@@ -88,7 +88,7 @@ feature_row:
   <!-- + Taught experimental techniques for mechanical engineering, run lab sessions, graded assignments and reports, had office hours and answered questions in person and online -->
   <!-- + Received the Outstanding Graduate Student Instructor (OGSI) award in Apr. 2021 -->
 
-#### SEOUL NATIONAL UNIVERSITY (Seoul, South Korea)
+### SEOUL NATIONAL UNIVERSITY (Seoul, South Korea)
 - **Undergraduate Tutor**, Mar. 2013 - Dec. 2013
   + *Basic Calculus 2 (007.102)* and *Basic Calculus 1/2 (007.098A/099A)*
   <!-- + Tutored freshmen who have difficulty in studying university-level calculus and physics -->
@@ -104,19 +104,17 @@ feature_row:
 
 - **Member** of *[SNU Honor Society for Engineering Students (STEM)](https://gongwoo.snu.ac.kr)*, Mar. 2016 - Aug. 2018
   + Served as the *7th Vice President & Head Manager* from Aug. 2016 to Jul. 2017
-  
+
 - **Auxiliary Police Officer** at *Jongno Police Station, [Seoul Metropolitan Police Agency](https://www.smpa.go.kr/home/homeIndexEng.do?menuCode=eng)*, Jun. 2014 - Mar. 2016
 
 # AWARDS & HONORS
 
 ### GRANTS
 - **Precourt Institute for Energy Seed Grant** from *Sustainable Mobility Center, Stanford University*, Feb. 2026 - Jan. 2027
-  + Co-PI · $100,000
-  + Highly efficient thermal management in hydrogen-powered aviation
+  + Co-PI · Highly efficient thermal management in hydrogen-powered aviation
 
 - **NSF ACCESS Allocation: PHY250071** from *ACCESS by the U.S. National Science Foundation (NSF)*, Mar. 2025 - Feb. 2027
-  + PI · 1,500,000 HPC core-hours
-  + Surface topology optimization for thermally-efficient dropwise condensation
+  + PI · Surface topology optimization for thermally-efficient dropwise condensation
 
 ### FELLOWSHIPS
 - **[CTR Postdoctoral Fellowship](https://ctr.stanford.edu/postdoctoral-fellowships-and-visiting-researcher-programs)** from the *Center for Turbulence Research, Stanford University*, Sep. 2024 - Dec. 2025
