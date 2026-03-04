@@ -48,10 +48,11 @@ feature_row:
 
   + Thesis: "(B.S.) Large Eddy Simulation of Flow Around a Rotating Small Vertical Axis Wind Turbine Using an Immersed Boundary Method" & "(B.B.A.) Capital and Operating Cost Efficiency Evaluation of Onshore Wind Farms in South Korea: A DEA Approach"
   + Honors: *Summa Cum Laude*
-  
+
+### Seoul Science High School (Seoul, South Korea)
 - **High School Diploma for Gifted Students**, *[Seoul Science High School](http://en.sshs.hs.kr)*, Feb. 2012
 
-# WORK EXPERIENCE
+# WORK
 
 ### Stanford University (Stanford, California, US)
 - **Postdoctoral Scholar** at *[Aerospace Design Lab](https://adl.stanford.edu/)*, Jan. 2026 -
@@ -74,7 +75,7 @@ feature_row:
   + Simulation of flow around a rotating small Vertical Axis Wind Turbine (VAWT) as a part of the undergraduate thesis program
   + Numerical study for Computational Fluid Dynamics (CFD) based on an Immersed Boundary (IB) method
 
-# TEACHING EXPERIENCE
+# TEACHING
 
 ### University of California, Berkeley (Berkeley, California, US)
 - **Teaching Assistant**, Jan. 2024 - May 2024
@@ -97,15 +98,20 @@ feature_row:
 
 # OTHER EXPERIENCE
 
+### PROFESSIONAL SERVICE
 - **Peer Reviewer**
-  + *Journal of Computatinoal Physics*, Elsevier (invited since 2026)
-  + *Journal of Fluid Mechanics*, Cambridge University Press (invited since 2025)
-  + *Physics of Fluids*, AIP Publishing (invited since 2024) 
+  + *[Journal of Computational Physics](https://www.sciencedirect.com/journal/journal-of-computational-physics)*, Elsevier (invited since 2026)
+  + *[Journal of Fluid Mechanics](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics)*, Cambridge University Press (invited since 2025)
+  + *[Physics of Fluids](https://pubs.aip.org/aip/pof)*, AIP Publishing (invited since 2024) 
 
-- **Law Student (J.D.)** at *[SNU School of Law](http://law.snu.ac.kr/index_en.php)*, Mar. 2019 - Jul. 2019 <sub>(Discontinued)</sub>
+### COMMUNITY OUTREACH
+- **Volunteer** of [Stanford seeME](https://seeme.stanford.edu/) & CTR^2, May 2025 - May 2026
 
 - **Member** of *[SNU Honor Society for Engineering Students (STEM)](https://gongwoo.snu.ac.kr)*, Mar. 2016 - Aug. 2018
-  + Served as the *7th Vice President & Head Manager* from Aug. 2016 to Jul. 2017
+  <!-- + Served as the *7th Vice President & Head Manager* from Aug. 2016 to Jul. 2017 -->
+
+### MISCELLANEA
+- **Law Student (J.D.)** at *[SNU School of Law](http://law.snu.ac.kr/index_en.php)*, Mar. 2019 - Jul. 2019 <sub>(Discontinued)</sub>
 
 - **Auxiliary Police Officer** at *Jongno Police Station, [Seoul Metropolitan Police Agency](https://www.smpa.go.kr/home/homeIndexEng.do?menuCode=eng)*, Jun. 2014 - Mar. 2016
 
