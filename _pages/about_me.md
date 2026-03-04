@@ -53,6 +53,7 @@ feature_row:
 - **High School Diploma for Gifted Students**, *[Seoul Science High School](http://en.sshs.hs.kr)*, Feb. 2012 -->
 
 # WORK
+# WORK
 
 ### Stanford University (Stanford, California, US)
 - **Postdoctoral Scholar** at *[Aerospace Design Lab](https://adl.stanford.edu/)*, Jan. 2026 -
@@ -73,6 +74,7 @@ feature_row:
   + Simulation of flow around a rotating small Vertical Axis Wind Turbine (VAWT) as a part of the undergraduate thesis program
   + Numerical study for Computational Fluid Dynamics (CFD) based on an Immersed Boundary (IB) method
 
+# TEACHING
 # TEACHING
 
 ### University of California, Berkeley (Berkeley, California, US)
@@ -95,7 +97,11 @@ feature_row:
 # OTHER EXPERIENCE
 
 ### PROFESSIONAL SERVICE
+### PROFESSIONAL SERVICE
 - **Peer Reviewer**
+  + *[Journal of Computational Physics](https://www.sciencedirect.com/journal/journal-of-computational-physics)*, Elsevier (invited since 2026)
+  + *[Journal of Fluid Mechanics](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics)*, Cambridge University Press (invited since 2025)
+  + *[Physics of Fluids](https://pubs.aip.org/aip/pof)*, AIP Publishing (invited since 2024) 
   + *[Journal of Computational Physics](https://www.sciencedirect.com/journal/journal-of-computational-physics)*, Elsevier (invited since 2026)
   + *[Journal of Fluid Mechanics](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics)*, Cambridge University Press (invited since 2025)
   + *[Physics of Fluids](https://pubs.aip.org/aip/pof)*, AIP Publishing (invited since 2024) 
@@ -119,7 +125,7 @@ feature_row:
 
 ### FELLOWSHIPS
 - **[CTR Postdoctoral Fellowship](https://ctr.stanford.edu/postdoctoral-fellowships-and-visiting-researcher-programs)** from the *Center for Turbulence Research, Stanford University*, Sep. 2024 - Dec. 2025
-  + Funding granted by the United States Office of Naval Research (ONR)
+  + Funding granted by the U.S. Office of Naval Research (ONR)
 - **Departmental Graduate Fellowship** from the *College of Engineering, University of California, Berkeley*, Aug. 2023 - Dec. 2023
   + Selective departmental award offering stipends with full tuition and fee waivers 
 - **[Ilju Overseas Ph.D. Scholarship](http://www.taekwanggroup.co.kr/homepage/eng/iljuFoundationIntro.do)** from *Ilju Academy and Culture Foundation*, Aug. 2019 - Jul. 2023
