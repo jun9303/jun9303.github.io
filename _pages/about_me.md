@@ -48,15 +48,15 @@ feature_row:
 
   + Thesis: "(B.S.) Large Eddy Simulation of Flow Around a Rotating Small Vertical Axis Wind Turbine Using an Immersed Boundary Method" & "(B.B.A.) Capital and Operating Cost Efficiency Evaluation of Onshore Wind Farms in South Korea: A DEA Approach"
   + Honors: *Summa Cum Laude*
-  
-- **High School Diploma for Gifted Students**, *[Seoul Science High School](http://en.sshs.hs.kr)*, Feb. 2012
 
-# WORK EXPERIENCE
+<!-- ### Seoul Science High School (Seoul, South Korea)
+- **High School Diploma for Gifted Students**, *[Seoul Science High School](http://en.sshs.hs.kr)*, Feb. 2012 -->
+
+# WORK
 
 ### Stanford University (Stanford, California, US)
 - **Postdoctoral Scholar** at *[Aerospace Design Lab](https://adl.stanford.edu/)*, Jan. 2026 -
   + Investigation of highly efficient thermal management for hydrogen fuel cell powered aviation
-
 - **Postdoctoral Fellow** at the *[Center for Turbulence Research](https://ctr.stanford.edu/)*, Oct. 2024 - Dec. 2025
   + Advanced analysis for physical insights into turbulence, heat transfer and related phenomena
 
@@ -69,22 +69,19 @@ feature_row:
 - **Researcher** at *[Energy & Environmental Flow Lab](http://eeflow.snu.ac.kr), Seoul National University*, Jul. 2017 - Aug. 2018
   + Development and validation on conjugate heat transfer (CHT) codes with an efficient interpolation scheme for thermal properties at interfaces
   + Flow visualization using Magnetic Resonance Velocimetry (MRV) and Large Eddy Simulation (LES)
-
 - **Research Intern** at *[Turbulence, Flow Control & CFD Lab](http://tfc.snu.ac.kr), Seoul National University*, Sep. 2016 - Dec. 2017
   + Simulation of flow around a rotating small Vertical Axis Wind Turbine (VAWT) as a part of the undergraduate thesis program
   + Numerical study for Computational Fluid Dynamics (CFD) based on an Immersed Boundary (IB) method
 
-# TEACHING EXPERIENCE
+# TEACHING
 
 ### University of California, Berkeley (Berkeley, California, US)
 - **Teaching Assistant**, Jan. 2024 - May 2024
   + *Introduction to Computer Programming for Scientists and Engineers (ENGIN 7)*
   <!-- + Taught basic programming strategies and numerical methods for scientific computing -->
-
 - **Course Designer / Graduate Student Instructor**, Aug. 2022 - May 2023
   + *Introduction to Aerospace Engineering Design (AERO ENG 10)*
   <!-- + Composed teaching outlines and prepared instruction materials especially for an airfoil design and analysis lab module with wind tunnel practices -->
-
 - **Graduate Student Instructor**, Aug. 2019 - May 2022
   + *Experimentation and Measurements (MEC ENG 103)*
   <!-- + Taught experimental techniques for mechanical engineering, run lab sessions, graded assignments and reports, had office hours and answered questions in person and online -->
@@ -97,16 +94,19 @@ feature_row:
 
 # OTHER EXPERIENCE
 
+### PROFESSIONAL SERVICE
 - **Peer Reviewer**
-  + *Journal of Computatinoal Physics*, Elsevier (invited since 2026)
-  + *Journal of Fluid Mechanics*, Cambridge University Press (invited since 2025)
-  + *Physics of Fluids*, AIP Publishing (invited since 2024) 
+  + *[Journal of Computational Physics](https://www.sciencedirect.com/journal/journal-of-computational-physics)*, Elsevier (invited since 2026)
+  + *[Journal of Fluid Mechanics](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics)*, Cambridge University Press (invited since 2025)
+  + *[Physics of Fluids](https://pubs.aip.org/aip/pof)*, AIP Publishing (invited since 2024) 
 
-- **Law Student (J.D.)** at *[SNU School of Law](http://law.snu.ac.kr/index_en.php)*, Mar. 2019 - Jul. 2019 <sub>(Discontinued)</sub>
-
+### COMMUNITY OUTREACH
+- **Volunteer** of [Stanford seeME](https://seeme.stanford.edu/) & CTR^2, May 2025 - May 2026
 - **Member** of *[SNU Honor Society for Engineering Students (STEM)](https://gongwoo.snu.ac.kr)*, Mar. 2016 - Aug. 2018
-  + Served as the *7th Vice President & Head Manager* from Aug. 2016 to Jul. 2017
+  <!-- + Served as the *7th Vice President & Head Manager* from Aug. 2016 to Jul. 2017 -->
 
+### MISCELLANY
+- **Law Student (J.D.)** at *[SNU School of Law](http://law.snu.ac.kr/index_en.php)*, Mar. 2019 - Jul. 2019 <sub>(Discontinued)</sub>
 - **Auxiliary Police Officer** at *Jongno Police Station, [Seoul Metropolitan Police Agency](https://www.smpa.go.kr/home/homeIndexEng.do?menuCode=eng)*, Jun. 2014 - Mar. 2016
 
 # AWARDS & HONORS
@@ -114,7 +114,6 @@ feature_row:
 ### GRANTS
 - **Precourt Institute for Energy Seed Grant** from *Sustainable Mobility Center, Stanford University*, Feb. 2026 - Jan. 2027
   + Co-PI · Highly efficient thermal management in hydrogen-powered aviation
-
 - **NSF ACCESS Allocation: PHY250071** from *ACCESS by the U.S. National Science Foundation (NSF)*, Mar. 2025 - Feb. 2027
   + PI · Surface topology optimization for thermally-efficient dropwise condensation
 
@@ -137,9 +136,6 @@ feature_row:
 - **Bronze Prize** in the 1st IoT Innovation Challenge held by KEA & Samsung Electronics, Oct. 2016
 - **Second Place** in the Idea Contest on Home Applicances held by Samsung Electonics, Aug. 2016
 - **Commendation for Devotion to the Auxiliary Police Service** from the chief of Jongno Police Station, Jul. 2015
-  
-<!-- <br>
-[LinkedIn](https://www.linkedin.com/in/sangjoonlee93) / [Facebook](https://www.facebook.com/jun9303) -->
 
 <style type="text/css">
 .archive__item {
