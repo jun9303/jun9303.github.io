@@ -8,7 +8,7 @@ header:
   caption: "*Crystal Cove Beach, Irvine, CA (2022)* &nbsp; **[View Full-image](/assets/photographs/reef_point_crystal_cove_2022.jpg)**"
 ---
 
-# REFEREED PUBLICATIONS
+# PEER-REVIEWED ARTICLES
 
 \* Corresponding / † Co-first
 
