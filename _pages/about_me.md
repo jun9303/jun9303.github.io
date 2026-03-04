@@ -41,27 +41,33 @@ feature_row:
   + Thesis: "(B.S.) Large Eddy Simulation of Flow Around a Rotating Small Vertical Axis Wind Turbine Using an Immersed Boundary Method" & "(B.B.A.) Capital and Operating Cost Efficiency Evaluation of Onshore Wind Farms in South Korea: A DEA Approach"
   + Honors: *Summa Cum Laude*
   
-  - **High School Diploma for Gifted Students**, *[Seoul Science High School](http://en.sshs.hs.kr)*, Feb. 2012
+- **High School Diploma for Gifted Students**, *[Seoul Science High School](http://en.sshs.hs.kr)*, Feb. 2012
 
 # RESEARCH INTERESTS
 
-1. **Fluid Mechanics**: Analysis of Turbulent Motions and Instabilities with Concurrent Heat/Mass Transfers 
-2. **Computational Science**: Development of High-Performance Computing Schemes for Physics-Based Complex Systems
-3. **Flows in Human Environment**: Flow Applications to Sustainability Across Scales
+1. **Aerosciences**: Aerodynamic Motions and Instabilities past Complex Topologies with Concurrent Heat or Mass Transfers 
+2. **Scientific Computing**: Efficient Computing and Optimization Schemes for Physics-Based Complex Systems
+3. **Flows in Human Environment**: Engineering Flow Applications Across Scales for Sustainability
 
 # EXPERIENCE
 
-### RESEARCH & DEVELOPMENT
+### RESEARCH
 
-- **Postdoctoral Scholar** at the *[Aerospace Design Lab](https://adl.stanford.edu/), Stanford University*, Jan. 2026 -
+#### STANFORD UNIVERSITY (Stanford, California, US)
+
+- **Postdoctoral Scholar** at *[Aerospace Design Lab](https://adl.stanford.edu/)*, Jan. 2026 -
   + Investigation of highly efficient thermal management for hydrogen fuel cell powered aviation
 
-- **Postdoctoral Fellow** at the *[Center for Turbulence Research](https://ctr.stanford.edu/), Stanford University*, Oct. 2024 - Dec. 2025
+- **Postdoctoral Fellow** at the *[Center for Turbulence Research](https://ctr.stanford.edu/)*, Oct. 2024 - Dec. 2025
   + Advanced analysis for physical insights into turbulence, heat transfer and related phenomena
 
-- **Graduate Student Researcher** at *[Computational Fluid Dynamics Lab](https://cfd.me.berkeley.edu/), University of California, Berkeley*, Jan. 2020 - Aug. 2024
+#### UNIVERSITY OF CALIFORNIA, BERKELEY (Berkeley, California, US)
+
+- **Graduate Student Researcher** at *[Computational Fluid Dynamics Lab](https://cfd.me.berkeley.edu/)*, Jan. 2020 - Aug. 2024
   + Numerical examination of destabilizing aircraft wake vortices using a global eigenvalue and eigenmode analysis in association with a spectral collocation method
   + Optimization of hydro-/aerodynamic designs with a Bayesian inference or a genetic algorithm using the Design-by-Morphing (DbM) technique
+
+#### SEOUL NATIONAL UNIVERSITY (Seoul, South Korea)
 
 - **Researcher** at *[Energy & Environmental Flow Lab](http://eeflow.snu.ac.kr), Seoul National University*, Jul. 2017 - Aug. 2018
   + Development and validation on conjugate heat transfer (CHT) codes with an efficient interpolation scheme for thermal properties at interfaces
@@ -73,29 +79,32 @@ feature_row:
 
 ### TEACHING
 
-- **Teaching Assistant** at the *University of California, Berkeley*, Jan. 2024 - May 2024
+#### UNIVERSITY OF CALIFORNIA, BERKELEY (Berkeley, California, US)
+- **Teaching Assistant**, Jan. 2024 - May 2024
   + *Introduction to Computer Programming for Scientists and Engineers (ENGIN 7)*
-  + Taught basic programming strategies and numerical methods for scientific computing
+  <!-- + Taught basic programming strategies and numerical methods for scientific computing -->
 
-- **Course Designer / Graduate Student Instructor** at the *University of California, Berkeley*, Aug. 2022 - May 2023
+- **Course Designer / Graduate Student Instructor**, Aug. 2022 - May 2023
   + *Introduction to Aerospace Engineering Design (AERO ENG 10)*
-  + Composed teaching outlines and prepared instruction materials especially for an airfoil design and analysis lab module with wind tunnel practices
+  <!-- + Composed teaching outlines and prepared instruction materials especially for an airfoil design and analysis lab module with wind tunnel practices -->
 
-- **Graduate Student Instructor** at the *University of California, Berkeley*, Aug. 2019 - May 2022
+- **Graduate Student Instructor**, Aug. 2019 - May 2022
   + *Experimentation and Measurements (MEC ENG 103)*
-  + Taught experimental techniques for mechanical engineering, run lab sessions, graded assignments and reports, had office hours and answered questions in person and online
-  + Received the Outstanding Graduate Student Instructor (OGSI) award in Apr. 2021
+  <!-- + Taught experimental techniques for mechanical engineering, run lab sessions, graded assignments and reports, had office hours and answered questions in person and online -->
+  <!-- + Received the Outstanding Graduate Student Instructor (OGSI) award in Apr. 2021 -->
 
-- **Undergraduate Tutor** at *Seoul National University*, Mar. 2013 - Dec. 2013
+#### SEOUL NATIONAL UNIVERSITY (Seoul, South Korea)
+- **Undergraduate Tutor**, Mar. 2013 - Dec. 2013
   + *Basic Calculus 2 (007.102)* and *Basic Calculus 1/2 (007.098A/099A)*
-  + Tutored freshmen who have difficulty in studying university-level calculus and physics
+  <!-- + Tutored freshmen who have difficulty in studying university-level calculus and physics -->
 
 ### OTHER
 
 - **Peer Reviewer**
   + *Journal of Computatinoal Physics*, Elsevier (invited since 2026)
   + *Journal of Fluid Mechanics*, Cambridge University Press (invited since 2025)
-  + *Physics of Fluids*, AIP Publishing (invited since 2024)
+  + *Physics of Fluids*, AIP Publishing (invited since 2024) 
+
 - **Law Student (J.D.)** at *[SNU School of Law](http://law.snu.ac.kr/index_en.php)*, Mar. 2019 - Jul. 2019 <sub>(Discontinued)</sub>
 - **Member** of *[SNU Honor Society for Engineering Students (STEM)](https://gongwoo.snu.ac.kr)*, Mar. 2016 - Aug. 2018
   + Served as the *7th Vice President & Head Manager* from Aug. 2016 to Jul. 2017
@@ -104,7 +113,7 @@ feature_row:
 # AWARDS & HONORS
 
 ### GRANTS
-- **Precourt Institute for Energy Seed Grant** from *Stanford Precourt Institute for Energy*, Feb. 2026 - Jan. 2027
+- **Precourt Institute for Energy Seed Grant** from *Sustainable Mobility Center, Stanford University*, Feb. 2026 - Jan. 2027
   + Co-PI · $100,000
   + Highly efficient thermal management in hydrogen-powered aviation
 
