@@ -15,6 +15,12 @@ feature_row:
 
 {% include feature_row type="center" %}
 
+# RESEARCH INTERESTS
+
+1. **Aerosciences**: Aerodynamic Motions and Instabilities past Complex Topologies with Concurrent Heat or Mass Transfers 
+2. **Scientific Computing**: Efficient Computing and Optimization Schemes for Physics-Based Complex Systems
+3. **Flows in Human Environment**: Engineering Flow Applications Across Scales for Sustainability
+
 # EDUCATION
 
 - **Ph.D./M.S.**, [Mechanical Engineering](http://me.berkeley.edu/), *University of California, Berkeley*, Aug. 2024
@@ -43,12 +49,6 @@ feature_row:
   
 - **High School Diploma for Gifted Students**, *[Seoul Science High School](http://en.sshs.hs.kr)*, Feb. 2012
 
-# RESEARCH INTERESTS
-
-1. **Aerosciences**: Aerodynamic Motions and Instabilities past Complex Topologies with Concurrent Heat or Mass Transfers 
-2. **Scientific Computing**: Efficient Computing and Optimization Schemes for Physics-Based Complex Systems
-3. **Flows in Human Environment**: Engineering Flow Applications Across Scales for Sustainability
-
 # WORK EXPERIENCE
 
 ### STANFORD UNIVERSITY (Stanford, California, US)
@@ -74,7 +74,7 @@ feature_row:
 
 # TEACHING EXPERIENCE
 
-#### UNIVERSITY OF CALIFORNIA, BERKELEY (Berkeley, California, US)
+### UNIVERSITY OF CALIFORNIA, BERKELEY (Berkeley, California, US)
 - **Teaching Assistant**, Jan. 2024 - May 2024
   + *Introduction to Computer Programming for Scientists and Engineers (ENGIN 7)*
   <!-- + Taught basic programming strategies and numerical methods for scientific computing -->
@@ -88,7 +88,7 @@ feature_row:
   <!-- + Taught experimental techniques for mechanical engineering, run lab sessions, graded assignments and reports, had office hours and answered questions in person and online -->
   <!-- + Received the Outstanding Graduate Student Instructor (OGSI) award in Apr. 2021 -->
 
-#### SEOUL NATIONAL UNIVERSITY (Seoul, South Korea)
+### SEOUL NATIONAL UNIVERSITY (Seoul, South Korea)
 - **Undergraduate Tutor**, Mar. 2013 - Dec. 2013
   + *Basic Calculus 2 (007.102)* and *Basic Calculus 1/2 (007.098A/099A)*
   <!-- + Tutored freshmen who have difficulty in studying university-level calculus and physics -->
@@ -104,7 +104,7 @@ feature_row:
 
 - **Member** of *[SNU Honor Society for Engineering Students (STEM)](https://gongwoo.snu.ac.kr)*, Mar. 2016 - Aug. 2018
   + Served as the *7th Vice President & Head Manager* from Aug. 2016 to Jul. 2017
-  
+
 - **Auxiliary Police Officer** at *Jongno Police Station, [Seoul Metropolitan Police Agency](https://www.smpa.go.kr/home/homeIndexEng.do?menuCode=eng)*, Jun. 2014 - Mar. 2016
 
 # AWARDS & HONORS
