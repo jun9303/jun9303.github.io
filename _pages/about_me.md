@@ -15,15 +15,15 @@ feature_row:
 
 {% include feature_row type="center" %}
 
-# RESEARCH INTERESTS
+# RESEARCH AREAS
 
-1. **Aerosciences**: Aerodynamic Motions and Instabilities past Complex Topologies with Concurrent Heat or Mass Transfers 
-2. **Scientific Computing**: Efficient Computing and Optimization Schemes for Physics-Based Complex Systems
-3. **Flows in Human Environment**: Engineering Flow Applications Across Scales for Sustainability
+- **Aerosciences**: Aerospace Design and Hydrodynamic Instability Analyses over Complex Topologies with Coupled Heat and Mass Transfer
+- **Scientific Computing**: High-Fidelity Numerical Methods and Efficient AI/ML Optimization Schemes for Nonlinear or Turbulent Systems
+- **Flows in the Human Environment**: Multi-Scale Engineering Flow Applications for Environmental Sustainability and Safety
 
 # EDUCATION
 
-### University of California, Berkeley (Berkeley, California, US)
+### <span style="color: #FDB515">University of California, Berkeley</span>
 - **Ph.D./M.S.**, [Mechanical Engineering](http://me.berkeley.edu/), Aug. 2024
     <details>
       <summary style="text-decoration:underline; cursor:pointer;">[Graduate courses taken]</summary>
@@ -37,7 +37,7 @@ feature_row:
   + Dissertation: "Linear Stability of a Wake Vortex and its Transient Growth: Numerical Analysis in Light of Critical-Layer Eigenmodes and Spectra"
   + Designated Emphasis in [Computational and Data Science and Engineering](https://data.berkeley.edu/decdse/)
 
-### Seoul National University (Seoul, South Korea)
+### <span style="color: #003380">Seoul National University</span>
 - **B.S./B.B.A.**, [Mechanical and Aerospace Engineering](http://me.snu.ac.kr/en) & [Business Administration](http://cba.snu.ac.kr/en), Aug. 2018
     <details>
       <summary style="text-decoration:underline; cursor:pointer;">[Undergraduate courses taken]</summary>
@@ -49,23 +49,23 @@ feature_row:
   + Thesis: "(B.S.) Large Eddy Simulation of Flow Around a Rotating Small Vertical Axis Wind Turbine Using an Immersed Boundary Method" & "(B.B.A.) Capital and Operating Cost Efficiency Evaluation of Onshore Wind Farms in South Korea: A DEA Approach"
   + Honors: *Summa Cum Laude*
 
-<!-- ### Seoul Science High School (Seoul, South Korea)
-- **High School Diploma for Gifted Students**, *[Seoul Science High School](http://en.sshs.hs.kr)*, Feb. 2012 -->
+### <span style="color: #242364">Seoul Science High School</span>
+- **High School Diploma for Gifted Students**, *[Seoul Science High School](http://en.sshs.hs.kr)*, Feb. 2012
 
-# WORK
+# EMPLOYMENT HISTORY
 
-### Stanford University (Stanford, California, US)
+### <span style="color: #8C1515">Stanford University</span>
 - **Postdoctoral Scholar** at *[Aerospace Design Lab](https://adl.stanford.edu/)*, Jan. 2026 -
   + Investigation of highly efficient thermal management for hydrogen fuel cell powered aviation
 - **Postdoctoral Fellow** at the *[Center for Turbulence Research](https://ctr.stanford.edu/)*, Oct. 2024 - Dec. 2025
   + Advanced analysis for physical insights into turbulence, heat transfer and related phenomena
 
-### University of California, Berkeley (Berkeley, California, US)
+### <span style="color: #FDB515">University of California, Berkeley</span>
 - **Graduate Student Researcher** at *[Computational Fluid Dynamics Lab](https://cfd.me.berkeley.edu/)*, Jan. 2020 - Aug. 2024
   + Numerical examination of destabilizing aircraft wake vortices using a global eigenvalue and eigenmode analysis in association with a spectral collocation method
   + Optimization of hydro-/aerodynamic designs with a Bayesian inference or a genetic algorithm using the Design-by-Morphing (DbM) technique
 
-### Seoul National University (Seoul, South Korea)
+### <span style="color: #003380">Seoul National University</span>
 - **Researcher** at *[Energy & Environmental Flow Lab](http://eeflow.snu.ac.kr), Seoul National University*, Jul. 2017 - Aug. 2018
   + Development and validation on conjugate heat transfer (CHT) codes with an efficient interpolation scheme for thermal properties at interfaces
   + Flow visualization using Magnetic Resonance Velocimetry (MRV) and Large Eddy Simulation (LES)
@@ -73,9 +73,9 @@ feature_row:
   + Simulation of flow around a rotating small Vertical Axis Wind Turbine (VAWT) as a part of the undergraduate thesis program
   + Numerical study for Computational Fluid Dynamics (CFD) based on an Immersed Boundary (IB) method
 
-# TEACHING
+# TEACHING EXPERIENCE
 
-### University of California, Berkeley (Berkeley, California, US)
+### <span style="color: #FDB515">University of California, Berkeley</span>
 - **Teaching Assistant**, Jan. 2024 - May 2024
   + *Introduction to Computer Programming for Scientists and Engineers (ENGIN 7)*
   <!-- + Taught basic programming strategies and numerical methods for scientific computing -->
@@ -87,7 +87,7 @@ feature_row:
   <!-- + Taught experimental techniques for mechanical engineering, run lab sessions, graded assignments and reports, had office hours and answered questions in person and online -->
   <!-- + Received the Outstanding Graduate Student Instructor (OGSI) award in Apr. 2021 -->
 
-### Seoul National University (Seoul, South Korea)
+### <span style="color: #003380">Seoul National University</span>
 - **Undergraduate Tutor**, Mar. 2013 - Dec. 2013
   + *Basic Calculus 2 (007.102)* and *Basic Calculus 1/2 (007.098A/099A)*
   <!-- + Tutored freshmen who have difficulty in studying university-level calculus and physics -->
