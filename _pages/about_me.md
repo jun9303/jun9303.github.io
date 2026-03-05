@@ -17,7 +17,7 @@ feature_row:
 
 # RESEARCH AREAS
 
-- **Aerosciences**: Aerospace Design and Hydrodynamic Instability Analyses over Complex Topologies with Coupled Heat and Mass Transfer
+- **Aerosciences**: Aerospace Design and Hydrodynamic Instability Analyses over Various Topologies with Coupled Heat and Mass Transfer
 - **Scientific Computing**: High-Fidelity Numerical Methods and Efficient AI/ML Optimization Schemes for Nonlinear or Turbulent Systems
 - **Flows in the Human Environment**: Multi-Scale Engineering Flow Applications for Environmental Sustainability and Safety
 
