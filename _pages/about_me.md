@@ -50,7 +50,7 @@ feature_row:
   + Honors: *Summa Cum Laude*
 
 ### <span style="color: #242364">Seoul Science High School</span>
-- **High School Diploma for Gifted Students**, Feb. 2012
+- **Diploma for Gifted Students**, Feb. 2012
 
 # EMPLOYMENT HISTORY
 
