@@ -52,7 +52,7 @@ feature_row:
 ### <span style="color: #242364">Seoul Science High School</span>
 - **Diploma for Gifted Students**, Feb. 2012
 
-# EMPLOYMENT HISTORY
+# WORK EXPERIENCE
 
 ### <span style="color: #8C1515">Stanford University</span>
 - **Postdoctoral Scholar** at *[Aerospace Design Lab](https://adl.stanford.edu/)*, Jan. 2026 -
