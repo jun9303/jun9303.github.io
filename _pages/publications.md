@@ -57,19 +57,6 @@ h3 {
   margin-bottom: 1em;
   line-height: 1.6;
 }
-
-/* Style links only if the bibliography renderer outputs them */
-.bibliography a,
-.bibliography a:visited {
-  color: #0066cc;
-  text-decoration: none;
-  word-break: break-all;
-}
-
-.bibliography a:hover {
-  text-decoration: underline;
-  color: #0052a3;
-}
 </style>
 
 <script>
