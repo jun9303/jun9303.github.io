@@ -1,19 +1,19 @@
-{% assign rendered_ref = reference | strip %}
+{% if entry.title or entry.author or entry.doi or entry.url %}
+  {% assign rendered_ref = reference | strip %}
 
-{% if entry.doi %}
-  {% assign doi_value = entry.doi | strip %}
-  {% assign doi_url = "https://doi.org/" | append: doi_value %}
-  {% capture doi_anchor %}<a href="{{ doi_url }}" target="_blank" rel="noopener">{{ doi_url }}</a>{% endcapture %}
-  {% assign rendered_ref = rendered_ref | replace: doi_url, doi_anchor %}
+  {% if entry.doi %}
+    {% assign doi_value = entry.doi | strip %}
+    {% assign doi_url = "https://doi.org/" | append: doi_value %}
+    {% capture doi_anchor %}<a href="{{ doi_url }}" target="_blank" rel="noopener">{{ doi_url }}</a>{% endcapture %}
+    {% assign rendered_ref = rendered_ref | replace: doi_url, doi_anchor %}
+  {% endif %}
+
+  {% if entry.url %}
+    {% assign url_value = entry.url | strip %}
+    {% capture url_anchor %}<a href="{{ url_value }}" target="_blank" rel="noopener">{{ url_value }}</a>{% endcapture %}
+    {% assign rendered_ref = rendered_ref | replace: url_value, url_anchor %}
+  {% endif %}
+
+  {% assign rendered_ref = rendered_ref | strip %}
+  {% unless rendered_ref == "" %}<li>{{ rendered_ref }}</li>{% endunless %}
 {% endif %}
-
-{% if entry.url %}
-  {% assign url_value = entry.url | strip %}
-  {% capture url_anchor %}<a href="{{ url_value }}" target="_blank" rel="noopener">{{ url_value }}</a>{% endcapture %}
-  {% assign rendered_ref = rendered_ref | replace: url_value, url_anchor %}
-{% endif %}
-
-{% assign rendered_ref = rendered_ref | strip %}
-{% unless rendered_ref == "" or rendered_ref == nil %}
-  <li>{{ rendered_ref }}</li>
-{% endunless %}
