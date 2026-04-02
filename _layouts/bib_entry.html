@@ -15,5 +15,6 @@
   {% endif %}
 
   {% assign rendered_ref = rendered_ref | strip %}
-  {% unless rendered_ref == "" %}<li>{{ rendered_ref }}</li>{% endunless %}
+  {% assign stripped_text = rendered_ref | replace: "<a ", "" | replace: "</a>", "" | replace: "href=", "" | strip %}
+  {% unless rendered_ref == "" or stripped_text == "" %}<li>{{ rendered_ref | safe }}</li>{% endunless %}
 {% endif %}
