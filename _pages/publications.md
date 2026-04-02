@@ -13,25 +13,25 @@ header:
 \* Corresponding / † Co-first
 
 <section class="publication-category" data-page-size="10">
-{% bibliography --query "@*[keywords=peer-reviewed]" %}
+{% bibliography --query @*[keywords=peer_reviewed] %}
 </section>
 
 <h1>CONFERENCE PAPERS/PRESENTATIONS</h1>
 
 <section class="publication-category" data-page-size="10">
-{% bibliography --query "@*[keywords=conference]" %}
+{% bibliography --query @*[keywords=conference] %}
 </section>
 
 <h1>INVITED TALKS/SEMINARS</h1>
 
 <section class="publication-category" data-page-size="10">
-{% bibliography --query "@*[keywords=talk]" %}
+{% bibliography --query @*[keywords=talk] %}
 </section>
 
 <h1>SOFTWARE/CODES</h1>
 
 <section class="publication-category" data-page-size="10">
-{% bibliography --query "@*[keywords=software]" %}
+{% bibliography --query @*[keywords=software] %}
 </section>
 
 <script src="{{ '/assets/js/publications.js' | relative_url }}"></script>
