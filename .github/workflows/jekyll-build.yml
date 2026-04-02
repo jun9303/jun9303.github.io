@@ -3,6 +3,9 @@ name: Build and Deploy Jekyll site
 on:
   push:
     branches: [ main, master ]
+    # Don't run when only the generated docs are changed (prevents loops)
+    paths-ignore:
+      - 'docs/**'
   workflow_dispatch:
 
 jobs:
@@ -31,10 +34,40 @@ jobs:
         run: |
           bundle exec jekyll build --destination _site
 
-      - name: Deploy to GitHub Pages (gh-pages branch)
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          publish_dir: ./_site
-          publish_branch: gh-pages
-          allow_empty_commit: true
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Deploy generated site to repository root on `master`
+        env:
+          REPO: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+        run: |
+          set -e
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Prepare a fresh clone of the target branch
+          rm -rf /tmp/deploy || true
+          git clone "$REPO" /tmp/deploy
+          cd /tmp/deploy
+
+          # Move .github out of the way so we can replace the root contents
+          if [ -d .github ]; then
+            mv .github /tmp/gh_tmp
+          fi
+
+          # Remove all tracked files
+          git rm -rf . || true
+
+          # Copy new site into repository root
+          cp -a $GITHUB_WORKSPACE/_site/. /tmp/deploy/
+
+          # Restore .github so workflows remain
+          if [ -d /tmp/gh_tmp ]; then
+            mv /tmp/gh_tmp .github
+            git add .github
+          fi
+
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to deploy"
+          else
+            git commit -m "Deploy site: update root [skip ci]"
+            git push origin HEAD:master
+          fi
