@@ -41,9 +41,33 @@ Below is the bibliography generated with jekyll-scholar. Add your `.bib` entries
 
 <style type="text/css">
 h1 {
-  margin-top:2em;
+  margin-top: 2em;
 }
 h3 {
-  margin-top:0.5em;
+  margin-top: 0.5em;
+}
+
+/* Style bibliography entries */
+.bibliography {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.bibliography li {
+  margin-bottom: 1em;
+  line-height: 1.6;
+}
+
+/* Make DOI/URL text clickable */
+.bibliography a,
+.bibliography a:visited {
+  color: #0066cc;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.bibliography a:hover {
+  text-decoration: underline;
+  color: #0052a3;
 }
 </style>

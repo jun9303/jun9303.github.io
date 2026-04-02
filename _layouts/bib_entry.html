@@ -1,1 +1,1 @@
-{% if reference and reference != "" %}<li>{{ reference }}</li>{% endif %}
+{% if reference and reference != "" and reference != nil %}<li>{{ reference | safe }}</li>{% endif %}
