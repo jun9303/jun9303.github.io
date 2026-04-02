@@ -13,4 +13,6 @@
   {% assign rendered_ref = rendered_ref | replace: url_value, url_anchor %}
 {% endif %}
 
-<li>{{ rendered_ref }}</li>
+{% if rendered_ref and rendered_ref != "" %}
+  <li>{{ rendered_ref }}</li>
+{% endif %}
