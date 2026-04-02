@@ -4,13 +4,13 @@
   {% if entry.doi %}
     {% assign doi_value = entry.doi | strip %}
     {% assign doi_url = "https://doi.org/" | append: doi_value %}
-    {% capture doi_anchor %}<a href="{{ doi_url }}" target="_blank" rel="noopener">{{ doi_url }}</a>{% endcapture %}
+    {% capture doi_anchor %}{{ doi_url }}{% endcapture %}
     {% assign rendered_ref = rendered_ref | replace: doi_url, doi_anchor %}
   {% endif %}
 
   {% if entry.url %}
     {% assign url_value = entry.url | strip %}
-    {% capture url_anchor %}<a href="{{ url_value }}" target="_blank" rel="noopener">{{ url_value }}</a>{% endcapture %}
+    {% capture url_anchor %}{{ url_value }}{% endcapture %}
     {% assign rendered_ref = rendered_ref | replace: url_value, url_anchor %}
   {% endif %}
 
