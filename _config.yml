@@ -243,14 +243,6 @@ scholar:
   sort_by: year
   presort: year
   per_page: 0
-  layout: publications
-  # Generate links for DOI and URL fields
-  bibtex_filters:
-    - latex
-    - normalize_whitespace
-  # Ensure DOI and URL are rendered
-  details_selector: ".details"
-  include_links: true
 
 
 # Archives
