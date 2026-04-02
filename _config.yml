@@ -222,6 +222,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-scholar
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -232,6 +233,17 @@ whitelist:
   - jemoji
   - jekyll-include-cache
   - jekyll-seo-tag
+  - jekyll-scholar
+
+# jekyll-scholar (bibliography) configuration
+scholar:
+  source: _bibliography
+  bibliography: references.bib
+  style: apa
+  sort_by: year
+  presort: year
+  per_page: 0
+  layout: publications
 
 
 # Archives
