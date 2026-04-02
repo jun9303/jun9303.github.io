@@ -1,9 +1,16 @@
-<li>
-  {{ reference }}
-  {% if entry.doi %}
-    <a href="https://doi.org/{{ entry.doi | strip }}" target="_blank" rel="noopener">[DOI]</a>
-  {% endif %}
-  {% if entry.url %}
-    <a href="{{ entry.url }}" target="_blank" rel="noopener">[Link]</a>
-  {% endif %}
-</li>
+{% assign rendered_ref = reference %}
+
+{% if entry.doi %}
+  {% assign doi_value = entry.doi | strip %}
+  {% assign doi_url = "https://doi.org/" | append: doi_value %}
+  {% capture doi_anchor %}<a href="{{ doi_url }}" target="_blank" rel="noopener">{{ doi_url }}</a>{% endcapture %}
+  {% assign rendered_ref = rendered_ref | replace: doi_url, doi_anchor %}
+{% endif %}
+
+{% if entry.url %}
+  {% assign url_value = entry.url | strip %}
+  {% capture url_anchor %}<a href="{{ url_value }}" target="_blank" rel="noopener">{{ url_value }}</a>{% endcapture %}
+  {% assign rendered_ref = rendered_ref | replace: url_value, url_anchor %}
+{% endif %}
+
+<li>{{ rendered_ref }}</li>
