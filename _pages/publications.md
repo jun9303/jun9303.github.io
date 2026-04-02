@@ -14,7 +14,7 @@ header:
 
 Below is the bibliography generated with jekyll-scholar. Add your `.bib` entries to `_bibliography/references.bib`.
 
-{% bibliography --template bib_entry %}
+{% bibliography %}
 
 # CONFERENCE PAPERS/PRESENTATIONS
 
@@ -58,7 +58,7 @@ h3 {
   line-height: 1.6;
 }
 
-/* Make DOI/URL text clickable */
+/* Style links only if the bibliography renderer outputs them */
 .bibliography a,
 .bibliography a:visited {
   color: #0066cc;
@@ -71,3 +71,61 @@ h3 {
   color: #0052a3;
 }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var bibliography = document.querySelector('.bibliography');
+  if (!bibliography) return;
+
+  var urlPattern = /https?:\/\/[^\s<>()\[\]"']+/g;
+
+  function linkifyTextNode(node) {
+    var text = node.nodeValue;
+    if (!text || !urlPattern.test(text)) return;
+
+    urlPattern.lastIndex = 0;
+    var fragment = document.createDocumentFragment();
+    var lastIndex = 0;
+    var match;
+
+    while ((match = urlPattern.exec(text)) !== null) {
+      var url = match[0];
+      var start = match.index;
+
+      if (start > lastIndex) {
+        fragment.appendChild(document.createTextNode(text.slice(lastIndex, start)));
+      }
+
+      var link = document.createElement('a');
+      link.href = url;
+      link.target = '_blank';
+      link.rel = 'noopener';
+      link.textContent = url;
+      fragment.appendChild(link);
+
+      lastIndex = start + url.length;
+    }
+
+    if (lastIndex < text.length) {
+      fragment.appendChild(document.createTextNode(text.slice(lastIndex)));
+    }
+
+    node.parentNode.replaceChild(fragment, node);
+  }
+
+  function walk(node) {
+    if (!node) return;
+    if (node.nodeType === Node.TEXT_NODE) {
+      linkifyTextNode(node);
+      return;
+    }
+
+    if (node.nodeType !== Node.ELEMENT_NODE) return;
+    if (node.tagName === 'A' || node.tagName === 'SCRIPT' || node.tagName === 'STYLE') return;
+
+    Array.from(node.childNodes).forEach(walk);
+  }
+
+  Array.from(bibliography.querySelectorAll('li')).forEach(walk);
+});
+</script>
