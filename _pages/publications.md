@@ -14,7 +14,7 @@ header:
 
 Below is the bibliography generated with jekyll-scholar. Add your `.bib` entries to `_bibliography/references.bib`.
 
-{% bibliography --template bib_entry %}
+{% bibliography %}
 
 # CONFERENCE PAPERS/PRESENTATIONS
 
