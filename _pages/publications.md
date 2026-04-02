@@ -1,21 +1,23 @@
 ---
 layout: splash
 permalink: "/publications/"
+title: "Publications"
+header:
+	overlay_image: /assets/images/header_publications.jpg
+	overlay_filter: 0.2
+	caption: "*Crystal Cove Beach, Irvine, CA (2022)* &nbsp; **[View Full-image](/assets/photographs/reef_point_crystal_cove_2022.jpg)**"
+---
 
-# Publications
+# PEER-REVIEWED ARTICLES
+
+\* Corresponding / † Co-first
 
 Below is the bibliography generated with jekyll-scholar. Add your `.bib` entries to `_bibliography/references.bib`.
 
 {% bibliography %}
 
-<style type="text/css">
-h1 {
-  margin-top:2em;
-}
-h3 {
-  margin-top:0.5em;
-}
-</style>
+# CONFERENCE PAPERS/PRESENTATIONS
+
 1. <ins>**Lee, S.**</ins>, & Marcus, P. S. (2021, Nov 21-23). *Linear Instability Analysis of Wake Vortices by a Spectral Method using Mapped Legendre Functions*. 74th Annual Meeting of the APS Division of Fluid Dynamics, Phoenix, AZ, United States (no. E24.1). American Physical Society. [:link:](https://meetings.aps.org/Meeting/DFD21/Session/E24.1)
 1. Wang, J., <ins>**Lee, S.**</ins>, & Marcus, P. S. (2021, Nov 21-23). *Destabilizing Neutrally Stable Wake Vortices Using Degenerate Eigenmodes*. 74th Annual Meeting of the APS Division of Fluid Dynamics, Phoenix, AZ, United States (no. E24.3). American Physical Society. [:link:](https://meetings.aps.org/Meeting/DFD21/Session/E24.3)
 1. <ins>**Lee, S.**</ins>, & Hwang, W. (2018, Jul 4-6). *Validation of a Conjugate Heat Transfer Code with Subgrid-scale Models for Turbulent Flow*. KSFM 2018 Summer Conference, Jeju, South Korea (pp. 197-198). Korean Society for Fluid Machinery. [:link:](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07536688&language=ko_KR)
@@ -39,9 +41,9 @@ h3 {
 
 <style type="text/css">
 h1 {
-	margin-top:2em;
+  margin-top:2em;
 }
 h3 {
-	margin-top:0.5em;
+  margin-top:0.5em;
 }
 </style>
