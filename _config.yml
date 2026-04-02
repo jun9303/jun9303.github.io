@@ -218,6 +218,7 @@ scholar:
   bibliography: references.bib
   style: apa
   sort_by: year
+  order: descending
   presort: year
   per_page: 0
 
