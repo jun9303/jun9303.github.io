@@ -76,7 +76,7 @@ function scrollToCvFrame() {
   if (!frame) return;
 
   var y = frame.getBoundingClientRect().top + window.pageYOffset;
-  smoothScrollTo(Math.max(0, y), 500);
+  smoothScrollTo(Math.max(0, y), 1000);
 }
 
 document.addEventListener('DOMContentLoaded', function () {
