@@ -79,6 +79,22 @@ function scrollToCvFrame() {
   smoothScrollTo(Math.max(0, y), 500);
 }
 
+function maxScrollYAtFrameBottom() {
+  var frame = document.getElementById('cvframe');
+  if (!frame) return 0;
+
+  var frameTop = frame.getBoundingClientRect().top + window.pageYOffset;
+  var frameHeight = frame.getBoundingClientRect().height;
+  return Math.max(0, frameTop + frameHeight - window.innerHeight);
+}
+
+function clampScrollToFrameBottom() {
+  var maxY = maxScrollYAtFrameBottom();
+  if (window.pageYOffset > maxY) {
+    window.scrollTo(0, maxY);
+  }
+}
+
 document.addEventListener('DOMContentLoaded', function () {
   var frame = document.getElementById('cvframe');
   if (!frame) return;
@@ -98,12 +114,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Fallback in case `load` is delayed or restored from cache.
   setTimeout(triggerOnce, 1200);
+
+  // Enforce the page end at the iframe bottom.
+  clampScrollToFrameBottom();
+  window.addEventListener('scroll', clampScrollToFrameBottom, { passive: true });
+  window.addEventListener('resize', clampScrollToFrameBottom);
 });
 
 window.addEventListener('pageshow', function (event) {
   if (!event.persisted) return;
   setTimeout(function () {
     requestAnimationFrame(scrollToCvFrame);
+    requestAnimationFrame(clampScrollToFrameBottom);
   }, 120);
 });
 </script>
