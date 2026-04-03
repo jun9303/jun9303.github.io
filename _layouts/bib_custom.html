@@ -34,4 +34,4 @@
   {% endif %}
   {% assign tail_text = tail_text | append: address_text %}
 {% endif %}
-{{ rendered_reference }}{% if tail_text != "" %} <em>{{ tail_text }}</em>{% endif %}
+{{ rendered_reference }}{% if tail_text != "" %} {{ tail_text }}{% endif %}
