@@ -1,0 +1,13 @@
+{% assign note_text = "" %}
+{% if entry.note %}
+  {% assign note_text = entry.note | to_s | replace: "{", "" | replace: "}", "" | strip %}
+{% endif %}
+{% assign note_down = note_text | downcase %}
+{% assign marker = "" %}
+{% if note_down contains "corresponding" %}
+  {% assign marker = marker | append: "*" %}
+{% endif %}
+{% if note_down contains "co-first" or note_down contains "cofirst" %}
+  {% assign marker = marker | append: "†" %}
+{% endif %}
+{{ reference }}{% if marker != "" %} <strong>{{ marker }}</strong>{% endif %}{% if note_text != "" and marker == "" %} <em>{{ note_text }}</em>{% endif %}
