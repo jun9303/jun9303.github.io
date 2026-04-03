@@ -74,36 +74,52 @@
 {% if day_raw == "9" %}{% assign day_num = "09" %}{% endif %}
 {% assign note_down = note_text | downcase %}
 {% assign marker = "" %}
-{% if note_down contains "corresponding" %}
-  {% assign marker = marker | append: "*" %}
-{% endif %}
-{% if note_down contains "co-first" or note_down contains "cofirst" %}
-  {% assign marker = marker | append: "†" %}
-{% endif %}
 {% assign note_visible = note_text %}
-{% if marker != "" %}
-  {% assign note_visible = note_visible | replace: "(Lee, S. corresponding author)", "" %}
-  {% assign note_visible = note_visible | replace: "(Lee, S. co-first author)", "" %}
-  {% assign note_visible = note_visible | replace: "(Lee, S. cofirst author)", "" %}
-  {% assign note_visible = note_visible | replace: "(Lee, Sangjoon corresponding author)", "" %}
-  {% assign note_visible = note_visible | replace: "(Lee, Sangjoon co-first author)", "" %}
-  {% assign note_visible = note_visible | replace: "(Lee, Sangjoon cofirst author)", "" %}
-  {% assign note_visible = note_visible | replace: "Lee, S. corresponding author", "" %}
-  {% assign note_visible = note_visible | replace: "Lee, S. co-first author", "" %}
-  {% assign note_visible = note_visible | replace: "Lee, S. cofirst author", "" %}
-  {% assign note_visible = note_visible | replace: "Lee, Sangjoon corresponding author", "" %}
-  {% assign note_visible = note_visible | replace: "Lee, Sangjoon co-first author", "" %}
-  {% assign note_visible = note_visible | replace: "Lee, Sangjoon cofirst author", "" %}
-  {% assign note_visible = note_visible | replace: "corresponding author", "" %}
-  {% assign note_visible = note_visible | replace: "co-first author", "" %}
-  {% assign note_visible = note_visible | replace: "cofirst author", "" %}
-  {% assign note_visible = note_visible | replace: "()", "" | replace: "( )", "" %}
-  {% assign note_visible = note_visible | replace: "  ", " " | replace: " ;", ";" | replace: " ,", "," | strip %}
+{% assign indicator_target = "" %}
+{% if note_text contains "(" and note_text contains ")" %}
+  {% assign indicator_chunk = note_text | split: "(" | last | split: ")" | first | strip %}
+  {% assign indicator_chunk_down = indicator_chunk | downcase %}
+  {% if indicator_chunk_down contains "corresponding" %}
+    {% assign marker = marker | append: "*" %}
+  {% endif %}
+  {% if indicator_chunk_down contains "co-first" or indicator_chunk_down contains "cofirst" %}
+    {% assign marker = marker | append: "†" %}
+  {% endif %}
+  {% if marker != "" %}
+    {% assign indicator_target = indicator_chunk %}
+    {% assign indicator_target = indicator_target | replace: "corresponding author", "" | replace: "co-first author", "" | replace: "cofirst author", "" | replace: "corresponding", "" | replace: "co-first", "" | replace: "cofirst", "" | strip %}
+    {% capture indicator_paren %}({{ indicator_chunk }}){% endcapture %}
+    {% assign note_visible = note_visible | replace: indicator_paren, "" | strip %}
+  {% endif %}
 {% endif %}
+{% if marker == "" %}
+  {% if note_down contains "corresponding" %}
+    {% assign marker = marker | append: "*" %}
+  {% endif %}
+  {% if note_down contains "co-first" or note_down contains "cofirst" %}
+    {% assign marker = marker | append: "†" %}
+  {% endif %}
+{% endif %}
+{% if marker != "" and indicator_target == "" %}
+  {% if note_text contains "Lee, Sangjoon" %}
+    {% assign indicator_target = "Lee, Sangjoon" %}
+  {% elsif note_text contains "Lee, S." %}
+    {% assign indicator_target = "Lee, S." %}
+  {% endif %}
+{% endif %}
+{% assign note_visible = note_visible | replace: "()", "" | replace: "( )", "" | replace: "  ", " " | replace: " ;", ";" | replace: " ,", "," | strip %}
 {% assign rendered_reference = reference %}
 {% if marker != "" %}
-  {% capture lee_marker %}Lee, S.<strong>{{ marker }}</strong>{% endcapture %}
-  {% assign rendered_reference = rendered_reference | replace_first: "Lee, S.", lee_marker %}
+  {% assign marker_applied = false %}
+  {% if indicator_target != "" and rendered_reference contains indicator_target %}
+    {% capture target_marker %}{{ indicator_target }}<strong>{{ marker }}</strong>{% endcapture %}
+    {% assign rendered_reference = rendered_reference | replace_first: indicator_target, target_marker %}
+    {% assign marker_applied = true %}
+  {% endif %}
+  {% if marker_applied == false %}
+    {% capture lee_marker %}Lee, S.<strong>{{ marker }}</strong>{% endcapture %}
+    {% assign rendered_reference = rendered_reference | replace_first: "Lee, S.", lee_marker %}
+  {% endif %}
 {% endif %}
 {% assign pubtype_text = entry.pubtype | to_s | downcase %}
 {% if year_text != "" and month_abbr != "" %}
