@@ -6,6 +6,27 @@
 {% if entry.address %}
   {% assign address_text = entry.address | to_s | replace: "{", "" | replace: "}", "" | strip %}
 {% endif %}
+{% assign year_text = "" %}
+{% if entry.year %}
+  {% assign year_text = entry.year | to_s | replace: "{", "" | replace: "}", "" | strip %}
+{% endif %}
+{% assign month_raw = "" %}
+{% if entry.month %}
+  {% assign month_raw = entry.month | to_s | replace: "{", "" | replace: "}", "" | strip | downcase %}
+{% endif %}
+{% assign month_text = month_raw %}
+{% if month_raw == "jan" %}{% assign month_text = "January" %}{% endif %}
+{% if month_raw == "feb" %}{% assign month_text = "February" %}{% endif %}
+{% if month_raw == "mar" %}{% assign month_text = "March" %}{% endif %}
+{% if month_raw == "apr" %}{% assign month_text = "April" %}{% endif %}
+{% if month_raw == "may" %}{% assign month_text = "May" %}{% endif %}
+{% if month_raw == "jun" %}{% assign month_text = "June" %}{% endif %}
+{% if month_raw == "jul" %}{% assign month_text = "July" %}{% endif %}
+{% if month_raw == "aug" %}{% assign month_text = "August" %}{% endif %}
+{% if month_raw == "sep" %}{% assign month_text = "September" %}{% endif %}
+{% if month_raw == "oct" %}{% assign month_text = "October" %}{% endif %}
+{% if month_raw == "nov" %}{% assign month_text = "November" %}{% endif %}
+{% if month_raw == "dec" %}{% assign month_text = "December" %}{% endif %}
 {% assign note_down = note_text | downcase %}
 {% assign marker = "" %}
 {% if note_down contains "corresponding" %}
@@ -20,6 +41,17 @@
   {% assign rendered_reference = rendered_reference | replace_first: "Lee, S.", lee_marker %}
 {% endif %}
 {% assign pubtype_text = entry.pubtype | to_s | downcase %}
+{% if pubtype_text == "conference" and address_text != "" %}
+  {% capture conf_with_address_comma %}</i>, {{ address_text }},{% endcapture %}
+  {% capture conf_with_address_period %}</i>, {{ address_text }}.{% endcapture %}
+  {% if rendered_reference contains "</i>," %}
+    {% assign rendered_reference = rendered_reference | replace_first: "</i>,", conf_with_address_comma %}
+    {% assign address_text = "" %}
+  {% elsif rendered_reference contains "</i>." %}
+    {% assign rendered_reference = rendered_reference | replace_first: "</i>.", conf_with_address_period %}
+    {% assign address_text = "" %}
+  {% endif %}
+{% endif %}
 {% assign show_address = false %}
 {% if pubtype_text == "conference" or pubtype_text == "talk" %}
   {% assign show_address = true %}
@@ -33,5 +65,26 @@
     {% assign tail_text = tail_text | append: "; " %}
   {% endif %}
   {% assign tail_text = tail_text | append: address_text %}
+{% endif %}
+{% assign rendered_down = rendered_reference | downcase %}
+{% assign has_month = false %}
+{% assign month_text_down = month_text | downcase %}
+{% if month_text != "" and rendered_down contains month_text_down %}
+  {% assign has_month = true %}
+{% endif %}
+{% assign has_year = false %}
+{% if year_text != "" and rendered_reference contains year_text %}
+  {% assign has_year = true %}
+{% endif %}
+{% assign date_text = "" %}
+{% if month_text != "" and year_text != "" %}
+  {% assign date_text = month_text | append: " " | append: year_text %}
+{% endif %}
+{% if (pubtype_text == "conference" or pubtype_text == "talk") and date_text != "" and has_month == false %}
+  {% if tail_text != "" %}
+    {% assign tail_text = date_text | append: "; " | append: tail_text %}
+  {% else %}
+    {% assign tail_text = date_text %}
+  {% endif %}
 {% endif %}
 {{ rendered_reference }}{% if tail_text != "" %} {{ tail_text }}{% endif %}
