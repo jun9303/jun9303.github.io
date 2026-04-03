@@ -20,3 +20,18 @@ html {
   scrollbar-width: none;  /* Firefox */
 }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var frame = document.getElementById('cvframe');
+  if (!frame) return;
+
+  // Scroll to the CV iframe so the top menu/header area is skipped.
+  requestAnimationFrame(function () {
+    requestAnimationFrame(function () {
+      var y = frame.getBoundingClientRect().top + window.pageYOffset;
+      window.scrollTo(0, y);
+    });
+  });
+});
+</script>
