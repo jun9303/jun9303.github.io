@@ -10,4 +10,9 @@
 {% if note_down contains "co-first" or note_down contains "cofirst" %}
   {% assign marker = marker | append: "†" %}
 {% endif %}
-{{ reference }}{% if marker != "" %} <strong>{{ marker }}</strong>{% endif %}{% if note_text != "" and marker == "" %} <em>{{ note_text }}</em>{% endif %}
+{% assign rendered_reference = reference %}
+{% if marker != "" %}
+  {% capture lee_marker %}Lee, S.<strong>{{ marker }}</strong>{% endcapture %}
+  {% assign rendered_reference = rendered_reference | replace_first: "Lee, S.", lee_marker %}
+{% endif %}
+{{ rendered_reference }}{% if note_text != "" and marker == "" %} <em>{{ note_text }}</em>{% endif %}
