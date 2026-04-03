@@ -76,8 +76,16 @@
 {% assign marker = "" %}
 {% assign note_visible = note_text %}
 {% assign indicator_target = "" %}
+{% assign indicator_chunk = "" %}
+{% assign indicator_wrapped = "" %}
 {% if note_text contains "<" and note_text contains ">" %}
   {% assign indicator_chunk = note_text | split: "<" | last | split: ">" | first | strip %}
+  {% capture indicator_wrapped %}<{{ indicator_chunk }}>{% endcapture %}
+{% elsif note_text contains "(" and note_text contains ")" %}
+  {% assign indicator_chunk = note_text | split: "(" | last | split: ")" | first | strip %}
+  {% capture indicator_wrapped %}({{ indicator_chunk }}){% endcapture %}
+{% endif %}
+{% if indicator_chunk != "" %}
   {% assign indicator_chunk_down = indicator_chunk | downcase %}
   {% if indicator_chunk_down contains "corresponding" %}
     {% assign marker = marker | append: "*" %}
@@ -88,8 +96,7 @@
   {% if marker != "" %}
     {% assign indicator_target = indicator_chunk %}
     {% assign indicator_target = indicator_target | replace: "corresponding author", "" | replace: "co-first author", "" | replace: "cofirst author", "" | replace: "corresponding", "" | replace: "co-first", "" | replace: "cofirst", "" | strip %}
-    {% capture indicator_paren %}({{ indicator_chunk }}){% endcapture %}
-    {% assign note_visible = note_visible | replace: indicator_paren, "" | strip %}
+    {% assign note_visible = note_visible | replace: indicator_wrapped, "" | strip %}
   {% endif %}
 {% endif %}
 {% if marker == "" %}
