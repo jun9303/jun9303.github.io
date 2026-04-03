@@ -76,8 +76,8 @@
 {% assign marker = "" %}
 {% assign note_visible = note_text %}
 {% assign indicator_target = "" %}
-{% if note_text contains "(" and note_text contains ")" %}
-  {% assign indicator_chunk = note_text | split: "(" | last | split: ")" | first | strip %}
+{% if note_text contains "<" and note_text contains ">" %}
+  {% assign indicator_chunk = note_text | split: "<" | last | split: ">" | first | strip %}
   {% assign indicator_chunk_down = indicator_chunk | downcase %}
   {% if indicator_chunk_down contains "corresponding" %}
     {% assign marker = marker | append: "*" %}
