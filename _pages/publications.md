@@ -48,18 +48,6 @@ h3 {
   margin-bottom: 2rem;
 }
 
-.pub-title-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.pub-title-row h1 {
-  margin: 2em 0 0;
-}
-
 /* Style bibliography entries */
 .bibliography {
   list-style-type: decimal;
@@ -87,7 +75,7 @@ h3 {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  margin-top: 2em;
+  margin-top: 1rem;
 }
 
 .pub-pagination button {

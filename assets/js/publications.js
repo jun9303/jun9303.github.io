@@ -91,16 +91,7 @@ document.addEventListener('DOMContentLoaded', function () {
     pager.appendChild(pageIndicator);
     pager.appendChild(nextButton);
 
-    var heading = section.previousElementSibling;
-    if (heading && /^H[1-6]$/.test(heading.tagName)) {
-      var titleRow = document.createElement('div');
-      titleRow.className = 'pub-title-row';
-      heading.parentNode.insertBefore(titleRow, heading);
-      titleRow.appendChild(heading);
-      titleRow.appendChild(pager);
-    } else {
-      list.insertAdjacentElement('beforebegin', pager);
-    }
+    list.insertAdjacentElement('afterend', pager);
 
     function renderPage(pageNumber) {
       currentPage = pageNumber;
