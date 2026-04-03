@@ -28,6 +28,33 @@
 {% if month_raw == "nov" %}{% assign month_text = "November" %}{% endif %}
 {% if month_raw == "dec" %}{% assign month_text = "December" %}{% endif %}
 {% assign month_short = month_raw | capitalize %}
+{% assign month_num = "" %}
+{% if month_raw == "jan" or month_raw == "january" or month_raw == "1" or month_raw == "01" %}{% assign month_num = "01" %}{% endif %}
+{% if month_raw == "feb" or month_raw == "february" or month_raw == "2" or month_raw == "02" %}{% assign month_num = "02" %}{% endif %}
+{% if month_raw == "mar" or month_raw == "march" or month_raw == "3" or month_raw == "03" %}{% assign month_num = "03" %}{% endif %}
+{% if month_raw == "apr" or month_raw == "april" or month_raw == "4" or month_raw == "04" %}{% assign month_num = "04" %}{% endif %}
+{% if month_raw == "may" or month_raw == "5" or month_raw == "05" %}{% assign month_num = "05" %}{% endif %}
+{% if month_raw == "jun" or month_raw == "june" or month_raw == "6" or month_raw == "06" %}{% assign month_num = "06" %}{% endif %}
+{% if month_raw == "jul" or month_raw == "july" or month_raw == "7" or month_raw == "07" %}{% assign month_num = "07" %}{% endif %}
+{% if month_raw == "aug" or month_raw == "august" or month_raw == "8" or month_raw == "08" %}{% assign month_num = "08" %}{% endif %}
+{% if month_raw == "sep" or month_raw == "september" or month_raw == "9" or month_raw == "09" %}{% assign month_num = "09" %}{% endif %}
+{% if month_raw == "oct" or month_raw == "october" or month_raw == "10" %}{% assign month_num = "10" %}{% endif %}
+{% if month_raw == "nov" or month_raw == "november" or month_raw == "11" %}{% assign month_num = "11" %}{% endif %}
+{% if month_raw == "dec" or month_raw == "december" or month_raw == "12" %}{% assign month_num = "12" %}{% endif %}
+{% assign day_raw = "" %}
+{% if entry.day %}
+  {% assign day_raw = entry.day | to_s | replace: "{", "" | replace: "}", "" | strip %}
+{% endif %}
+{% assign day_num = day_raw %}
+{% if day_raw == "1" %}{% assign day_num = "01" %}{% endif %}
+{% if day_raw == "2" %}{% assign day_num = "02" %}{% endif %}
+{% if day_raw == "3" %}{% assign day_num = "03" %}{% endif %}
+{% if day_raw == "4" %}{% assign day_num = "04" %}{% endif %}
+{% if day_raw == "5" %}{% assign day_num = "05" %}{% endif %}
+{% if day_raw == "6" %}{% assign day_num = "06" %}{% endif %}
+{% if day_raw == "7" %}{% assign day_num = "07" %}{% endif %}
+{% if day_raw == "8" %}{% assign day_num = "08" %}{% endif %}
+{% if day_raw == "9" %}{% assign day_num = "09" %}{% endif %}
 {% assign note_down = note_text | downcase %}
 {% assign marker = "" %}
 {% if note_down contains "corresponding" %}
@@ -42,18 +69,39 @@
   {% assign rendered_reference = rendered_reference | replace_first: "Lee, S.", lee_marker %}
 {% endif %}
 {% assign pubtype_text = entry.pubtype | to_s | downcase %}
-{% if (pubtype_text == "conference" or pubtype_text == "talk") and year_text != "" and month_short != "" %}
-  {% capture ym_paren %}({{ year_text }} {{ month_short }}){% endcapture %}
+{% if year_text != "" and month_num != "" %}
+  {% capture ym_paren %}({{ year_text }} {{ month_num }}){% endcapture %}
+  {% if day_num != "" %}
+    {% capture ym_paren %}({{ year_text }} {{ month_num }} {{ day_num }}){% endcapture %}
+  {% endif %}
   {% capture y_fullm_paren %}({{ year_text }}, {{ month_text }}){% endcapture %}
   {% capture y_shortm_paren %}({{ year_text }}, {{ month_short }}){% endcapture %}
   {% capture y_rawm_paren %}({{ year_text }}, {{ month_raw }}){% endcapture %}
+  {% capture y_numm_paren %}({{ year_text }} {{ month_num }}){% endcapture %}
+  {% capture y_shortm_space_paren %}({{ year_text }} {{ month_short }}){% endcapture %}
+  {% capture y_rawm_space_paren %}({{ year_text }} {{ month_raw }}){% endcapture %}
+  {% capture y_fullm_day_paren %}({{ year_text }}, {{ month_text }} {{ day_num }}){% endcapture %}
+  {% capture y_shortm_day_paren %}({{ year_text }}, {{ month_short }} {{ day_num }}){% endcapture %}
+  {% capture y_numm_day_paren %}({{ year_text }} {{ month_num }} {{ day_num }}){% endcapture %}
   {% capture y_only_paren %}({{ year_text }}){% endcapture %}
-  {% if rendered_reference contains y_fullm_paren %}
+  {% if rendered_reference contains y_fullm_day_paren %}
+    {% assign rendered_reference = rendered_reference | replace_first: y_fullm_day_paren, ym_paren %}
+  {% elsif rendered_reference contains y_shortm_day_paren %}
+    {% assign rendered_reference = rendered_reference | replace_first: y_shortm_day_paren, ym_paren %}
+  {% elsif rendered_reference contains y_numm_day_paren %}
+    {% assign rendered_reference = rendered_reference | replace_first: y_numm_day_paren, ym_paren %}
+  {% elsif rendered_reference contains y_fullm_paren %}
     {% assign rendered_reference = rendered_reference | replace_first: y_fullm_paren, ym_paren %}
   {% elsif rendered_reference contains y_shortm_paren %}
     {% assign rendered_reference = rendered_reference | replace_first: y_shortm_paren, ym_paren %}
   {% elsif rendered_reference contains y_rawm_paren %}
     {% assign rendered_reference = rendered_reference | replace_first: y_rawm_paren, ym_paren %}
+  {% elsif rendered_reference contains y_numm_paren %}
+    {% assign rendered_reference = rendered_reference | replace_first: y_numm_paren, ym_paren %}
+  {% elsif rendered_reference contains y_shortm_space_paren %}
+    {% assign rendered_reference = rendered_reference | replace_first: y_shortm_space_paren, ym_paren %}
+  {% elsif rendered_reference contains y_rawm_space_paren %}
+    {% assign rendered_reference = rendered_reference | replace_first: y_rawm_space_paren, ym_paren %}
   {% elsif rendered_reference contains y_only_paren %}
     {% assign rendered_reference = rendered_reference | replace_first: y_only_paren, ym_paren %}
   {% endif %}
