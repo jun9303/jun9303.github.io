@@ -72,10 +72,38 @@ document.addEventListener('DOMContentLoaded', function () {
     if (items.length <= pageSize) return;
 
     var totalPages = Math.ceil(items.length / pageSize);
+    var currentPage = 1;
     var pager = document.createElement('div');
     pager.className = 'pub-pagination';
 
+    var prevButton = document.createElement('button');
+    prevButton.type = 'button';
+    prevButton.textContent = 'Prev';
+
+    var pageIndicator = document.createElement('span');
+    pageIndicator.className = 'pub-pagination-indicator';
+
+    var nextButton = document.createElement('button');
+    nextButton.type = 'button';
+    nextButton.textContent = 'Next';
+
+    pager.appendChild(prevButton);
+    pager.appendChild(pageIndicator);
+    pager.appendChild(nextButton);
+
+    var heading = section.previousElementSibling;
+    if (heading && /^H[1-6]$/.test(heading.tagName)) {
+      var titleRow = document.createElement('div');
+      titleRow.className = 'pub-title-row';
+      heading.parentNode.insertBefore(titleRow, heading);
+      titleRow.appendChild(heading);
+      titleRow.appendChild(pager);
+    } else {
+      list.insertAdjacentElement('beforebegin', pager);
+    }
+
     function renderPage(pageNumber) {
+      currentPage = pageNumber;
       var start = (pageNumber - 1) * pageSize;
       var end = start + pageSize;
 
@@ -83,25 +111,28 @@ document.addEventListener('DOMContentLoaded', function () {
         item.hidden = index < start || index >= end;
       });
 
-      Array.from(pager.querySelectorAll('button[data-page]')).forEach(function (button) {
-        button.classList.toggle('is-active', parseInt(button.getAttribute('data-page'), 10) === pageNumber);
-      });
+      list.start = start + 1;
+      pageIndicator.textContent = pageNumber + ' / ' + totalPages;
+      prevButton.disabled = pageNumber === 1;
+      nextButton.disabled = pageNumber === totalPages;
     }
 
-    for (var page = 1; page <= totalPages; page += 1) {
-      (function (pageNumber) {
-        var button = document.createElement('button');
-        button.type = 'button';
-        button.textContent = String(pageNumber);
-        button.setAttribute('data-page', String(pageNumber));
-        button.addEventListener('click', function () {
-          renderPage(pageNumber);
-        });
-        pager.appendChild(button);
-      })(page);
+    function renderWithStableViewport(targetPage) {
+      if (targetPage < 1 || targetPage > totalPages || targetPage === currentPage) return;
+      var beforeTop = pager.getBoundingClientRect().top;
+      renderPage(targetPage);
+      var afterTop = pager.getBoundingClientRect().top;
+      window.scrollBy(0, afterTop - beforeTop);
     }
 
-    list.insertAdjacentElement('afterend', pager);
+    prevButton.addEventListener('click', function () {
+      renderWithStableViewport(currentPage - 1);
+    });
+
+    nextButton.addEventListener('click', function () {
+      renderWithStableViewport(currentPage + 1);
+    });
+
     renderPage(1);
   }
 

@@ -48,6 +48,18 @@ h3 {
   margin-bottom: 2rem;
 }
 
+.pub-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.pub-title-row h1 {
+  margin: 2em 0 0;
+}
+
 /* Style bibliography entries */
 .bibliography {
   list-style-type: decimal;
@@ -73,9 +85,9 @@ h3 {
 
 .pub-pagination {
   display: flex;
+  align-items: center;
   gap: 0.5rem;
-  flex-wrap: wrap;
-  margin: 1rem 0 0;
+  margin-top: 2em;
 }
 
 .pub-pagination button {
@@ -86,10 +98,10 @@ h3 {
   cursor: pointer;
 }
 
-.pub-pagination button.is-active {
-  background: #0066cc;
-  color: #fff;
-  border-color: #0066cc;
+.pub-pagination-indicator {
+  min-width: 3.5rem;
+  text-align: center;
+  font-size: 0.9rem;
 }
 
 .pub-pagination button:disabled {
