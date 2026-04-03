@@ -10,6 +10,14 @@
 {% if entry.url %}
   {% assign url_text = entry.url | to_s | replace: "{", "" | replace: "}", "" | strip %}
 {% endif %}
+{% assign organization_text = "" %}
+{% if entry.organization %}
+  {% assign organization_text = entry.organization | to_s | replace: "{", "" | replace: "}", "" | strip %}
+{% endif %}
+{% assign doi_text = "" %}
+{% if entry.doi %}
+  {% assign doi_text = entry.doi | to_s | replace: "{", "" | replace: "}", "" | strip %}
+{% endif %}
 {% assign year_text = "" %}
 {% if entry.year %}
   {% assign year_text = entry.year | to_s | replace: "{", "" | replace: "}", "" | strip %}
@@ -175,6 +183,32 @@
   {% elsif rendered_reference contains "</i>." %}
     {% assign rendered_reference = rendered_reference | replace_first: "</i>.", conf_with_address_period %}
     {% assign address_text = "" %}
+  {% endif %}
+{% endif %}
+{% if pubtype_text == "conference" and organization_text != "" %}
+  {% assign org_inserted = false %}
+  {% if doi_text != "" %}
+    {% capture doi_url %}https://doi.org/{{ doi_text }}{% endcapture %}
+    {% if rendered_reference contains doi_url %}
+      {% capture org_before_doi %}{{ organization_text }}, {{ doi_url }}{% endcapture %}
+      {% assign rendered_reference = rendered_reference | replace_first: doi_url, org_before_doi %}
+      {% assign org_inserted = true %}
+    {% endif %}
+  {% endif %}
+  {% if org_inserted == false and url_text != "" %}
+    {% assign url_escaped = url_text | replace: "&", "&amp;" %}
+    {% if rendered_reference contains url_escaped %}
+      {% capture org_before_url_escaped %}{{ organization_text }}, {{ url_escaped }}{% endcapture %}
+      {% assign rendered_reference = rendered_reference | replace_first: url_escaped, org_before_url_escaped %}
+      {% assign org_inserted = true %}
+    {% elsif rendered_reference contains url_text %}
+      {% capture org_before_url %}{{ organization_text }}, {{ url_text }}{% endcapture %}
+      {% assign rendered_reference = rendered_reference | replace_first: url_text, org_before_url %}
+      {% assign org_inserted = true %}
+    {% endif %}
+  {% endif %}
+  {% if org_inserted == false %}
+    {% assign rendered_reference = rendered_reference | append: ", " | append: organization_text %}
   {% endif %}
 {% endif %}
 {% if pubtype_text == "conference" and url_text != "" %}
