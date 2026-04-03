@@ -44,20 +44,52 @@ html {
 </style>
 
 <script>
+function smoothScrollTo(targetY, durationMs) {
+  var startY = window.pageYOffset;
+  var distance = targetY - startY;
+  if (Math.abs(distance) < 1) return;
+
+  var startTime = null;
+
+  function easeInOutQuad(t) {
+    return t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
+  }
+
+  function step(timestamp) {
+    if (startTime === null) startTime = timestamp;
+    var elapsed = timestamp - startTime;
+    var progress = Math.min(elapsed / durationMs, 1);
+    var eased = easeInOutQuad(progress);
+
+    window.scrollTo(0, startY + distance * eased);
+
+    if (progress < 1) {
+      window.requestAnimationFrame(step);
+    }
+  }
+
+  window.requestAnimationFrame(step);
+}
+
 function scrollToCvFrame() {
   var frame = document.getElementById('cvframe');
   if (!frame) return;
 
-  // Jump to the iframe so the header/menu area is skipped initially.
-  frame.scrollIntoView({ block: 'start', inline: 'nearest', behavior: 'auto' });
+  var y = frame.getBoundingClientRect().top + window.pageYOffset;
+  smoothScrollTo(Math.max(0, y), 500);
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  requestAnimationFrame(scrollToCvFrame);
-  setTimeout(scrollToCvFrame, 120);
+  // Brief pause so users see the menu, then transition to the iframe.
+  setTimeout(function () {
+    requestAnimationFrame(scrollToCvFrame);
+  }, 120);
 });
 
-window.addEventListener('pageshow', function () {
-  setTimeout(scrollToCvFrame, 60);
+window.addEventListener('pageshow', function (event) {
+  if (!event.persisted) return;
+  setTimeout(function () {
+    requestAnimationFrame(scrollToCvFrame);
+  }, 120);
 });
 </script>
