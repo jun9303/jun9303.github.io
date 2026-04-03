@@ -80,10 +80,24 @@ function scrollToCvFrame() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  // Brief pause so users see the menu, then transition to the iframe.
-  setTimeout(function () {
+  var frame = document.getElementById('cvframe');
+  if (!frame) return;
+
+  var hasAnimated = false;
+
+  function triggerOnce() {
+    if (hasAnimated) return;
+    hasAnimated = true;
     requestAnimationFrame(scrollToCvFrame);
-  }, 120);
+  }
+
+  // Run when the iframe shell is ready (before PDF fully finishes loading).
+  frame.addEventListener('load', function () {
+    setTimeout(triggerOnce, 120);
+  }, { once: true });
+
+  // Fallback in case `load` is delayed or restored from cache.
+  setTimeout(triggerOnce, 1200);
 });
 
 window.addEventListener('pageshow', function (event) {
