@@ -2,6 +2,10 @@
 {% if entry.note %}
   {% assign note_text = entry.note | to_s | replace: "{", "" | replace: "}", "" | strip %}
 {% endif %}
+{% assign address_text = "" %}
+{% if entry.address %}
+  {% assign address_text = entry.address | to_s | replace: "{", "" | replace: "}", "" | strip %}
+{% endif %}
 {% assign note_down = note_text | downcase %}
 {% assign marker = "" %}
 {% if note_down contains "corresponding" %}
@@ -15,4 +19,19 @@
   {% capture lee_marker %}Lee, S.<strong>{{ marker }}</strong>{% endcapture %}
   {% assign rendered_reference = rendered_reference | replace_first: "Lee, S.", lee_marker %}
 {% endif %}
-{{ rendered_reference }}{% if note_text != "" and marker == "" %} <em>{{ note_text }}</em>{% endif %}
+{% assign pubtype_text = entry.pubtype | to_s | downcase %}
+{% assign show_address = false %}
+{% if pubtype_text == "conference" or pubtype_text == "talk" %}
+  {% assign show_address = true %}
+{% endif %}
+{% assign tail_text = "" %}
+{% if note_text != "" and marker == "" %}
+  {% assign tail_text = note_text %}
+{% endif %}
+{% if show_address and address_text != "" %}
+  {% if tail_text != "" %}
+    {% assign tail_text = tail_text | append: "; " %}
+  {% endif %}
+  {% assign tail_text = tail_text | append: address_text %}
+{% endif %}
+{{ rendered_reference }}{% if tail_text != "" %} <em>{{ tail_text }}</em>{% endif %}
