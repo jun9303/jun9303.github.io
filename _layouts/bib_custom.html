@@ -41,6 +41,19 @@
 {% if month_raw == "oct" or month_raw == "october" or month_raw == "10" %}{% assign month_num = "10" %}{% endif %}
 {% if month_raw == "nov" or month_raw == "november" or month_raw == "11" %}{% assign month_num = "11" %}{% endif %}
 {% if month_raw == "dec" or month_raw == "december" or month_raw == "12" %}{% assign month_num = "12" %}{% endif %}
+{% assign month_abbr = "" %}
+{% if month_num == "01" %}{% assign month_abbr = "Jan" %}{% endif %}
+{% if month_num == "02" %}{% assign month_abbr = "Feb" %}{% endif %}
+{% if month_num == "03" %}{% assign month_abbr = "Mar" %}{% endif %}
+{% if month_num == "04" %}{% assign month_abbr = "Apr" %}{% endif %}
+{% if month_num == "05" %}{% assign month_abbr = "May" %}{% endif %}
+{% if month_num == "06" %}{% assign month_abbr = "Jun" %}{% endif %}
+{% if month_num == "07" %}{% assign month_abbr = "Jul" %}{% endif %}
+{% if month_num == "08" %}{% assign month_abbr = "Aug" %}{% endif %}
+{% if month_num == "09" %}{% assign month_abbr = "Sep" %}{% endif %}
+{% if month_num == "10" %}{% assign month_abbr = "Oct" %}{% endif %}
+{% if month_num == "11" %}{% assign month_abbr = "Nov" %}{% endif %}
+{% if month_num == "12" %}{% assign month_abbr = "Dec" %}{% endif %}
 {% assign day_raw = "" %}
 {% if entry.day %}
   {% assign day_raw = entry.day | to_s | replace: "{", "" | replace: "}", "" | strip %}
@@ -69,10 +82,10 @@
   {% assign rendered_reference = rendered_reference | replace_first: "Lee, S.", lee_marker %}
 {% endif %}
 {% assign pubtype_text = entry.pubtype | to_s | downcase %}
-{% if year_text != "" and month_num != "" %}
-  {% capture ym_paren %}({{ year_text }} {{ month_num }}){% endcapture %}
+{% if year_text != "" and month_abbr != "" %}
+  {% capture ym_paren %}({{ year_text }} {{ month_abbr }}){% endcapture %}
   {% if day_num != "" %}
-    {% capture ym_paren %}({{ year_text }} {{ month_num }} {{ day_num }}){% endcapture %}
+    {% capture ym_paren %}({{ year_text }} {{ month_abbr }} {{ day_num }}){% endcapture %}
   {% endif %}
   {% capture y_fullm_paren %}({{ year_text }}, {{ month_text }}){% endcapture %}
   {% capture y_shortm_paren %}({{ year_text }}, {{ month_short }}){% endcapture %}
