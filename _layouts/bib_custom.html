@@ -140,7 +140,7 @@
 {% endif %}
 {% if show_address and address_text != "" %}
   {% if tail_text != "" %}
-    {% assign tail_text = tail_text | append: "; " %}
+    {% assign tail_text = tail_text | append: ": " %}
   {% endif %}
   {% assign tail_text = tail_text | append: address_text %}
 {% endif %}
