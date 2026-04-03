@@ -153,4 +153,4 @@
   {% endif %}
   {% assign tail_text = tail_text | append: address_text %}
 {% endif %}
-{{ rendered_reference }}{% if pubtype_text == "conference" and url_text != "" %} <a href="{{ url_text }}" target="_blank" rel="noopener noreferrer" aria-label="External link">&#128279;</a>{% endif %}{% if tail_text != "" %} {{ tail_text }}{% endif %}
+{{ rendered_reference }}{% if pubtype_text == "conference" and url_text != "" %} <a href="{{ url_text }}" target="_blank" rel="noopener noreferrer" aria-label="External link" style="text-decoration: none; color: inherit;">&#128279;</a>{% endif %}{% if tail_text != "" %} {{ tail_text }}{% endif %}
