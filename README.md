@@ -1,6 +1,6 @@
 # Predictive Fluid and Aeroscience Lab website
 
-Source of <https://pfaero.science>, the website of the Predictive Fluid and Aeroscience Lab (PFAL), School of Mechanical and Aerospace Engineering, Nanyang Technological University. It is a Jekyll site built on a customized copy of the Minimal Mistakes theme.
+Source of the website of the Predictive Fluid and Aeroscience Lab (PFAL), School of Mechanical and Aerospace Engineering, Nanyang Technological University. It is a Jekyll site built on a customized copy of the Minimal Mistakes theme.
 
 ## Where to edit
 
