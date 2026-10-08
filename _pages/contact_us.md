@@ -84,7 +84,7 @@ We are recruiting our first members. Before you write to us, please read our [Re
 
 ### PhD Positions (August 2027 Intake)
 
-We have a couple of PhD position openings. The students who fill them will form the lab's founding group and work with Dr. Lee: set up our codes and computing workflows, and start the first projects. The positions suit people who want research experience from the ground up.
+We have a couple of PhD position openings. The students who fill them will form the lab's founding group and work with us: set up our codes and computing workflows, and start the first projects. The positions suit people who want research experience from the ground up.
 
 #### What You Gain
 
@@ -109,14 +109,14 @@ Strong mathematics, programming (Python, C++ or Fortran, CUDA), agentic AI exper
 
 **Formal application.** Apply to the [NTU MAE PhD programme](https://www.ntu.edu.sg/education/graduate-programme/mae-phd) through the official NTU admission website. Only applicants who submit a formal application there are considered in the School's admission process. Full-time NTU PhD admissions typically include the [NTU Research Scholarship](https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships/rss).
 
-**Lab interest form.** It is encouraged to send this form if you want to show specific interest in joining this lab. Include your CV, academic record (GPA and key courses), research experience, the research strengths that match our areas, and brief research proposals (1 for MSc and undergraduate applicants, 2 for PhD applicants). Every submission is reviewed and further contacts might take place if we want to know something more on you. The information is kept secure and will be deleted 12 months after you submit it, or sooner if you ask us to. Sending the form neither guarantees admission nor replaces the formal admission process.
+**Lab interest form.** It is encouraged to send this form if you want to show specific interest in joining this lab. Include (i) your academic CV, (ii) academic record (GPA and key courses), (iii) research experience (~300 words), (iv) the research strengths that match our areas (~150 words), and (v) brief research plan(s) (~150 words each). Every submission is reviewed and further contacts might take place if we want to know something more on you. The information is kept secure and will be deleted 12 months after you submit it, or sooner if you ask us to. Sending the form neither guarantees admission nor replaces the formal admission process.
 
 <p class="contact-form-link"><a class="btn btn--primary" href="{{ site.application_form_url | escape }}">Lab interest form</a></p>
 
-**Please note.** Because of the number of messages, Dr. Lee may not be able to reply to emails or LinkedIn messages from prospective students who have not yet applied to the PhD programme. If you have applied, or have sent the lab interest form ahead of your formal application, Dr. Lee will review your materials carefully and get in touch if there seems to be a good fit.
+**Please note.** Because of the number of messages, we may not be able to reply to emails or LinkedIn messages from prospective students who have not yet applied to the PhD programme. If you have applied, or have sent the lab interest form ahead of your formal application, we will review your materials carefully and get in touch if there seems to be a good fit.
 {: .contact-disclaimer}
 
-### Postdoctoral Researchers
+### Postdoctoral Positions
 
 We have no lab-funded postdoc positions now. We are glad to support strong candidates applying for fellowships such as [LKYPDF](https://www.ntu.edu.sg/research/research-careers/lee-kuan-yew-postdoctoral-fellowship-(lkypdf)), [PPF](https://www.ntu.edu.sg/research/research-careers/presidential-postdoctoral-fellowship-(ppf)), and the [NTU AI-for-X Postdoctoral Fellowship](https://www.ntu.edu.sg/research/research-careers/ntu-ai-for-x-postdoctoral-fellowship).
 
