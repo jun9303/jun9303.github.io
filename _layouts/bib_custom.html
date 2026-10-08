@@ -1,0 +1,248 @@
+{% assign note_text = "" %}
+{% if entry.note %}
+  {% assign note_text = entry.note | to_s | replace: "{", "" | replace: "}", "" | strip %}
+{% endif %}
+{% assign address_text = "" %}
+{% if entry.address %}
+  {% assign address_text = entry.address | to_s | replace: "{", "" | replace: "}", "" | strip %}
+{% endif %}
+{% assign url_text = "" %}
+{% if entry.url %}
+  {% assign url_text = entry.url | to_s | replace: "{", "" | replace: "}", "" | strip %}
+{% endif %}
+{% assign organization_text = "" %}
+{% if entry.organization %}
+  {% assign organization_text = entry.organization | to_s | replace: "{", "" | replace: "}", "" | strip %}
+{% endif %}
+{% assign doi_text = "" %}
+{% if entry.doi %}
+  {% assign doi_text = entry.doi | to_s | replace: "{", "" | replace: "}", "" | strip %}
+{% endif %}
+{% assign pages_text = "" %}
+{% if entry.pages %}
+  {% assign pages_text = entry.pages | to_s | replace: "{", "" | replace: "}", "" | strip %}
+{% endif %}
+{% assign year_text = "" %}
+{% if entry.year %}
+  {% assign year_text = entry.year | to_s | replace: "{", "" | replace: "}", "" | strip %}
+{% endif %}
+{% assign month_raw = "" %}
+{% if entry.month %}
+  {% assign month_raw = entry.month | to_s | replace: "{", "" | replace: "}", "" | strip | downcase %}
+{% endif %}
+{% assign month_text = month_raw %}
+{% if month_raw == "jan" %}{% assign month_text = "January" %}{% endif %}
+{% if month_raw == "feb" %}{% assign month_text = "February" %}{% endif %}
+{% if month_raw == "mar" %}{% assign month_text = "March" %}{% endif %}
+{% if month_raw == "apr" %}{% assign month_text = "April" %}{% endif %}
+{% if month_raw == "may" %}{% assign month_text = "May" %}{% endif %}
+{% if month_raw == "jun" %}{% assign month_text = "June" %}{% endif %}
+{% if month_raw == "jul" %}{% assign month_text = "July" %}{% endif %}
+{% if month_raw == "aug" %}{% assign month_text = "August" %}{% endif %}
+{% if month_raw == "sep" %}{% assign month_text = "September" %}{% endif %}
+{% if month_raw == "oct" %}{% assign month_text = "October" %}{% endif %}
+{% if month_raw == "nov" %}{% assign month_text = "November" %}{% endif %}
+{% if month_raw == "dec" %}{% assign month_text = "December" %}{% endif %}
+{% assign month_short = month_raw | capitalize %}
+{% assign month_num = "" %}
+{% if month_raw == "jan" or month_raw == "january" or month_raw == "1" or month_raw == "01" %}{% assign month_num = "01" %}{% endif %}
+{% if month_raw == "feb" or month_raw == "february" or month_raw == "2" or month_raw == "02" %}{% assign month_num = "02" %}{% endif %}
+{% if month_raw == "mar" or month_raw == "march" or month_raw == "3" or month_raw == "03" %}{% assign month_num = "03" %}{% endif %}
+{% if month_raw == "apr" or month_raw == "april" or month_raw == "4" or month_raw == "04" %}{% assign month_num = "04" %}{% endif %}
+{% if month_raw == "may" or month_raw == "5" or month_raw == "05" %}{% assign month_num = "05" %}{% endif %}
+{% if month_raw == "jun" or month_raw == "june" or month_raw == "6" or month_raw == "06" %}{% assign month_num = "06" %}{% endif %}
+{% if month_raw == "jul" or month_raw == "july" or month_raw == "7" or month_raw == "07" %}{% assign month_num = "07" %}{% endif %}
+{% if month_raw == "aug" or month_raw == "august" or month_raw == "8" or month_raw == "08" %}{% assign month_num = "08" %}{% endif %}
+{% if month_raw == "sep" or month_raw == "september" or month_raw == "9" or month_raw == "09" %}{% assign month_num = "09" %}{% endif %}
+{% if month_raw == "oct" or month_raw == "october" or month_raw == "10" %}{% assign month_num = "10" %}{% endif %}
+{% if month_raw == "nov" or month_raw == "november" or month_raw == "11" %}{% assign month_num = "11" %}{% endif %}
+{% if month_raw == "dec" or month_raw == "december" or month_raw == "12" %}{% assign month_num = "12" %}{% endif %}
+{% assign month_abbr = "" %}
+{% if month_num == "01" %}{% assign month_abbr = "Jan" %}{% endif %}
+{% if month_num == "02" %}{% assign month_abbr = "Feb" %}{% endif %}
+{% if month_num == "03" %}{% assign month_abbr = "Mar" %}{% endif %}
+{% if month_num == "04" %}{% assign month_abbr = "Apr" %}{% endif %}
+{% if month_num == "05" %}{% assign month_abbr = "May" %}{% endif %}
+{% if month_num == "06" %}{% assign month_abbr = "Jun" %}{% endif %}
+{% if month_num == "07" %}{% assign month_abbr = "Jul" %}{% endif %}
+{% if month_num == "08" %}{% assign month_abbr = "Aug" %}{% endif %}
+{% if month_num == "09" %}{% assign month_abbr = "Sep" %}{% endif %}
+{% if month_num == "10" %}{% assign month_abbr = "Oct" %}{% endif %}
+{% if month_num == "11" %}{% assign month_abbr = "Nov" %}{% endif %}
+{% if month_num == "12" %}{% assign month_abbr = "Dec" %}{% endif %}
+{% assign day_raw = "" %}
+{% if entry.day %}
+  {% assign day_raw = entry.day | to_s | replace: "{", "" | replace: "}", "" | strip %}
+{% endif %}
+{% assign day_num = day_raw %}
+{% if day_raw == "1" %}{% assign day_num = "01" %}{% endif %}
+{% if day_raw == "2" %}{% assign day_num = "02" %}{% endif %}
+{% if day_raw == "3" %}{% assign day_num = "03" %}{% endif %}
+{% if day_raw == "4" %}{% assign day_num = "04" %}{% endif %}
+{% if day_raw == "5" %}{% assign day_num = "05" %}{% endif %}
+{% if day_raw == "6" %}{% assign day_num = "06" %}{% endif %}
+{% if day_raw == "7" %}{% assign day_num = "07" %}{% endif %}
+{% if day_raw == "8" %}{% assign day_num = "08" %}{% endif %}
+{% if day_raw == "9" %}{% assign day_num = "09" %}{% endif %}
+{% assign note_down = note_text | downcase %}
+{% assign marker = "" %}
+{% assign note_visible = note_text %}
+{% assign indicator_target = "" %}
+{% assign indicator_chunk = "" %}
+{% assign indicator_wrapped = "" %}
+{% if note_text contains "<" and note_text contains ">" %}
+  {% assign indicator_chunk = note_text | split: "<" | last | split: ">" | first | strip %}
+  {% capture indicator_wrapped %}<{{ indicator_chunk }}>{% endcapture %}
+{% elsif note_text contains "(" and note_text contains ")" %}
+  {% assign indicator_chunk = note_text | split: "(" | last | split: ")" | first | strip %}
+  {% capture indicator_wrapped %}({{ indicator_chunk }}){% endcapture %}
+{% endif %}
+{% if indicator_chunk != "" %}
+  {% assign indicator_chunk_down = indicator_chunk | downcase %}
+  {% if indicator_chunk_down contains "corresponding" %}
+    {% assign marker = marker | append: "*" %}
+  {% endif %}
+  {% if indicator_chunk_down contains "co-first" or indicator_chunk_down contains "cofirst" %}
+    {% assign marker = marker | append: "†" %}
+  {% endif %}
+  {% if marker != "" %}
+    {% assign indicator_target = indicator_chunk %}
+    {% assign indicator_target = indicator_target | replace: "corresponding author", "" | replace: "co-first author", "" | replace: "cofirst author", "" | replace: "corresponding", "" | replace: "co-first", "" | replace: "cofirst", "" | strip %}
+    {% assign note_visible = note_visible | replace: indicator_wrapped, "" | strip %}
+  {% endif %}
+{% endif %}
+{% if marker == "" %}
+  {% if note_down contains "corresponding" %}
+    {% assign marker = marker | append: "*" %}
+  {% endif %}
+  {% if note_down contains "co-first" or note_down contains "cofirst" %}
+    {% assign marker = marker | append: "†" %}
+  {% endif %}
+{% endif %}
+{% if marker != "" and indicator_target == "" %}
+  {% if note_text contains "Lee, Sangjoon" %}
+    {% assign indicator_target = "Lee, Sangjoon" %}
+  {% elsif note_text contains "Lee, S." %}
+    {% assign indicator_target = "Lee, S." %}
+  {% endif %}
+{% endif %}
+{% assign note_visible = note_visible | replace: "()", "" | replace: "( )", "" | replace: "  ", " " | replace: " ;", ";" | replace: " ,", "," | strip %}
+{% assign rendered_reference = reference %}
+{% comment %}citeproc turns any "letters+digits-digits" in pages into a range with an en dash. A "--" range reaches Liquid as "–", so an ASCII "-" here is part of a paper number (e.g. GT2018-76741): put it back.{% endcomment %}
+{% if pages_text contains "-" %}
+  {% assign pages_dashed = pages_text | replace: "-", "–" %}
+  {% assign rendered_reference = rendered_reference | replace_first: pages_dashed, pages_text %}
+{% endif %}
+{% if marker != "" %}
+  {% assign marker_applied = false %}
+  {% if indicator_target != "" and rendered_reference contains indicator_target %}
+    {% capture target_marker %}{{ indicator_target }}<strong>{{ marker }}</strong>{% endcapture %}
+    {% assign rendered_reference = rendered_reference | replace_first: indicator_target, target_marker %}
+    {% assign marker_applied = true %}
+  {% endif %}
+  {% if marker_applied == false %}
+    {% capture lee_marker %}Lee, S.<strong>{{ marker }}</strong>{% endcapture %}
+    {% assign rendered_reference = rendered_reference | replace_first: "Lee, S.", lee_marker %}
+  {% endif %}
+{% endif %}
+{% assign pubtype_text = entry.pubtype | to_s | downcase %}
+{% if year_text != "" and month_abbr != "" %}
+  {% capture ym_paren %}({{ year_text }} {{ month_abbr }}){% endcapture %}
+  {% if day_num != "" %}
+    {% capture ym_paren %}({{ year_text }} {{ month_abbr }} {{ day_num }}){% endcapture %}
+  {% endif %}
+  {% capture y_fullm_paren %}({{ year_text }}, {{ month_text }}){% endcapture %}
+  {% capture y_shortm_paren %}({{ year_text }}, {{ month_short }}){% endcapture %}
+  {% capture y_rawm_paren %}({{ year_text }}, {{ month_raw }}){% endcapture %}
+  {% capture y_numm_paren %}({{ year_text }} {{ month_num }}){% endcapture %}
+  {% capture y_shortm_space_paren %}({{ year_text }} {{ month_short }}){% endcapture %}
+  {% capture y_rawm_space_paren %}({{ year_text }} {{ month_raw }}){% endcapture %}
+  {% capture y_fullm_day_paren %}({{ year_text }}, {{ month_text }} {{ day_num }}){% endcapture %}
+  {% capture y_shortm_day_paren %}({{ year_text }}, {{ month_short }} {{ day_num }}){% endcapture %}
+  {% capture y_numm_day_paren %}({{ year_text }} {{ month_num }} {{ day_num }}){% endcapture %}
+  {% capture y_only_paren %}({{ year_text }}){% endcapture %}
+  {% if rendered_reference contains y_fullm_day_paren %}
+    {% assign rendered_reference = rendered_reference | replace_first: y_fullm_day_paren, ym_paren %}
+  {% elsif rendered_reference contains y_shortm_day_paren %}
+    {% assign rendered_reference = rendered_reference | replace_first: y_shortm_day_paren, ym_paren %}
+  {% elsif rendered_reference contains y_numm_day_paren %}
+    {% assign rendered_reference = rendered_reference | replace_first: y_numm_day_paren, ym_paren %}
+  {% elsif rendered_reference contains y_fullm_paren %}
+    {% assign rendered_reference = rendered_reference | replace_first: y_fullm_paren, ym_paren %}
+  {% elsif rendered_reference contains y_shortm_paren %}
+    {% assign rendered_reference = rendered_reference | replace_first: y_shortm_paren, ym_paren %}
+  {% elsif rendered_reference contains y_rawm_paren %}
+    {% assign rendered_reference = rendered_reference | replace_first: y_rawm_paren, ym_paren %}
+  {% elsif rendered_reference contains y_numm_paren %}
+    {% assign rendered_reference = rendered_reference | replace_first: y_numm_paren, ym_paren %}
+  {% elsif rendered_reference contains y_shortm_space_paren %}
+    {% assign rendered_reference = rendered_reference | replace_first: y_shortm_space_paren, ym_paren %}
+  {% elsif rendered_reference contains y_rawm_space_paren %}
+    {% assign rendered_reference = rendered_reference | replace_first: y_rawm_space_paren, ym_paren %}
+  {% elsif rendered_reference contains y_only_paren %}
+    {% assign rendered_reference = rendered_reference | replace_first: y_only_paren, ym_paren %}
+  {% endif %}
+{% endif %}
+{% if pubtype_text == "conference" and address_text != "" %}
+  {% capture conf_with_address_comma %}</i>, {{ address_text }},{% endcapture %}
+  {% capture conf_with_address_period %}</i>, {{ address_text }}.{% endcapture %}
+  {% if rendered_reference contains "</i>," %}
+    {% assign rendered_reference = rendered_reference | replace_first: "</i>,", conf_with_address_comma %}
+    {% assign address_text = "" %}
+  {% elsif rendered_reference contains "</i>." %}
+    {% assign rendered_reference = rendered_reference | replace_first: "</i>.", conf_with_address_period %}
+    {% assign address_text = "" %}
+  {% endif %}
+{% endif %}
+{% if pubtype_text == "conference" and organization_text != "" %}
+  {% assign org_inserted = false %}
+  {% if doi_text != "" %}
+    {% capture doi_url %}https://doi.org/{{ doi_text }}{% endcapture %}
+    {% if rendered_reference contains doi_url %}
+      {% capture org_before_doi %}{{ organization_text }}. {{ doi_url }}{% endcapture %}
+      {% assign rendered_reference = rendered_reference | replace_first: doi_url, org_before_doi %}
+      {% assign org_inserted = true %}
+    {% endif %}
+  {% endif %}
+  {% if org_inserted == false and url_text != "" %}
+    {% assign url_escaped = url_text | replace: "&", "&amp;" %}
+    {% if rendered_reference contains url_escaped %}
+      {% capture org_before_url_escaped %}{{ organization_text }}. {{ url_escaped }}{% endcapture %}
+      {% assign rendered_reference = rendered_reference | replace_first: url_escaped, org_before_url_escaped %}
+      {% assign org_inserted = true %}
+    {% elsif rendered_reference contains url_text %}
+      {% capture org_before_url %}{{ organization_text }}. {{ url_text }}{% endcapture %}
+      {% assign rendered_reference = rendered_reference | replace_first: url_text, org_before_url %}
+      {% assign org_inserted = true %}
+    {% endif %}
+  {% endif %}
+  {% if org_inserted == false %}
+    {% assign rendered_reference = rendered_reference | append: " " | append: organization_text | append: "." %}
+  {% endif %}
+{% endif %}
+{% if pubtype_text == "conference" and url_text != "" %}
+  {% assign url_escaped = url_text | replace: "&", "&amp;" %}
+  {% assign rendered_reference = rendered_reference | replace_first: url_escaped, "" %}
+  {% assign rendered_reference = rendered_reference | replace_first: url_text, "" %}
+{% endif %}
+{% assign show_address = false %}
+{% if pubtype_text == "conference" or pubtype_text == "talk" %}
+  {% assign show_address = true %}
+{% endif %}
+{% assign tail_text = "" %}
+{% if note_visible != "" %}
+  {% assign tail_text = note_visible %}
+{% endif %}
+{% if show_address and address_text != "" %}
+  {% if tail_text != "" %}
+    {% assign tail_text = tail_text | append: ": " %}
+  {% endif %}
+  {% assign tail_text = tail_text | append: address_text %}
+{% endif %}
+{% if tail_text != "" %}
+  {% assign tail_last = tail_text | slice: -1 %}
+  {% if tail_last != "." %}
+    {% assign tail_text = tail_text | append: "." %}
+  {% endif %}
+{% endif %}
+<span class="bib-entry" data-year="{{ year_text }}" data-pubtype="{{ pubtype_text }}">{{ rendered_reference }}{% if pubtype_text == "conference" and url_text != "" %} <a href="{{ url_text }}" target="_blank" rel="noopener noreferrer" aria-label="External link" style="text-decoration: none;"><i class="fa-solid fa-link" aria-hidden="true"></i></a>{% endif %}{% if tail_text != "" %} {{ tail_text }}{% endif %}</span>

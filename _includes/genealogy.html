@@ -1,0 +1,14 @@
+{%- comment -%}
+  Academic genealogy chart on the People page. genealogy.svg is made by
+  tools/genealogy/render.py from tools/genealogy/genealogy.mmd; to change the
+  chart, edit the .mmd file and render it again (tools/genealogy/README.md).
+  Styles: assets/css/people.css.
+{%- endcomment -%}
+<section class="genealogy" aria-labelledby="genealogy">
+<h2 id="genealogy" class="genealogy__title">Academic Genealogy</h2>
+<p class="genealogy__intro">Each arrow points from a doctoral advisor to a student. Degrees and advisors are from the <a href="https://www.mathgenealogy.org/id.php?id=321608">Mathematics Genealogy Project</a>.</p>
+<p class="genealogy__hint">Swipe sideways to see all of the chart.</p>
+<figure class="genealogy__chart">
+{% include genealogy.svg %}
+</figure>
+</section>

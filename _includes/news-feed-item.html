@@ -1,0 +1,182 @@
+{% comment %}
+One news item. Used on /news/ (_layouts/home.html with entries_layout: feed)
+and on each single news page (_layouts/news.html).
+
+Include parameters
+  post    the post to show (the loop variable on /news/, page on a single page)
+  body    rendered HTML of the post; defaults to post.content
+  single  true on the single news page (title as h1, no link to itself)
+
+Output, top to bottom: grey line with the date and the tags ("Nov 1, 2026 | lab | recruiting"),
+title (links to the item page), body, photos with optional captions.
+Each item is one box with a 1px border (assets/css/news.css).
+
+Post front matter. One file per item: _posts/YYYY-MM-DD-short-name.md
+
+  ---
+  title: "Optional title"      # optional; leave it out for a short post with no title
+  date: 2026-11-01             # required; a time is optional: 2026-11-01 09:00:00 +0800
+  date_precision: day          # optional; day (default) shows "Nov 1, 2026",
+                               #   month shows "Nov 2026", year shows "2026"
+  date_to_confirm: true        # optional note to the editor that the date is not final;
+                               #   the page does not show it (data attribute only)
+  tags: [lab, recruiting]      # optional; grey words after the date, shown as written (not links)
+  images:                      # optional; 1 to 4 photos, a click opens the lightbox
+    - /assets/images/news/2026-11-01-photo-1.jpg
+    - path: /assets/images/news/2026-11-01-photo-2.jpg
+      alt: "Short description of the photo"
+      caption: "Photo by A. Author."   # optional grey line under the photo
+  news_id: lab-launch          # optional; the item URL becomes /news/lab-launch/
+  ---
+  The body is Markdown, 1 to 4 sentences. Links such as
+  [NTU MAE](https://www.ntu.edu.sg/mae) are clickable. The full body shows in the feed.
+
+Notes
+  - layout: news is set by the post defaults in _config.yml, so posts do not need to set it.
+  - Item URLs are /news/<id>/, where <id> is 10 hex characters made from the file name
+    (_plugins/news_hash_permalink.rb). Renaming the file changes the URL. news_id or
+    permalink in front matter replaces it.
+  - When "title" is left out, Jekyll makes one from the file name
+    (2026-11-01-lab-launch.md gets "Lab Launch"). This item hides that automatic title.
+    It also hides a title you set if it is the same as the automatic one, so give the
+    file a different name in that case. title: "" also means no title.
+    Jekyll builds the automatic title from the file name, even if front matter sets slug:.
+    With no title, the date links to the item page.
+  - The automatic title still shows in the browser tab and in feed.xml.
+  - Titles can use Markdown emphasis (*text*) and "|". In the feed the title is a link to
+    the post, so a title that has its own [link](...) shows as plain text there.
+  - Images can be plain paths or path + alt entries. Only the first 4 are shown.
+  - caption is for credits, such as a figure from a paper:
+    "Adapted from Lee & Marcus, J. Fluid Mech. 1014, A16 (2025), Fig. 10."
+    It shows in small grey italic under the photo and after the alt text in the lightbox.
+    Markdown links work in the caption. Do not repeat the citation in alt, because
+    screen readers read both.
+  - Jekyll skips posts with a date after the build date unless _config.yml sets future: true.
+{% endcomment %}
+{%- assign item = include.post -%}
+{%- assign body = include.body | default: item.content -%}
+
+{%- comment -%} Date text from date_precision {%- endcomment -%}
+{%- case item.date_precision -%}
+  {%- when 'year' -%}
+    {%- assign date_text = item.date | date: "%Y" -%}
+    {%- assign date_iso = date_text -%}
+  {%- when 'month' -%}
+    {%- assign date_text = item.date | date: "%b %Y" -%}
+    {%- assign date_iso = item.date | date: "%Y-%m" -%}
+  {%- else -%}
+    {%- assign date_text = item.date | date: "%b %-d, %Y" -%}
+    {%- assign date_iso = item.date | date: "%Y-%m-%d" -%}
+{%- endcase -%}
+
+{%- comment -%}
+Rebuild the title Jekyll makes from the file name, to compare it with the front matter title.
+Jekyll uses the file name even when front matter sets slug:, so item.slug is not used here.
+"_posts/2026-11-01-lab-launch.md" -> "2026-11-01-lab-launch" -> [lab, launch] -> "Lab Launch"
+{%- endcomment -%}
+{%- assign auto_title = "" -%}
+{%- assign slug_words = item.path | split: "/" | last | split: "." | pop | join: "." | split: "-" | shift: 3 -%}
+{%- for word in slug_words -%}
+  {%- assign cap_word = word | capitalize -%}
+  {%- if forloop.first -%}
+    {%- assign auto_title = cap_word -%}
+  {%- else -%}
+    {%- assign auto_title = auto_title | append: " " | append: cap_word -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign show_title = false -%}
+{%- if item.title and item.title != "" and item.title != auto_title -%}
+  {%- assign show_title = true -%}
+{%- endif -%}
+
+{%- comment -%}
+Title as HTML (Markdown emphasis kept) and as plain text (for alt text and the hidden h1).
+"|" is escaped first so kramdown does not turn the title into a table (same as _layouts/single.html).
+{%- endcomment -%}
+{%- assign title_src = item.title | default: "" | replace: '|', '&#124;' -%}
+{%- assign title_html = title_src | markdownify | remove: "<p>" | remove: "</p>" | strip -%}
+{%- assign title_plain = title_src | markdownify | strip_html | strip_newlines | strip -%}
+{%- comment -%} The feed title is a link, so a title with its own link shows as plain text there {%- endcomment -%}
+{%- assign title_link_html = title_html -%}
+{%- if title_html contains "<a " -%}
+  {%- assign title_link_html = title_plain -%}
+{%- endif -%}
+
+{%- comment -%} Images: a list of paths or path/alt entries; one plain string also works {%- endcomment -%}
+{%- assign images = item.images -%}
+{%- if images and images.first == nil and images.size > 0 -%}
+  {%- assign images = images | split: "|||" -%}
+{%- endif -%}
+{%- assign image_count = images | size -%}
+{%- if image_count > 4 -%}{%- assign image_count = 4 -%}{%- endif -%}
+
+<article class="news-item{% if include.single %} news-item--single{% endif %}"{% if item.date_to_confirm %} data-date-to-confirm="true"{% endif %}>
+  <p class="news-item__meta">
+    {%- if show_title or include.single -%}
+    <time datetime="{{ date_iso }}">{{ date_text }}</time>
+    {%- else -%}
+    <a class="news-item__date-link" href="{{ item.url | relative_url }}"><time datetime="{{ date_iso }}">{{ date_text }}</time></a>
+    {%- endif -%}
+    {%- for tag in item.tags -%}
+    <span class="news-item__sep" aria-hidden="true"> | </span><span class="screen-reader-text">, </span><span class="news-item__tag">{{ tag | escape }}</span>
+    {%- endfor -%}
+  </p>
+
+  {%- if show_title %}
+    {%- if include.single %}
+  <h1 class="news-item__title">{{ title_html }}</h1>
+    {%- else %}
+  <h2 class="news-item__title"><a href="{{ item.url | relative_url }}">{{ title_link_html }}</a></h2>
+    {%- endif %}
+  {%- elsif include.single %}
+  <h1 class="screen-reader-text">{{ title_plain | default: "News" }}</h1>
+  {%- endif %}
+
+  <div class="news-item__body">
+    {{ body }}
+  </div>
+
+  {%- if image_count > 0 %}
+  <div class="news-item__photos news-item__photos--{{ image_count }}">
+    {%- for img in images limit: 4 %}
+      {%- assign img_src = img.path | default: img.url | default: img %}
+      {%- if img.alt %}
+        {%- assign img_alt = img.alt %}
+      {%- elsif show_title %}
+        {%- capture img_alt %}{{ title_plain }}, photo {{ forloop.index }}{% endcapture %}
+      {%- else %}
+        {%- capture img_alt %}News photo {{ forloop.index }}{% endcapture %}
+      {%- endif %}
+      {%- comment -%} Caption as HTML (Markdown links kept) and as plain text for the lightbox {%- endcomment -%}
+      {%- assign caption_html = "" %}
+      {%- assign caption_plain = "" %}
+      {%- if img.caption and img.caption != "" %}
+        {%- assign caption_html = img.caption | replace: '|', '&#124;' | markdownify | remove: "<p>" | remove: "</p>" | strip %}
+        {%- assign caption_plain = caption_html | strip_html | strip_newlines | strip %}
+      {%- endif %}
+      {%- comment -%} Lightbox title: the alt text, then the caption {%- endcomment -%}
+      {%- assign popup_title = "" %}
+      {%- if img.alt %}{%- assign popup_title = img.alt | strip %}{%- endif %}
+      {%- if caption_plain != "" %}
+        {%- if popup_title != "" %}
+          {%- assign last_char = popup_title | slice: -1 %}
+          {%- unless last_char == "." or last_char == "?" or last_char == "!" %}
+            {%- assign popup_title = popup_title | append: "." %}
+          {%- endunless %}
+          {%- assign popup_title = popup_title | append: " " %}
+        {%- endif %}
+        {%- assign popup_title = popup_title | append: caption_plain %}
+      {%- endif %}
+      {%- comment -%} escape_once: title_plain and caption_plain already have entities such as &amp; from markdownify {%- endcomment -%}
+    <figure class="news-item__photo">
+      <a class="image-popup" href="{{ img_src | relative_url }}"{% if popup_title != "" %} title="{{ popup_title | escape_once }}"{% endif %}>
+        <img src="{{ img_src | relative_url }}" alt="{{ img_alt | escape_once }}" loading="lazy" decoding="async">
+      </a>
+      {%- if caption_html != "" %}
+      <figcaption class="news-item__caption">{{ caption_html }}</figcaption>
+      {%- endif %}
+    </figure>
+    {%- endfor %}
+  </div>
+  {%- endif %}
+</article>

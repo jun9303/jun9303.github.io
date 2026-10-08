@@ -1,0 +1,77 @@
+---
+layout: archive
+---
+
+{% unless page.author_profile or layout.author_profile or page.sidebar %}
+  <style>
+    .layout--home .archive {
+      float: none;
+      width: 100%;
+      padding-inline-end: 0;
+    }
+  </style>
+{% endunless %}
+
+{{ content }}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+
+{% unless entries_layout == 'feed' %}
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+{% endunless %}
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+{% if entries_layout == 'feed' %}
+<link rel="stylesheet" href="{{ '/assets/css/news.css' | relative_url }}">
+<div class="entries-feed news-feed">
+  {%- assign feed_posts = posts | where_exp: "post", "post.hidden != true" -%}
+  {%- for post in feed_posts -%}
+    {% include news-feed-item.html post=post %}
+  {%- else -%}
+    <p class="news-feed__empty">No news yet.</p>
+  {%- endfor -%}
+</div>
+<script>
+  // main.min.js binds all .image-popup links on the page into one gallery.
+  // On the feed, rebind per item so the arrows only step through one post's photos.
+  // main.min.js loads after this script and binds in its own jQuery ready handler.
+  // jQuery(fn) here is queued after that handler, so the per-item binding replaces
+  // the page-wide one before the window load event (which waits for the hero image).
+  document.addEventListener("DOMContentLoaded", function () {
+    if (!window.jQuery || !jQuery.fn.magnificPopup) return;
+    jQuery(rebindNewsGalleries);
+  });
+  function rebindNewsGalleries() {
+    jQuery(".news-item").each(function () {
+      var links = jQuery(this).find("a.image-popup");
+      if (!links.length) return;
+      links.magnificPopup({
+        type: "image",
+        tLoading: "Loading image #%curr%...",
+        gallery: { enabled: true, navigateByImgClick: true, preload: [0, 1] },
+        image: { tError: '<a href="%url%">Image #%curr%</a> could not be loaded.' },
+        removalDelay: 500,
+        mainClass: "mfp-zoom-in",
+        callbacks: {
+          beforeOpen: function () {
+            this.st.image.markup = this.st.image.markup.replace("mfp-figure", "mfp-figure mfp-with-anim");
+          }
+        },
+        closeOnContentClick: true,
+        midClick: true
+      });
+    });
+  }
+</script>
+{% else %}
+<div class="entries-{{ entries_layout }}">
+  {% include documents-collection.html entries=posts type=entries_layout %}
+</div>
+{% endif %}
+
+{% include paginator.html %}

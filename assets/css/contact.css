@@ -1,0 +1,266 @@
+/* Contact Us page (_pages/contact_us.md): principal investigator, email and
+   location on a two-column grid with the NTU Maps view of Block N3.2, then
+   Available Positions in one centered text column, 33em wide.
+   The grid is not boxed. The round 3 brief boxes these blocks only if
+   draft 1 had boxes here, and draft 1 had none on this page.
+   Colours: navy #181c62 for headings, grey #6b7079
+   for secondary lines, NTU red #d71440 only for the link hover underline.
+   Sizes follow the 1.25 scale on the theme's root size (rem). */
+
+.contact {
+  --contact-navy: #181c62;
+  --contact-grey: #6b7079;
+  --contact-red: #d71440;
+  --contact-rule: #dadde3;
+  padding-bottom: 3rem;
+}
+
+/* Hero: on wide screens, move the photo so the building sign shows below the
+   page title. On phones the full photo height shows, so this has no effect. */
+.page__hero--overlay {
+  background-position: center 35%;
+}
+
+/* The theme adds a permalink icon to headings; skip it here */
+.contact .header-link {
+  display: none;
+}
+
+/* More specific than the theme's .page__content a:not(.btn):hover, which
+   resets the underline colour */
+.page__content .contact a:not(.btn):hover,
+.page__content .contact a:not(.btn):focus-visible {
+  text-decoration: underline;
+  text-decoration-color: var(--contact-red);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+.contact a:focus-visible {
+  outline: 2px solid var(--contact-navy);
+  outline-offset: 2px;
+}
+
+/* ---------- Headings ---------- */
+
+/* .page__content in these selectors: the theme sets a bottom rule and
+   padding on every .page__content h2. */
+.page__content .contact h2 {
+  margin: 0 0 0.8rem;
+  padding: 0;
+  border: 0;
+  color: var(--contact-navy);
+  font-size: 1.563rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.page__content .contact h3 {
+  margin: 2.4rem 0 0.7rem;
+  color: var(--contact-navy);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.page__content .contact h4 {
+  margin: 1.6rem 0 0.4rem;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* ---------- Contact grid ---------- */
+
+/* Left column: who (PI, then email). Right column: where (address, then
+   the map). One column below 900px, in the same order. */
+.contact-grid {
+  display: grid;
+  grid-template-columns: minmax(16rem, 1fr) 2fr;
+  gap: 2.5rem 4rem;
+  margin-top: 0.5rem;
+}
+
+.contact-col {
+  min-width: 0;
+}
+
+.contact-block + .contact-block {
+  margin-top: 2.5rem;
+}
+
+.page__content .contact-block p {
+  margin: 0 0 0.6rem;
+}
+
+.contact-pi__photo {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0.2rem 0 0.9rem;
+  padding: 5px;
+  border: 1px solid #bfbfbf;
+  border-radius: 50%;
+  background: #fff;
+  object-fit: cover;
+}
+
+.page__content .contact-pi .contact-pi__name {
+  margin: 0 0 0.25rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.page__content .contact-pi .contact-pi__role,
+.page__content .contact .contact-note,
+.page__content .contact .contact-maplink {
+  color: var(--contact-grey);
+  font-size: max(14px, 0.8rem);
+  line-height: 1.55;
+}
+
+.page__content .contact .contact-note {
+  max-width: 60ch;
+}
+
+.page__content .contact-block .contact-line {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.page__content .contact-block .contact-address {
+  line-height: 1.6;
+}
+
+.contact-map {
+  margin-top: 1.2rem;
+}
+
+.contact-map iframe {
+  display: block;
+  width: 100%;
+  height: 480px;
+  border: 0;
+  background: #eef0f3;
+}
+
+.page__content .contact .contact-maplink {
+  margin: 0.5rem 0 0;
+}
+
+@media (max-width: 899px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Phones: MazeMap shows the pin's card in a bottom sheet over the lower
+   part of the frame, and the sheet's buttons only fit at the full screen
+   width. So the map runs edge to edge (the negative margins match the 1em
+   side padding of #main) and is taller, which keeps the pin above the
+   sheet. The map link keeps the page padding. */
+@media (max-width: 599px) {
+  .contact-map iframe {
+    width: calc(100% + 2rem);
+    max-width: none;
+    height: 540px;
+    margin: 0 -1rem;
+  }
+}
+
+/* ---------- Available Positions ---------- */
+
+#available-positions {
+  height: 0;
+}
+
+/* 33em is about 70 characters of Figtree per line, as on the News page.
+   68ch would be about 95, because ch is the width of "0", which is wide in
+   Figtree. */
+.contact-positions {
+  max-width: 33em;
+  margin: 4.5rem auto 0;
+  line-height: 1.6;
+}
+
+.page__content .contact-positions ul {
+  margin: 0 0 1.2rem;
+  padding-left: 1.25rem;
+}
+
+.page__content .contact-positions li {
+  margin: 0 0 0.3rem;
+}
+
+/* A lead-in sentence sits close to the list it introduces */
+.page__content .contact-positions p:has(+ ul) {
+  margin-bottom: 0.5rem;
+}
+
+/* Subject headers: literal text to copy into an email subject */
+.page__content .contact-positions .contact-subjects {
+  padding-left: 0;
+  list-style: none;
+}
+
+/* Subject headers (in the list and in running text) are set as plain text
+   in the body font, with weight 600 to mark them as literal strings. This
+   replaces the theme's tinted, rounded code style. */
+.page__content .contact code {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+/* Lab interest form button: centred and larger than the other buttons,
+   since it is the main action of this section */
+.page__content .contact-form-link {
+  margin: 1.5rem 0 1.75rem;
+  text-align: center;
+}
+
+.contact-form-link .btn,
+.contact-form-link .btn:visited {
+  min-width: min(100%, 20rem);
+  margin: 0;
+  padding: 0.85em 2.25em;
+  border: 1px solid var(--contact-navy);
+  border-radius: 3px;
+  background: var(--contact-navy);
+  color: #fff;
+  font-size: max(17px, 1rem);
+  font-weight: 600;
+}
+
+.contact-form-link .btn:hover,
+.contact-form-link .btn:focus-visible {
+  border-color: #0f1240;
+  background: #0f1240;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .contact-form-link .btn {
+    transition: none;
+  }
+}
+
+/* "Please note" under the form button: a quiet grey note with a thin
+   rule on the left, so it reads as a condition rather than a heading. */
+.page__content .contact-positions .contact-disclaimer {
+  margin: 1rem 0 0;
+  padding-left: 0.9rem;
+  border-left: 2px solid #dadde3;
+  color: var(--contact-grey);
+  font-size: max(14px, 0.85rem);
+  line-height: 1.55;
+}

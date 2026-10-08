@@ -1,0 +1,11 @@
+# Groups on the People page, in display order.
+# Each person has one file in _people/ whose `group:` is one of these keys.
+# A group with no people is not shown.
+- key: pi
+  title: "Principal Investigator"
+- key: postdoc
+  title: "Postdocs & Visiting Scholars"
+- key: graduate
+  title: "Graduate Students"
+- key: undergraduate
+  title: "Undergraduate Students"

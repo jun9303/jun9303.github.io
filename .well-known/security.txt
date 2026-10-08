@@ -1,0 +1,6 @@
+# Security contact for https://pfaero.science (RFC 9116).
+# Renew the Expires date before it passes.
+Contact: mailto:contact@pfaero.science
+Expires: 2027-10-01T00:00:00.000Z
+Preferred-Languages: en, ko
+Canonical: https://pfaero.science/.well-known/security.txt

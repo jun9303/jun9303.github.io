@@ -1,0 +1,289 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+# Theme Settings
+#
+# Theme: a customized copy of Minimal Mistakes is kept in this repository
+# (_includes, _layouts, _sass, assets). See README.md.
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale                   : "en-US"
+title                    : "Predictive Fluid and Aeroscience Lab @ NTU Singapore"
+title_separator          : "-"
+name                     : 'Sangjoon "Joon" Lee, Ph.D'
+description              : "Predictive Fluid and Aeroscience Lab, School of Mechanical and Aerospace Engineering, Nanyang Technological University, Singapore."
+url                      : "https://pfaero.science"
+baseurl                  : ""
+repository               : jun9303/jun9303.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : "/assets/images/teaser-500x300.jpg" # path of fallback teaser image
+logo                     : "/assets/images/masthead.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : "Predictive Fluid and Aeroscience Lab" # overrides the website title displayed in the masthead, use " " for no title
+# breadcrumbs            : false # true, false (default)
+words_per_minute         : 50
+comments:
+  provider               : false # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  disqus:
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+  utterances:
+    theme                : # "github-light" (default), "github-dark"
+    issue_term           : # "pathname" (default)
+staticman:
+  allowedFields          : # ['name', 'email', 'url', 'message']
+  branch                 : # "master"
+  commitMessage          : # "New comment by {fields.name}"
+  filename               : # comment-{@timestamp}
+  format                 : # "yml"
+  moderation             : # true
+  path                   : # "/_data/comments/{options.slug}" (default)
+  requiredFields         : # ['name', 'email', 'message']
+  transforms:
+    email                : # "md5"
+  generatedFields:
+    date:
+      type               : # "date"
+      options:
+        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
+reCaptcha:
+  siteKey                :
+  secret                 :
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+  hide                   : true # false (default)
+search                   : false # false (default)
+search_full_content      : # true, false (default)
+search_provider          : # lunr (default), algolia, google
+algolia:
+  application_id         : # YOUR_APPLICATION_ID
+  index_name             : # YOUR_INDEX_NAME
+  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : # true (default), false
+google:
+  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  instant_search         : # false (default), true
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
+
+# Social Sharing
+twitter:
+  username               :
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : "/assets/images/header.jpg" # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+
+# Analytics
+analytics:
+  provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          : "G-P84WPT4TPX"
+    anonymize_ip         : false # true, false (default)
+
+
+# Lab interest form for PhD applicants (Google Forms; optional, not a formal application). Replace with the live form URL once created (see tools/google_form/README.md).
+application_form_url     : "https://forms.gle/Eqsk2sHk4GurckxP8"
+
+# Site Author
+author:
+  name             : 'Sangjoon "Joon" Lee'
+  avatar           : "/assets/images/bio-photo-slee-200x200.png"
+  bio              : "Assistant Professor"
+  location         : # NA
+  email            : "sjoonl@stanford.edu"
+  links:
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope"
+    #   # url: 
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://your-website.com"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/jun9303"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0002-2063-6298"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-square-linkedin"
+      url: "https://www.linkedin.com/in/sjoonl/"
+
+# Site Footer
+footer:
+  links:
+    - label: "NTU Singapore"
+      icon: "fas fa-fw fa-building-columns"
+      url: "https://www.ntu.edu.sg/"
+    - label: "School of MAE"
+      icon: "fas fa-fw fa-building"
+      url: "https://www.ntu.edu.sg/mae"
+    - label: "Lab Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:contact@pfaero.science"
+    - label: "Lab Location"
+      icon: "fas fa-fw fa-location-dot"
+      url: "https://maps.ntu.edu.sg/?mazemap_share_url=https%3A%2F%2Fuse.mazemap.com%2F%3Futm_medium%3Dlongurl%23v%3D1%26config%3Dntu-sg%26campusid%3D2123%26zlevel%3D1%26center%3D103.682818%2C1.347648%26zoom%3D18.3%26sharepoitype%3Dpoi%26sharepoi%3D1003278488"
+
+# Reading Files
+include:
+  - .well-known
+  - _pages
+exclude:
+  - vendor
+  - .bundle
+  - .sass-cache
+  - Gemfile
+  - LICENSE
+  - node_modules
+  - tools
+  - README
+  - "**/Thumbs.db"
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink: /news/post/:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /news/page:num/
+timezone: Asia/Singapore # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+future: true # show news items dated after the build date
+
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-scholar
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-scholar
+
+scholar:
+  source: ./
+  bibliography: _bibliography/peer_reviewed.bib
+  bibliography_template: bib_custom
+  sort_by: year
+  order: descending
+  group_by: none
+  locale: en
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+
+# People: one file per person in _people/ (group order in _data/people_groups.yml)
+collections:
+  people:
+    output: false
+
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: news
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: false

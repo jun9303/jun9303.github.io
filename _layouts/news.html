@@ -1,0 +1,19 @@
+---
+layout: default
+---
+{% comment %}
+Single news item page. Posts get "layout: news" from the post defaults in _config.yml.
+No hero image, share buttons, comments or related posts. The URL is /news/<id>/
+(_plugins/news_hash_permalink.rb).
+Front matter format: see the comment at the top of _includes/news-feed-item.html.
+{% endcomment %}
+<link rel="stylesheet" href="{{ '/assets/css/news.css' | relative_url }}">
+
+<div id="main" role="main" class="news-single">
+  <div class="news-feed news-feed--single">
+    <p class="news-back">
+      <a href="{{ '/news/' | relative_url }}">Back to News</a>
+    </p>
+    {% include news-feed-item.html post=page body=content single=true %}
+  </div>
+</div>

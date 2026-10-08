@@ -1,0 +1,104 @@
+<!-- start custom footer snippets -->
+<style>
+	.page__footer {
+		margin-top: 1em;
+	}
+
+	.page__footer-follow .social-icons {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		gap: 0.4rem 0.9rem;
+		margin: 0;
+		padding: 0;
+	}
+
+	.page__footer-follow {
+		text-align: left;
+	}
+
+	.page__footer-follow .social-icons li {
+		display: block;
+		margin: 0;
+		padding: 0;
+	}
+
+	.page__footer-follow li + li::before {
+		content: none;
+		padding-inline-end: 0;
+	}
+
+	.page__footer-follow .social-icons a {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.35rem;
+		padding-inline-end: 0;
+		white-space: nowrap;
+	}
+
+	.page__footer-copyright {
+		text-align: left;
+		margin-top: 0.9rem;
+	}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+	var links = document.querySelectorAll("a[href]");
+	links.forEach(function (link) {
+		var href = (link.getAttribute("href") || "").trim();
+		if (!href || href[0] === "#") return;
+		if (href.indexOf("mailto:") === 0 || href.indexOf("tel:") === 0) return;
+
+		var url;
+		try {
+			url = new URL(href, window.location.href);
+		} catch (e) {
+			return;
+		}
+
+		if ((url.protocol === "http:" || url.protocol === "https:") && url.origin !== window.location.origin) {
+			link.setAttribute("target", "_blank");
+			link.setAttribute("rel", "noopener noreferrer");
+		}
+	});
+});
+
+// Image popups (research figures, news photos): keep Tab and Shift+Tab
+// inside the open popup. Magnific pulls focus back only after it moves to
+// the page, so Shift+Tab from the popup could go to the browser UI.
+// assets/js/people.js handles the People overlay.
+// jQuery loads after this file, so look it up when a key is pressed.
+document.addEventListener(
+	"keydown",
+	function (event) {
+		if (event.key !== "Tab" || event.altKey || event.ctrlKey || event.metaKey) return;
+		var $ = window.jQuery;
+		var instance = $ && $.magnificPopup && $.magnificPopup.instance;
+		if (!instance || !instance.isOpen || !instance.wrap) return;
+		if (!instance.currItem || instance.currItem.type !== "image") return;
+		var wrap = instance.wrap[0];
+		var items = Array.prototype.filter.call(
+			wrap.querySelectorAll('a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'),
+			function (el) {
+				return el.getClientRects().length > 0;
+			}
+		);
+		if (!items.length) {
+			event.preventDefault();
+			wrap.focus();
+			return;
+		}
+		var first = items[0];
+		var last = items[items.length - 1];
+		var active = document.activeElement;
+		if (items.indexOf(active) === -1 || active === (event.shiftKey ? first : last)) {
+			event.preventDefault();
+			(event.shiftKey ? last : first).focus();
+		}
+	},
+	true
+);
+</script>
+
+<!-- end custom footer snippets -->

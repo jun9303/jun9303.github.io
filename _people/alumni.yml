@@ -1,0 +1,35 @@
+---
+# Alumni table on the People page (a table, no photos), rendered by
+# _includes/alumni-table.html. One entry per person under "alumni:", newest first.
+#   name         full name
+#   group        postdoc, visiting, graduate or undergraduate (used by the filters)
+#   role         text for the Role column, e.g. Postdoc, Visiting scholar, PhD, MS,
+#                Undergraduate (URECA), Undergraduate (FYP)
+#   affiliation  current position and institution
+#   period       time in the lab, e.g. 2025/08–2026/02
+# The four entries below are placeholders. Replace or delete them.
+# - name: "Alumni"
+#   group: postdoc
+#   role: "Postdoc"
+#   affiliation: "Institution Name"
+#   period: "2025/08–2026/02"
+# - name: "Alumni"
+#   group: visiting
+#   role: "Visiting scholar"
+#   affiliation: "Institution Name"
+#   period: "2025/08–2026/02"
+# - name: "Alumni"
+#   group: graduate
+#   role: "PhD programme"
+#   affiliation: "Institution Name"
+#   period: "2025/08–2026/02"
+# - name: "Alumni"
+#   group: undergraduate
+#   role: "Undergraduate"
+#   affiliation: "Institution Name"
+#   period: "2025/08–2026/02"
+#
+# This file sits in _people/ but is not a person: it has no "group", so the
+# People grid skips it. Keep the --- lines at the top and bottom.
+alumni:
+---

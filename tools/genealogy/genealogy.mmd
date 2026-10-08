@@ -1,0 +1,68 @@
+%% Academic genealogy of the Predictive Fluid and Aeroscience Lab: doctoral
+%% advisor to student. Sources: Mathematics Genealogy Project (degrees and
+%% advisors, checked 2026-10-08) and Wikidata (years). Layout and the people
+%% shown follow the genealogy chart of the UC Berkeley CFD Lab
+%% (https://cfd.me.berkeley.edu/fun-stuff/). Render with render.py (README.md).
+flowchart TD
+  accTitle: Academic genealogy of the Predictive Fluid and Aeroscience Lab
+  accDescr: Doctoral advisor lineage from Johann Bernoulli and Abraham Gotthelf Kaestner through Felix Klein, Arnold Sommerfeld, John A. Wheeler, Kip S. Thorne, William H. Press and Philip S. Marcus to Sangjoon Lee, and on to the students of the lab. Each arrow points from an advisor to a student.
+  bernoulli["<span class='g-name'>Johann Bernoulli</span><br/><span class='g-sub'>1667–1748</span>"]
+  euler["<span class='g-name'>Leonhard Euler</span><br/><span class='g-sub'>1707–1783</span>"]
+  lagrange["<span class='g-name'>Joseph-Louis Lagrange</span><br/><span class='g-sub'>1736–1813</span>"]
+  poisson["<span class='g-name'>Siméon Denis Poisson</span><br/><span class='g-sub'>1781–1840</span>"]
+  fourier["<span class='g-name'>Joseph Fourier</span><br/><span class='g-sub'>1768–1830</span>"]
+  dirichlet["<span class='g-name'>Gustav Lejeune Dirichlet</span><br/><span class='g-sub'>1805–1859 | Hon. doctorate, Bonn, 1827</span>"]
+  kaestner["<span class='g-name'>Abraham Gotthelf Kästner</span><br/><span class='g-sub'>1719–1800 | Ph.D., Leipzig, 1739</span>"]
+  pfaff["<span class='g-name'>Johann Friedrich Pfaff</span><br/><span class='g-sub'>1765–1825 | Dr. phil., Göttingen, 1786</span>"]
+  gauss["<span class='g-name'>Carl Friedrich Gauss</span><br/><span class='g-sub'>1777–1855 | Ph.D., Helmstedt, 1799</span>"]
+  gerling["<span class='g-name'>Christian Ludwig Gerling</span><br/><span class='g-sub'>1788–1864 | Dr. phil., Göttingen, 1812</span>"]
+  pluecker["<span class='g-name'>Julius Plücker</span><br/><span class='g-sub'>1801–1868 | Ph.D., Marburg, 1823</span>"]
+  langsdorf["<span class='g-name'>Karl Christian von Langsdorf</span><br/><span class='g-sub'>1757–1834</span>"]
+  mohm["<span class='g-name'>Martin Ohm</span><br/><span class='g-sub'>1792–1872 | Dr. phil., Erlangen, 1811</span>"]
+  lipschitz["<span class='g-name'>Rudolf Lipschitz</span><br/><span class='g-sub'>1832–1903 | Dr. phil., Berlin, 1853</span>"]
+  klein["<span class='g-name'>Felix Klein</span><br/><span class='g-sub'>1849–1925 | Dr. phil., Bonn, 1868</span>"]
+  lindemann["<span class='g-name'>Ferdinand von Lindemann</span><br/><span class='g-sub'>1852–1939 | Dr. phil., Erlangen, 1873</span>"]
+  sommerfeld["<span class='g-name'>Arnold Sommerfeld</span><br/><span class='g-sub'>1868–1951 | Ph.D., Königsberg, 1891</span>"]
+  hasenoehrl["<span class='g-name'>Friedrich Hasenöhrl</span><br/><span class='g-sub'>1874–1915 | Dr. phil., Wien, 1896</span>"]
+  herzfeld["<span class='g-name'>Karl F. Herzfeld</span><br/><span class='g-sub'>1892–1978 | Ph.D., Wien, 1914</span>"]
+  wheeler["<span class='g-name'>John A. Wheeler</span><br/><span class='g-sub'>1911–2008 | Ph.D., Johns Hopkins, 1933</span>"]
+  thorne["<span class='g-name'>Kip S. Thorne</span><br/><span class='g-sub'>b. 1940 | Ph.D., Princeton, 1965</span>"]
+  press["<span class='g-name'>William H. Press</span><br/><span class='g-sub'>b. 1948 | Ph.D., Caltech, 1972</span>"]
+  marcus["<span class='g-name'>Philip S. Marcus</span><br/><span class='g-sub'>b. 1951 | Ph.D., Princeton, 1978</span>"]
+  lee["<span class='g-name'>Sangjoon Lee</span><br/><span class='g-sub'>Ph.D., UC Berkeley, 2024</span>"]
+  %% The students of the lab, to come: a dotted arrow to a dashed box.
+  next["<span class='g-more'>…</span>"]
+  bernoulli --> euler
+  euler --> lagrange
+  lagrange --> poisson
+  lagrange --> fourier
+  poisson --> dirichlet
+  fourier --> dirichlet
+  kaestner --> pfaff
+  kaestner --> langsdorf
+  pfaff --> gauss
+  gauss --> gerling
+  gerling --> pluecker
+  langsdorf --> mohm
+  dirichlet --> lipschitz
+  mohm --> lipschitz
+  pluecker --> klein
+  lipschitz --> klein
+  klein --> lindemann
+  lindemann --> sommerfeld
+  sommerfeld --> herzfeld
+  hasenoehrl --> herzfeld
+  herzfeld --> wheeler
+  wheeler --> thorne
+  thorne --> press
+  press --> marcus
+  marcus --> lee
+  lee -.-> next
+  classDef person fill:#ffffff,stroke:#dadde3,stroke-width:1px
+  classDef self fill:#ffffff,stroke:#181c62,stroke-width:1.5px
+  classDef future fill:#ffffff,stroke:#b9bec7,stroke-width:1px,stroke-dasharray:4 3
+  class bernoulli,euler,lagrange,poisson,fourier,dirichlet,kaestner,pfaff,gauss,gerling,pluecker,langsdorf,mohm,lipschitz,klein,lindemann,sommerfeld,hasenoehrl,herzfeld,wheeler,thorne,press,marcus person
+  class lee self
+  class next future
+%% Text colours are set in render.py (THEME_CSS). A color in classDef would
+%% override the grey of the second line.

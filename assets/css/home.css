@@ -1,0 +1,403 @@
+/* Home page (index.md): Welcome and Vision boxes, "How We Work" boxes,
+   research area cards, latest news. Linked from index.md.
+   Box style (round 3, all pages): white fill, 1px #dadde3 border, 2px
+   radius, no shadow. Navy #181c62 for box headings, grey #6b7079 for
+   secondary lines, NTU red #d71440 only for the link hover underline. */
+
+.home {
+  --home-navy: #181c62;
+  --home-grey: #6b7079;
+  --home-red: #d71440;
+  --home-rule: #dadde3;
+  --home-rule-hover: #b9bec7;
+  /* text size in the boxes, the closing sentence and the news list: the
+     theme's body size on phones, a little smaller than its desktop size */
+  --home-text: clamp(15px, 0.78rem, 17px);
+  padding-bottom: 3rem;
+}
+
+/* ---------- Hero ---------- */
+
+/* Put the plane and contrail of header.jpg (at 50% of the image height)
+   under the title and subtitle. Two layers: overlay gradient, then the photo.
+   Narrow screens: the photo is 230% of the hero height and the contrail sits
+   at about 80% of the hero. */
+.page__hero--overlay {
+  background-size: cover, auto 230%;
+  background-position: center, 0 26%;
+}
+
+/* From 1024px the photo spans the full width, so the contrail is 27.9vw
+   above the photo's bottom edge (photo height = 0.558 x width). Anchor the
+   photo to the bottom of the hero so the contrail stays 56px above the hero's
+   bottom edge at every width. (A rem offset drifts, because the theme's root
+   font size grows from 16px to 22px with the screen width.) */
+@media (min-width: 1024px) {
+  .page__hero--overlay {
+    background-size: cover, cover;
+    background-position: center, left 0 bottom calc(56px - 27.9vw);
+  }
+}
+
+/* The theme caps the lead at 768px, which wraps this one-line subtitle */
+.page__hero--overlay .page__lead {
+  max-width: none;
+  text-wrap: balance;
+}
+
+/* ---------- Shared ---------- */
+
+/* .page__content in these selectors: the theme sets size, margin and a
+   bottom rule on every .page__content h2, p and li.
+   Section headings keep the theme colour and weight, as in the first
+   draft, in title case. Only the headings inside boxes are navy. */
+.page__content .home-heading {
+  margin: 0 0 1.1rem;
+  padding: 0;
+  border: 0;
+  font-size: 1.563rem;
+  line-height: 1.25;
+}
+
+/* The theme adds a permalink icon to headings; skip it on the home page */
+.home .header-link {
+  display: none;
+}
+
+/* More specific than the theme's .page__content a:not(.btn):hover, which
+   resets the underline colour */
+.page__content .home a:not(.btn):hover,
+.page__content .home a:not(.btn):focus-visible {
+  text-decoration: underline;
+  text-decoration-color: var(--home-red);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+.home-section {
+  margin: 3.5rem 0 0;
+}
+
+.home-box,
+.home-news {
+  font-size: var(--home-text);
+  line-height: 1.6;
+}
+
+/* One box style for the Welcome, Vision and How We Work panels. The
+   padding is the same as the News page boxes. */
+.home-box {
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--home-rule);
+  border-radius: 2px;
+  background: #fff;
+}
+
+.page__content .home-box__title {
+  margin: 0 0 0.55em;
+  padding: 0;
+  border: 0;
+  color: var(--home-navy);
+  font-size: 1.4em;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.page__content .home-box p {
+  margin: 0;
+  font-size: inherit;
+  line-height: 1.6;
+}
+
+/* ---------- Welcome and vision ---------- */
+
+/* Two boxes of equal height. The vision box is wider so the two boxes
+   have similar amounts of text. "How We Work" below uses the same
+   breakpoint and gap. */
+.home-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.25rem;
+  margin: 0.5rem 0 0;
+}
+
+@media (min-width: 900px) {
+  .home-intro {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+    gap: 1.5rem;
+    align-items: stretch;
+  }
+}
+
+/* As in the first draft, the welcome text is a little larger and is
+   centred vertically in its box. */
+.home-welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page__content .home-box .home-welcome__text {
+  font-size: 1.15em;
+}
+
+.page__content .home-welcome .home-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1.4em 0 0;
+}
+
+.home-actions .btn {
+  min-width: 6.5em;
+  margin: 0;
+  padding: 0.6em 1em;
+  border: 1px solid var(--home-navy);
+  border-radius: 3px;
+  font-size: max(15px, 0.8rem);
+  font-weight: 600;
+}
+
+.home-actions .btn--primary,
+.home-actions .btn--primary:visited {
+  background: var(--home-navy);
+  color: #fff;
+}
+
+.home-actions .btn--inverse,
+.home-actions .btn--inverse:visited {
+  background: #fff;
+  color: var(--home-navy);
+}
+
+.home-actions .btn--primary:hover,
+.home-actions .btn--primary:focus-visible {
+  background: #0f1240;
+  border-color: #0f1240;
+  color: #fff;
+}
+
+.home-actions .btn--inverse:hover,
+.home-actions .btn--inverse:focus-visible {
+  background: var(--home-navy);
+  color: #fff;
+}
+
+.home-actions .btn:hover,
+.home-actions .btn:focus-visible {
+  text-decoration: none;
+}
+
+.home-actions .btn:focus-visible {
+  outline: 2px solid var(--home-navy);
+  outline-offset: 2px;
+}
+
+/* Three pillars under the vision text: bold label, grey line */
+.page__content .home-pillars {
+  margin: 1.2em 0 0;
+  padding: 1.2em 0 0;
+  border-top: 1px solid var(--home-rule);
+}
+
+.page__content .home-pillars dt {
+  margin: 0.9em 0 0;
+  color: var(--home-navy);
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.page__content .home-pillars dt:first-child {
+  margin-top: 0;
+}
+
+.page__content .home-pillars dd {
+  margin: 0.1em 0 0;
+  color: var(--home-grey);
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+/* ---------- How we work ---------- */
+
+.home-methods__pair {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.25rem;
+}
+
+@media (min-width: 900px) {
+  .home-methods__pair {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+/* The closing sentence joins the two methods and states the lab's main
+   thrust, so it is set larger (h3 size) in navy, centred under both boxes
+   with equal space on the left and right. */
+.page__content .home-methods__close {
+  max-width: 34em;
+  margin: 1.4em auto 0;
+  font-size: 1.25em;
+  font-weight: 500;
+  line-height: 1.45;
+  color: #181C62;
+  text-align: center;
+  text-wrap: balance;
+}
+
+/* ---------- Research areas ---------- */
+
+/* Five cards: 2 per row on phones, 3 from 600px, 5 from 1024px.
+   A short last row is centred. */
+.page__content .home-areas__grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page__content .home-areas__item {
+  display: flex;
+  flex: 0 0 calc((100% - 0.75rem) / 2);
+  margin: 0;
+}
+
+@media (min-width: 600px) {
+  .page__content .home-areas__item {
+    flex-basis: calc((100% - 1.5rem) / 3);
+  }
+}
+
+@media (min-width: 1024px) {
+  .page__content .home-areas__grid {
+    gap: 1rem;
+  }
+
+  .page__content .home-areas__item {
+    flex-basis: calc((100% - 4rem) / 5);
+  }
+}
+
+.home-area,
+.home-area:visited {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid var(--home-rule);
+  border-radius: 2px;
+  background: #fff;
+  color: var(--home-navy);
+  text-decoration: none;
+}
+
+/* Hover changes only the border colour (no underline, shadow or lift).
+   Keyboard focus also gets the navy outline below. */
+.page__content .home a.home-area:hover,
+.page__content .home a.home-area:focus-visible {
+  border-color: var(--home-rule-hover);
+  color: var(--home-navy);
+  text-decoration: none;
+}
+
+/* The theme's .page__content a:not(.btn):hover img adds a grey glow */
+.page__content .home a.home-area:hover .home-area__img,
+.page__content .home a.home-area:focus-visible .home-area__img {
+  box-shadow: none;
+}
+
+.home-area:focus-visible {
+  outline: 2px solid var(--home-navy);
+  outline-offset: 2px;
+}
+
+/* The figures have different aspect ratios (1:1 to 2:1). contain shows
+   each one in full, centred on white in a 3:2 frame. */
+.home-area__img {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  padding: 0.4rem;
+  object-fit: contain;
+  object-position: center;
+  border-bottom: 1px solid var(--home-rule);
+  background: #fff;
+}
+
+.home-area__name {
+  padding: 0.65em 0.75em 0.8em;
+  font-size: clamp(14px, 0.72rem, 16px);
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+/* ---------- Latest news ---------- */
+
+.page__content .home-news__list {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--home-rule);
+  list-style: none;
+}
+
+.page__content .home-news__item {
+  display: grid;
+  grid-template-columns: 7.5em minmax(0, 1fr);
+  gap: 1em;
+  margin: 0;
+  padding: 0.9em 0;
+  border-bottom: 1px solid var(--home-rule);
+  font-size: inherit;
+}
+
+.home-news__date {
+  padding-top: 0.1em;
+  color: var(--home-grey);
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+
+/* :hover too: the theme's a:hover sets the default link colour */
+.home-news__title,
+.home-news__title:visited,
+.home-news__title:hover,
+.home-news__title:focus-visible {
+  color: var(--home-navy);
+  font-weight: 600;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.page__content .home-news__excerpt {
+  margin: 0.25em 0 0;
+  font-size: inherit;
+  line-height: 1.5;
+}
+
+.page__content .home-news__more {
+  margin: 0.9em 0 0;
+  font-size: inherit;
+  font-weight: 600;
+}
+
+.home-news__more a,
+.home-news__more a:visited,
+.home-news__more a:hover,
+.home-news__more a:focus-visible {
+  color: var(--home-navy);
+  text-decoration: none;
+}
+
+@media (max-width: 599px) {
+  .page__content .home-news__item {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.2em;
+  }
+}

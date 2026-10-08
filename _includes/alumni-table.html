@@ -1,0 +1,41 @@
+{%- comment -%}
+  Alumni table (no photos) with group filters.
+  Data: the "alumni:" list in _people/alumni.yml (a file in the people collection
+  with no group, so the People grid skips it). The section is not shown while
+  the list is empty. Filter script: assets/js/people.js. Styles: assets/css/people.css.
+  The checkboxes show or hide rows by their group. Postdocs, visiting scholars
+  and graduates are on by default; undergraduates are off. The filtering is
+  done in CSS (people.css, :has), so it works without JavaScript; people.js
+  only adds the "No alumni in the selected groups." message.
+{%- endcomment -%}
+{%- comment -%} Jekyll reads a .yml file in a collection as plain YAML, so the file is
+  found by its "alumni" key (not by a slug). {%- endcomment -%}
+{%- assign alumni = nil -%}
+{%- for people_file in site.people -%}
+{%- if people_file.alumni -%}{%- assign alumni = people_file.alumni -%}{%- endif -%}
+{%- endfor -%}
+{%- if alumni and alumni.size > 0 %}
+<section class="alumni" aria-labelledby="alumni">
+<h2 id="alumni" class="alumni__title">Alumni</h2>
+<div class="alumni-filter" role="group" aria-label="Show alumni by group">
+<span class="alumni-filter__label">Show:</span>
+<label><input type="checkbox" value="postdoc" checked> Postdocs</label>
+<label><input type="checkbox" value="visiting" checked> Visiting scholars</label>
+<label><input type="checkbox" value="graduate" checked> Graduates</label>
+<label><input type="checkbox" value="undergraduate"> Undergraduates</label>
+</div>
+<div class="table-container">
+<table id="alumni-table" class="people-table alumni-table">
+<thead>
+<tr><th scope="col">Name</th><th scope="col">Role</th><th scope="col">Current affiliation</th><th scope="col">Period</th></tr>
+</thead>
+<tbody>
+{%- for person in alumni %}
+<tr data-group="{{ person.group | escape }}"><td>{{ person.name | escape }}</td><td>{{ person.role | escape }}</td><td>{{ person.affiliation | escape }}</td><td>{{ person.period | escape }}</td></tr>
+{%- endfor %}
+</tbody>
+</table>
+</div>
+<p class="alumni-empty" hidden>No alumni in the selected groups.</p>
+</section>
+{%- endif %}

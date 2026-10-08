@@ -1,0 +1,48 @@
+/* Custom overrides loaded after theme CSS to hide visible "Permalink" text */
+.header-link > .sr-only,
+.header-link .sr-only {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+/* If you prefer to remove the permalink anchor completely, uncomment below */
+/* .header-link { display: none !important; } */
+
+/* Masthead title: keep the lab name on balanced lines on small screens */
+.site-title {
+  text-wrap: balance;
+}
+@media (max-width: 600px) {
+  .site-title {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+}
+
+/* Lightbox captions: site font and a darker backdrop */
+.mfp-title {
+  font-family: 'Figtree', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+.mfp-bg {
+  opacity: 0.92;
+}
+
+/* Reduced motion: no transitions or animations (theme hover bars, nav
+   toggle, lightbox fades). Durations stay above 0 so end events still fire. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0s !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0s !important;
+    scroll-behavior: auto !important;
+  }
+}

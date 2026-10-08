@@ -1,0 +1,615 @@
+/* People page: groups of people and profile overlays.
+   Linked from _pages/people.md. Markup: _includes/people-grid.html.
+   Behavior: assets/js/people.js (Magnific Popup, inline type).
+   Each person is a box: round photo, name, grey role line. Box style (same
+   on every page): white fill, 1px solid #dadde3 border, 2px radius, no
+   shadow, no movement on hover. A hovered box only changes its border
+   colour to #b9bec7.
+   Tokens: navy #181c62 for headings, grey #6b7079 for secondary lines, NTU
+   red #d71440 only for the link hover underline. Sizes follow the 1.25 scale
+   on the theme's root size. */
+
+.people,
+.person-popup {
+  --people-navy: #181c62;
+  --people-grey: #6b7079;
+  --people-red: #d71440;
+  --people-border: #dadde3;
+  --people-border-hover: #b9bec7;
+}
+
+.people {
+  padding-bottom: 3rem;
+}
+
+/* .page__content in these selectors: the theme sets size, margin and a
+   bottom rule on every .page__content h2 and p. */
+.page__content .people-notice {
+  max-width: 62ch;
+  margin: 0.5rem auto 0;
+  line-height: 1.6;
+  text-align: center;
+  text-wrap: balance;
+}
+
+/* More specific than the theme's .page__content a:not(.btn):hover, which
+   resets the underline colour */
+.page__content .people a:not(.btn):hover,
+.page__content .people a:not(.btn):focus-visible {
+  text-decoration: underline;
+  text-decoration-color: var(--people-red);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+/* Group titles: title case, as typed in _data/people_groups.yml (no
+   text-transform, so "PhD" keeps its case). */
+.page__content .people-group__title {
+  margin: 3rem 0 1.25rem;
+  padding: 0;
+  border: 0;
+  color: var(--people-navy);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.25;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.page__content .people-group:first-child .people-group__title {
+  margin-top: 2.5rem;
+}
+
+/* Each group is its own row with a section heading like those on the
+   other pages: the theme's h2 size (1.563em), left-aligned. Its boxes stay
+   centred below it. */
+.page__content .people-group .people-group__title {
+  font-size: 1.563em;
+  text-align: left;
+}
+
+/* The theme gives spans, links, images and headings "transition: all
+   0.2s". That also animates font sizes when the root size changes at a
+   breakpoint, and people.js would measure the role lines and links in the
+   middle of it. No element on this page needs the transition. */
+.people *,
+.person-popup * {
+  transition: none;
+}
+
+/* The theme adds a permalink icon to headings; skip it here */
+.people .header-link {
+  display: none;
+}
+
+/* ---------- Groups and person boxes ---------- */
+
+/* Groups with one or two members (other than the PI) share a row on wide
+   screens, so the page does not stack single boxes one under another. */
+.page__content .people-groups {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+}
+
+/* A group is a full-width row: title, then the list of boxes. */
+.page__content .people-group {
+  display: flex;
+  flex: 1 1 100%;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.page__content .people-grid {
+  display: flex;
+  flex: 1 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* One box width for all groups; a box shrinks on a narrow screen. */
+.page__content .people-grid__item {
+  display: flex;
+  flex: 0 1 14rem;
+  min-width: 0;
+  margin: 0;
+}
+
+.person-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 1.25rem;
+  border: 1px solid var(--people-border);
+  border-radius: 2px;
+  background: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.person-card,
+.person-card:visited,
+.person-card:hover {
+  color: inherit;
+}
+
+/* a.person-card: as specific as the underline rule above, and later.
+   Hover changes the border colour only. */
+.page__content .people a.person-card:hover,
+.page__content .people a.person-card:focus-visible {
+  border-color: var(--people-border-hover);
+  text-decoration: none;
+}
+
+.page__content .people .person-card:focus-visible {
+  outline: 2px solid var(--people-navy);
+  outline-offset: 2px;
+}
+
+/* The theme puts a shadow on images inside hovered links */
+.page__content .people .person-card:hover .person-card__photo {
+  box-shadow: none;
+}
+
+/* Same round photo as the PI's original site: 150 px, thin grey ring.
+   Open positions use the same photo frame. */
+.person-card__photo {
+  display: block;
+  width: 150px;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  padding: 5px;
+  border: 1px solid #bfbfbf;
+  border-radius: 50%;
+  background: #fff;
+  object-fit: cover;
+}
+
+/* The name is the heading of the box */
+.person-card__name {
+  margin-top: 0.85rem;
+  color: var(--people-navy);
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.3;
+  text-wrap: balance;
+}
+
+.person-card__role {
+  margin-top: 0.25rem;
+  color: var(--people-grey);
+  font-size: max(14px, 0.75rem);
+  line-height: 1.45;
+}
+
+/* Parts of the role line ("Joining August 2027 |", "Open position"). A long
+   line breaks between parts, and the bar stays with the part before it. */
+.person-role__part {
+  display: inline-block;
+  max-width: 100%;
+  text-wrap: balance;
+}
+
+/* people.js marks a part that ends a line with "is-line-end". In a role
+   line, the next part then starts its own line and the bar is hidden, so
+   no line ends with a bar. */
+.person-role__part.is-line-end {
+  display: block;
+}
+
+.person-role__part.is-line-end .person-role__bar {
+  display: none;
+}
+
+/* In a box, "Open position" starts a new line, so all boxes of open
+   positions have the same two grey lines. The overlay keeps one line,
+   "Joining August 2027 | Open position". */
+.person-card__role .person-role__part + .person-role__part {
+  display: block;
+}
+
+.person-card__role .person-role__bar {
+  display: none;
+}
+
+/* No focus ring after a mouse click or tap; keyboard focus keeps it. */
+.person-card:focus:not(:focus-visible),
+.person-link:focus:not(:focus-visible),
+.mfp-close-btn-in .person-popup .mfp-close:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* ---------- Overlay panel ----------
+   Magnific Popup moves the panel into .mfp-wrap at the end of <body>, so
+   the theme's .page__content rules do not reach it. */
+
+/* Desktop: photo left; name, role and bio right; links in one line below
+   both, after a thin rule. */
+.person-popup {
+  position: relative;
+  display: grid;
+  grid-template-columns: 120px minmax(0, 1fr);
+  align-items: start;
+  column-gap: 1.75rem;
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 2.25rem 2.25rem 1.75rem;
+  border-radius: 2px;
+  background: #fff;
+  color: #222831;
+  font-size: max(15px, 0.8rem);
+  line-height: 1.55;
+  text-align: left;
+}
+
+.person-popup__photo {
+  grid-column: 1;
+  grid-row: 1;
+  display: block;
+  width: 120px;
+  height: 120px;
+  padding: 4px;
+  border: 1px solid #bfbfbf;
+  border-radius: 50%;
+  background: #fff;
+  object-fit: cover;
+}
+
+.person-popup__body {
+  grid-column: 2;
+  grid-row: 1;
+  min-width: 0;
+  padding-right: 1rem; /* room for the close button */
+}
+
+.person-popup__name {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: var(--people-navy);
+  font-size: 1.25em;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.person-popup__role {
+  margin: 0.25em 0 0;
+  color: var(--people-grey);
+  font-size: 0.9em;
+  line-height: 1.45;
+}
+
+.person-popup__bio {
+  margin-top: 0.9em;
+}
+
+.person-popup__bio p {
+  margin: 0 0 0.7em;
+}
+
+.person-popup__bio p:last-child {
+  margin-bottom: 0;
+}
+
+/* Links: one grey-separated line, "Email | CV | ORCID ...". The bar is
+   generated, so screen readers hear a list. Each item is an inline block,
+   so a line breaks between items and the bar stays with the item before. */
+.person-popup__links {
+  grid-column: 1 / -1;
+  min-width: 0;
+  margin: 1.25rem 0 0;
+  padding: 1rem 0 0;
+  border-top: 1px solid var(--people-border);
+  color: var(--people-grey);
+  font-size: 0.95em;
+  line-height: 1.9;
+  list-style: none;
+}
+
+.person-popup__links li {
+  display: inline-block;
+  margin: 0;
+}
+
+.person-popup__links li:not(:last-child)::after {
+  content: "\00a0|";
+  content: "\00a0|" / "";
+}
+
+/* The last link on a wrapped line (marked by people.js): hide its bar. The
+   bar keeps its width, so the links do not move. */
+.person-popup__links li.is-line-end::after {
+  visibility: hidden;
+}
+
+.person-link {
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.person-link:hover,
+.person-link:focus-visible,
+.person-popup__bio a:hover,
+.person-popup__bio a:focus-visible {
+  text-decoration: underline;
+  text-decoration-color: var(--people-red);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+.person-link i,
+.person-link svg {
+  width: 1.1em;
+  margin-right: 0.3em;
+  font-size: 0.95em;
+  text-align: center;
+}
+
+.person-link:focus-visible,
+.person-popup__bio a:focus-visible {
+  outline: 2px solid var(--people-navy);
+  outline-offset: 2px;
+}
+
+/* The close button is inside the white panel, and the theme default color is white. */
+.mfp-close-btn-in .person-popup .mfp-close {
+  color: #333;
+  opacity: 0.75;
+}
+
+.mfp-close-btn-in .person-popup .mfp-close:hover,
+.mfp-close-btn-in .person-popup .mfp-close:focus-visible {
+  opacity: 1;
+}
+
+.mfp-close-btn-in .person-popup .mfp-close:focus-visible {
+  outline: 2px solid var(--people-navy);
+  outline-offset: -6px;
+}
+
+/* Mobile: one column, photo on top; name, role and links centred, bio
+   left-aligned. */
+@media (max-width: 600px) {
+  .person-popup {
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: center;
+    row-gap: 1rem;
+    margin: 1rem auto;
+    padding: 2.5rem 1.25rem 1.5rem;
+    text-align: center;
+  }
+
+  .person-popup__photo,
+  .person-popup__body {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  .person-popup__body {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .person-popup__bio {
+    text-align: left;
+  }
+
+  .person-popup__links {
+    width: 100%;
+    margin-top: 0.25rem;
+  }
+}
+
+/* ---------- Fade for the overlay (mainClass "mfp-fade") ---------- */
+
+.mfp-fade.mfp-bg {
+  opacity: 0;
+  transition: opacity 0.2s ease-out;
+}
+
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.8;
+}
+
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+  transition: opacity 0.2s ease-out;
+}
+
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+}
+
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mfp-fade.mfp-bg,
+  .mfp-fade.mfp-wrap .mfp-content {
+    transition: none;
+  }
+}
+
+/* ---------- Alumni table (no photos) ---------- */
+
+/* Section heading like "Principal Investigator": theme h2 size, left-aligned. */
+.page__content .alumni__title {
+  margin: 3.5rem 0 1rem;
+  padding: 0;
+  border: 0;
+  color: var(--people-navy);
+  font-size: 1.563em;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+/* Filters: one centred line of plain checkboxes in grey. */
+.page__content .alumni-filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem 1.25rem;
+  margin: 0 0 1rem;
+  color: #6b7079;
+  font-size: 0.85em;
+}
+
+/* Filtering without JavaScript: an unticked box hides the rows of its group. */
+.page__content .alumni:has(.alumni-filter input[value="postdoc"]:not(:checked)) tr[data-group="postdoc"],
+.page__content .alumni:has(.alumni-filter input[value="visiting"]:not(:checked)) tr[data-group="visiting"],
+.page__content .alumni:has(.alumni-filter input[value="graduate"]:not(:checked)) tr[data-group="graduate"],
+.page__content .alumni:has(.alumni-filter input[value="undergraduate"]:not(:checked)) tr[data-group="undergraduate"] {
+  display: none;
+}
+
+.page__content .alumni-filter__label {
+  color: #222831;
+  font-weight: 600;
+}
+
+.page__content .alumni-filter label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+}
+
+.page__content .alumni-filter input {
+  width: 1rem;
+  height: 1rem;
+  margin: 0;
+  accent-color: var(--people-navy);
+}
+
+.page__content .table-container {
+  overflow-x: auto;
+  width: 100%;
+}
+
+/* The theme makes tables display: block and full width; this table is a
+   real table, centred, as wide as its content (at least 640px or the
+   column width), with centred cells. */
+.page__content .people-table.alumni-table {
+  display: table;
+  width: auto;
+  min-width: min(100%, 640px);
+  margin: 0 auto 1rem;
+  border-collapse: collapse;
+  font-size: 0.85em;
+}
+
+.page__content .alumni-table thead {
+  background: none;
+  border-bottom: 1px solid #b9bec7;
+}
+
+.page__content .alumni-table th,
+.page__content .alumni-table td {
+  padding: 0.6rem 1rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.page__content .alumni-table th {
+  color: var(--people-navy);
+  font-weight: 600;
+}
+
+.page__content .alumni-table td {
+  border-bottom: 1px solid #dadde3;
+}
+
+/* Phones: the table fills the column and long cells wrap, so all 4
+   columns fit without scrolling sideways. */
+@media (max-width: 600px) {
+  .page__content .people-table.alumni-table {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .page__content .alumni-table th,
+  .page__content .alumni-table td {
+    padding: 0.5rem 0.35rem;
+    white-space: normal;
+  }
+}
+
+.page__content .people-table.alumni-table[hidden] {
+  display: none;
+}
+
+.page__content .alumni-table tr[hidden] {
+  display: none;
+}
+
+.page__content .alumni-empty {
+  margin: 0.5rem 0 2rem;
+  color: #6b7079;
+  font-size: 0.85em;
+  text-align: center;
+}
+
+.page__content .alumni-empty[hidden] {
+  display: none;
+}
+
+/* Hero photo: a strip of sky above the far canyon rim.
+   Two layers: overlay gradient, then the photo. */
+.page__hero--overlay {
+  background-position: center, center 44%;
+}
+
+/* Academic genealogy (_includes/genealogy.html). The chart is an SVG made by
+   tools/genealogy/render.py, with its box and text styles inside it. It keeps
+   its own size up to the column width. Below 700px it stays 700px wide and the
+   figure scrolls sideways, so the names stay readable on phones. */
+.page__content .genealogy__title {
+  margin: 1.5rem 0 1rem;
+  padding: 0;
+  border: 0;
+  color: var(--people-navy);
+  font-size: 1.563em;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.page__content .genealogy__intro {
+  line-height: 1.6;
+}
+
+.genealogy__chart {
+  margin: 1.5rem 0;
+  overflow-x: auto;
+}
+
+.genealogy__chart svg {
+  display: block;
+  min-width: 700px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Shown only when the chart is wider than the screen. */
+.page__content .genealogy__hint {
+  display: none;
+  color: var(--people-grey);
+  font-size: max(14px, 0.8rem);
+}
+
+@media (max-width: 760px) {
+  .page__content .genealogy__hint {
+    display: block;
+  }
+}

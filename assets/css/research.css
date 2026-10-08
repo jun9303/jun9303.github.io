@@ -1,0 +1,327 @@
+/* Research page: centered intro, one line of area links, and one section
+   per research area: a boxed figure across the column, then the paragraph
+   with a "Selected work" column on the right, as in the first draft.
+   Linked from _pages/research.md. Figures open in Magnific Popup through
+   the "image-popup" class (assets/js/_main.js).
+   Tokens (round 3): navy #181c62 for headings, grey #6b7079 for secondary
+   lines, rule #dadde3 for borders, NTU red #d71440 only for the link hover
+   underline. Boxes are white with a 1px border and a 2px radius, with no
+   shadow. Sizes follow the 1.25 scale on the theme's root size (rem). */
+
+.research {
+  --research-navy: #181c62;
+  --research-grey: #6b7079;
+  --research-rule: #dadde3;
+  --research-rule-hover: #b9bec7;
+  --research-red: #d71440;
+  padding-bottom: 2rem;
+}
+
+/* More specific than the theme's .page__content a:not(.btn):hover, which
+   resets the underline colour */
+.page__content .research a:not(.btn):hover,
+.page__content .research a:not(.btn):focus-visible {
+  text-decoration: underline;
+  text-decoration-color: var(--research-red);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+/* The theme adds a permalink icon to headings; skip it here */
+.research .header-link {
+  display: none;
+}
+
+/* Grey lines of short items with " | " between them (area index, keywords,
+   selected work). The bar is generated, so screen readers hear a list. Each
+   item is an inline block, so a line breaks between items and the bar stays
+   with the item before it; an item wider than the line still wraps inside
+   itself. */
+.page__content .research-index__list,
+.page__content .research-keywords,
+.page__content .research-selected__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page__content .research-index__list li,
+.page__content .research-keywords li,
+.page__content .research-selected__list li {
+  display: inline-block;
+  max-width: 100%;
+  margin: 0;
+  font-size: inherit;
+}
+
+.research-index__list li:not(:last-child)::after,
+.research-keywords li:not(:last-child)::after,
+.research-selected__list li:not(:last-child)::after {
+  content: "\00a0|";
+  content: "\00a0|" / "";
+  color: var(--research-grey);
+}
+
+/* ---------- Intro and area index ---------- */
+
+/* 33em is about 70 characters of Figtree per line, as on the News page
+   (62ch would be about 85, because ch is the width of "0", which is wide
+   in Figtree). */
+.page__content .research-intro {
+  max-width: 33em;
+  margin: 0.5rem auto 0;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* A rule above and below the index spans the column, as in the first
+   draft. */
+.research-index {
+  margin: 1.6rem 0 0;
+  padding: 0.85rem 0 0.95rem;
+  border-top: 1px solid var(--research-rule);
+  border-bottom: 1px solid var(--research-rule);
+  color: var(--research-grey);
+  font-size: max(14px, 0.8rem);
+  line-height: 1.6;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.research-index a,
+.research-index a:visited {
+  color: var(--research-grey);
+  text-decoration: none;
+}
+
+/* Phones: one area per line, so no bars are needed. Long centred lines are
+   hard to read on a narrow screen, so the intro and the index are left
+   aligned here; both blocks still fill the column. */
+@media (max-width: 599px) {
+  .page__content .research-intro,
+  .research-index {
+    text-align: left;
+  }
+
+  .page__content .research-index__list li {
+    display: block;
+    margin: 0 0 0.3rem;
+  }
+
+  .page__content .research-index__list li:last-child {
+    margin-bottom: 0;
+  }
+
+  .research-index__list li:not(:last-child)::after {
+    content: none;
+  }
+}
+
+/* ---------- Area sections ---------- */
+
+/* A 1px rule separates the areas, as in the first draft. */
+.research-area {
+  padding: 2.5rem 0 2.75rem;
+  border-bottom: 1px solid var(--research-rule);
+  scroll-margin-top: 1rem;
+}
+
+.research-area:last-of-type {
+  border-bottom: 0;
+}
+
+.research-area__head {
+  margin-bottom: 1.3rem;
+}
+
+.page__content .research-area__title {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: var(--research-navy);
+  font-size: 1.563rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+/* A keyword line that wraps is balanced, so its lines have about the same
+   length. */
+.page__content .research-keywords {
+  margin-top: 0.3rem;
+  color: var(--research-grey);
+  font-size: max(14px, 0.8rem);
+  line-height: 1.5;
+  text-wrap: balance;
+}
+
+/* Figure first in the markup, so it shows right after the heading. The
+   figure spans the column above the text at every width, as in the first
+   draft, so axis labels stay readable. */
+.research-area__body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+/* The theme makes every figure a flex row; a block keeps the box and the
+   image as wide as the column. */
+.page__content .research-figure {
+  display: block;
+  margin: 0;
+}
+
+/* The figure box: white, 1px border, 2px radius, no shadow. A small white
+   margin inside keeps plots that run to the image edge off the border.
+   Hover and focus only darken the border. */
+.research-figure > a {
+  display: block;
+  padding: 0.6rem;
+  border: 1px solid var(--research-rule);
+  border-radius: 2px;
+  background: #fff;
+  cursor: zoom-in;
+}
+
+.research-figure > a:hover,
+.research-figure > a:focus-visible {
+  border-color: var(--research-rule-hover);
+}
+
+.research-figure > a:focus-visible {
+  outline: 2px solid var(--research-navy);
+  outline-offset: 3px;
+}
+
+.page__content .research-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 0;
+}
+
+.page__content .research-figure figcaption {
+  margin: 0.6rem 0 0;
+  color: var(--research-grey);
+  font-family: inherit;
+  font-size: max(14px, 0.8rem);
+  line-height: 1.45;
+}
+
+.research-figure__caption,
+.research-figure__cite {
+  display: block;
+}
+
+.research-figure__cite {
+  margin-top: 0.25rem;
+  font-size: max(13px, 0.75rem);
+  font-style: italic;
+}
+
+.research-area__text {
+  min-width: 0;
+}
+
+.page__content .research-area__text p {
+  margin: 0;
+  line-height: 1.65;
+}
+
+.page__content .research-selected {
+  margin: 1.1rem 0 0;
+  font-size: max(14px, 0.8rem);
+  line-height: 1.6;
+}
+
+.research-selected__lead {
+  color: var(--research-grey);
+}
+
+.page__content .research-selected__list {
+  display: inline;
+}
+
+.research-selected__list a {
+  text-decoration: none;
+}
+
+/* 600 to 899px: one column. Heading, keywords, figure and text share one
+   centred column as wide as the intro (33em, about 70 characters a line),
+   so the figure box is as wide as the text and the space on the left and
+   right is equal. The rules between areas still span the page column. */
+@media (min-width: 600px) and (max-width: 899px) {
+  .research-area__head,
+  .research-area__body {
+    max-width: 33em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* From 900px, as in the first draft: the paragraph and the "Selected
+   work" list form two columns below the figure. The two columns fill the
+   page column, so the outer margins are equal. The selected work items go
+   one per line in the narrow column, so no bars are needed there. */
+@media (min-width: 900px) {
+  .research-area__body {
+    gap: 1.75rem;
+  }
+
+  .research-area__text {
+    display: grid;
+    grid-template-columns: minmax(0, 34rem) minmax(11rem, 1fr);
+    column-gap: 3rem;
+    align-items: start;
+  }
+
+  .page__content .research-selected {
+    margin: 0;
+    padding-top: 0.3rem;
+  }
+
+  .research-selected__lead {
+    display: block;
+    margin-bottom: 0.3rem;
+  }
+
+  .page__content .research-selected__list {
+    display: block;
+  }
+
+  .page__content .research-selected__list li {
+    display: block;
+    margin: 0 0 0.3rem;
+  }
+
+  .research-selected__list li:not(:last-child)::after {
+    content: none;
+  }
+
+  /* Figures taller than about 4:5 would fill the screen at full width.
+     Their box has a maximum width, and the caption is placed on the
+     right, at the bottom of the box. The tall figures use the same
+     columns as the text below, so the caption lines up with the
+     "Selected work" list. The square figure has a smaller box. The caps
+     keep all five images between about 540 and 620px high at 1280px. */
+  .page__content .research-figure--tall {
+    display: grid;
+    grid-template-columns: minmax(0, 34rem) minmax(11rem, 1fr);
+    column-gap: 3rem;
+    align-items: end;
+  }
+
+  .page__content .research-figure--square {
+    grid-template-columns: minmax(0, 600px) minmax(11rem, 1fr);
+  }
+
+  .page__content .research-figure--tall figcaption {
+    margin: 0 0 0.25rem;
+  }
+}
+
+/* Hero photo: keep the Seoul skyline and the river in the band, with
+   clouds above the title. Two layers: overlay gradient, then the photo. */
+.page__hero--overlay {
+  background-position: center, center 64%;
+}

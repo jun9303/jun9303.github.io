@@ -1,0 +1,124 @@
+{%- comment -%}
+  People grid with overlay profiles.
+  Data: one file per person in _people/ (see _people/README.md); groups
+  and their order in _data/people_groups.yml (pi, postdoc, graduate,
+  undergraduate). The bio is the body of each person file.
+  Each person is a box with a round photo, a name and a grey role line.
+  Placeholders (placeholder: true) get "| Open position" at the end of the
+  role line. The overlay has the photo on the left, the name, role and bio
+  on the right, and the links in one line below both.
+  Each person links to #person-<slug>, where slug is the person file name
+  (sangjoon-lee.md gives person-sangjoon-lee). A repeated slug gets a numeric suffix (-2,
+  -3, ...). A member without an id or a name gets the slug "member".
+  Non-ASCII letters stay in the slug (person-josé-müller); people.js
+  decodes the percent-encoded URL hash. The hidden .person-popup block with
+  the same id contains the profile; assets/js/people.js opens it with Magnific
+  Popup. Styles: assets/css/people.css.
+  Photo URLs get "?v=<file modified time>", so a replaced photo file is not
+  served from an old browser cache.
+{%- endcomment -%}
+{%- assign people_link_keys = "email,cv,website,orcid,scholar,linkedin,github" | split: "," -%}
+{%- assign people_used_slugs = "|" -%}
+<div class="people-groups">
+{%- for people_group in site.data.people_groups -%}
+{%- assign group_key = people_group.key -%}
+{%- assign group_members = site.people | where: "group", group_key | sort: "order", "last" -%}
+{%- if group_members.size > 0 -%}
+{%- assign people_group_id = people_group.title | default: group_key | slugify %}
+<section class="people-group people-group--{{ group_key }}" aria-labelledby="{{ people_group_id }}">
+<h2 id="{{ people_group_id }}" class="people-group__title">{{ people_group.title | default: group_key | escape }}</h2>
+<ul class="people-grid">
+{%- for member in group_members -%}
+{%- assign person_slug = member.slug | default: member.name | default: "member" | slugify -%}
+{%- if person_slug == "" -%}{%- assign person_slug = "member" -%}{%- endif -%}
+{%- assign people_probe = "|" | append: person_slug | append: "|" -%}
+{%- if people_used_slugs contains people_probe -%}
+{%- for n in (2..99) -%}
+{%- assign people_candidate = person_slug | append: "-" | append: n -%}
+{%- assign people_probe = "|" | append: people_candidate | append: "|" -%}
+{%- unless people_used_slugs contains people_probe -%}{%- assign person_slug = people_candidate -%}{%- break -%}{%- endunless -%}
+{%- endfor -%}
+{%- endif -%}
+{%- assign people_used_slugs = people_used_slugs | append: person_slug | append: "|" -%}
+{%- assign person_id = "person-" | append: person_slug -%}
+{%- assign person_image_path = member.image | default: "/assets/images/bio-photo-placeholder-200x200.png" -%}
+{%- assign person_image_file = site.static_files | where: "path", person_image_path | first -%}
+{%- assign person_image = person_image_path | relative_url -%}
+{%- if person_image_file -%}
+{%- assign person_image_version = person_image_file.modified_time | date: "%s" -%}
+{%- assign person_image = person_image | append: "?v=" | append: person_image_version -%}
+{%- endif -%}
+{%- assign person_name = member.name | default: "" | escape -%}
+{%- assign person_role = member.role | default: "" | escape -%}
+{%- comment -%} Role line, e.g. "Joining August 2027 | Open position". Each part
+  is an inline block, so a long line breaks at the bar. If it breaks,
+  people.js moves "Open position" to its own line and hides the bar. In
+  the box, people.css shows "Open position" on the next line.
+  {%- endcomment -%}
+{%- capture person_role_line -%}
+{%- if person_role != "" -%}
+<span class="person-role__part">{{ person_role }}{% if member.placeholder %}<span class="person-role__bar" aria-hidden="true">&nbsp;|</span>{% endif %}</span>
+{%- endif -%}
+{%- if member.placeholder -%}
+{%- if person_role != "" -%}{{ " " }}{%- endif -%}
+<span class="person-role__part">Open position</span>
+{%- endif -%}
+{%- endcapture -%}
+{%- capture person_links -%}
+{%- for key in people_link_keys -%}
+{%- assign people_url = member.links[key] | default: "" | strip -%}
+{%- if people_url != "" -%}
+{%- assign people_first_char = people_url | slice: 0 -%}
+{%- case key -%}
+{%- when "email" -%}
+{%- assign people_icon = "fa-solid fa-envelope" -%}{%- assign people_label = "Email" -%}
+{%- assign people_url_start = people_url | slice: 0, 7 -%}
+{%- if people_url_start != "mailto:" -%}{%- assign people_url = "mailto:" | append: people_url -%}{%- endif -%}
+{%- when "cv" -%}{%- assign people_icon = "fa-solid fa-file-lines" -%}{%- assign people_label = "CV" -%}
+{%- when "website" -%}{%- assign people_icon = "fa-solid fa-globe" -%}{%- assign people_label = member.website_label | default: "Website" -%}
+{%- when "orcid" -%}{%- assign people_icon = "fa-brands fa-orcid" -%}{%- assign people_label = "ORCID" -%}
+{%- when "scholar" -%}{%- assign people_icon = "fa-brands fa-google-scholar" -%}{%- assign people_label = "Google Scholar" -%}
+{%- when "linkedin" -%}{%- assign people_icon = "fa-brands fa-linkedin" -%}{%- assign people_label = "LinkedIn" -%}
+{%- when "github" -%}{%- assign people_icon = "fa-brands fa-github" -%}{%- assign people_label = "GitHub" -%}
+{%- endcase -%}
+{%- if people_first_char == "/" -%}{%- assign people_url = people_url | relative_url -%}{%- endif %}
+<li><a class="person-link person-link--{{ key }}" href="{{ people_url | escape }}"><i class="{{ people_icon }}" aria-hidden="true"></i>{{ people_label }}</a></li>
+{%- endif -%}
+{%- endfor -%}
+{%- endcapture -%}
+{%- assign person_links = person_links | strip %}
+<li class="people-grid__item">
+<a href="#{{ person_id }}" class="person-card{% if member.placeholder %} person-card--placeholder{% endif %}" aria-haspopup="dialog" aria-controls="{{ person_id }}">
+<img class="person-card__photo" src="{{ person_image }}" alt="" width="150" height="150" loading="lazy">
+<span class="person-card__name">{{ person_name }}</span>
+{%- if person_role_line != "" %}
+<span class="person-card__role">{{ person_role_line }}</span>
+{%- endif %}
+</a>
+<div id="{{ person_id }}" class="person-popup mfp-hide{% if member.placeholder %} person-popup--placeholder{% endif %}" role="dialog" aria-modal="true" aria-label="{{ person_name | default: person_role }}">
+<img class="person-popup__photo" src="{{ person_image }}" alt="{% unless member.placeholder %}Photo of {{ person_name }}{% endunless %}" width="120" height="120">
+<div class="person-popup__body">
+{%- if person_name != "" %}
+<h2 class="person-popup__name">{{ person_name }}</h2>
+{%- endif -%}
+{%- if person_role_line != "" %}
+<p class="person-popup__role">{{ person_role_line }}</p>
+{%- endif -%}
+{%- assign person_bio = member.content | strip -%}
+{%- if person_bio != "" %}
+<div class="person-popup__bio">{{ person_bio | markdownify | strip }}</div>
+{%- endif %}
+</div>
+{%- if person_links != "" %}
+<ul class="person-popup__links">
+{{ person_links }}
+</ul>
+{%- endif %}
+</div>
+</li>
+{%- endfor %}
+</ul>
+</section>
+{%- endif -%}
+{%- endfor %}
+</div>

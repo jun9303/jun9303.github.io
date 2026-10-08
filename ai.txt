@@ -1,0 +1,5 @@
+# ai.txt for https://pfaero.science (Spawning ai.txt format)
+# The text, images, and files on this site may not be used to train AI models
+# or be collected into AI datasets. See also /robots.txt and /.well-known/tdmrep.json.
+User-Agent: *
+Disallow: /
