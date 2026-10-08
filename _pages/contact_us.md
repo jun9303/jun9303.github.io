@@ -109,7 +109,11 @@ Strong mathematics, programming (Python, C++ or Fortran, CUDA), agentic AI exper
 
 **Formal application.** Apply to the [NTU MAE PhD programme](https://www.ntu.edu.sg/education/graduate-programme/mae-phd) through the official NTU admission website. Only applicants who submit a formal application there are considered in the School's admission process. Full-time NTU PhD admissions typically include the [NTU Research Scholarship](https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships/rss).
 
+<<<<<<< HEAD
 **Lab interest form.** It is encouraged to send this form if you want to show specific interest in joining this lab. Include your academic CV, academic record (GPA and key courses), research experience (~300 words), the research strengths that match our areas (~150 words), and brief research plan(s) (~150 words each). Every submission is reviewed and further contacts might take place if we want to know something more on you. The information is kept secure and will be deleted 12 months after you submit it, or sooner if you ask us to. Sending the form neither guarantees admission nor replaces the formal admission process.
+=======
+**Lab interest form.** It is encouraged to send this form if you want to show specific interest in joining this lab. Include (i) your academic CV, (ii) academic record (GPA and key courses), (iii) research experience (~300 words), (iv) the research strengths that match our areas (~150 words), and (v) brief research plan(s) (~150 words each). Every submission is reviewed and further contacts might take place if we want to know something more on you. The information is kept secure and will be deleted 12 months after you submit it, or sooner if you ask us to. Sending the form neither guarantees admission nor replaces the formal admission process.
+>>>>>>> 683137155237d1c39caefb1eed8732c301feb735
 
 <p class="contact-form-link"><a class="btn btn--primary" href="{{ site.application_form_url | escape }}">Lab interest form</a></p>
 
