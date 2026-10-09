@@ -50,7 +50,7 @@ header:
 
 <div class="contact-block contact-email">
   <h2 id="email">Lab Email</h2>
-  <p class="contact-line">contact at pfaero dot science</p>
+  <p class="contact-line">contact[at]pfaero[dot]science</p>
   <p class="contact-note">This address receives mail only. For questions about lab positions, see <a href="#join-us">Available Positions</a>. PhD applicants apply formally through the <a href="https://www.ntu.edu.sg/education/graduate-programme/mae-phd">NTU MAE PhD programme</a>.</p>
 </div>
 
