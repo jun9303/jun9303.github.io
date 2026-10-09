@@ -12,7 +12,7 @@ header:
 
 {% comment %}
   NTU Maps (MazeMap, NTU config "ntu-sg", main campus 2123). The pin is
-  MazeMap POI 1003278488, a point on level 1 of Block N3.2, from Dr. Lee's
+  MazeMap POI 1003278488, a point on level 1 of Block N3.2, from Prof. Lee's
   NTU Maps share link for #01-15, Block N3.2. map_link_url is that link,
   copied as given.
   map_embed_url uses the same POI and zoom, without the share link's
@@ -90,7 +90,7 @@ We have a couple of PhD position openings. The students who fill them will form 
 
 - Help develop the lab's first research topics and build its first codes.
 - Train across computational aerodynamics, high-performance computing, and machine learning.
-- Work closely with Dr. Lee in a founding group.
+- Work closely with Prof. Lee in a founding group.
 
 #### Who We Are Looking For
 
