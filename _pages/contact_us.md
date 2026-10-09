@@ -113,7 +113,7 @@ Strong mathematics, programming (Python, C++ or Fortran, CUDA), agentic AI exper
 
 <p class="contact-form-link"><a class="btn btn--primary" href="{{ site.application_form_url | escape }}">Lab interest form</a></p>
 
-**Please note.** Because of the number of messages, we may not be able to reply to emails or LinkedIn messages from prospective students who have not yet applied to the PhD programme. If you have applied, or have sent the lab interest form ahead of your formal application, we will review your materials carefully and get in touch if there seems to be a good fit.
+**Please note.** Because of the number of messages, Prof. Lee may not be able to reply to emails or LinkedIn messages from prospective students who have not yet applied to the PhD programme. If you have applied, or have sent the lab interest form ahead of your formal application, Prof. Lee will review your materials carefully and get in touch if there seems to be a good fit.
 {: .contact-disclaimer}
 
 ### Postdoctoral Positions

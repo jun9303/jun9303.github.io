@@ -12,7 +12,7 @@ links:
   linkedin: https://www.linkedin.com/in/sjoonl/
 placeholder: false
 ---
-Dr. Sangjoon Lee is an Assistant Professor of Mechanical and Aerospace Engineering at NTU Singapore.
+Sangjoon Lee is an Assistant Professor of Mechanical and Aerospace Engineering at NTU Singapore.
 His research couples high-fidelity CFD with data-driven models for fast aerophysics prediction and design.
 He applies high-performance computing and aerospace design optimization to systems from heat exchangers to aircraft.
 At Stanford, he was a Postdoctoral Fellow at the Center for Turbulence Research, and a Postdoctoral Scholar in the Aerospace Design Lab.
