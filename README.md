@@ -18,6 +18,7 @@ Source of the website of the Predictive Fluid and Aeroscience Lab (PFAL), School
 | Site settings, author, footer links | `_config.yml` |
 | Page styles | `assets/css/` (one file per page); theme styles in `_sass/` |
 | CV | `assets/pdfs/cv-sangjoon-lee.pdf` |
+| Site icons (favicon, app icons) | `tools/favicon/` (see its README) |
 
 News posts get short URLs such as `/news/7f5a6f0a6f/` from `_plugins/news_hash_permalink.rb`.
 
