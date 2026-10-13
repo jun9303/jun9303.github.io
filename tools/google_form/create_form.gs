@@ -6,7 +6,7 @@
  * The form is optional and is not a formal application.
  *
  * FORM_ITEMS below lists every item of the form, top to bottom. It matches the
- * live form as exported on 2026-10-08.
+ * live form as copied from the form editor on 2026-10-13.
  *   - createApplicationForm() builds a new form from it. Run it once at
  *     script.google.com; steps are in README.md.
  *   - updateLiveForm() applies it to the live form (FORM_ID) in place.
@@ -36,9 +36,9 @@ var RENAME_HANDLER = 'renameUploadedFiles';
 // The form title, description and confirmation message.
 var FORM_TITLE = 'Lab Interest Form: Predictive Fluid and Aeroscience Lab, NTU Singapore';
 var FORM_DESCRIPTION = 'Thank you for your interest in joining the Predictive Fluid and Aeroscience Lab (PFAL), School of Mechanical and Aerospace Engineering at Nanyang Technological University, Singapore.\n\n' +
-  'This lab interest form helps Dr. Sangjoon Lee learn more about your background and interests, and submissions are reviewed about every two weeks. It is not a formal application: to apply for a PhD, use the NTU MAE PhD programme on the official NTU admission website.\n\n' +
-  'Please have your CV (PDF), your transcripts, and a short research proposal ready before you start (1 proposal for MSc and undergraduate applicants, 2 for PhD applicants).\n\n' +
-  'Questions marked with an asterisk (*) are required. You can edit your answers after you submit.';
+  'This lab interest form helps Prof. Sangjoon Lee learn more about your background and interests, and submissions are reviewed about every two weeks. It is not a formal application: to apply for a PhD, use the NTU MAE PhD programme on the official NTU admission website.\n\n' +
+  'Please have your CV, academic records (transcripts), and brief research plans ready before you begin.\n\n' +
+  'Questions marked with an asterisk (*) are required. You may edit your answers after submission.';
 var FORM_CONFIRMATION = 'Thank you. Dr. Lee will review your submission. ' +
   'You can edit your answers with the link on this page. ' +
   'For questions or deletion requests, email the lab (contact [at] pfaero [dot] science).';
@@ -67,10 +67,6 @@ var FORM_ITEMS = [
     help: 'As in your passport, first name then last name (e.g., Sangjoon Lee).' },
   { type: 'text', title: 'Current institution and programme', required: true,
     help: 'e.g. university name, MS in Aerospace Engineering, year 2. NTU students: give your programme and year of study. If you are not enrolled, give your current role.' },
-  { type: 'choice', title: 'Are you a Singapore citizen or permanent resident (PR)?', required: false, other: true,
-    choices: ['Yes',
-      'No'],
-    help: 'Optional. This helps the lab prepare residence support in Singapore.' },
 
   // 2. Start date and application status
   { type: 'header', title: 'Start date and application status' },
@@ -94,14 +90,14 @@ var FORM_ITEMS = [
     help: 'Institution, major, and years, e.g. 2019 to 2023.\n\n' +
       'For a degree in progress, give the expected graduation year, e.g. 2023 to 2027 (expected).' },
   { type: 'text', title: 'Bachelor\'s GPA (current GPA if in progress)', required: true,
-    help: 'GPA / scale, e.g. 3.85 / 4.00. \n\n' +
+    help: 'GPA / scale, e.g. 4.85 / 5.00.\n\n' +
       'For a degree in progress, give your cumulative GPA so far. For other grading systems, give your mark and the scale.' },
   { type: 'text', title: 'Master\'s degree (completed or in progress)', required: false,
     help: 'Institution, major, and years. Leave blank if none.' },
   { type: 'text', title: 'Master\'s GPA (current GPA if in progress)', required: false,
-    help: 'GPA / scale, e.g. 3.85 / 4.00. Leave blank if none.' },
+    help: 'GPA / scale, e.g. 4.85 / 5.00. Leave blank if none.' },
   { type: 'paragraph', title: 'Key courses and grades', required: true, max: 1500, error: 'Please list up to 10 courses, one short line each.',
-    help: 'Up to 10 courses linked to our research areas, one per line, e.g. Computational Fluid Dynamics: A' },
+    help: 'Up to 10 university-level courses linked to our research areas, one per line, e.g. Introduction to Aerodynamics: A-' },
   { type: 'text', title: 'English test scores', required: false,
     help: 'Test, score, and date, e.g. IELTS 7.5, May 2026. Leave blank if not applicable.' },
 
@@ -116,8 +112,8 @@ var FORM_ITEMS = [
       'Thermal-Fluid Systems Across Scales'],
     help: 'Select all that apply.' },
   { type: 'paragraph', title: 'Past: Research experience', required: true, max: 2000, error: 'Please keep this to 2000 characters.',
-    help: 'Max. 2000 characters. List your 1\u20132 main projects as numbered items, most relevant first. \n\n' +
-      'Course projects, theses, internships, and industry work all count, published or not. For each project, give:\n' +
+    help: 'Max. 2000 characters; however, we value conciseness.\n\n' +
+      'List your 1\u20132 main projects as numbered items, most relevant first. Course projects, theses, internships, and industry work all count, published or not. For each project, give:\n' +
       'Topic\n' +
       'Your own contribution: what you did yourself. For team work, say which parts were yours.\n' +
       'Motivation: the question or problem\n' +
@@ -125,26 +121,28 @@ var FORM_ITEMS = [
       'Outcomes\n' +
       'Skills or lessons you gained' },
   { type: 'paragraph', title: 'Present: Research strengths', required: true, max: 1000, error: 'Please keep this to 1000 characters.',
-    help: 'Max. 1000 characters. List your main research strengths from the experience above.\n\n' +
-      'Describe how each strength fits the lab and explain what it would add to the lab\'s work.' },
-  { type: 'paragraph', title: 'Future: Brief proposal 1, building on the lab\'s work', required: true, max: 1000, error: 'Please keep this to 1000 characters.',
-    help: 'Max. 1000 characters. All must answer this.\n\n' +
+    help: 'Max. 1000 characters; however, we value conciseness.\n\n' +
+      'List your main research strengths from the experience above. Describe how each strength fits the lab and explain what it would add to the lab\'s work.' },
+  { type: 'paragraph', title: 'Future: Brief research plan 1, building on the lab\'s work', required: true, max: 1000, error: 'Please keep this to 1000 characters.',
+    help: 'Max. 1000 characters; however, we value conciseness.\n\n' +
       'Propose a research idea that builds on the lab\'s work. It can improve or extend an existing study, but it must go beyond simple replication. Name the reference, the open question, your approach, and the expected outcome.\n\n' +
       'Note for MSc and undergraduate applicants: Frame it as a prospective dissertation, URECA, or FYP plan.' },
-  { type: 'paragraph', title: 'Future: Brief proposal 2, own research agenda (PhD applicants)', required: false, max: 1000, error: 'Please keep this to 1000 characters.',
-    help: 'Max. 1000 characters. PhD applicants must answer this. MSc and undergraduate applicants, leave it blank.\n\n' +
-      'Under your plan to grow as an independent researcher, propose your own original research agenda, based on your strengths and your long-term vision. It should be closely related to the lab\'s research areas, but it should not be an incremental step from the lab\'s work. \n\n' +
+  { type: 'paragraph', title: 'Future: Brief research plan 2, own research agenda (PhD applicants)', required: false, max: 1000, error: 'Please keep this to 1000 characters.',
+    help: 'Max. 1000 characters; however, we value conciseness. \n\n' +
+      'PhD applicants must answer this. MSc and undergraduate applicants, leave it blank.\n\n' +
+      'Under your plan to grow as an independent researcher, propose your own original research agenda, based on your strengths and your long-term vision. It should be closely related to the lab\'s research areas, but it should not be an incremental step from the lab\'s work.\n\n' +
       'Describe the fundamental question, your approach, and how the lab\'s resources and past work would help you build your own research portfolio.' },
 
   // 5. CV, transcripts, and referees
   { type: 'header', title: 'CV, transcripts, and referees',
-    help: 'Upload your CV (academic) and transcripts. Unofficial transcripts or screenshots are fine, as long as they show what you entered in the academic record. Referees are optional: 1 or 2 people who know your research or studies.' },
+    help: 'Upload your CV and transcripts. Unofficial transcripts or screenshots are fine, as long as they show what you entered in the academic record. Referees are optional: 1 or 2 people who know your research or studies.\n\n' +
+      'Ensure all sensitive personal information (e.g., NRIC numbers, residential street addresses) is redacted from your files prior to upload.' },
   { type: 'upload', title: 'CV (PDF)' },
   { type: 'upload', title: 'Transcripts (PDF/image)' },
   { type: 'paragraph', title: 'Referee(s)', required: false,
-    help: 'By default, you may submit the form without referees. \n\n' +
-      'If you have secured consent to share referee details, you may provide them in the following format:   \n' +
-      '(1) Dr. Jane Tan, Associate Professor, Example University, jane.tan@example.edu,\n' +
+    help: 'By default, you may submit the form without referees.\n\n' +
+      'If you have already secured consent to share referee details, provide them in the following format:   \n' +
+      '(1) Prof. Jane Tan, Associate Professor, Example University, jane.tan@example.edu,\n' +
       '(2) Dr. John Doe, Senior Researcher, Aerospace Institution, j.doe@aerospace.org, ...' },
 
   // 6. Privacy and data retention
@@ -152,7 +150,7 @@ var FORM_ITEMS = [
     help: 'This form is used only to review your interest in joining the lab, and your answers and files stay within the lab. They are deleted automatically 12 months after you submit the form. To have them deleted sooner, email the lab (contact [at] pfaero [dot] science), and we will delete them within 14 days of your request. Deleting them does not affect your formal NTU application.' },
   { type: 'checkbox', title: 'Declaration', required: true, exactly: 2, error: 'Please tick both boxes.',
     choices: ['I confirm that the information in this form is accurate and complete.',
-      'I consent to Dr. Lee collecting and using this information to review my interest in joining the lab.'],
+      'I consent to the lab collecting and reviewing this information.'],
     help: 'Tick both boxes to submit.' }
 ];
 
