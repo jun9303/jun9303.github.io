@@ -74,7 +74,7 @@ header:
         </figcaption>
       </figure>
       <div class="research-area__text">
-        <p>Good aerodynamic designs are hard to find. Airfoils, surface textures, and porous structures can vary in countless ways, and each candidate needs a costly flow simulation. Our Design-by-Morphing (DbM) method makes new designs by blending a few existing ones, so a short list of weights can describe a wide range of geometries. Bayesian optimization then picks the most promising design to simulate next. The weights also work as simple knobs for machine learning: a reinforcement-learning agent that turns them matched target airfoils faster than agents using other common parameterizations. We apply this loop to airfoils, drag-reducing riblets and dimples, porous lattices, and morphing airfoils for flutter control. Each study looks for the best design it can find within a fixed number of simulations.</p>
+        <p>Good aerodynamic designs are hard to find. Airfoils, surface textures, and porous structures can vary in countless ways, and each candidate needs a costly flow simulation. Our Design-by-Morphing (DbM) method makes new designs by blending a few existing ones, so a short list of weights can describe a wide range of geometries. Bayesian optimization then picks the most promising design to simulate next. The weights also work as simple knobs for machine learning: a reinforcement-learning agent that turns them matched target airfoils faster than agents using other common parameterizations. We apply this loop to airfoils, drag-reducing riblets and dimples, and porous lattices, and we are now extending it to morphing airfoils for flutter control. Each study looks for the best design it can find within a fixed number of simulations.</p>
         <div class="research-selected">
           <span class="research-selected__lead">Selected work:</span>
           <ul class="research-selected__list">
@@ -174,7 +174,7 @@ header:
         </figcaption>
       </figure>
       <div class="research-area__text">
-        <p>From turbine blades to fuel cells and buildings, removing heat takes pumping or fan power. Heat transfer at a surface depends on the thin layer of flow next to it, and ribs, rough 3D-printed walls, and ceiling fans all change that layer. We measure these flows with magnetic resonance and particle image velocimetry, resolve them with large eddy simulation, and feed the results into system and building energy models. The aim is cooling that removes more heat for the same power. Our current focus is the cooling passages of fuel cells for hydrogen-powered aircraft.</p>
+        <p>From turbine blades to fuel cells and buildings, removing heat takes pumping or fan power. Heat transfer at a surface depends on the thin layer of flow next to it, and ribs, rough 3D-printed walls, and ceiling fans all change that layer. We combine flow measurements from magnetic resonance and particle image velocimetry with large eddy simulation, and feed the results into system and building energy models. The aim is cooling that removes more heat for the same power. Our current focus is the cooling passages of fuel cells for hydrogen-powered aircraft.</p>
         <div class="research-selected">
           <span class="research-selected__lead">Selected work:</span>
           <ul class="research-selected__list">
