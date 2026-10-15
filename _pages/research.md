@@ -41,7 +41,7 @@ header:
         </figcaption>
       </figure>
       <div class="research-area__text">
-        <p>A high-fidelity flow simulation of one wing or engine part can run for days, so a design team can test only a few ideas. We want reliable flow predictions in minutes. To get there, we build AI agents that set up, run, and check simulations while a researcher oversees the work. Their results become clean, well-organized datasets that train fast predictive models. We also publish open benchmarks, so that agents and optimizers from any group can be compared on the same design task. Faster prediction lets engineers try many more designs for the same computing cost and catch poor ones early in the design process.</p>
+        <p>A high-fidelity flow simulation of even one wing or engine part can run for days, so a design team can test only a few ideas. We want reliable flow predictions in minutes. To get there, we build AI agents that set up, run, and check simulations while a researcher oversees the work. Their results become clean, well-organized datasets that train fast predictive models. We also publish open benchmarks, so that agents and optimizers from any group can be compared on the same design task. Faster prediction lets engineers try many more designs for the same computing cost and catch poor ones early in the design process.</p>
         <div class="research-selected">
           <span class="research-selected__lead">Selected work:</span>
           <ul class="research-selected__list">
@@ -108,7 +108,7 @@ header:
         </figcaption>
       </figure>
       <div class="research-area__text">
-        <p>Every aircraft trails two strong swirling vortices. They can roll a smaller aircraft that flies into them, so airports keep a safe distance between flights, and this limits runway capacity. The same vortices help form contrails. Linear theory predicts that many such vortices are stable, yet real wakes break up, and we study why. With spectral methods, perturbation theory, and simulations with ice-like particles, we look for small disturbances that grow fast. They range from waves that gather in thin layers within the swirling flow to the Crow instability, which bends the two vortices toward each other until they link into rings (figure, right). Knowledge of which disturbances end a wake vortex soonest can inform safe aircraft spacing and contrail prediction.</p>
+        <p>Every aircraft trails strong swirling vortices. They can roll a smaller aircraft that flies into them, so airports keep a safe distance between flights, and this limits runway capacity. The same vortices help form contrails. Linear theory predicts that many such vortices are stable, yet real wakes break up, and we study why. With spectral methods, perturbation theory, and simulations with ice-like particles, we look for small disturbances that grow fast. They range from waves that gather in thin layers within the swirling flow to the Crow instability, which bends two counter-rotating vortices toward each other until they link into rings (figure, right). Knowledge of which disturbances end a wake vortex soonest can inform safe aircraft spacing and contrail prediction, and we expect the same approach to extend to atmospheric-scale vortices such as typhoons.</p>
         <div class="research-selected">
           <span class="research-selected__lead">Selected work:</span>
           <ul class="research-selected__list">
@@ -140,7 +140,7 @@ header:
         </figcaption>
       </figure>
       <div class="research-area__text">
-        <p>Fast models and design loops are only as good as the simulations they learn from. Turbulence over riblets and rough walls, heat flowing between a fluid and a solid, and vortices that spread into open space are all hard to compute accurately at a reasonable cost. We write our own solvers for them. Our large eddy simulation code places complex and heated shapes on a simple grid through immersed boundaries. Spectral solvers handle vortices in unbounded domains, and stability tools handle flows that change in more than one direction. The codes run on CPU and GPU clusters, and we release key ones, such as MLegS, as open source, so other groups can build on the same data and tools.</p>
+        <p>Fast models and design loops are only as good as the simulations they learn from. Turbulence over riblets and rough walls, heat flowing between a fluid and a solid, and vortices that spread into open space are all hard to compute accurately at a reasonable cost. We write new solvers or improve existing ones for them, and we maintain our own in-house codes. Our large eddy simulation (LES) code places complex and heated shapes on a simple grid through immersed boundaries. Spectral method solvers handle vortices in unbounded domains, and stability tools handle flows that change in more than one direction. The codes run on CPU and GPU clusters, and we release key ones, such as MLegS, as open source, so other groups can build on the same data and tools.</p>
         <div class="research-selected">
           <span class="research-selected__lead">Selected work:</span>
           <ul class="research-selected__list">
@@ -174,7 +174,7 @@ header:
         </figcaption>
       </figure>
       <div class="research-area__text">
-        <p>From turbine blades to fuel cells and buildings, removing heat takes pumping or fan power. Heat transfer at a surface depends on the thin layer of flow next to it, and ribs, rough 3D-printed walls, and ceiling fans all change that layer. We combine flow measurements from magnetic resonance and particle image velocimetry with large eddy simulation, and feed the results into system and building energy models. The aim is cooling that removes more heat for the same power. Our current focus is the cooling passages of fuel cells for hydrogen-powered aircraft.</p>
+        <p>From gas turbine blades to fuel cells and indoor environments, removing heat takes pumping or fan power. Heat transfer at a surface depends on the thin layer of flow next to it, and ribs, rough 3D-printed walls, and ceiling fans all change that layer. We combine flow measurements from magnetic resonance and particle image velocimetry with large eddy simulation, and feed the results into system and building energy models. The aim is cooling that removes more heat for the same power. Our current focus is the cooling passages of fuel cells for hydrogen-powered aircraft.</p>
         <div class="research-selected">
           <span class="research-selected__lead">Selected work:</span>
           <ul class="research-selected__list">
