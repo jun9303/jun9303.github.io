@@ -163,6 +163,7 @@ header:
         <li>radiant cooling and HVAC</li>
         <li>dropwise condensation</li>
         <li>hydrogen aviation</li>
+        <li>orbital data centres</li>
       </ul>
     </header>
     <div class="research-area__body">
@@ -174,7 +175,7 @@ header:
         </figcaption>
       </figure>
       <div class="research-area__text">
-        <p>From gas turbine blades to fuel cells and indoor environments, removing heat takes pumping or fan power. Heat transfer at a surface depends on the thin layer of flow next to it, and ribs, rough 3D-printed walls, and ceiling fans all change that layer. We combine flow measurements from magnetic resonance and particle image velocimetry with large eddy simulation, and feed the results into system and building energy models. The aim is cooling that removes more heat for the same power. Our current focus is the cooling passages of fuel cells for hydrogen-powered aircraft.</p>
+        <p>From gas turbine blades to fuel cells and indoor environments, removing heat takes pumping or fan power. Heat transfer at a surface depends on the thin layer of flow next to it, and ribs, rough 3D-printed walls, and ceiling fans all change that layer. We combine flow measurements from magnetic resonance and particle image velocimetry with large eddy simulation, and feed the results into system and building energy models. The aim is cooling that removes more heat for the same power. Our current focus is the cooling passages of fuel cells for hydrogen-powered aircraft and the cooling of orbital data centres, where heat can leave only by radiation.</p>
         <div class="research-selected">
           <span class="research-selected__lead">Selected work:</span>
           <ul class="research-selected__list">
