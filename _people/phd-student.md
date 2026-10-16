@@ -1,5 +1,5 @@
 ---
-name: "Prospective PhD Student"
+name: "Prospective PhD STUDENT"
 group: graduate
 order: 1
 role: "Joining August 2027"

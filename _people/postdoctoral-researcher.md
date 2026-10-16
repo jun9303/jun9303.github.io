@@ -1,5 +1,5 @@
 ---
-name: "Postdoctoral Researcher"
+name: "Postdoctoral RESEARCHER"
 group: postdoc
 order: 1
 role: "Via fellowships"

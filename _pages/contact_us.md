@@ -33,7 +33,7 @@ header:
 <div class="contact-block contact-pi">
   <h2 id="principal-investigator">Principal Investigator</h2>
   <img class="contact-pi__photo" src="{{ '/assets/images/bio-photo-slee-200x200.png' | relative_url }}" alt="Photo of Sangjoon Lee" width="150" height="150">
-  <p class="contact-pi__name">Sangjoon "Joon" Lee, Ph.D.</p>
+  <p class="contact-pi__name">Sangjoon LEE</p>
   <p class="contact-pi__role">Assistant Professor of Mechanical and Aerospace Engineering<br>Nanyang Technological University</p>
 </div>
 
