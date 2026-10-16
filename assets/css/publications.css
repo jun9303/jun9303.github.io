@@ -16,21 +16,13 @@
 /* A centred reading column with equal space left and right: about 70
    characters a line, 80 at most. In rem, so the filter (smaller text) and
    the lists share the same width. */
+.page__content .pub-notice,
 .page__content .pub-filter,
 .page__content .pub-empty,
 .page__content .pub-section {
   max-width: 35rem;
   margin-left: auto;
   margin-right: auto;
-}
-
-/* Note above the filter: centred, like the notice on the People page. */
-.page__content .pub-notice {
-  max-width: 35rem;
-  margin: 0.5rem auto 0;
-  line-height: 1.6;
-  text-align: center;
-  text-wrap: balance;
 }
 
 /* Links: underline in NTU red on hover and focus, as on the other pages.
