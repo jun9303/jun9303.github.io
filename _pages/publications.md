@@ -8,7 +8,9 @@ header:
   caption: "*Crystal Cove State Beach, CA, United States, 2022*"
 ---
 
-<link rel="stylesheet" href="/assets/css/publications.css">
+<link rel="stylesheet" href="/assets/css/publications.css?v={{ site.time | date: '%s' }}">
+
+<p class="pub-notice">This page lists the published works of Prof. Lee and the Predictive Fluid and Aeroscience Lab group.</p>
 
 <div class="pub-filter" id="pub-filter" hidden>
   <div class="pub-filter__row">

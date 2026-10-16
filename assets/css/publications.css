@@ -24,6 +24,15 @@
   margin-right: auto;
 }
 
+/* Note above the filter: centred, like the notice on the People page. */
+.page__content .pub-notice {
+  max-width: 35rem;
+  margin: 0.5rem auto 0;
+  line-height: 1.6;
+  text-align: center;
+  text-wrap: balance;
+}
+
 /* Links: underline in NTU red on hover and focus, as on the other pages.
    More specific than the theme's .page__content a:not(.btn):hover. */
 .page__content .pub-section a:not(.btn):hover,
