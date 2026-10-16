@@ -98,9 +98,9 @@ We welcome students with a specialty or passion in any of these areas:
 
 - Computational aerodynamics and turbulence
 - High-performance computing and GPU programming
-- Machine learning and agentic AI for scientific predictions
+- Machine intelligence and AI for aeroscience
 - Aerospace design optimization (airfoil, H<sub>2</sub> aviation, eVTOL)
-- Thermal-fluid systems (thermal management, HVAC, propulsion)
+- Thermal-fluid systems across scales (thermal management, HVAC, hybrid propulsion systems)
 
 Strong mathematics, programming (Python, C++ or Fortran, CUDA), agentic AI experience in aeroscience, and curiosity about fluid physics will help, but you do not need all of them.
 
