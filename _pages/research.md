@@ -114,7 +114,7 @@ header:
           <ul class="research-selected__list">
             <li><a href="https://doi.org/10.1017/jfm.2023.455">Lee &amp; Marcus, JFM 2023</a></li>
             <li><a href="https://doi.org/10.1017/jfm.2025.253">Lee &amp; Marcus, JFM 2025</a></li>
-            <li><a href="https://arxiv.org/abs/2402.05287">Wang, Lee &amp; Marcus, arXiv 2024 (JFM, accepted)</a></li>
+            <li><a href="https://arxiv.org/abs/2402.05287">Wang, Lee &amp; Marcus, arXiv 2026 (JFM, accepted)</a></li>
           </ul>
         </div>
       </div>
