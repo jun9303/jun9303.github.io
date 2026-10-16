@@ -12,6 +12,10 @@
  * markLineEnds() keeps a wrapped grey line ("Joining August 2027 | Open
  * position", "Email | CV | ORCID") from ending a line with a bar.
  *
+ * When a member moves to the alumni table, their #person-<slug> id moves to
+ * their row there (see _includes/alumni-table.html). The alumni script at the
+ * end of this file shows and scrolls to that row.
+ *
  * The open positions moved from this page to Contact Us. Old links to
  * /people/#join-us or /people/#available-positions go to the new place
  * (the "data-moved-to" attribute of the script tag in _pages/people.md).
@@ -280,6 +284,9 @@
 // Alumni table filters. Each row has data-group; the checkboxes choose which
 // groups show. Undergraduates start unchecked (set in alumni-table.html).
 // people.css also does the filtering with :has(), so it works without this script.
+// Each row also has the id person-<slug> of a former member. A link to it
+// (/people/#person-<slug>) ticks the row's group if it is off, then the page
+// scrolls to the row; a hidden row has no position to scroll to.
 (function () {
   function initAlumniFilter() {
     var filter = document.querySelector(".alumni-filter");
@@ -307,6 +314,53 @@
 
     boxes.forEach(function (box) { box.addEventListener("change", apply); });
     apply();
+
+    function rowFor(hash) {
+      var id;
+      if (!hash || hash.charAt(0) !== "#") return null;
+      try {
+        id = decodeURIComponent(hash.slice(1));
+      } catch (e) {
+        id = hash.slice(1); // malformed escape such as "%E0"
+      }
+      if (id.indexOf("person-") !== 0) return null;
+      var el = document.getElementById(id);
+      return el && el.parentNode === table.tBodies[0] ? el : null;
+    }
+
+    function showRow(row) {
+      var group = row.getAttribute("data-group");
+      boxes.forEach(function (box) {
+        if (box.value === group && !box.checked) {
+          box.checked = true;
+          apply();
+        }
+      });
+    }
+
+    function goToHashRow() {
+      var row = rowFor(window.location.hash);
+      if (!row) return;
+      showRow(row);
+      row.scrollIntoView({ block: "center" });
+    }
+
+    goToHashRow();
+    window.addEventListener("hashchange", goToHashRow);
+    // Photos and fonts above the table can move it after the first scroll.
+    window.addEventListener("load", goToHashRow);
+
+    // A link to a row on this page: show the row before the browser or the
+    // theme's smooth scroll looks for it. Capture phase, so this runs first.
+    document.addEventListener(
+      "click",
+      function (event) {
+        var link = event.target.closest ? event.target.closest('a[href^="#"]') : null;
+        var row = link && rowFor(link.getAttribute("href"));
+        if (row) showRow(row);
+      },
+      true
+    );
   }
 
   if (document.readyState === "loading") {

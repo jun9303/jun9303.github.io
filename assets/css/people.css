@@ -554,6 +554,11 @@
   display: none;
 }
 
+/* The row a link to #person-<slug> points to (a former member). */
+.page__content .alumni-table tr:target td {
+  background: rgba(24, 28, 98, 0.07);
+}
+
 .page__content .alumni-empty {
   margin: 0.5rem 0 2rem;
   color: #6b7079;

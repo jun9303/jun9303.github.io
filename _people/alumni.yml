@@ -7,6 +7,10 @@
 #                Undergraduate (URECA), Undergraduate (FYP)
 #   affiliation  current position and institution
 #   period       time in the lab, e.g. 2025/08–2026/02
+#   slug         the person's old file name without .md, e.g. jane-tan for
+#                jane-tan.md. The row gets id person-jane-tan, so links to
+#                /people/#person-jane-tan (news posts, emails) go to this row.
+#                If it is missing, the name is used (Jane Tan gives jane-tan).
 # The four entries below are placeholders. Replace or delete them.
 # - name: "Alumni"
 #   group: postdoc
@@ -23,6 +27,7 @@
 #   role: "PhD programme"
 #   affiliation: "Institution Name"
 #   period: "2025/08–2026/02"
+#   slug: "alumni-name"
 # - name: "Alumni"
 #   group: undergraduate
 #   role: "Undergraduate"

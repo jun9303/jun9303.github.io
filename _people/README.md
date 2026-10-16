@@ -18,4 +18,11 @@ Front matter:
 The text below the front matter is the bio (markdown, a few sentences).
 
 Alumni are not person files: they are rows of the table in alumni.yml (in this
-folder), each with name, group, role, affiliation and period.
+folder), each with name, group, role, affiliation, period and slug.
+
+When a member moves to the alumni table (graduation, end of a contract):
+  1. Add a row to alumni.yml with slug set to the old file name without .md
+     (jane-tan.md gives slug: "jane-tan").
+  2. Delete the person file.
+The row then has the id person-jane-tan, so old links to
+/people/#person-jane-tan go to the alumni table at that row.
