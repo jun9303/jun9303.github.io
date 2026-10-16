@@ -1,5 +1,5 @@
 ---
-name: "MSc Dissertation STUDENT"
+name: "MSc Dissertation Student"
 group: graduate
 order: 2
 role: "Current NTU MSc"

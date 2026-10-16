@@ -1,5 +1,5 @@
 ---
-name: "Undergraduate RESEARCHER"
+name: "Undergraduate Researcher"
 group: undergraduate
 order: 1
 role: "URECA or FYP student"

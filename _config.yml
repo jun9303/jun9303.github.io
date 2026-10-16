@@ -276,6 +276,15 @@ collections:
 
 # Defaults
 defaults:
+  # _people: slug is empty unless a person file sets one, so the People page
+  # can tell a written slug from none and then use the name
+  # (_includes/person-id.html). Without this, Jekyll sets slug to the file
+  # name and the ids follow the file names.
+  - scope:
+      path: ""
+      type: people
+    values:
+      slug: ""
   # _posts
   - scope:
       path: ""

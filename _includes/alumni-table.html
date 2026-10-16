@@ -8,13 +8,12 @@
   done in CSS (people.css, :has), so it works without JavaScript; people.js
   only adds the "No alumni in the selected groups." message.
   Each row gets id="person-<slug>", the id of a profile overlay in
-  people-grid.html. The slug is the row's "slug" field (the old person file
-  name without .md) or, if that is missing, the name slugified. So when a
-  former member's person file is replaced by a row here, links to
+  people-grid.html. The slug is the row's "slug" field (copied from the
+  person's old link) or, if that is missing, the name with dashes. The
+  rule, with the -2, -3 numbering, is in person-id.html. So when a former
+  member's person file is replaced by a row here, links to
   /people/#person-<slug> (news posts, emails) still work: people.js ticks the
-  row's group if it is off and scrolls to the row. A slug that a current
-  member already uses gets a numeric suffix (-2, -3, ...), so no two
-  elements share an id.
+  row's group if it is off and scrolls to the row.
 {%- endcomment -%}
 {%- comment -%} Jekyll reads a .yml file in a collection as plain YAML, so the file is
   found by its "alumni" key (not by a slug). {%- endcomment -%}
@@ -38,20 +37,9 @@
 <tr><th scope="col">Name</th><th scope="col">Role</th><th scope="col">Current affiliation</th><th scope="col">Period</th></tr>
 </thead>
 <tbody>
-{%- assign people_used_slugs = people_used_slugs | default: "|" -%}
 {%- for person in alumni %}
-{%- assign alumni_slug = person.slug | default: person.name | default: "member" | slugify -%}
-{%- if alumni_slug == "" -%}{%- assign alumni_slug = "member" -%}{%- endif -%}
-{%- assign people_probe = "|" | append: alumni_slug | append: "|" -%}
-{%- if people_used_slugs contains people_probe -%}
-{%- for n in (2..99) -%}
-{%- assign people_candidate = alumni_slug | append: "-" | append: n -%}
-{%- assign people_probe = "|" | append: people_candidate | append: "|" -%}
-{%- unless people_used_slugs contains people_probe -%}{%- assign alumni_slug = people_candidate -%}{%- break -%}{%- endunless -%}
-{%- endfor -%}
-{%- endif -%}
-{%- assign people_used_slugs = people_used_slugs | append: alumni_slug | append: "|" %}
-<tr id="person-{{ alumni_slug }}" data-group="{{ person.group | escape }}"><td>{{ person.name | escape }}</td><td>{{ person.role | escape }}</td><td>{{ person.affiliation | escape }}</td><td>{{ person.period | escape }}</td></tr>
+{%- include person-id.html slug=person.slug name=person.name %}
+<tr id="person-{{ person_slug }}" data-group="{{ person.group | escape }}"><td>{{ person.name | escape }}</td><td>{{ person.role | escape }}</td><td>{{ person.affiliation | escape }}</td><td>{{ person.period | escape }}</td></tr>
 {%- endfor %}
 </tbody>
 </table>

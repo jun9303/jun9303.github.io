@@ -1,5 +1,6 @@
 ---
-name: 'Sangjoon LEE'
+name: 'LEE Sangjoon'
+slug: "sangjoon-lee"
 group: pi
 order: 1
 role: "Assistant Professor, NTU\u00A0MAE"

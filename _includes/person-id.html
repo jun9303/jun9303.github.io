@@ -1,0 +1,63 @@
+{%- comment -%}
+  Sets person_slug for one person on the People page. The page id is
+  person-<person_slug>. Used by people-grid.html (cards and overlays) and
+  alumni-table.html (alumni rows), so both follow one rule.
+  Call: {% include person-id.html slug=member.slug name=member.name %}
+
+  The rule:
+  1. A written slug is used: "slug:" in a person file or in an alumni row,
+     made lower case with dashes (slugify).
+  2. Without a slug, the name is used the same way: "Jane TAN" gives jane-tan.
+  3. If that id is already taken, -2, -3, ... is added. An id from a name
+     does not take a written slug of a person file in a group of
+     _data/people_groups.yml or of an alumni row, even one further down
+     the page. If two people have the same written slug, the first
+     keeps it and the next one is numbered.
+  4. Page order for 3: the groups as in _data/people_groups.yml, inside a
+     group by "order" and then by file name, then the alumni rows from top
+     to bottom.
+  Numbers follow this order, so they can change when people are added or
+  removed. Give each of two people with the same name a slug.
+
+  Person files get slug: "" by default (_config.yml, defaults). Without
+  that default Jekyll sets slug to the file name, and rule 2 does not apply.
+{%- endcomment -%}
+{%- unless people_reserved_slugs -%}
+{%- assign people_group_keys = "|" -%}
+{%- for people_group in site.data.people_groups -%}
+{%- assign people_group_keys = people_group_keys | append: people_group.key | append: "|" -%}
+{%- endfor -%}
+{%- assign people_reserved_slugs = "|" -%}
+{%- for people_file in site.people -%}
+{%- assign people_probe = "|" | append: people_file.group | append: "|" -%}
+{%- if people_file.group and people_group_keys contains people_probe -%}
+{%- assign people_written = people_file.slug | default: "" | slugify -%}
+{%- if people_written != "" -%}{%- assign people_reserved_slugs = people_reserved_slugs | append: people_written | append: "|" -%}{%- endif -%}
+{%- endif -%}
+{%- for people_row in people_file.alumni -%}
+{%- assign people_written = people_row.slug | default: "" | slugify -%}
+{%- if people_written != "" -%}{%- assign people_reserved_slugs = people_reserved_slugs | append: people_written | append: "|" -%}{%- endif -%}
+{%- endfor -%}
+{%- endfor -%}
+{%- endunless -%}
+{%- assign people_used_slugs = people_used_slugs | default: "|" -%}
+{%- assign people_written = include.slug | default: "" | slugify -%}
+{%- if people_written != "" -%}
+{%- assign person_slug = people_written -%}
+{%- assign people_taken = people_used_slugs -%}
+{%- else -%}
+{%- assign person_slug = include.name | default: "" | slugify -%}
+{%- if person_slug == "" -%}{%- assign person_slug = "member" -%}{%- endif -%}
+{%- assign people_taken = people_used_slugs | append: people_reserved_slugs -%}
+{%- endif -%}
+{%- assign people_probe = "|" | append: person_slug | append: "|" -%}
+{%- if people_taken contains people_probe -%}
+{%- assign people_base = person_slug -%}
+{%- assign people_taken = people_used_slugs | append: people_reserved_slugs -%}
+{%- for n in (2..99) -%}
+{%- assign people_candidate = people_base | append: "-" | append: n -%}
+{%- assign people_probe = "|" | append: people_candidate | append: "|" -%}
+{%- unless people_taken contains people_probe -%}{%- assign person_slug = people_candidate -%}{%- break -%}{%- endunless -%}
+{%- endfor -%}
+{%- endif -%}
+{%- assign people_used_slugs = people_used_slugs | append: person_slug | append: "|" -%}

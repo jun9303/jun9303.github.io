@@ -7,9 +7,11 @@
   Placeholders (placeholder: true) get "| Open position" at the end of the
   role line. The overlay has the photo on the left, the name, role and bio
   on the right, and the links in one line below both.
-  Each person links to #person-<slug>, where slug is the person file name
-  (sangjoon-lee.md gives person-sangjoon-lee). A repeated slug gets a numeric suffix (-2,
-  -3, ...). A member without an id or a name gets the slug "member".
+  Each person links to #person-<slug>. The slug is the "slug:" in the person
+  file or, without one, the name with dashes ("Jane TAN" gives
+  person-jane-tan). A repeated id gets -2, -3, ... The full rule is in
+  person-id.html, which the alumni table uses too. A member without a slug
+  or a name gets the slug "member".
   A former member's row in _people/alumni.yml takes the same id
   (see alumni-table.html), so old links open the alumni table at that row.
   Non-ASCII letters stay in the slug (person-josé-müller); people.js
@@ -20,7 +22,6 @@
   served from an old browser cache.
 {%- endcomment -%}
 {%- assign people_link_keys = "email,cv,website,orcid,scholar,linkedin,github" | split: "," -%}
-{%- assign people_used_slugs = "|" -%}
 <div class="people-groups">
 {%- for people_group in site.data.people_groups -%}
 {%- assign group_key = people_group.key -%}
@@ -31,17 +32,7 @@
 <h2 id="{{ people_group_id }}" class="people-group__title">{{ people_group.title | default: group_key | escape }}</h2>
 <ul class="people-grid">
 {%- for member in group_members -%}
-{%- assign person_slug = member.slug | default: member.name | default: "member" | slugify -%}
-{%- if person_slug == "" -%}{%- assign person_slug = "member" -%}{%- endif -%}
-{%- assign people_probe = "|" | append: person_slug | append: "|" -%}
-{%- if people_used_slugs contains people_probe -%}
-{%- for n in (2..99) -%}
-{%- assign people_candidate = person_slug | append: "-" | append: n -%}
-{%- assign people_probe = "|" | append: people_candidate | append: "|" -%}
-{%- unless people_used_slugs contains people_probe -%}{%- assign person_slug = people_candidate -%}{%- break -%}{%- endunless -%}
-{%- endfor -%}
-{%- endif -%}
-{%- assign people_used_slugs = people_used_slugs | append: person_slug | append: "|" -%}
+{%- include person-id.html slug=member.slug name=member.name -%}
 {%- assign person_id = "person-" | append: person_slug -%}
 {%- assign person_image_path = member.image | default: "/assets/images/bio-photo-placeholder-200x200.png" -%}
 {%- assign person_image_file = site.static_files | where: "path", person_image_path | first -%}
