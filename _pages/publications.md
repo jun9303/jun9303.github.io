@@ -10,8 +10,6 @@ header:
 
 <link rel="stylesheet" href="/assets/css/publications.css?v={{ site.time | date: '%s' }}">
 
-<p class="pub-notice">This page lists the published works of Prof. Lee and the Predictive Fluid and Aeroscience Lab group.</p>
-
 <div class="pub-filter" id="pub-filter" hidden>
   <div class="pub-filter__row">
     <span class="pub-filter__title">Year</span>
@@ -26,6 +24,8 @@ header:
   </div>
   <div class="pub-slider__ends" aria-hidden="true"><span id="pub-year-lo"></span><span id="pub-year-hi"></span></div>
 </div>
+
+<p class="pub-footnote">This page lists the published works of Prof. Lee and the Predictive Fluid and Aeroscience Lab.</p>
 
 <p class="pub-empty" id="pub-empty" hidden>No publications in this range.</p>
 

@@ -16,7 +16,7 @@
 /* A centred reading column with equal space left and right: about 70
    characters a line, 80 at most. In rem, so the filter (smaller text) and
    the lists share the same width. */
-.page__content .pub-notice,
+.page__content .pub-footnote,
 .page__content .pub-filter,
 .page__content .pub-empty,
 .page__content .pub-section {
@@ -51,6 +51,15 @@
 
 .page__content .pub-legend {
   margin: -0.3rem 0 1rem;
+  color: #6b7079;
+  font-size: max(14px, 0.8rem);
+  line-height: 1.5;
+}
+
+/* Footnote under the year filter, in the grey of the legend. */
+.page__content .pub-footnote {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
   color: #6b7079;
   font-size: max(14px, 0.8rem);
   line-height: 1.5;
