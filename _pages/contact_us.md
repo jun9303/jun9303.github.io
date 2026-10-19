@@ -34,7 +34,7 @@ header:
   <h2 id="principal-investigator">Principal Investigator</h2>
   <img class="contact-pi__photo" src="{{ '/assets/images/bio-photo-slee-200x200.png' | relative_url }}" width="150" height="150">
   <p class="contact-pi__name">Lee Sangjoon</p>
-  <p class="contact-pi__role">Asst. Prof. of Mech. Aero. Eng.,<br>, Nanyang Technological University,<br>Office: N3.2-02-14</p>
+  <p class="contact-pi__role">Assistant Professor<br>Nanyang Technological University<br>Office: N3.2-02-14</p>
 </div>
 
 {% comment %}
