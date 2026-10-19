@@ -42,7 +42,7 @@ Every push to `master` builds and deploys the site with GitHub Actions (`.github
 - **Domain:** `pfaero.science` is registered at Cloudflare. Its DNS records point to GitHub Pages and are set to DNS only. The custom domain is set in the repository's Settings > Pages, with Enforce HTTPS on. `CNAME` records the domain in the repository.
 - **Email:** `contact@pfaero.science` receives mail only. Cloudflare Email Routing forwards it to the lab's Gmail account.
 - **Search engines and AI crawlers:** `robots.txt` lets search engines, AI search crawlers, AI assistants, and AI agents crawl the site, and disallows AI training and data collection crawlers (the list follows <https://github.com/ai-robots-txt/ai.robots.txt>). Cloudflare AI Crawl Control (AI Crawl Control > Security) also blocks 11 training crawlers by user agent: GPTBot, ClaudeBot, CCBot, Bytespider, TikTok Spider, Meta-ExternalAgent, FacebookBot, Timpibot, Novellum AI Crawl, Amazonbot, and PetalBot. Keep Cloudflare's AI bot policy for Training on Allow: set to Block, it also blocks Googlebot and BingBot. `ai.txt`, `.well-known/tdmrep.json`, and meta tags in `_includes/head/custom.html` opt out of AI training and text and data mining. Jekyll writes `sitemap.xml`. The 32-character `.txt` file in the root is the IndexNow key; keep it.
-- **Security contact:** `.well-known/security.txt`. Renew its `Expires` date before 2027-10-01.
+- **Security contact:** `.well-known/security.txt`. Renew its `Expires` date before 2031-10-01.
 - **Font Awesome** is loaded from jsDelivr at a fixed version with integrity hashes (`_includes/head.html` and `_includes/scripts.html`). To update it, change the version and the hashes together.
 
 ## License
