@@ -1,5 +1,5 @@
 ---
-name: 'Lee Sangjoon'
+name: 'Sangjoon Lee'
 slug: "sangjoon-lee"
 group: pi
 order: 1
