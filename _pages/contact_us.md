@@ -34,7 +34,7 @@ header:
   <h2 id="principal-investigator">Principal Investigator</h2>
   <img class="contact-pi__photo" src="{{ '/assets/images/bio-photo-slee-200x200.png' | relative_url }}" width="150" height="150">
   <p class="contact-pi__name">Sangjoon Lee</p>
-  <p class="contact-pi__role">Assistant Professor<br>Nanyang Technological University<br>Office: N3.2-02-14</p>
+  <p class="contact-pi__role">Assistant Professor<br>Nanyang Technological University<br>Office: N3.2-02-14<br>Email: sangjoon.lee@ntu.edu.sg</p>
 </div>
 
 {% comment %}
@@ -51,7 +51,7 @@ header:
 <div class="contact-block contact-email">
   <h2 id="email">Lab Email</h2>
   <p class="contact-line">contact [at] pfaero [dot] science</p>
-  <p class="contact-note">This address receives mail only. For questions about lab positions, see <a href="#join-us">Available Positions</a>. PhD applicants apply formally through the <a href="https://www.ntu.edu.sg/education/graduate-programme/mae-phd">NTU MAE PhD programme</a>.</p>
+  <p class="contact-note">This address receives mail only. For questions about lab positions, see <a href="#join-us">Available Positions</a>.</p>
 </div>
 
 </div>
