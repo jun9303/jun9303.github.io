@@ -6,7 +6,7 @@ order: 1
 role: "Assistant Professor, NTU\u00A0MAE"
 image: /assets/images/bio-photo-slee-200x200.png
 links:
-  email: "mailto:sjoonl@stanford.edu"
+  email: "mailto:sangjoon.lee@ntu.edu.sg"
   cv: /assets/pdfs/cv-sangjoon-lee.pdf
   orcid: https://orcid.org/0000-0002-2063-6298
   scholar: https://scholar.google.com/citations?user=AnnGLWwAAAAJ
