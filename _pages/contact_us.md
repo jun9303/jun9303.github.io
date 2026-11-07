@@ -109,11 +109,11 @@ Strong mathematics, programming (Python, C++ or Fortran, CUDA), agentic AI exper
 
 **Formal application.** Apply to the [NTU MAE PhD programme](https://www.ntu.edu.sg/education/graduate-programme/mae-phd) through the official NTU admission website. Only applicants who submit a formal application there are considered in the School's admission process. Full-time NTU PhD admissions typically include the [NTU Research Scholarship](https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships/rss).
 
-**Lab interest form.** It is encouraged to send this internal form if you want to show specific interest in joining this lab. Include your CV, academic records (GPA and key courses), research experience, the research strengths that match our areas, and brief research plan(s). Every material is reviewed and further contacts might take place. Sending the form neither guarantees admission nor replaces the formal admission process.
+**Lab interest form.** It is encouraged to send this internal form if you want to show interest in joining this lab. Include your CV, academic records (GPA and key coursework), research experience, the research strengths that match our areas, and brief research plan(s). Every profile is reviewed, and further contact might take place. Sending the form neither guarantees admission nor replaces the formal admission process.
 
 <p class="contact-form-link"><a class="btn btn--primary" href="{{ site.application_form_url | escape }}">Lab interest form</a></p>
 
-**Please note.** Due to the influx of messages, Prof. Lee may not be able to reply to emails or LinkedIn messages from prospective students, though every enquiry is appreciated. If you have submitted a PhD programme application or completed the lab interest form in advance, it will be carefully reviewed and, should there be a close fit with the lab's current focus, further correspondence will follow.
+**Please note.** Due to the influx of messages, Prof. Lee may not be able to reply to emails or LinkedIn messages from prospective students, though every enquiry is appreciated. If you have submitted a PhD programme application naming Prof. Lee as POI or completed the lab interest form in advance, it will be carefully reviewed and, should there be a close fit with the lab's current focus, further correspondence will follow.
 {: .contact-disclaimer}
 
 ### Postdoctoral Positions
