@@ -9,7 +9,7 @@ header:
 
 # Home page text. Edit here; the markup below uses these keys.
 welcome: >
-  The Predictive Fluid and Aeroscience Lab is an academic group of Assistant
+  The Predictive Fluid and Aeroscience Lab is a research group of Assistant
   Professor Sangjoon Lee, research fellows, and students at NTU Singapore. We
   study fluid flows with simulation and data. We use what we learn to improve
   aerospace design and other engineering systems.
