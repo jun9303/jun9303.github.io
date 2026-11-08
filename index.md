@@ -9,10 +9,10 @@ header:
 
 # Home page text. Edit here; the markup below uses these keys.
 welcome: >
-  The Predictive Fluid and Aeroscience Lab is part of the NTU School of
-  Mechanical and Aerospace Engineering (MAE), Singapore. We study fluid flows
-  with simulation and data. We use what we learn to improve aerospace design
-  and other engineering systems.
+  The Predictive Fluid and Aeroscience Lab is an academic group of Assistant
+  Professor Sangjoon Lee, research fellows, and students at NTU Singapore. We
+  study fluid flows with simulation and data. We use what we learn to improve
+  aerospace design and other engineering systems.
 vision_title: "Vision"
 vision: >
   Aerospace design optimization needs many predictions of complex flow, yet
