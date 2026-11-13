@@ -46,3 +46,24 @@
     scroll-behavior: auto !important;
   }
 }
+
+/* Temporary service notice below the masthead (dates in _data/banner.yml) */
+.service-banner {
+  margin: 0;
+  padding: 0.6em 1em;
+  border-bottom: 1px solid #e0b872;
+  background-color: #fff4dc;
+  color: #4a3000;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.95rem;
+  text-align: center;
+}
+.service-banner[hidden] {
+  display: none;
+}
+.service-banner__text {
+  margin: 0;
+}
+.service-banner__time {
+  white-space: nowrap;
+}

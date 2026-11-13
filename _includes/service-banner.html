@@ -1,0 +1,44 @@
+{% comment %}
+  Temporary notice below the masthead. Dates are set in _data/banner.yml.
+  The notice stays hidden unless the current time is inside that window.
+{% endcomment %}
+<div class="service-banner" id="service-banner" role="status" hidden
+  data-start="{{ site.data.banner.start }}" data-end="{{ site.data.banner.end }}">
+  <p class="service-banner__text">
+    Emails to and from NTU may be delayed due to a global Microsoft 365 service outage.
+    <span class="service-banner__time" id="service-banner-time"></span>
+  </p>
+</div>
+<script>
+  (function () {
+    var banner = document.getElementById('service-banner');
+    var timeEl = document.getElementById('service-banner-time');
+    if (!banner || !timeEl) return;
+
+    var start = Date.parse(banner.getAttribute('data-start'));
+    var end = Date.parse(banner.getAttribute('data-end'));
+    if (isNaN(start) || isNaN(end)) return;
+
+    var fmt = new Intl.DateTimeFormat('en-GB', {
+      timeZone: 'Asia/Singapore',
+      day: '2-digit', month: 'short', year: 'numeric',
+      hour: '2-digit', minute: '2-digit', hour12: false
+    });
+
+    function tick() {
+      var now = Date.now();
+      var active = now >= start && now < end;
+      banner.hidden = !active;
+      if (active) {
+        timeEl.textContent = fmt.format(new Date(now)) + ' SGT';
+      }
+      return active;
+    }
+
+    if (tick()) {
+      var timer = setInterval(function () {
+        if (!tick()) clearInterval(timer);
+      }, 30000);
+    }
+  })();
+</script>
