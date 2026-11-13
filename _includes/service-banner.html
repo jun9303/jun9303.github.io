@@ -6,9 +6,8 @@
   data-start="{{ site.data.banner.start }}" data-end="{{ site.data.banner.end }}">
   <div class="service-banner__inner">
     <p class="service-banner__text">
-      <strong class="service-banner__label">&lt;Notice&gt;</strong>
-      Due to a global Microsoft 365 outage, my emails and communications may be delayed.
-      Sorry for any inconvenience.
+      <strong class="service-banner__label">{{ site.data.banner.label | escape }}</strong>
+      {{ site.data.banner.message | escape }}
     </p>
     <span class="service-banner__time" id="service-banner-time"></span>
   </div>
