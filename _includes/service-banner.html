@@ -1,8 +1,8 @@
 {% comment %}
-  Temporary notice below the masthead. Dates are set in _data/banner.yml.
+  Temporary notice below the masthead. Dates, text and colour are set in _data/banner.yml.
   The notice stays hidden unless the current time is inside that window.
 {% endcomment %}
-<div class="service-banner" id="service-banner" role="status" hidden
+<div class="service-banner service-banner--{{ site.data.banner.color | default: 'black' | downcase | replace: ' ', '-' }}" id="service-banner" role="status" hidden
   data-start="{{ site.data.banner.start }}" data-end="{{ site.data.banner.end }}">
   <div class="service-banner__inner">
     <p class="service-banner__text">

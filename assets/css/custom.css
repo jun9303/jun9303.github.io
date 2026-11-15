@@ -47,17 +47,26 @@
   }
 }
 
-/* Temporary service notice below the masthead (dates in _data/banner.yml) */
+/* Temporary service notice below the masthead (dates, text and colour in _data/banner.yml) */
 .service-banner {
   margin: 0;
   padding: 0.75em 1.25em;
-  border-bottom: 1px solid #8a0a20;
-  background-color: #c8102e;
+  border-bottom: 1px solid #333333;
+  background-color: #000000;
   color: #ffffff;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 0.95rem;
   line-height: 1.5;
   text-align: center;
+}
+/* Colour presets, selected in _data/banner.yml */
+.service-banner--ntu-red {
+  background-color: #c8102e;
+  border-bottom-color: #8a0a20;
+}
+.service-banner--ntu-blue {
+  background-color: #003c71;
+  border-bottom-color: #00203f;
 }
 .service-banner[hidden] {
   display: none;
