@@ -9,4 +9,4 @@ label: "<Notice>"
 message: "Our lab launched in November 2026 and is recruiting."
 
 # Banner colour. Presets: "black" (default), "NTU red", "NTU blue".
-color: "black"
+color: "NTU red"
